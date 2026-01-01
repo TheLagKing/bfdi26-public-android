@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="poopium.png" width="597" height="66">
+	<SubTexture name="poopium dark" x="1" y="1" width="297" height="64" frameX="-0" frameY="-3" frameWidth="301" frameHeight="67"/>
+	<SubTexture name="poopium light" x="299" y="1" width="297" height="64" frameX="-0" frameY="-3" frameWidth="301" frameHeight="67"/>
+</TextureAtlas>

@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-25,
+				-70
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "hg down instance 1"
+		},
+		{
+			"offsets": [
+				-32,
+				-50
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "hg idle instance 1"
+		},
+		{
+			"offsets": [
+				31,
+				-42
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "hg left instance 1"
+		},
+		{
+			"offsets": [
+				-52,
+				-11
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "hg up instance 1"
+		},
+		{
+			"offsets": [
+				-54,
+				-50
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "hg right instance 1"
+		},
+		{
+			"offsets": [
+				-53,
+				-54
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "hg miss instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/wc-gf/hourglass human",
+	"position": [
+		50,
+		220
+	],
+	"healthicon": "hour",
+	"flip_x": true,
+	"healthbar_colors": [
+		66,
+		246,
+		250
+	],
+	"camera_position": [
+		-160,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

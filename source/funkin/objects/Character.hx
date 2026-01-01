@@ -95,7 +95,7 @@ class Character extends FlxSprite
 				final path = Paths.getSharedPath('images/menus/main/' + 'tv' + '.json');
 				loadCharacterFile(Json.parse(Assets.getText(path)));
 			case 'db':
-				final path = Paths.getSharedPath('images/menus/freeplay/DB/' + 'dirty' + '.json');
+				final path = Paths.getSharedPath('images/menus/freeplay/DB/' + 'db' + '.json');
 				loadCharacterFile(Json.parse(Assets.getText(path)));
 
 			default:

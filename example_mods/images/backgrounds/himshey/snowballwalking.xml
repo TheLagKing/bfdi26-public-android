@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="snowballwalking.png" width="2270" height="2544">
+	<SubTexture name="snowballs0000" x="1135" y="1" width="567" height="636" frameX="-0" frameY="-0" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0001" x="1135" y="637" width="567" height="636" frameX="-0" frameY="-0" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0002" x="1135" y="1273" width="567" height="636" frameX="-0" frameY="-0" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0003" x="1702" y="636" width="567" height="634" frameX="-0" frameY="-0" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0004" x="568" y="639" width="567" height="637" frameX="-0" frameY="-1" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0005" x="568" y="1276" width="567" height="636" frameX="-0" frameY="-2" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0006" x="1702" y="1" width="567" height="635" frameX="-0" frameY="-4" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0007" x="1135" y="1909" width="567" height="631" frameX="-0" frameY="-5" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0008" x="1" y="1913" width="567" height="629" frameX="-0" frameY="-7" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0009" x="568" y="1912" width="567" height="631" frameX="-0" frameY="-5" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0010" x="1702" y="1270" width="567" height="632" frameX="-0" frameY="-4" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0011" x="1702" y="1902" width="567" height="632" frameX="-0" frameY="-2" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0012" x="1" y="640" width="567" height="637" frameX="-0" frameY="-1" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0013" x="568" y="1" width="567" height="638" frameX="-0" frameY="-0" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0014" x="1" y="1" width="567" height="639" frameX="-0" frameY="-0" frameWidth="572" frameHeight="643"/>
+	<SubTexture name="snowballs0015" x="1" y="1277" width="567" height="636" frameX="-0" frameY="-0" frameWidth="572" frameHeight="643"/>
+</TextureAtlas>

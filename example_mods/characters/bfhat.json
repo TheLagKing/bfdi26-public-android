@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-9,
+				8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "miss",
+			"indices": [],
+			"name": "miss"
+		},
+		{
+			"offsets": [
+				-40,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-111,
+				6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-30,
+				-14
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [
+				91,
+				-14
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-45,
+				111
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/funny-fellow/funnyfellowhattynew",
+	"position": [
+		80,
+		510
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		222,
+		34,
+		114
+	],
+	"camera_position": [
+		-100,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

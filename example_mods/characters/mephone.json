@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				10,
+				30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				68,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "phone down instance 1"
+		},
+		{
+			"offsets": [
+				13,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "phone up instance 1"
+		},
+		{
+			"offsets": [
+				-5,
+				28
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "phone right instance 1"
+		},
+		{
+			"offsets": [
+				117,
+				24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "phone left instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/invitational/mephone",
+	"position": [
+		0,
+		120
+	],
+	"healthicon": "mephone",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		60,
+		60
+	],
+	"camera_position": [
+		-120,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

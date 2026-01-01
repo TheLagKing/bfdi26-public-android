@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="ground behind.png" width="6188" height="6412">
+	<SubTexture name="bg back instance 10000" x="1" y="1" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10001" x="2063" y="1" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10002" x="4125" y="1" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10003" x="1" y="642" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10004" x="2063" y="642" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10005" x="4125" y="642" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10006" x="1" y="1283" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10007" x="2063" y="1283" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10008" x="4125" y="1283" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10009" x="1" y="1924" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10010" x="2063" y="1924" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10011" x="4125" y="1924" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10012" x="1" y="2565" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10013" x="2063" y="2565" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10014" x="4125" y="2565" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10015" x="1" y="3206" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10016" x="2063" y="3206" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10017" x="4125" y="3206" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10018" x="1" y="3847" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10019" x="2063" y="3847" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10020" x="4125" y="3847" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10021" x="1" y="4488" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10022" x="2063" y="4488" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10023" x="4125" y="4488" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10024" x="1" y="5129" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10025" x="2063" y="5129" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10026" x="4125" y="5129" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10027" x="2063" y="1" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10028" x="1" y="5770" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+	<SubTexture name="bg back instance 10029" x="2063" y="5770" width="2062" height="641" frameX="-0" frameY="-0" frameWidth="2062" frameHeight="641"/>
+</TextureAtlas>

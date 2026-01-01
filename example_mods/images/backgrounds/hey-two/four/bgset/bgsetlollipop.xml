@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bgsetlollipop.png" width="227" height="3947">
+	<SubTexture name="bgsetlollipop instance 10000" x="0" y="0" width="227" height="395" frameX="-1" frameY="-10" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10001" x="0" y="0" width="227" height="395" frameX="-1" frameY="-10" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10002" x="0" y="395" width="227" height="395" frameX="-0" frameY="-10" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10003" x="0" y="395" width="227" height="395" frameX="-0" frameY="-10" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10004" x="0" y="790" width="227" height="395" frameX="-5" frameY="-8" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10005" x="0" y="790" width="227" height="395" frameX="-5" frameY="-8" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10006" x="0" y="3552" width="226" height="395" frameX="-7" frameY="-7" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10007" x="0" y="3552" width="226" height="395" frameX="-7" frameY="-7" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10008" x="0" y="1185" width="227" height="395" frameX="-7" frameY="-7" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10009" x="0" y="1185" width="227" height="395" frameX="-7" frameY="-7" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10010" x="0" y="1185" width="227" height="395" frameX="-7" frameY="-7" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10011" x="0" y="1185" width="227" height="395" frameX="-7" frameY="-7" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10012" x="0" y="1185" width="227" height="395" frameX="-7" frameY="-7" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipop instance 10013" x="0" y="1185" width="227" height="395" frameX="-7" frameY="-7" frameWidth="234" frameHeight="406"/>
+	<SubTexture name="bgsetlollipopwalk instance 10000" x="0" y="1580" width="227" height="395" frameX="-0" frameY="-14" frameWidth="228" frameHeight="409"/>
+	<SubTexture name="bgsetlollipopwalk instance 10001" x="0" y="1580" width="227" height="395" frameX="-0" frameY="-14" frameWidth="228" frameHeight="409"/>
+	<SubTexture name="bgsetlollipopwalk instance 10002" x="0" y="1975" width="227" height="395" frameX="-0" frameY="-10" frameWidth="228" frameHeight="409"/>
+	<SubTexture name="bgsetlollipopwalk instance 10003" x="0" y="1975" width="227" height="395" frameX="-0" frameY="-10" frameWidth="228" frameHeight="409"/>
+	<SubTexture name="bgsetlollipopwalk instance 10004" x="0" y="2370" width="227" height="394" frameX="-0" frameY="-9" frameWidth="228" frameHeight="409"/>
+	<SubTexture name="bgsetlollipopwalk instance 10005" x="0" y="2370" width="227" height="394" frameX="-0" frameY="-9" frameWidth="228" frameHeight="409"/>
+	<SubTexture name="bgsetlollipopwalk instance 10006" x="0" y="2764" width="227" height="394" frameX="-0" frameY="-8" frameWidth="228" frameHeight="409"/>
+	<SubTexture name="bgsetlollipopwalk instance 10007" x="0" y="2764" width="227" height="394" frameX="-0" frameY="-8" frameWidth="228" frameHeight="409"/>
+	<SubTexture name="bgsetlollipopwalk instance 10008" x="0" y="3158" width="227" height="394" frameX="-0" frameY="-10" frameWidth="228" frameHeight="409"/>
+	<SubTexture name="bgsetlollipopwalk instance 10009" x="0" y="3158" width="227" height="394" frameX="-0" frameY="-10" frameWidth="228" frameHeight="409"/>
+</TextureAtlas>

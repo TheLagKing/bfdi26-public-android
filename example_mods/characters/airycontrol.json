@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				53,
+				171
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Airy CRYNOTIDLE instance 1"
+		},
+		{
+			"offsets": [
+				42,
+				148
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Airy CRYNOTDOWN instance 1"
+		},
+		{
+			"offsets": [
+				57,
+				215
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Airy CRYNOTUP instance 1"
+		},
+		{
+			"offsets": [
+				34,
+				169
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Airy CRYNOTRIGHT instance 1"
+		},
+		{
+			"offsets": [
+				108,
+				166
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Airy CRYNOTLEFT instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/oneshot/Airy DAMAGE CONTROL",
+	"position": [
+		40,
+		370
+	],
+	"healthicon": "airy",
+	"flip_x": false,
+	"healthbar_colors": [
+		80,
+		120,
+		160
+	],
+	"camera_position": [
+		-120,
+		-150
+	],
+	"sing_duration": 4.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -58,7 +58,7 @@
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
-	"image": "characters/basketball/bb floating",
+	"image": "characters/dotted-line/bg0/bbw float assets",
 	"position": [
 		-550,
 		310
@@ -66,15 +66,15 @@
 	"healthicon": "bb",
 	"flip_x": true,
 	"healthbar_colors": [
-		244,
-		103,
-		60
+		146,
+		70,
+		28
 	],
 	"camera_position": [
 		-100,
 		70
 	],
-	"sing_duration": 3.2,
+	"sing_duration": 2.5,
 	"scale": 1.04,
 	"_editor_isPlayer": true
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="hattycanyon.png" width="6546" height="618">
+	<SubTexture name="down0000" x="0" y="0" width="758" height="532" frameX="-10" frameY="-11" frameWidth="769" frameHeight="543"/>
+	<SubTexture name="down0001" x="0" y="0" width="758" height="532" frameX="-10" frameY="-11" frameWidth="769" frameHeight="543"/>
+	<SubTexture name="down0002" x="758" y="0" width="765" height="542" frameX="-0" frameY="-1" frameWidth="769" frameHeight="543"/>
+	<SubTexture name="down0003" x="758" y="0" width="765" height="542" frameX="-0" frameY="-1" frameWidth="769" frameHeight="543"/>
+	<SubTexture name="idle0000" x="2295" y="0" width="770" height="557" frameX="-0" frameY="-0" frameWidth="770" frameHeight="557"/>
+	<SubTexture name="left0000" x="3841" y="0" width="576" height="560" frameX="-1" frameY="-0" frameWidth="600" frameHeight="561"/>
+	<SubTexture name="left0001" x="3841" y="0" width="576" height="560" frameX="-1" frameY="-0" frameWidth="600" frameHeight="561"/>
+	<SubTexture name="left0002" x="4417" y="0" width="569" height="561" frameX="-30" frameY="-0" frameWidth="600" frameHeight="561"/>
+	<SubTexture name="left0003" x="4417" y="0" width="569" height="561" frameX="-30" frameY="-0" frameWidth="600" frameHeight="561"/>
+	<SubTexture name="right0000" x="1523" y="0" width="772" height="556" frameX="-28" frameY="-2" frameWidth="800" frameHeight="558"/>
+	<SubTexture name="right0001" x="1523" y="0" width="772" height="556" frameX="-28" frameY="-2" frameWidth="800" frameHeight="558"/>
+	<SubTexture name="right0002" x="3065" y="0" width="776" height="558" frameX="-0" frameY="-0" frameWidth="800" frameHeight="558"/>
+	<SubTexture name="right0003" x="3065" y="0" width="776" height="558" frameX="-0" frameY="-0" frameWidth="800" frameHeight="558"/>
+	<SubTexture name="up0000" x="5763" y="0" width="783" height="618" frameX="-0" frameY="-1" frameWidth="784" frameHeight="619"/>
+	<SubTexture name="up0001" x="5763" y="0" width="783" height="618" frameX="-0" frameY="-1" frameWidth="784" frameHeight="619"/>
+	<SubTexture name="up0002" x="4986" y="0" width="777" height="600" frameX="-4" frameY="-19" frameWidth="784" frameHeight="619"/>
+	<SubTexture name="up0003" x="4986" y="0" width="777" height="600" frameX="-4" frameY="-19" frameWidth="784" frameHeight="619"/>
+</TextureAtlas>

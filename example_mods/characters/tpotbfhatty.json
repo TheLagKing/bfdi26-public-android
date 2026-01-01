@@ -1,0 +1,187 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				12,
+				0
+			],
+			"anim": "danceLeft-alt",
+			"fps": 24,
+			"name": "tpot hatty idle alt instance 1",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				1
+			],
+			"anim": "danceRight-alt",
+			"fps": 24,
+			"name": "tpot hatty idle alt instance 1",
+			"indices": [
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				-18
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "tpot hatty down instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-32,
+				95
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "tpot hatty up instance 1"
+		},
+		{
+			"offsets": [
+				-60,
+				89
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "hatty tpot miss instance 1"
+		},
+		{
+			"offsets": [
+				74,
+				25
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "tpot hatty left instance 1"
+		},
+		{
+			"offsets": [
+				-37,
+				13
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "tpot hatty right instance 1"
+		},
+		{
+			"offsets": [
+				-36,
+				118
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "tpot hatty up alt instance 1"
+		},
+		{
+			"offsets": [
+				73,
+				12
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "tpot hatty left alt instance 1"
+		},
+		{
+			"offsets": [
+				23,
+				-19
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "tpot hatty down alt instance 1"
+		},
+		{
+			"offsets": [
+				-15,
+				3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "tpot hatty alt right instance 1"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "tpot hatty idle instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/hey-two/fatty assets",
+	"position": [
+		150,
+		450
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		222,
+		34,
+		114
+	],
+	"camera_position": [
+		-100,
+		160
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="one float assets.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="oneDOWN instance 10000" x="7" y="7" width="304" height="341" frameX="-5" frameY="-30" frameWidth="311" frameHeight="377"/>
+	<SubTexture name="oneDOWN instance 10001" x="7" y="7" width="304" height="341" frameX="-5" frameY="-30" frameWidth="311" frameHeight="377"/>
+	<SubTexture name="oneDOWN instance 10002" x="318" y="7" width="309" height="348" frameX="-2" frameY="-19" frameWidth="311" frameHeight="377"/>
+	<SubTexture name="oneDOWN instance 10003" x="318" y="7" width="309" height="348" frameX="-2" frameY="-19" frameWidth="311" frameHeight="377"/>
+	<SubTexture name="oneDOWN instance 10004" x="634" y="7" width="309" height="348" frameX="-1" frameY="-19" frameWidth="311" frameHeight="377"/>
+	<SubTexture name="oneDOWN instance 10005" x="634" y="7" width="309" height="348" frameX="-1" frameY="-19" frameWidth="311" frameHeight="377"/>
+	<SubTexture name="oneDOWN instance 10006" x="950" y="7" width="307" height="349" frameX="-1" frameY="-13" frameWidth="311" frameHeight="377"/>
+	<SubTexture name="oneDOWN instance 10007" x="950" y="7" width="307" height="349" frameX="-1" frameY="-13" frameWidth="311" frameHeight="377"/>
+	<SubTexture name="oneDOWN instance 10008" x="1264" y="7" width="307" height="377" frameX="0" frameY="0" frameWidth="311" frameHeight="377"/>
+	<SubTexture name="oneDOWN instance 10009" x="1264" y="7" width="307" height="377" frameX="0" frameY="0" frameWidth="311" frameHeight="377"/>
+	<SubTexture name="oneIDLE instance 10000" x="1578" y="7" width="324" height="381" frameX="-1" frameY="-1" frameWidth="325" frameHeight="384"/>
+	<SubTexture name="oneIDLE instance 10001" x="1909" y="7" width="323" height="382" frameX="-1" frameY="-1" frameWidth="325" frameHeight="384"/>
+	<SubTexture name="oneIDLE instance 10002" x="2239" y="7" width="323" height="383" frameX="-1" frameY="0" frameWidth="325" frameHeight="384"/>
+	<SubTexture name="oneIDLE instance 10003" x="2569" y="7" width="319" height="384" frameX="-1" frameY="0" frameWidth="325" frameHeight="384"/>
+	<SubTexture name="oneIDLE instance 10004" x="7" y="398" width="321" height="383" frameX="0" frameY="-1" frameWidth="325" frameHeight="384"/>
+	<SubTexture name="oneIDLE instance 10005" x="335" y="398" width="323" height="382" frameX="0" frameY="-1" frameWidth="325" frameHeight="384"/>
+	<SubTexture name="oneLEFT instance 10000" x="665" y="398" width="347" height="372" frameX="0" frameY="0" frameWidth="366" frameHeight="389"/>
+	<SubTexture name="oneLEFT instance 10001" x="665" y="398" width="347" height="372" frameX="0" frameY="0" frameWidth="366" frameHeight="389"/>
+	<SubTexture name="oneLEFT instance 10002" x="1019" y="398" width="333" height="379" frameX="-14" frameY="0" frameWidth="366" frameHeight="389"/>
+	<SubTexture name="oneLEFT instance 10003" x="1019" y="398" width="333" height="379" frameX="-14" frameY="0" frameWidth="366" frameHeight="389"/>
+	<SubTexture name="oneLEFT instance 10004" x="1359" y="398" width="336" height="381" frameX="-12" frameY="0" frameWidth="366" frameHeight="389"/>
+	<SubTexture name="oneLEFT instance 10005" x="1359" y="398" width="336" height="381" frameX="-12" frameY="0" frameWidth="366" frameHeight="389"/>
+	<SubTexture name="oneLEFT instance 10006" x="1702" y="398" width="337" height="379" frameX="-16" frameY="-3" frameWidth="366" frameHeight="389"/>
+	<SubTexture name="oneLEFT instance 10007" x="1702" y="398" width="337" height="379" frameX="-16" frameY="-3" frameWidth="366" frameHeight="389"/>
+	<SubTexture name="oneLEFT instance 10008" x="2046" y="398" width="340" height="381" frameX="-26" frameY="-8" frameWidth="366" frameHeight="389"/>
+	<SubTexture name="oneLEFT instance 10009" x="2046" y="398" width="340" height="381" frameX="-26" frameY="-8" frameWidth="366" frameHeight="389"/>
+	<SubTexture name="oneRIGHT instance 10000" x="2393" y="398" width="315" height="358" frameX="-30" frameY="0" frameWidth="345" frameHeight="390"/>
+	<SubTexture name="oneRIGHT instance 10001" x="2393" y="398" width="315" height="358" frameX="-30" frameY="0" frameWidth="345" frameHeight="390"/>
+	<SubTexture name="oneRIGHT instance 10002" x="7" y="788" width="311" height="383" frameX="-19" frameY="0" frameWidth="345" frameHeight="390"/>
+	<SubTexture name="oneRIGHT instance 10003" x="7" y="788" width="311" height="383" frameX="-19" frameY="0" frameWidth="345" frameHeight="390"/>
+	<SubTexture name="oneRIGHT instance 10004" x="325" y="788" width="311" height="380" frameX="-18" frameY="-1" frameWidth="345" frameHeight="390"/>
+	<SubTexture name="oneRIGHT instance 10005" x="325" y="788" width="311" height="380" frameX="-18" frameY="-1" frameWidth="345" frameHeight="390"/>
+	<SubTexture name="oneRIGHT instance 10006" x="643" y="788" width="307" height="382" frameX="-16" frameY="-3" frameWidth="345" frameHeight="390"/>
+	<SubTexture name="oneRIGHT instance 10007" x="643" y="788" width="307" height="382" frameX="-16" frameY="-3" frameWidth="345" frameHeight="390"/>
+	<SubTexture name="oneRIGHT instance 10008" x="957" y="788" width="303" height="385" frameX="0" frameY="-5" frameWidth="345" frameHeight="390"/>
+	<SubTexture name="oneRIGHT instance 10009" x="957" y="788" width="303" height="385" frameX="0" frameY="-5" frameWidth="345" frameHeight="390"/>
+	<SubTexture name="oneUP instance 10000" x="1267" y="788" width="296" height="391" frameX="-2" frameY="0" frameWidth="311" frameHeight="429"/>
+	<SubTexture name="oneUP instance 10001" x="1267" y="788" width="296" height="391" frameX="-2" frameY="0" frameWidth="311" frameHeight="429"/>
+	<SubTexture name="oneUP instance 10002" x="1570" y="788" width="300" height="388" frameX="-2" frameY="-14" frameWidth="311" frameHeight="429"/>
+	<SubTexture name="oneUP instance 10003" x="1570" y="788" width="300" height="388" frameX="-2" frameY="-14" frameWidth="311" frameHeight="429"/>
+	<SubTexture name="oneUP instance 10004" x="1877" y="788" width="302" height="386" frameX="-1" frameY="-14" frameWidth="311" frameHeight="429"/>
+	<SubTexture name="oneUP instance 10005" x="1877" y="788" width="302" height="386" frameX="-1" frameY="-14" frameWidth="311" frameHeight="429"/>
+	<SubTexture name="oneUP instance 10006" x="2186" y="788" width="304" height="384" frameX="0" frameY="-26" frameWidth="311" frameHeight="429"/>
+	<SubTexture name="oneUP instance 10007" x="2186" y="788" width="304" height="384" frameX="0" frameY="-26" frameWidth="311" frameHeight="429"/>
+	<SubTexture name="oneUP instance 10008" x="2497" y="788" width="307" height="386" frameX="-4" frameY="-43" frameWidth="311" frameHeight="429"/>
+	<SubTexture name="oneUP instance 10009" x="2497" y="788" width="307" height="386" frameX="-4" frameY="-43" frameWidth="311" frameHeight="429"/>
+</TextureAtlas>

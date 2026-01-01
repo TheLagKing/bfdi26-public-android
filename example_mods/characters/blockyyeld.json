@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				14
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				-20
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				84,
+				126
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				9,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				152,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				61,
+				31
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "Symbol 31 instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/yoylefake/blockgay cmix",
+	"position": [
+		40,
+		450
+	],
+	"healthicon": "blocky",
+	"flip_x": true,
+	"healthbar_colors": [
+		232,
+		70,
+		70
+	],
+	"camera_position": [
+		-100,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

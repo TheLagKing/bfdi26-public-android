@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				166
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				220
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-24,
+				176
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				49,
+				179
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				8,
+				185
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/oneshot-pico/airypicomixbw",
+	"position": [
+		40,
+		360
+	],
+	"healthicon": "airy",
+	"flip_x": false,
+	"healthbar_colors": [
+		80,
+		120,
+		160
+	],
+	"camera_position": [
+		-120,
+		-150
+	],
+	"sing_duration": 4.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

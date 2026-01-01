@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-47,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-47,
+				7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "miss",
+			"indices": [],
+			"name": "miss"
+		},
+		{
+			"offsets": [
+				-48,
+				-13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-84,
+				44
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				5
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				-11
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bossy-lunchbox/sbmilk",
+	"position": [
+		0,
+		310
+	],
+	"healthicon": "milky",
+	"flip_x": true,
+	"healthbar_colors": [
+		254,
+		123,
+		184
+	],
+	"camera_position": [
+		-30,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

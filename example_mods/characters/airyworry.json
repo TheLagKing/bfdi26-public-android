@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				50,
+				170
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Airy WORRYIDLE instance 1"
+		},
+		{
+			"offsets": [
+				38,
+				155
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Airy WORRYDOWN instance 1"
+		},
+		{
+			"offsets": [
+				60,
+				210
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Airy WORRYUP instance 1"
+		},
+		{
+			"offsets": [
+				29,
+				167
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Airy WORRYRIGHT instance 1"
+		},
+		{
+			"offsets": [
+				98,
+				168
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Airy WORRYLEFT instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/oneshot/Airy EXPLAIN",
+	"position": [
+		40,
+		370
+	],
+	"healthicon": "airy",
+	"flip_x": false,
+	"healthbar_colors": [
+		80,
+		120,
+		160
+	],
+	"camera_position": [
+		-120,
+		-150
+	],
+	"sing_duration": 4.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

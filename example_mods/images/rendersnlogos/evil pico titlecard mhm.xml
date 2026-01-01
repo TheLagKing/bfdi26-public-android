@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="evil pico titlecard mhm.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="EVIL TITLECARD instance 10000" x="7" y="7" width="552" height="300" frameX="-2" frameY="-2" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10001" x="7" y="7" width="552" height="300" frameX="-2" frameY="-2" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10002" x="7" y="7" width="552" height="300" frameX="-2" frameY="-2" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10003" x="7" y="7" width="552" height="300" frameX="-2" frameY="-2" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10004" x="7" y="7" width="552" height="300" frameX="-2" frameY="-2" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10005" x="7" y="7" width="552" height="300" frameX="-2" frameY="-2" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10006" x="7" y="7" width="552" height="300" frameX="-2" frameY="-2" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10007" x="7" y="314" width="553" height="301" frameX="0" frameY="0" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10008" x="7" y="314" width="553" height="301" frameX="0" frameY="0" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10009" x="7" y="314" width="553" height="301" frameX="0" frameY="0" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10010" x="7" y="314" width="553" height="301" frameX="0" frameY="0" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10011" x="7" y="314" width="553" height="301" frameX="0" frameY="0" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10012" x="7" y="314" width="553" height="301" frameX="0" frameY="0" frameWidth="554" frameHeight="302"/>
+	<SubTexture name="EVIL TITLECARD instance 10013" x="7" y="314" width="553" height="301" frameX="0" frameY="0" frameWidth="554" frameHeight="302"/>
+</TextureAtlas>

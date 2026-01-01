@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				2,
+				18
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "customidle"
+		},
+		{
+			"offsets": [
+				63,
+				-9
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "customdown"
+		},
+		{
+			"offsets": [
+				4,
+				73
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "customup"
+		},
+		{
+			"offsets": [
+				89,
+				21
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "customright"
+		},
+		{
+			"offsets": [
+				80,
+				9
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "customleft"
+		},
+		{
+			"offsets": [
+				1,
+				51
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "custommiss"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/yoylefake/blocky custom cmix",
+	"position": [
+		20,
+		430
+	],
+	"healthicon": "blocky",
+	"flip_x": true,
+	"healthbar_colors": [
+		232,
+		70,
+		70
+	],
+	"camera_position": [
+		-100,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

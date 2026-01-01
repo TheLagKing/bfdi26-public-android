@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="roz wheel front.png" width="2166" height="1667">
+	<SubTexture name="wheel front instance 10000" x="1" y="1" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10001" x="1" y="334" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10002" x="1" y="334" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10003" x="1" y="334" width="541" height="333" frameX="-1" frameY="-0" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10004" x="542" y="1" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10005" x="542" y="334" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10006" x="1" y="667" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10007" x="542" y="667" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10008" x="1" y="1000" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10009" x="542" y="1000" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10010" x="1083" y="1" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10011" x="1083" y="334" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10012" x="1083" y="667" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10013" x="1083" y="667" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10014" x="1083" y="667" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10015" x="1083" y="667" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10016" x="1083" y="1000" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10017" x="1083" y="1000" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10018" x="1083" y="1000" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10019" x="1" y="1333" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10020" x="542" y="1333" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10021" x="1083" y="1333" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10022" x="1624" y="1" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10023" x="1624" y="334" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10024" x="1624" y="667" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10025" x="1624" y="1000" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10026" x="1624" y="1000" width="541" height="333" frameX="-0" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10027" x="1624" y="1333" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10028" x="1624" y="1333" width="541" height="333" frameX="-1" frameY="-1" frameWidth="542" frameHeight="334"/>
+	<SubTexture name="wheel front instance 10029" x="1" y="334" width="541" height="333" frameX="-1" frameY="-0" frameWidth="542" frameHeight="334"/>
+</TextureAtlas>

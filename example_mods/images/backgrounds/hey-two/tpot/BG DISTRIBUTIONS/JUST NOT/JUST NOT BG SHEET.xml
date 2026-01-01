@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="JUST NOT BG SHEET.png" width="4882" height="5377">
+	<SubTexture name="JUST NOT BG SHEET instance 10000" x="0" y="0" width="2441" height="742" frameX="-0" frameY="-61" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10001" x="0" y="0" width="2441" height="742" frameX="-0" frameY="-61" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10002" x="0" y="742" width="2441" height="744" frameX="-0" frameY="-56" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10003" x="0" y="1486" width="2441" height="744" frameX="-0" frameY="-56" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10004" x="0" y="2230" width="2441" height="762" frameX="-0" frameY="-38" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10005" x="2441" y="0" width="2441" height="762" frameX="-0" frameY="-38" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10006" x="2441" y="762" width="2441" height="783" frameX="-0" frameY="-19" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10007" x="2441" y="1545" width="2441" height="789" frameX="-0" frameY="-19" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10008" x="2441" y="2334" width="2441" height="802" frameX="-0" frameY="-6" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10009" x="0" y="2992" width="2441" height="801" frameX="-0" frameY="-7" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10010" x="2441" y="3136" width="2441" height="801" frameX="-0" frameY="-7" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10011" x="0" y="3793" width="2441" height="801" frameX="-0" frameY="-7" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10012" x="2441" y="3937" width="2441" height="784" frameX="-0" frameY="-24" frameWidth="2441" frameHeight="808"/>
+	<SubTexture name="JUST NOT BG SHEET instance 10013" x="0" y="4594" width="2441" height="783" frameX="-0" frameY="-24" frameWidth="2441" frameHeight="808"/>
+</TextureAtlas>

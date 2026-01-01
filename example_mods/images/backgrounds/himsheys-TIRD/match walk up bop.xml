@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="match walk up bop.png" width="841" height="779">
+	<SubTexture name="match idle instance 10000" x="631" y="1" width="209" height="777" frameX="-1" frameY="-15" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10001" x="631" y="1" width="209" height="777" frameX="-1" frameY="-15" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10002" x="1" y="1" width="210" height="776" frameX="-0" frameY="-10" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10003" x="1" y="1" width="210" height="776" frameX="-0" frameY="-10" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10004" x="211" y="1" width="210" height="776" frameX="-0" frameY="-2" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10005" x="211" y="1" width="210" height="776" frameX="-0" frameY="-2" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10006" x="421" y="1" width="210" height="776" frameX="-0" frameY="-0" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10007" x="421" y="1" width="210" height="776" frameX="-0" frameY="-0" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10008" x="421" y="1" width="210" height="776" frameX="-0" frameY="-0" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10009" x="421" y="1" width="210" height="776" frameX="-0" frameY="-0" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10010" x="421" y="1" width="210" height="776" frameX="-0" frameY="-0" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10011" x="421" y="1" width="210" height="776" frameX="-0" frameY="-0" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10012" x="421" y="1" width="210" height="776" frameX="-0" frameY="-0" frameWidth="216" frameHeight="796"/>
+	<SubTexture name="match idle instance 10013" x="421" y="1" width="210" height="776" frameX="-0" frameY="-0" frameWidth="216" frameHeight="796"/>
+</TextureAtlas>

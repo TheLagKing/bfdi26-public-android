@@ -17,19 +17,9 @@ class MusicBeatSubstate extends FlxSubState
 	private var curDecBeat:Float = 0;
 	private var controls(get, never):Controls;
 
-	public static var name:String;
-
 	public function new()
 	{
 		super();
-		checkName();
-	}
-
-	public static function checkName() 
-	{
-		if (name == 'credits' || name == 'options') 
-		{
-		}
 	}
 
 	inline function get_controls():Controls

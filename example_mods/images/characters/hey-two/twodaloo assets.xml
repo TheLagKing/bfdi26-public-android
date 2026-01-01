@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="twodaloo assets.png" width="5219" height="4913">
+	<SubTexture name="tpot alt down instance 10000" x="3375" y="3943" width="545" height="466" frameX="-4" frameY="-47" frameWidth="580" frameHeight="514"/>
+	<SubTexture name="tpot alt down instance 10001" x="2825" y="4374" width="545" height="466" frameX="-4" frameY="-47" frameWidth="580" frameHeight="514"/>
+	<SubTexture name="tpot alt down instance 10002" x="3916" y="4410" width="545" height="463" frameX="-2" frameY="-31" frameWidth="580" frameHeight="514"/>
+	<SubTexture name="tpot alt down instance 10003" x="2174" y="4400" width="548" height="463" frameX="-2" frameY="-31" frameWidth="580" frameHeight="514"/>
+	<SubTexture name="tpot alt down instance 10004" x="2825" y="3909" width="549" height="464" frameX="-0" frameY="-28" frameWidth="580" frameHeight="514"/>
+	<SubTexture name="tpot alt down instance 10005" x="1571" y="4430" width="546" height="464" frameX="-0" frameY="-28" frameWidth="580" frameHeight="514"/>
+	<SubTexture name="tpot alt down instance 10006" x="3371" y="4410" width="544" height="464" frameX="-0" frameY="-28" frameWidth="580" frameHeight="514"/>
+	<SubTexture name="tpot alt down instance 10007" x="3921" y="3945" width="542" height="463" frameX="-3" frameY="-18" frameWidth="580" frameHeight="514"/>
+	<SubTexture name="tpot alt down instance 10008" x="4678" y="1630" width="539" height="463" frameX="-3" frameY="-18" frameWidth="580" frameHeight="514"/>
+	<SubTexture name="tpot alt down instance 10009" x="1065" y="3869" width="558" height="495" frameX="-22" frameY="-0" frameWidth="580" frameHeight="514"/>
+	<SubTexture name="tpot alt idle instance 10000" x="4085" y="2753" width="506" height="561" frameX="-18" frameY="-33" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10001" x="4314" y="510" width="505" height="561" frameX="-18" frameY="-33" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10002" x="4176" y="1638" width="501" height="566" frameX="-16" frameY="-28" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10003" x="1674" y="3863" width="499" height="566" frameX="-16" frameY="-28" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10004" x="571" y="3794" width="493" height="581" frameX="-5" frameY="-3" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10005" x="4022" y="3363" width="491" height="581" frameX="-4" frameY="-3" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10006" x="3528" y="3363" width="493" height="579" frameX="-1" frameY="-1" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10007" x="1" y="3809" width="494" height="579" frameX="-1" frameY="-1" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10008" x="1175" y="3289" width="498" height="579" frameX="-0" frameY="-0" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10009" x="2324" y="3820" width="500" height="579" frameX="-0" frameY="-0" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10010" x="1821" y="3283" width="502" height="579" frameX="-0" frameY="-0" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10011" x="3023" y="3329" width="504" height="579" frameX="-0" frameY="-0" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10012" x="3668" y="2173" width="507" height="579" frameX="-0" frameY="-0" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt idle instance 10013" x="3575" y="2783" width="509" height="579" frameX="-0" frameY="-0" frameWidth="525" frameHeight="595"/>
+	<SubTexture name="tpot alt left instance 10000" x="1365" y="1" width="664" height="563" frameX="-0" frameY="-0" frameWidth="772" frameHeight="605"/>
+	<SubTexture name="tpot alt left instance 10001" x="1365" y="565" width="664" height="563" frameX="-0" frameY="-0" frameWidth="772" frameHeight="605"/>
+	<SubTexture name="tpot alt left instance 10002" x="683" y="561" width="681" height="558" frameX="-21" frameY="-10" frameWidth="772" frameHeight="605"/>
+	<SubTexture name="tpot alt left instance 10003" x="683" y="1120" width="681" height="558" frameX="-21" frameY="-10" frameWidth="772" frameHeight="605"/>
+	<SubTexture name="tpot alt left instance 10004" x="1" y="1" width="681" height="559" frameX="-24" frameY="-11" frameWidth="772" frameHeight="605"/>
+	<SubTexture name="tpot alt left instance 10005" x="1" y="561" width="681" height="559" frameX="-24" frameY="-11" frameWidth="772" frameHeight="605"/>
+	<SubTexture name="tpot alt left instance 10006" x="683" y="1" width="681" height="559" frameX="-24" frameY="-11" frameWidth="772" frameHeight="605"/>
+	<SubTexture name="tpot alt left instance 10007" x="1365" y="1129" width="658" height="562" frameX="-61" frameY="-20" frameWidth="772" frameHeight="605"/>
+	<SubTexture name="tpot alt left instance 10008" x="1" y="1121" width="658" height="562" frameX="-61" frameY="-20" frameWidth="772" frameHeight="605"/>
+	<SubTexture name="tpot alt left instance 10009" x="2024" y="1129" width="591" height="563" frameX="-180" frameY="-41" frameWidth="772" frameHeight="605"/>
+	<SubTexture name="tpot alt right instance 10000" x="2030" y="1" width="588" height="553" frameX="-30" frameY="-0" frameWidth="618" frameHeight="597"/>
+	<SubTexture name="tpot alt right instance 10001" x="2030" y="555" width="588" height="553" frameX="-30" frameY="-0" frameWidth="618" frameHeight="597"/>
+	<SubTexture name="tpot alt right instance 10002" x="605" y="3256" width="569" height="537" frameX="-18" frameY="-12" frameWidth="618" frameHeight="597"/>
+	<SubTexture name="tpot alt right instance 10003" x="1" y="3271" width="569" height="537" frameX="-18" frameY="-12" frameWidth="618" frameHeight="597"/>
+	<SubTexture name="tpot alt right instance 10004" x="2455" y="2742" width="567" height="538" frameX="-17" frameY="-13" frameWidth="618" frameHeight="597"/>
+	<SubTexture name="tpot alt right instance 10005" x="1887" y="2742" width="567" height="540" frameX="-17" frameY="-13" frameWidth="618" frameHeight="597"/>
+	<SubTexture name="tpot alt right instance 10006" x="2455" y="3281" width="567" height="538" frameX="-17" frameY="-13" frameWidth="618" frameHeight="597"/>
+	<SubTexture name="tpot alt right instance 10007" x="3023" y="2783" width="551" height="545" frameX="-1" frameY="-17" frameWidth="618" frameHeight="597"/>
+	<SubTexture name="tpot alt right instance 10008" x="3762" y="546" width="551" height="545" frameX="-1" frameY="-17" frameWidth="618" frameHeight="597"/>
+	<SubTexture name="tpot alt right instance 10009" x="3123" y="2208" width="544" height="574" frameX="-2" frameY="-23" frameWidth="618" frameHeight="597"/>
+	<SubTexture name="tpot alt up instance 10000" x="1887" y="2222" width="618" height="519" frameX="-4" frameY="-0" frameWidth="643" frameHeight="619"/>
+	<SubTexture name="tpot alt up instance 10001" x="2506" y="2222" width="616" height="519" frameX="-4" frameY="-0" frameWidth="643" frameHeight="619"/>
+	<SubTexture name="tpot alt up instance 10002" x="1293" y="1692" width="629" height="528" frameX="-0" frameY="-7" frameWidth="643" frameHeight="619"/>
+	<SubTexture name="tpot alt up instance 10003" x="1923" y="1693" width="626" height="528" frameX="-0" frameY="-7" frameWidth="643" frameHeight="619"/>
+	<SubTexture name="tpot alt up instance 10004" x="634" y="2218" width="626" height="528" frameX="-1" frameY="-8" frameWidth="643" frameHeight="619"/>
+	<SubTexture name="tpot alt up instance 10005" x="1261" y="2221" width="625" height="528" frameX="-1" frameY="-8" frameWidth="643" frameHeight="619"/>
+	<SubTexture name="tpot alt up instance 10006" x="1" y="2223" width="626" height="528" frameX="-1" frameY="-8" frameWidth="643" frameHeight="619"/>
+	<SubTexture name="tpot alt up instance 10007" x="660" y="1679" width="632" height="538" frameX="-6" frameY="-21" frameWidth="643" frameHeight="619"/>
+	<SubTexture name="tpot alt up instance 10008" x="1" y="1684" width="632" height="538" frameX="-6" frameY="-21" frameWidth="643" frameHeight="619"/>
+	<SubTexture name="tpot alt up instance 10009" x="3197" y="1080" width="564" height="546" frameX="-79" frameY="-72" frameWidth="643" frameHeight="619"/>
+	<SubTexture name="tpot down instance 10000" x="4692" y="2094" width="526" height="440" frameX="-11" frameY="-37" frameWidth="567" frameHeight="478"/>
+	<SubTexture name="tpot down instance 10001" x="4692" y="2094" width="526" height="440" frameX="-11" frameY="-37" frameWidth="567" frameHeight="478"/>
+	<SubTexture name="tpot down instance 10002" x="4464" y="3945" width="524" height="452" frameX="-0" frameY="-25" frameWidth="567" frameHeight="478"/>
+	<SubTexture name="tpot down instance 10003" x="4464" y="3945" width="524" height="452" frameX="-0" frameY="-25" frameWidth="567" frameHeight="478"/>
+	<SubTexture name="tpot down instance 10004" x="4464" y="3945" width="524" height="452" frameX="-0" frameY="-25" frameWidth="567" frameHeight="478"/>
+	<SubTexture name="tpot down instance 10005" x="4464" y="3945" width="524" height="452" frameX="-0" frameY="-25" frameWidth="567" frameHeight="478"/>
+	<SubTexture name="tpot down instance 10006" x="4464" y="3945" width="524" height="452" frameX="-0" frameY="-25" frameWidth="567" frameHeight="478"/>
+	<SubTexture name="tpot down instance 10007" x="4462" y="4409" width="515" height="461" frameX="-7" frameY="-16" frameWidth="567" frameHeight="478"/>
+	<SubTexture name="tpot down instance 10008" x="4462" y="4409" width="515" height="461" frameX="-7" frameY="-16" frameWidth="567" frameHeight="478"/>
+	<SubTexture name="tpot down instance 10009" x="3209" y="546" width="548" height="477" frameX="-19" frameY="-0" frameWidth="567" frameHeight="478"/>
+	<SubTexture name="tpot idle instance 10000" x="3195" y="1659" width="602" height="513" frameX="-11" frameY="-36" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10001" x="3195" y="1659" width="602" height="513" frameX="-11" frameY="-36" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10002" x="1" y="2752" width="603" height="518" frameX="-9" frameY="-31" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10003" x="1" y="2752" width="603" height="518" frameX="-9" frameY="-31" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10004" x="2616" y="1109" width="580" height="549" frameX="-1" frameY="-0" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10005" x="2616" y="1109" width="580" height="549" frameX="-1" frameY="-0" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10006" x="2616" y="1659" width="578" height="548" frameX="-0" frameY="-1" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10007" x="2616" y="1659" width="578" height="548" frameX="-0" frameY="-1" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10008" x="2619" y="1" width="576" height="545" frameX="-0" frameY="-4" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10009" x="2619" y="1" width="576" height="545" frameX="-0" frameY="-4" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10010" x="3196" y="1" width="575" height="544" frameX="-0" frameY="-5" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10011" x="3196" y="1" width="575" height="544" frameX="-0" frameY="-5" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10012" x="3196" y="1" width="575" height="544" frameX="-0" frameY="-5" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot idle instance 10013" x="3196" y="1" width="575" height="544" frameX="-0" frameY="-5" frameWidth="613" frameHeight="550"/>
+	<SubTexture name="tpot left instance 10000" x="4176" y="2205" width="515" height="539" frameX="-0" frameY="-0" frameWidth="669" frameHeight="540"/>
+	<SubTexture name="tpot left instance 10001" x="4176" y="2205" width="515" height="539" frameX="-0" frameY="-0" frameWidth="669" frameHeight="540"/>
+	<SubTexture name="tpot left instance 10002" x="1065" y="4365" width="505" height="536" frameX="-17" frameY="-3" frameWidth="669" frameHeight="540"/>
+	<SubTexture name="tpot left instance 10003" x="1065" y="4365" width="505" height="536" frameX="-17" frameY="-3" frameWidth="669" frameHeight="540"/>
+	<SubTexture name="tpot left instance 10004" x="1065" y="4365" width="505" height="536" frameX="-17" frameY="-3" frameWidth="669" frameHeight="540"/>
+	<SubTexture name="tpot left instance 10005" x="1065" y="4365" width="505" height="536" frameX="-17" frameY="-3" frameWidth="669" frameHeight="540"/>
+	<SubTexture name="tpot left instance 10006" x="1065" y="4365" width="505" height="536" frameX="-17" frameY="-3" frameWidth="669" frameHeight="540"/>
+	<SubTexture name="tpot left instance 10007" x="496" y="4376" width="490" height="536" frameX="-39" frameY="-4" frameWidth="669" frameHeight="540"/>
+	<SubTexture name="tpot left instance 10008" x="496" y="4376" width="490" height="536" frameX="-39" frameY="-4" frameWidth="669" frameHeight="540"/>
+	<SubTexture name="tpot left instance 10009" x="2619" y="547" width="589" height="532" frameX="-80" frameY="-8" frameWidth="669" frameHeight="540"/>
+	<SubTexture name="tpot right instance 10000" x="4592" y="2745" width="454" height="515" frameX="-71" frameY="-0" frameWidth="574" frameHeight="515"/>
+	<SubTexture name="tpot right instance 10001" x="4592" y="2745" width="454" height="515" frameX="-71" frameY="-0" frameWidth="574" frameHeight="515"/>
+	<SubTexture name="tpot right instance 10002" x="4514" y="3315" width="455" height="514" frameX="-53" frameY="-0" frameWidth="574" frameHeight="515"/>
+	<SubTexture name="tpot right instance 10003" x="4514" y="3315" width="455" height="514" frameX="-53" frameY="-0" frameWidth="574" frameHeight="515"/>
+	<SubTexture name="tpot right instance 10004" x="4514" y="3315" width="455" height="514" frameX="-53" frameY="-0" frameWidth="574" frameHeight="515"/>
+	<SubTexture name="tpot right instance 10005" x="4514" y="3315" width="455" height="514" frameX="-53" frameY="-0" frameWidth="574" frameHeight="515"/>
+	<SubTexture name="tpot right instance 10006" x="4514" y="3315" width="455" height="514" frameX="-53" frameY="-0" frameWidth="574" frameHeight="515"/>
+	<SubTexture name="tpot right instance 10007" x="1" y="4389" width="471" height="512" frameX="-37" frameY="-2" frameWidth="574" frameHeight="515"/>
+	<SubTexture name="tpot right instance 10008" x="1" y="4389" width="471" height="512" frameX="-37" frameY="-2" frameWidth="574" frameHeight="515"/>
+	<SubTexture name="tpot right instance 10009" x="3772" y="1" width="573" height="508" frameX="-0" frameY="-7" frameWidth="574" frameHeight="515"/>
+	<SubTexture name="tpot up instance 10000" x="4314" y="1072" width="508" height="557" frameX="-11" frameY="-0" frameWidth="637" frameHeight="565"/>
+	<SubTexture name="tpot up instance 10001" x="4314" y="1072" width="508" height="557" frameX="-11" frameY="-0" frameWidth="637" frameHeight="565"/>
+	<SubTexture name="tpot up instance 10002" x="3762" y="1092" width="543" height="545" frameX="-0" frameY="-12" frameWidth="637" frameHeight="565"/>
+	<SubTexture name="tpot up instance 10003" x="3762" y="1092" width="543" height="545" frameX="-0" frameY="-12" frameWidth="637" frameHeight="565"/>
+	<SubTexture name="tpot up instance 10004" x="3762" y="1092" width="543" height="545" frameX="-0" frameY="-12" frameWidth="637" frameHeight="565"/>
+	<SubTexture name="tpot up instance 10005" x="3762" y="1092" width="543" height="545" frameX="-0" frameY="-12" frameWidth="637" frameHeight="565"/>
+	<SubTexture name="tpot up instance 10006" x="3762" y="1092" width="543" height="545" frameX="-0" frameY="-12" frameWidth="637" frameHeight="565"/>
+	<SubTexture name="tpot up instance 10007" x="1251" y="2750" width="569" height="538" frameX="-2" frameY="-22" frameWidth="637" frameHeight="565"/>
+	<SubTexture name="tpot up instance 10008" x="1251" y="2750" width="569" height="538" frameX="-2" frameY="-22" frameWidth="637" frameHeight="565"/>
+	<SubTexture name="tpot up instance 10009" x="628" y="2747" width="622" height="508" frameX="-14" frameY="-56" frameWidth="637" frameHeight="565"/>
+</TextureAtlas>

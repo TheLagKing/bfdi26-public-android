@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="animaticsprites.png" width="3918" height="4005">
+	<SubTexture name="blud idle instance 10000" x="3259" y="2885" width="368" height="321" frameX="-32" frameY="-2" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10001" x="3259" y="2885" width="368" height="321" frameX="-32" frameY="-2" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10002" x="3476" y="2564" width="377" height="320" frameX="-25" frameY="-3" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10003" x="3476" y="2564" width="377" height="320" frameX="-25" frameY="-3" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10004" x="3476" y="2564" width="377" height="320" frameX="-25" frameY="-3" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10005" x="3476" y="2564" width="377" height="320" frameX="-25" frameY="-3" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10006" x="3476" y="2564" width="377" height="320" frameX="-25" frameY="-3" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10007" x="3449" y="1333" width="390" height="326" frameX="-2" frameY="-0" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10008" x="3449" y="1333" width="390" height="326" frameX="-2" frameY="-0" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10009" x="3449" y="1660" width="387" height="326" frameX="-0" frameY="-0" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10010" x="3449" y="1660" width="387" height="326" frameX="-0" frameY="-0" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10011" x="3449" y="1660" width="387" height="326" frameX="-0" frameY="-0" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10012" x="3449" y="1660" width="387" height="326" frameX="-0" frameY="-0" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud idle instance 10013" x="3449" y="1660" width="387" height="326" frameX="-0" frameY="-0" frameWidth="402" frameHeight="327"/>
+	<SubTexture name="blud spawn instance 10000" x="3623" y="3209" width="251" height="279" frameX="-68" frameY="-275" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10001" x="3623" y="3209" width="251" height="279" frameX="-68" frameY="-275" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10002" x="1605" y="1847" width="201" height="290" frameX="-99" frameY="-268" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10003" x="3349" y="3636" width="202" height="290" frameX="-98" frameY="-268" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10004" x="3349" y="3636" width="202" height="290" frameX="-98" frameY="-268" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10005" x="2352" y="3636" width="343" height="332" frameX="-95" frameY="-255" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10006" x="1143" y="3194" width="432" height="339" frameX="-148" frameY="-258" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10007" x="1143" y="3194" width="432" height="339" frameX="-148" frameY="-258" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10008" x="1999" y="3194" width="419" height="332" frameX="-103" frameY="-265" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10009" x="2419" y="3194" width="419" height="333" frameX="-103" frameY="-264" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10010" x="2839" y="3029" width="419" height="333" frameX="-103" frameY="-264" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10011" x="2839" y="3029" width="419" height="333" frameX="-103" frameY="-264" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10012" x="1468" y="2753" width="461" height="421" frameX="-162" frameY="-177" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10013" x="2372" y="1" width="388" height="542" frameX="-188" frameY="-61" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10014" x="2372" y="1" width="388" height="542" frameX="-188" frameY="-61" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10015" x="1931" y="1" width="440" height="592" frameX="-0" frameY="-19" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10016" x="1931" y="1" width="440" height="592" frameX="-0" frameY="-19" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10017" x="463" y="1370" width="350" height="596" frameX="-105" frameY="-16" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10018" x="814" y="1370" width="346" height="596" frameX="-109" frameY="-16" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10019" x="814" y="1370" width="346" height="596" frameX="-109" frameY="-16" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10020" x="814" y="1370" width="346" height="596" frameX="-109" frameY="-16" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10021" x="1" y="2090" width="510" height="575" frameX="-178" frameY="-46" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10022" x="1403" y="1" width="527" height="616" frameX="-162" frameY="-5" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10023" x="1" y="1476" width="461" height="613" frameX="-162" frameY="-5" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10024" x="1403" y="618" width="461" height="614" frameX="-162" frameY="-5" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10025" x="453" y="751" width="463" height="618" frameX="-160" frameY="-1" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10026" x="939" y="1" width="463" height="618" frameX="-160" frameY="-1" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10027" x="939" y="620" width="461" height="617" frameX="-162" frameY="-2" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10028" x="939" y="620" width="461" height="617" frameX="-162" frameY="-2" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="blud spawn instance 10029" x="1401" y="1233" width="461" height="613" frameX="-162" frameY="-6" frameWidth="689" frameHeight="621"/>
+	<SubTexture name="down instance 10000" x="2116" y="2721" width="324" height="472" frameX="-82" frameY="-1" frameWidth="480" frameHeight="484"/>
+	<SubTexture name="down instance 10001" x="2116" y="2721" width="324" height="472" frameX="-82" frameY="-1" frameWidth="480" frameHeight="484"/>
+	<SubTexture name="down instance 10002" x="1" y="3196" width="446" height="440" frameX="-33" frameY="-33" frameWidth="480" frameHeight="484"/>
+	<SubTexture name="down instance 10003" x="1" y="3196" width="446" height="440" frameX="-33" frameY="-33" frameWidth="480" frameHeight="484"/>
+	<SubTexture name="down instance 10004" x="1" y="3196" width="446" height="440" frameX="-33" frameY="-33" frameWidth="480" frameHeight="484"/>
+	<SubTexture name="down instance 10005" x="1" y="3196" width="446" height="440" frameX="-33" frameY="-33" frameWidth="480" frameHeight="484"/>
+	<SubTexture name="down instance 10006" x="1" y="3196" width="446" height="440" frameX="-33" frameY="-33" frameWidth="480" frameHeight="484"/>
+	<SubTexture name="down instance 10007" x="1" y="3196" width="446" height="440" frameX="-33" frameY="-33" frameWidth="480" frameHeight="484"/>
+	<SubTexture name="down instance 10008" x="741" y="3194" width="401" height="442" frameX="-0" frameY="-41" frameWidth="480" frameHeight="484"/>
+	<SubTexture name="down instance 10009" x="741" y="3194" width="401" height="442" frameX="-0" frameY="-41" frameWidth="480" frameHeight="484"/>
+	<SubTexture name="idle instance 10000" x="512" y="1967" width="334" height="547" frameX="-6" frameY="-0" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10001" x="512" y="1967" width="334" height="547" frameX="-6" frameY="-0" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10002" x="847" y="1967" width="342" height="545" frameX="-2" frameY="-0" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10003" x="847" y="1967" width="342" height="545" frameX="-2" frameY="-0" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10004" x="1863" y="1720" width="351" height="543" frameX="-0" frameY="-1" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10005" x="1863" y="1720" width="351" height="543" frameX="-0" frameY="-1" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10006" x="2311" y="594" width="341" height="540" frameX="-5" frameY="-1" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10007" x="2311" y="594" width="341" height="540" frameX="-5" frameY="-1" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10008" x="2330" y="1135" width="333" height="538" frameX="-6" frameY="-2" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10009" x="2330" y="1135" width="333" height="538" frameX="-6" frameY="-2" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10010" x="1" y="2666" width="268" height="529" frameX="-6" frameY="-12" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10011" x="1" y="2666" width="268" height="529" frameX="-6" frameY="-12" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10012" x="1" y="2666" width="268" height="529" frameX="-6" frameY="-12" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="idle instance 10013" x="2330" y="1674" width="278" height="533" frameX="-5" frameY="-9" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="left instance 10000" x="1605" y="2264" width="510" height="488" frameX="-0" frameY="-14" frameWidth="548" frameHeight="510"/>
+	<SubTexture name="left instance 10001" x="1605" y="2264" width="510" height="488" frameX="-0" frameY="-14" frameWidth="548" frameHeight="510"/>
+	<SubTexture name="left instance 10002" x="3003" y="1319" width="445" height="491" frameX="-57" frameY="-7" frameWidth="548" frameHeight="510"/>
+	<SubTexture name="left instance 10003" x="3003" y="1319" width="445" height="491" frameX="-57" frameY="-7" frameWidth="548" frameHeight="510"/>
+	<SubTexture name="left instance 10004" x="3003" y="1319" width="445" height="491" frameX="-57" frameY="-7" frameWidth="548" frameHeight="510"/>
+	<SubTexture name="left instance 10005" x="3003" y="1319" width="445" height="491" frameX="-57" frameY="-7" frameWidth="548" frameHeight="510"/>
+	<SubTexture name="left instance 10006" x="3003" y="1319" width="445" height="491" frameX="-57" frameY="-7" frameWidth="548" frameHeight="510"/>
+	<SubTexture name="left instance 10007" x="3003" y="1319" width="445" height="491" frameX="-57" frameY="-7" frameWidth="548" frameHeight="510"/>
+	<SubTexture name="left instance 10008" x="2664" y="544" width="358" height="508" frameX="-189" frameY="-1" frameWidth="548" frameHeight="510"/>
+	<SubTexture name="left instance 10009" x="2664" y="544" width="358" height="508" frameX="-189" frameY="-1" frameWidth="548" frameHeight="510"/>
+	<SubTexture name="right instance 10000" x="2215" y="2208" width="507" height="512" frameX="-1" frameY="-8" frameWidth="511" frameHeight="526"/>
+	<SubTexture name="right instance 10001" x="2215" y="2208" width="507" height="512" frameX="-1" frameY="-8" frameWidth="511" frameHeight="526"/>
+	<SubTexture name="right instance 10002" x="270" y="2666" width="509" height="524" frameX="-2" frameY="-0" frameWidth="511" frameHeight="526"/>
+	<SubTexture name="right instance 10003" x="270" y="2666" width="509" height="524" frameX="-2" frameY="-0" frameWidth="511" frameHeight="526"/>
+	<SubTexture name="right instance 10004" x="270" y="2666" width="509" height="524" frameX="-2" frameY="-0" frameWidth="511" frameHeight="526"/>
+	<SubTexture name="right instance 10005" x="270" y="2666" width="509" height="524" frameX="-2" frameY="-0" frameWidth="511" frameHeight="526"/>
+	<SubTexture name="right instance 10006" x="270" y="2666" width="509" height="524" frameX="-2" frameY="-0" frameWidth="511" frameHeight="526"/>
+	<SubTexture name="right instance 10007" x="270" y="2666" width="509" height="524" frameX="-2" frameY="-0" frameWidth="511" frameHeight="526"/>
+	<SubTexture name="right instance 10008" x="3043" y="1" width="461" height="507" frameX="-0" frameY="-18" frameWidth="511" frameHeight="526"/>
+	<SubTexture name="right instance 10009" x="3043" y="1" width="461" height="507" frameX="-0" frameY="-18" frameWidth="511" frameHeight="526"/>
+	<SubTexture name="small blud go back instance 10000" x="3235" y="3363" width="387" height="272" frameX="-7" frameY="-260" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10001" x="3235" y="3363" width="387" height="272" frameX="-7" frameY="-260" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10002" x="3505" y="346" width="397" height="279" frameX="-0" frameY="-250" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10003" x="3505" y="346" width="397" height="279" frameX="-0" frameY="-250" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10004" x="3093" y="2577" width="382" height="293" frameX="-3" frameY="-226" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10005" x="3093" y="2577" width="382" height="293" frameX="-3" frameY="-226" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10006" x="3628" y="2885" width="268" height="323" frameX="-105" frameY="-191" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10007" x="3628" y="2885" width="268" height="323" frameX="-105" frameY="-191" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10008" x="1161" y="1238" width="238" height="385" frameX="-121" frameY="-128" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10009" x="1161" y="1238" width="238" height="385" frameX="-121" frameY="-128" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10010" x="2764" y="2577" width="328" height="451" frameX="-19" frameY="-63" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10011" x="2764" y="2577" width="328" height="451" frameX="-19" frameY="-63" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10012" x="3003" y="1811" width="314" height="486" frameX="-20" frameY="-33" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10013" x="3003" y="1811" width="314" height="486" frameX="-20" frameY="-33" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10014" x="2664" y="1053" width="302" height="502" frameX="-34" frameY="-16" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10015" x="2664" y="1053" width="302" height="502" frameX="-34" frameY="-16" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10016" x="2761" y="1" width="281" height="509" frameX="-49" frameY="-7" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10017" x="2761" y="1" width="281" height="509" frameX="-49" frameY="-7" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10018" x="780" y="2515" width="278" height="519" frameX="-48" frameY="-0" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud go back instance 10019" x="780" y="2515" width="278" height="519" frameX="-48" frameY="-0" frameWidth="397" frameHeight="532"/>
+	<SubTexture name="small blud instance 10000" x="1" y="2666" width="268" height="529" frameX="-82" frameY="-33" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10001" x="1" y="2666" width="268" height="529" frameX="-82" frameY="-33" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10002" x="1190" y="2391" width="277" height="510" frameX="-77" frameY="-30" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10003" x="1190" y="2391" width="277" height="510" frameX="-77" frameY="-30" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10004" x="448" y="3191" width="292" height="445" frameX="-73" frameY="-21" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10005" x="448" y="3191" width="292" height="445" frameX="-73" frameY="-21" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10006" x="1" y="3637" width="322" height="367" frameX="-81" frameY="-7" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10007" x="1" y="3637" width="322" height="367" frameX="-81" frameY="-7" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10008" x="324" y="3637" width="358" height="318" frameX="-94" frameY="-6" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10009" x="324" y="3637" width="358" height="318" frameX="-94" frameY="-6" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10010" x="2441" y="2721" width="322" height="454" frameX="-118" frameY="-0" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10011" x="2441" y="2721" width="322" height="454" frameX="-118" frameY="-0" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10012" x="1865" y="618" width="445" height="551" frameX="-14" frameY="-2" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10013" x="1865" y="1170" width="464" height="549" frameX="-0" frameY="-2" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10014" x="1190" y="1847" width="414" height="543" frameX="-46" frameY="-14" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10015" x="2609" y="1674" width="393" height="503" frameX="-68" frameY="-49" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10016" x="3043" y="509" width="393" height="497" frameX="-68" frameY="-55" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10017" x="1576" y="3194" width="422" height="403" frameX="-31" frameY="-157" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10018" x="1576" y="3194" width="422" height="403" frameX="-31" frameY="-157" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10019" x="3505" y="1" width="412" height="344" frameX="-37" frameY="-145" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10020" x="3505" y="1" width="412" height="344" frameX="-37" frameY="-145" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10021" x="3501" y="626" width="395" height="353" frameX="-47" frameY="-151" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10022" x="3501" y="626" width="395" height="353" frameX="-47" frameY="-151" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10023" x="3501" y="980" width="395" height="352" frameX="-52" frameY="-200" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small blud instance 10024" x="3501" y="980" width="395" height="352" frameX="-52" frameY="-200" frameWidth="465" frameHeight="562"/>
+	<SubTexture name="small bludD instance 10000" x="683" y="3637" width="346" height="270" frameX="-0" frameY="-1" frameWidth="381" frameHeight="283"/>
+	<SubTexture name="small bludD instance 10001" x="683" y="3637" width="346" height="270" frameX="-0" frameY="-1" frameWidth="381" frameHeight="283"/>
+	<SubTexture name="small bludD instance 10002" x="3177" y="2298" width="380" height="265" frameX="-0" frameY="-14" frameWidth="381" frameHeight="283"/>
+	<SubTexture name="small bludD instance 10003" x="3177" y="2298" width="380" height="265" frameX="-0" frameY="-14" frameWidth="381" frameHeight="283"/>
+	<SubTexture name="small bludD instance 10004" x="3177" y="2298" width="380" height="265" frameX="-0" frameY="-14" frameWidth="381" frameHeight="283"/>
+	<SubTexture name="small bludD instance 10005" x="3177" y="2298" width="380" height="265" frameX="-0" frameY="-14" frameWidth="381" frameHeight="283"/>
+	<SubTexture name="small bludD instance 10006" x="3177" y="2298" width="380" height="265" frameX="-0" frameY="-14" frameWidth="381" frameHeight="283"/>
+	<SubTexture name="small bludD instance 10007" x="3177" y="2298" width="380" height="265" frameX="-0" frameY="-14" frameWidth="381" frameHeight="283"/>
+	<SubTexture name="small bludD instance 10008" x="1143" y="3534" width="349" height="269" frameX="-7" frameY="-14" frameWidth="381" frameHeight="283"/>
+	<SubTexture name="small bludD instance 10009" x="1143" y="3534" width="349" height="269" frameX="-7" frameY="-14" frameWidth="381" frameHeight="283"/>
+	<SubTexture name="small bludL instance 10000" x="3003" y="1053" width="497" height="265" frameX="-0" frameY="-7" frameWidth="497" frameHeight="279"/>
+	<SubTexture name="small bludL instance 10001" x="3003" y="1053" width="497" height="265" frameX="-0" frameY="-7" frameWidth="497" frameHeight="279"/>
+	<SubTexture name="small bludL instance 10002" x="2723" y="2298" width="453" height="278" frameX="-33" frameY="-1" frameWidth="497" frameHeight="279"/>
+	<SubTexture name="small bludL instance 10003" x="2723" y="2298" width="453" height="278" frameX="-33" frameY="-1" frameWidth="497" frameHeight="279"/>
+	<SubTexture name="small bludL instance 10004" x="2723" y="2298" width="453" height="278" frameX="-33" frameY="-1" frameWidth="497" frameHeight="279"/>
+	<SubTexture name="small bludL instance 10005" x="2723" y="2298" width="453" height="278" frameX="-33" frameY="-1" frameWidth="497" frameHeight="279"/>
+	<SubTexture name="small bludL instance 10006" x="2723" y="2298" width="453" height="278" frameX="-33" frameY="-1" frameWidth="497" frameHeight="279"/>
+	<SubTexture name="small bludL instance 10007" x="2723" y="2298" width="453" height="278" frameX="-33" frameY="-1" frameWidth="497" frameHeight="279"/>
+	<SubTexture name="small bludL instance 10008" x="1059" y="2902" width="399" height="276" frameX="-93" frameY="-1" frameWidth="497" frameHeight="279"/>
+	<SubTexture name="small bludL instance 10009" x="1059" y="2902" width="399" height="276" frameX="-93" frameY="-1" frameWidth="497" frameHeight="279"/>
+	<SubTexture name="small bludR instance 10000" x="2839" y="3363" width="395" height="257" frameX="-25" frameY="-14" frameWidth="420" frameHeight="272"/>
+	<SubTexture name="small bludR instance 10001" x="2839" y="3363" width="395" height="257" frameX="-25" frameY="-14" frameWidth="420" frameHeight="272"/>
+	<SubTexture name="small bludR instance 10002" x="1999" y="3527" width="352" height="272" frameX="-26" frameY="-0" frameWidth="420" frameHeight="272"/>
+	<SubTexture name="small bludR instance 10003" x="1999" y="3527" width="352" height="272" frameX="-26" frameY="-0" frameWidth="420" frameHeight="272"/>
+	<SubTexture name="small bludR instance 10004" x="1999" y="3527" width="352" height="272" frameX="-26" frameY="-0" frameWidth="420" frameHeight="272"/>
+	<SubTexture name="small bludR instance 10005" x="1999" y="3527" width="352" height="272" frameX="-26" frameY="-0" frameWidth="420" frameHeight="272"/>
+	<SubTexture name="small bludR instance 10006" x="1999" y="3527" width="352" height="272" frameX="-26" frameY="-0" frameWidth="420" frameHeight="272"/>
+	<SubTexture name="small bludR instance 10007" x="1999" y="3527" width="352" height="272" frameX="-26" frameY="-0" frameWidth="420" frameHeight="272"/>
+	<SubTexture name="small bludR instance 10008" x="3558" y="2256" width="356" height="272" frameX="-0" frameY="-0" frameWidth="420" frameHeight="272"/>
+	<SubTexture name="small bludR instance 10009" x="3558" y="2256" width="356" height="272" frameX="-0" frameY="-0" frameWidth="420" frameHeight="272"/>
+	<SubTexture name="small bludU instance 10000" x="3029" y="3636" width="319" height="318" frameX="-13" frameY="-0" frameWidth="384" frameHeight="321"/>
+	<SubTexture name="small bludU instance 10001" x="3029" y="3636" width="319" height="318" frameX="-13" frameY="-0" frameWidth="384" frameHeight="321"/>
+	<SubTexture name="small bludU instance 10002" x="2696" y="3636" width="332" height="295" frameX="-0" frameY="-21" frameWidth="384" frameHeight="321"/>
+	<SubTexture name="small bludU instance 10003" x="2696" y="3636" width="332" height="295" frameX="-0" frameY="-21" frameWidth="384" frameHeight="321"/>
+	<SubTexture name="small bludU instance 10004" x="2696" y="3636" width="332" height="295" frameX="-0" frameY="-21" frameWidth="384" frameHeight="321"/>
+	<SubTexture name="small bludU instance 10005" x="2696" y="3636" width="332" height="295" frameX="-0" frameY="-21" frameWidth="384" frameHeight="321"/>
+	<SubTexture name="small bludU instance 10006" x="2696" y="3636" width="332" height="295" frameX="-0" frameY="-21" frameWidth="384" frameHeight="321"/>
+	<SubTexture name="small bludU instance 10007" x="2696" y="3636" width="332" height="295" frameX="-0" frameY="-21" frameWidth="384" frameHeight="321"/>
+	<SubTexture name="small bludU instance 10008" x="3318" y="1987" width="373" height="268" frameX="-10" frameY="-53" frameWidth="384" frameHeight="321"/>
+	<SubTexture name="small bludU instance 10009" x="3318" y="1987" width="373" height="268" frameX="-10" frameY="-53" frameWidth="384" frameHeight="321"/>
+	<SubTexture name="up instance 10000" x="1" y="1" width="451" height="801" frameX="-9" frameY="-0" frameWidth="486" frameHeight="807"/>
+	<SubTexture name="up instance 10001" x="1" y="1" width="451" height="801" frameX="-9" frameY="-0" frameWidth="486" frameHeight="807"/>
+	<SubTexture name="up instance 10002" x="453" y="1" width="485" height="749" frameX="-0" frameY="-52" frameWidth="486" frameHeight="807"/>
+	<SubTexture name="up instance 10003" x="453" y="1" width="485" height="749" frameX="-0" frameY="-52" frameWidth="486" frameHeight="807"/>
+	<SubTexture name="up instance 10004" x="453" y="1" width="485" height="749" frameX="-0" frameY="-52" frameWidth="486" frameHeight="807"/>
+	<SubTexture name="up instance 10005" x="453" y="1" width="485" height="749" frameX="-0" frameY="-52" frameWidth="486" frameHeight="807"/>
+	<SubTexture name="up instance 10006" x="453" y="1" width="485" height="749" frameX="-0" frameY="-52" frameWidth="486" frameHeight="807"/>
+	<SubTexture name="up instance 10007" x="453" y="1" width="485" height="749" frameX="-0" frameY="-52" frameWidth="486" frameHeight="807"/>
+	<SubTexture name="up instance 10008" x="1" y="803" width="419" height="672" frameX="-52" frameY="-134" frameWidth="486" frameHeight="807"/>
+	<SubTexture name="up instance 10009" x="1" y="803" width="419" height="672" frameX="-52" frameY="-134" frameWidth="486" frameHeight="807"/>
+</TextureAtlas>

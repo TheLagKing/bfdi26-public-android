@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="seriouscircle.png" width="5355" height="331">
+	<SubTexture name="down0000" x="700" y="1" width="349" height="296" frameX="-0" frameY="-3" frameWidth="349" frameHeight="300"/>
+	<SubTexture name="down0001" x="700" y="1" width="349" height="296" frameX="-0" frameY="-3" frameWidth="349" frameHeight="300"/>
+	<SubTexture name="down0002" x="1050" y="1" width="345" height="300" frameX="-3" frameY="-0" frameWidth="349" frameHeight="300"/>
+	<SubTexture name="down0003" x="1050" y="1" width="345" height="300" frameX="-3" frameY="-0" frameWidth="349" frameHeight="300"/>
+	<SubTexture name="gasp0000" x="2050" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0001" x="2050" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0002" x="2380" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0003" x="2380" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0004" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0005" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0006" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0007" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0008" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0009" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0010" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0011" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0012" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0013" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0014" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0015" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0016" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0017" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0018" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0019" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0020" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0021" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0022" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0023" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0024" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0025" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0026" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0027" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0028" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0029" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0030" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0031" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0032" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0033" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0034" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0035" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0036" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0037" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0038" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0039" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0040" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0041" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0042" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0043" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0044" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0045" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0046" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0047" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0048" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0049" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0050" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0051" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0052" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0053" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0054" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0055" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0056" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0057" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0058" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0059" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0060" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0061" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0062" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0063" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0064" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0065" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0066" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0067" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0068" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0069" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0070" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0071" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0072" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0073" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0074" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0075" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0076" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0077" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0078" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0079" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0080" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0081" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0082" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0083" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0084" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0085" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0086" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0087" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0088" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0089" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0090" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0091" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0092" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0093" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0094" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0095" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0096" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0097" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0098" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0099" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0100" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0101" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0102" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0103" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0104" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0105" x="3370" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0106" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0107" x="3700" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0108" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0109" x="2710" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0110" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="gasp0111" x="3040" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="idle0000" x="4030" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="idle0001" x="4030" y="1" width="329" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="idle0002" x="4360" y="1" width="330" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="idle0003" x="4360" y="1" width="330" height="323" rotated="true" frameX="-0" frameY="-0" frameWidth="323" frameHeight="330"/>
+	<SubTexture name="left0000" x="5024" y="1" width="330" height="329" frameX="-0" frameY="-3" frameWidth="330" frameHeight="332"/>
+	<SubTexture name="left0001" x="5024" y="1" width="330" height="329" frameX="-0" frameY="-3" frameWidth="330" frameHeight="332"/>
+	<SubTexture name="left0002" x="4691" y="1" width="332" height="323" rotated="true" frameX="-4" frameY="-0" frameWidth="330" frameHeight="332"/>
+	<SubTexture name="left0003" x="4691" y="1" width="332" height="323" rotated="true" frameX="-4" frameY="-0" frameWidth="330" frameHeight="332"/>
+	<SubTexture name="right0000" x="1721" y="1" width="328" height="318" frameX="-1" frameY="-0" frameWidth="329" frameHeight="318"/>
+	<SubTexture name="right0001" x="1721" y="1" width="328" height="318" frameX="-1" frameY="-0" frameWidth="329" frameHeight="318"/>
+	<SubTexture name="right0002" x="1396" y="1" width="324" height="317" frameX="-0" frameY="-0" frameWidth="329" frameHeight="318"/>
+	<SubTexture name="right0003" x="1396" y="1" width="324" height="317" frameX="-0" frameY="-0" frameWidth="329" frameHeight="318"/>
+	<SubTexture name="up0000" x="1" y="1" width="350" height="271" rotated="true" frameX="-2" frameY="-0" frameWidth="278" frameHeight="351"/>
+	<SubTexture name="up0001" x="1" y="1" width="350" height="271" rotated="true" frameX="-2" frameY="-0" frameWidth="278" frameHeight="351"/>
+	<SubTexture name="up0002" x="352" y="1" width="347" height="278" rotated="true" frameX="-0" frameY="-4" frameWidth="278" frameHeight="351"/>
+	<SubTexture name="up0003" x="352" y="1" width="347" height="278" rotated="true" frameX="-0" frameY="-4" frameWidth="278" frameHeight="351"/>
+</TextureAtlas>

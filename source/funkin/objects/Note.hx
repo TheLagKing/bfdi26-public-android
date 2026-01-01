@@ -3,8 +3,8 @@ package funkin.objects;
 import funkin.backend.animation.PsychAnimationController;
 import funkin.backend.NoteTypesConfig;
 
-import shaders.RGBPalette;
-import shaders.RGBPalette.RGBShaderReference;
+import funkin.shaders.RGBPalette;
+import funkin.shaders.RGBPalette.RGBShaderReference;
 
 import funkin.objects.StrumNote;
 
@@ -188,7 +188,7 @@ class Note extends FlxSprite
 					lowPriority = true;
 					missHealth = isSustainNote ? 0.25 : 0.1;
 					hitCausesMiss = true;
-					hitsound = 'cancelMenu';
+					hitsound = 'spaceunpause';
 					hitsoundChartEditor = false;
 				case 'Alt Animation':
 					animSuffix = '-alt';

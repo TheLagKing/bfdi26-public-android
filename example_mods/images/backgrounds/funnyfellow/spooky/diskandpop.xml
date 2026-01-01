@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="diskandpop.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="animaticcomingdiskandpop0000" x="3" y="3" width="472" height="257" frameX="-9" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0001" x="3" y="3" width="472" height="257" frameX="-9" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0002" x="485" y="3" width="471" height="266" frameX="-9" frameY="0" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0003" x="966" y="3" width="437" height="268" frameX="-43" frameY="0" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0004" x="1413" y="3" width="436" height="265" frameX="-43" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0005" x="3" y="281" width="437" height="265" frameX="-42" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0006" x="3" y="281" width="437" height="265" frameX="-42" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0007" x="3" y="281" width="437" height="265" frameX="-42" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0008" x="3" y="281" width="437" height="265" frameX="-42" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0009" x="3" y="281" width="437" height="265" frameX="-42" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0010" x="3" y="281" width="437" height="265" frameX="-42" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0011" x="3" y="281" width="437" height="265" frameX="-42" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0012" x="3" y="281" width="437" height="265" frameX="-42" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0013" x="3" y="281" width="437" height="265" frameX="-42" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0014" x="3" y="281" width="437" height="265" frameX="-42" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0015" x="3" y="281" width="437" height="265" frameX="-42" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0016" x="450" y="281" width="438" height="264" frameX="-42" frameY="-4" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0017" x="450" y="281" width="438" height="264" frameX="-42" frameY="-4" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0018" x="898" y="281" width="450" height="259" frameX="-31" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0019" x="898" y="281" width="450" height="259" frameX="-31" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0020" x="1358" y="281" width="477" height="254" frameX="-7" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0021" x="1358" y="281" width="477" height="254" frameX="-7" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0022" x="3" y="556" width="483" height="254" frameX="0" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0023" x="3" y="556" width="483" height="254" frameX="0" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0024" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0025" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0026" x="980" y="556" width="460" height="259" frameX="-23" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0027" x="980" y="556" width="460" height="259" frameX="-23" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0028" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0029" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0030" x="3" y="556" width="483" height="254" frameX="0" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0031" x="3" y="556" width="483" height="254" frameX="0" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0032" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0033" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0034" x="980" y="556" width="460" height="259" frameX="-23" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0035" x="980" y="556" width="460" height="259" frameX="-23" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0036" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0037" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0038" x="3" y="556" width="483" height="254" frameX="0" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0039" x="3" y="556" width="483" height="254" frameX="0" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0040" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0041" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0042" x="980" y="556" width="460" height="259" frameX="-23" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0043" x="980" y="556" width="460" height="259" frameX="-23" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0044" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0045" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0046" x="3" y="556" width="483" height="254" frameX="0" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0047" x="3" y="556" width="483" height="254" frameX="0" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0048" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0049" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0050" x="980" y="556" width="460" height="259" frameX="-23" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0051" x="980" y="556" width="460" height="259" frameX="-23" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0052" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0053" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0054" x="3" y="556" width="483" height="254" frameX="0" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0055" x="3" y="556" width="483" height="254" frameX="0" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0056" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0057" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0058" x="980" y="556" width="460" height="259" frameX="-23" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0059" x="980" y="556" width="460" height="259" frameX="-23" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0060" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0061" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0062" x="3" y="556" width="483" height="254" frameX="0" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0063" x="3" y="556" width="483" height="254" frameX="0" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0064" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0065" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0066" x="980" y="556" width="460" height="259" frameX="-23" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0067" x="980" y="556" width="460" height="259" frameX="-23" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0068" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0069" x="496" y="556" width="474" height="255" frameX="-9" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0070" x="1450" y="556" width="483" height="249" frameX="0" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0071" x="1450" y="556" width="483" height="249" frameX="0" frameY="-14" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0072" x="3" y="825" width="472" height="260" frameX="-9" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0073" x="3" y="825" width="472" height="260" frameX="-9" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0074" x="485" y="825" width="457" height="268" frameX="-23" frameY="0" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0075" x="485" y="825" width="457" height="268" frameX="-23" frameY="0" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0076" x="952" y="825" width="470" height="266" frameX="-9" frameY="-3" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="animaticcomingdiskandpop0077" x="3" y="825" width="472" height="260" frameX="-9" frameY="-9" frameWidth="484" frameHeight="269"/>
+	<SubTexture name="diskandpop0000" x="1432" y="825" width="467" height="256" frameX="0" frameY="-5" frameWidth="470" frameHeight="261"/>
+	<SubTexture name="diskandpop0001" x="1432" y="825" width="467" height="256" frameX="0" frameY="-5" frameWidth="470" frameHeight="261"/>
+	<SubTexture name="diskandpop0002" x="3" y="1103" width="463" height="258" frameX="0" frameY="-3" frameWidth="470" frameHeight="261"/>
+	<SubTexture name="diskandpop0003" x="3" y="1103" width="463" height="258" frameX="0" frameY="-3" frameWidth="470" frameHeight="261"/>
+	<SubTexture name="diskandpop0004" x="476" y="1103" width="467" height="259" frameX="0" frameY="-2" frameWidth="470" frameHeight="261"/>
+	<SubTexture name="diskandpop0005" x="476" y="1103" width="467" height="259" frameX="0" frameY="-2" frameWidth="470" frameHeight="261"/>
+	<SubTexture name="diskandpop0006" x="953" y="1103" width="468" height="261" frameX="0" frameY="0" frameWidth="470" frameHeight="261"/>
+	<SubTexture name="diskandpop0007" x="953" y="1103" width="468" height="261" frameX="0" frameY="0" frameWidth="470" frameHeight="261"/>
+	<SubTexture name="diskandpop0008" x="1431" y="1103" width="470" height="261"/>
+	<SubTexture name="diskandpop0009" x="1431" y="1103" width="470" height="261"/>
+	<SubTexture name="diskandpop0010" x="1431" y="1103" width="470" height="261"/>
+	<SubTexture name="diskandpop0011" x="1431" y="1103" width="470" height="261"/>
+	<SubTexture name="diskandpop0012" x="1431" y="1103" width="470" height="261"/>
+	<SubTexture name="diskandpop0013" x="1431" y="1103" width="470" height="261"/>
+</TextureAtlas>

@@ -21,15 +21,15 @@ class CustomFadeTransition extends MusicBeatSubstate {
 		cameras = [FlxG.cameras.list[FlxG.cameras.list.length-1]];
 		var width:Int = Std.int(FlxG.width / Math.max(camera.zoom, 0.001));
 		var height:Int = Std.int(FlxG.height / Math.max(camera.zoom, 0.001));
-		transGradient = FlxGradient.createGradientFlxSprite(1, height, (isTransIn ? [0x0, FlxColor.BLACK] : [FlxColor.BLACK, 0x0]));
-		transGradient.scale.x = width;
+		transGradient = FlxGradient.createGradientFlxSprite(1, height, (isTransIn ? [0x0, FlxColor.BLACK] : [FlxColor.BLACK, 0x0]), 50);
+		transGradient.scale.x = width + 5;
 		transGradient.updateHitbox();
 		transGradient.scrollFactor.set();
 		transGradient.screenCenter(X);
 		add(transGradient);
 
 		transBlack = new FlxSprite().makeGraphic(1, 1, FlxColor.BLACK);
-		transBlack.scale.set(width, height + 400);
+		transBlack.scale.set(width + 5, height + 400);
 		transBlack.updateHitbox();
 		transBlack.scrollFactor.set();
 		transBlack.screenCenter(X);
@@ -47,7 +47,7 @@ class CustomFadeTransition extends MusicBeatSubstate {
 		super.update(elapsed);
 
 		final height:Float = FlxG.height * Math.max(camera.zoom, 0.001);
-		final targetPos:Float = transGradient.height + 50 * Math.max(camera.zoom, 0.001);
+		final targetPos:Float = transGradient.height + 20 * Math.max(camera.zoom, 0.001); //80
 		if(duration > 0)
 			transGradient.y += (height + targetPos) * elapsed / duration;
 		else

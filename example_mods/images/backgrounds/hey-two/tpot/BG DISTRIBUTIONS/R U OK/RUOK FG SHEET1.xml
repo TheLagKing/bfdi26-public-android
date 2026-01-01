@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="RUOK FG SHEET1.png" width="8083" height="1158">
+	<SubTexture name="RUOK FG SHEET instance 10000" x="0" y="0" width="828" height="1145" frameX="-0" frameY="-12" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10001" x="0" y="0" width="828" height="1145" frameX="-0" frameY="-12" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10002" x="828" y="0" width="820" height="1148" frameX="-0" frameY="-9" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10003" x="1648" y="0" width="820" height="1149" frameX="-0" frameY="-9" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10004" x="3272" y="0" width="804" height="1155" frameX="-2" frameY="-3" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10005" x="2468" y="0" width="804" height="1154" frameX="-2" frameY="-3" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10006" x="4076" y="0" width="800" height="1157" frameX="-3" frameY="-0" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10007" x="6481" y="0" width="800" height="1158" frameX="-3" frameY="-0" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10008" x="7281" y="0" width="802" height="1158" frameX="-2" frameY="-0" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10009" x="4876" y="0" width="802" height="1157" frameX="-2" frameY="-0" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10010" x="5678" y="0" width="803" height="1157" frameX="-2" frameY="-0" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10011" x="5678" y="0" width="803" height="1157" frameX="-2" frameY="-0" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10012" x="5678" y="0" width="803" height="1157" frameX="-2" frameY="-0" frameWidth="2776" frameHeight="1206"/>
+	<SubTexture name="RUOK FG SHEET instance 10013" x="5678" y="0" width="803" height="1157" frameX="-2" frameY="-0" frameWidth="2776" frameHeight="1206"/>
+</TextureAtlas>

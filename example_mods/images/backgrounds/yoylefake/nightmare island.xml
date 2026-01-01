@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nightmare island.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Island instance 10000" x="7" y="7" width="1355" height="836" frameX="0" frameY="-21" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10001" x="1369" y="7" width="1356" height="835" frameX="0" frameY="-21" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10002" x="2732" y="7" width="1356" height="835" frameX="0" frameY="-21" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10003" x="4095" y="7" width="1356" height="841" frameX="0" frameY="-15" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10004" x="5458" y="7" width="1359" height="841" frameX="0" frameY="-15" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10005" x="6824" y="7" width="1359" height="841" frameX="0" frameY="-15" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10006" x="7" y="855" width="1356" height="857" frameX="-3" frameY="0" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10007" x="1370" y="855" width="1356" height="857" frameX="-3" frameY="0" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10008" x="2733" y="855" width="1356" height="857" frameX="-3" frameY="0" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10009" x="4096" y="855" width="1355" height="845" frameX="-4" frameY="-12" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10010" x="5458" y="855" width="1355" height="845" frameX="-4" frameY="-12" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10011" x="6820" y="855" width="1355" height="845" frameX="-4" frameY="-12" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10012" x="7" y="1719" width="1356" height="824" frameX="-3" frameY="-33" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10013" x="1370" y="1719" width="1353" height="824" frameX="-3" frameY="-33" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10014" x="2730" y="1719" width="1353" height="824" frameX="-3" frameY="-33" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10015" x="4090" y="1719" width="1356" height="824" frameX="0" frameY="-33" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10016" x="5453" y="1719" width="1355" height="824" frameX="0" frameY="-33" frameWidth="1359" frameHeight="857"/>
+	<SubTexture name="Island instance 10017" x="6815" y="1719" width="1355" height="824" frameX="0" frameY="-33" frameWidth="1359" frameHeight="857"/>
+</TextureAtlas>

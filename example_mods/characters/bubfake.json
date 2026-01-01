@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				2,
+				8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				52,
+				73
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-48,
+				26
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				34,
+				29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				10,
+				30
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/yoylefake/dbremakestuff",
+	"position": [
+		40,
+		330
+	],
+	"healthicon": "dirtybubble",
+	"flip_x": false,
+	"healthbar_colors": [
+		157,
+		252,
+		243
+	],
+	"camera_position": [
+		-120,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

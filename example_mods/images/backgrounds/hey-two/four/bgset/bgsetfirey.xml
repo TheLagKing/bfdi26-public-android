@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bgsetfirey.png" width="1668" height="1955">
+	<SubTexture name="bgsetfirey instance 10000" x="278" y="1318" width="276" height="312" frameX="-2" frameY="-26" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10001" x="0" y="994" width="276" height="324" frameX="-2" frameY="-14" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10002" x="1112" y="967" width="278" height="320" frameX="-1" frameY="-18" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10003" x="1112" y="323" width="278" height="322" frameX="-1" frameY="-16" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10004" x="1390" y="1268" width="278" height="315" frameX="-0" frameY="-20" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10005" x="1390" y="1583" width="278" height="315" frameX="-0" frameY="-20" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10006" x="279" y="1634" width="278" height="309" frameX="-1" frameY="-26" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10007" x="1390" y="952" width="277" height="316" frameX="-1" frameY="-19" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10008" x="554" y="1316" width="278" height="318" frameX="-0" frameY="-17" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10009" x="1112" y="1287" width="278" height="319" frameX="-0" frameY="-16" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10010" x="556" y="992" width="278" height="324" frameX="-0" frameY="-11" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10011" x="556" y="663" width="278" height="329" frameX="-0" frameY="-6" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10012" x="0" y="0" width="278" height="333" frameX="-0" frameY="-2" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10013" x="556" y="332" width="278" height="331" frameX="-0" frameY="-4" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10014" x="0" y="333" width="278" height="332" frameX="-0" frameY="-3" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10015" x="0" y="665" width="278" height="329" frameX="-0" frameY="-6" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10016" x="834" y="329" width="278" height="326" frameX="-0" frameY="-9" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfirey instance 10017" x="276" y="994" width="278" height="324" frameX="-0" frameY="-11" frameWidth="280" frameHeight="341"/>
+	<SubTexture name="bgsetfireywalk instance 10000" x="1112" y="1606" width="278" height="315" frameX="-1" frameY="-25" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10001" x="1112" y="645" width="278" height="322" frameX="-1" frameY="-18" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10002" x="1390" y="318" width="278" height="317" frameX="-1" frameY="-21" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10003" x="834" y="1306" width="278" height="319" frameX="-1" frameY="-19" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10004" x="1390" y="0" width="278" height="318" frameX="-1" frameY="-20" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10005" x="1390" y="635" width="278" height="317" frameX="-1" frameY="-21" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10006" x="557" y="1634" width="275" height="309" frameX="-1" frameY="-32" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10007" x="832" y="1625" width="276" height="312" frameX="-0" frameY="-29" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10008" x="0" y="1637" width="279" height="318" frameX="-0" frameY="-20" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10009" x="0" y="1318" width="278" height="319" frameX="-1" frameY="-19" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10010" x="834" y="981" width="278" height="325" frameX="-1" frameY="-11" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10011" x="278" y="665" width="278" height="329" frameX="-1" frameY="-7" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10012" x="278" y="0" width="278" height="333" frameX="-1" frameY="-3" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10013" x="278" y="333" width="278" height="332" frameX="-1" frameY="-4" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10014" x="556" y="0" width="278" height="332" frameX="-1" frameY="-5" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10015" x="834" y="0" width="278" height="329" frameX="-1" frameY="-8" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10016" x="834" y="655" width="278" height="326" frameX="-1" frameY="-11" frameWidth="279" frameHeight="343"/>
+	<SubTexture name="bgsetfireywalk instance 10017" x="1112" y="0" width="278" height="323" frameX="-1" frameY="-19" frameWidth="279" frameHeight="343"/>
+</TextureAtlas>

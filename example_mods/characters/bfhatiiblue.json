@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-69,
+				18
+			],
+			"anim": "miss",
+			"fps": 24,
+			"name": "haddy boi instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-40,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "red idle instance 1"
+		},
+		{
+			"offsets": [
+				-50,
+				-13
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "red down instance 1"
+		},
+		{
+			"offsets": [
+				-47,
+				50
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "red up instance 1"
+		},
+		{
+			"offsets": [
+				21,
+				3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "red left instance 1"
+		},
+		{
+			"offsets": [
+				-62,
+				-7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "red right instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/invitational/bluehatty",
+	"position": [
+		0,
+		423
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		222,
+		34,
+		114
+	],
+	"camera_position": [
+		-230,
+		125
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

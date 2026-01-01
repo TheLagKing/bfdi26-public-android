@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bgsetruble.png" width="3448" height="342">
+	<SubTexture name="bgsetbubbleruby instance 10000" x="2069" y="0" width="688" height="342" frameX="-4" frameY="-3" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10001" x="2069" y="0" width="688" height="342" frameX="-4" frameY="-3" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10002" x="0" y="0" width="687" height="341" frameX="-4" frameY="-3" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10003" x="0" y="0" width="687" height="341" frameX="-4" frameY="-3" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10004" x="687" y="0" width="689" height="341" frameX="-3" frameY="-2" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10005" x="687" y="0" width="689" height="341" frameX="-3" frameY="-2" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10006" x="2757" y="0" width="691" height="342" frameX="-1" frameY="-0" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10007" x="2757" y="0" width="691" height="342" frameX="-1" frameY="-0" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10008" x="1376" y="0" width="693" height="341" frameX="-0" frameY="-0" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10009" x="1376" y="0" width="693" height="341" frameX="-0" frameY="-0" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10010" x="1376" y="0" width="693" height="341" frameX="-0" frameY="-0" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10011" x="1376" y="0" width="693" height="341" frameX="-0" frameY="-0" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10012" x="1376" y="0" width="693" height="341" frameX="-0" frameY="-0" frameWidth="693" frameHeight="345"/>
+	<SubTexture name="bgsetbubbleruby instance 10013" x="1376" y="0" width="693" height="341" frameX="-0" frameY="-0" frameWidth="693" frameHeight="345"/>
+</TextureAtlas>

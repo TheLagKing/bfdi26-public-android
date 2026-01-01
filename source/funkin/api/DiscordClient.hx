@@ -11,6 +11,7 @@ class DiscordClient
 	private static final _defaultID:String = "1260051488265470014";
 	public static var clientID(default, set):String = _defaultID;
 	private static var presence:DiscordRichPresence = new DiscordRichPresence();
+	public static var userId:String = null;
 
 	public static function check()
 	{
@@ -35,6 +36,8 @@ class DiscordClient
 	
 	private static function onReady(request:cpp.RawConstPointer<DiscordUser>):Void {
 		var requestPtr:cpp.Star<DiscordUser> = cpp.ConstPointer.fromRaw(request).ptr;
+
+		userId = cast(requestPtr.userId, String);
 
 		if (Std.parseInt(cast(requestPtr.discriminator, String)) != 0) //New Discord IDs/Discriminator system
 			trace('(Discord) Connected to User (${cast(requestPtr.username, String)}#${cast(requestPtr.discriminator, String)})');
@@ -77,7 +80,7 @@ class DiscordClient
 		isInitialized = true;
 	}
 
-	public static function changePresence(?details:String = 'In the Menus', ?state:Null<String>, ?smallImageKey : String, ?hasStartTimestamp : Bool, ?endTimestamp: Float)
+	public static function changePresence(?details:String = 'BFDI 26 - GREETINGS AND SALUATIONS', ?state:Null<String>, ?smallImageKey : String, ?hasStartTimestamp : Bool, ?endTimestamp: Float)
 	{
 		var startTimestamp:Float = 0;
 		if (hasStartTimestamp) startTimestamp = Date.now().getTime();

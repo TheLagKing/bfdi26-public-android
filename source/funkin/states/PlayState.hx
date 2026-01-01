@@ -9,10 +9,12 @@ import funkin.objects.Video4;
 import funkin.backend.Song;
 import funkin.backend.Section;
 import funkin.backend.Rating;
+import funkin.backend.PsychCamera;
 
 import hxdiscord_rpc.Discord;
 
 import funkin.data.Highscore;
+import funkin.data.ModSave;
 import funkin.data.StageData;
 import funkin.data.WeekData;
 
@@ -36,6 +38,7 @@ import haxe.Json;
 import funkin.objects.cutscenes.CutsceneHandler;
 import funkin.objects.cutscenes.DialogueBoxPsych;
 
+import funkin.states.StoryMenuState;
 import funkin.states.FreeplayState;
 import funkin.states.editors.ChartingState;
 import funkin.states.editors.CharacterEditorState;
@@ -48,24 +51,25 @@ import flixel.addons.display.FlxRuntimeShader;
 import openfl.filters.ShaderFilter;
 #end
 
+import funkin.shaders.ErrorHandledShader;
+
 import funkin.objects.Note.EventNote;
 import funkin.objects.*;
 import funkin.states.stages.objects.*;
 
 #if LUA_ALLOWED
-import funkin.psychlua.*;
+import funkin.scripting.*;
 #else
-import funkin.psychlua.LuaUtils;
-import funkin.psychlua.HScript;
+import funkin.scripting.LuaUtils;
 #end
 
-import funkin.data.Progress;
 import funkin.objects.AttachedSprite;
 
 import openfl.Lib;
 
 #if HSCRIPT_ALLOWED
 import crowplexus.iris.Iris;
+import funkin.scripting.HScript;
 #end
 
 class PlayState extends MusicBeatState
@@ -198,7 +202,7 @@ class PlayState extends MusicBeatState
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
 	public var camHUD:FlxCamera;
-	public var camGame:FlxCamera;
+	public var camGame:PsychCamera;
 	public var camOther:FlxCamera;
 	public var cameraSpeed:Float = 1;
 
@@ -245,7 +249,7 @@ class PlayState extends MusicBeatState
 	#if LUA_ALLOWED public var luaArray:Array<FunkinLua> = []; #end
 
 	#if (LUA_ALLOWED || HSCRIPT_ALLOWED)
-	private var luaDebugGroup:FlxTypedGroup<funkin.psychlua.DebugLuaText> = new FlxTypedGroup();
+	private var luaDebugGroup:FlxTypedGroup<funkin.scripting.DebugLuaText> = new FlxTypedGroup();
 	#end
 	public var introSoundsSuffix:String = '';
 
@@ -259,45 +263,52 @@ class PlayState extends MusicBeatState
 
 	public static var yoylefakeStart:Bool = false;
 
+	public static var OneshotCheck:Bool = false;
+
 	public var yoylefakes:Video4;
-	public var yoylefake1:Video4;
-	public var yoylefake2:Video4;
-	public var webcrasher:Video4;
-	public var dottedline:Video4;
-	public var bossy:Video4;
 	public var po1:Video4;
-	public var po2:Video4;
 
 	//i dont remember doing this oh my god //why am i lowk too lazy tho
-	final list:Array<Array<String>> = [
-        ['yoylefake',                                     '1321896290912567306',       'TAKE THE PLUNGE AGAIN'],
-		['himsheys',                                      '1321898007578280026',       'We\'re going back.'],
-		['whos-there',                                    '1321923390084218963',       'I\'M SCARED!'],
-		['web-crasher',                                   '1321924396042031104',       'What the dank.'],
-		['wrong-finger',                                  '1321925049090969653',       'Um, pin?'],
-		['dotted-line',                                   '1321939229453848606',       'Let\'s, chat!'],
-		['blue-golfball',                                 '1321939797987692596',       'My johnson'],
-		['evil-song',                                     '1321940437568716810',       'My song is clearly the best!'],
-		['funny-fellow',                                  '1321940927128014940',       'Dis guy funny !'],
-		['hey-two',                                       '1321941268422590555',       'Baking a cake!'],
-		['iloveamongus',                                  '1321941565031055380',       'IT\'S EEFFOC!'],
-		['invitational',                                  '1321945153325371455',       'Getting invitied!'],
-		['kms',                                           '1321946684745580635',       'Oh my god.'],
-		['new-friendly',                                  '1321947860954120313',       'Playing the song they were lisiting to yesterday.'],
-		['oneshot',                                       '1321948217180557373',       'In the waiting room.'],
-		['pls',                                           '1321948500837138432',       'Chezburger!'],
-		['time',                                          '1321948885576319117',       'It\'s time for the song!'],
+	final list:Array<Array<String>> = 
+	[
+        ['yoylefake',                                     '1416561536327225509',       'TAKE THE PLUNGE AGAIN'],
+		['funny-fellow',                                  '1416584878186827876',       'Look they\'re playing my song!!!'],
+		['funny-fellow-spooky',                           '1416771120626925639',       'This song makes me want to tickle Exclamation Mark!'],
+		['wrong-finger',                                  '1445548948227096718',       'Um, Pin?'],
 		['vocal-chords',                                  '1321949470635724881',       'Being cool.'],
-		['well-rounded',                                  '1321950096694313021',       'Lets js say this is well. rounded.'],
-		['hard-bargain',                                  '1351220371982127164',       'This user is actively selling children on the blackmarket'],
-		['help-me',                                       '1351220726492827750',       'What?! Help me!'],
-		['bossy',                                         '1351221003295920148',       'I ain\'t taking orders from the likes of you!'],
+		['oneshot',                                       '1409571879382941746',       'Taken too soon.'],
+		['oneshot-pico',                                  '1416902790978080819',       'Take me back.'],
+		['time',                                          '1321948885576319117',       'It\'s time for the song!'],
+		['web-crasher',                                   '1321924396042031104',       'What teh dank?!'],
+		['web-crasher-gf',                                '1416895380699877406',       'Am just a lil potatoh..'],
+		['well-rounded',                                  '1416896064241274910',       'Let\'s just say it\'s, well. Rounded.'],
+		['invitational',                                  '1321945153325371455',       'Welcome to season 3 of Inanimate Insanity!'],
+		['invitational-dearest',                          '1416908911960784948',       'Who\'s this fat slob?!'],
+		['himsheys',                                      '1455550844786315336',       'We\'re going back.'],
+		['himsheys-tird',                                 '1409572789203108090',	   'Wait.. This isn\'t right..'],
+		['hey-two',                                       '1416562688804519996',       'When you bake a cake!'],
+		['hey-two-gf',                                    '1416583798979563550',       'Only high-fours!'],
+		['new-friendly',                                  '1445873322566090924',       'The song from yesterday!'],
+		['syskill',										  '1407010056347848786',	   'APRIL FOOLS!!'],
+		['syskill-pico',								  '1419689134993182812',	   'April.. Fools..?'],
+		['blue-golfball',                                 '1409572591139688599',       'My Johnson'],
+		['blue-golfball-bf',                              '1351221693632221326',       'Now it\'s serious.'],
+		['evil-song',                                     '1321940437568716810',       'A song only worth to be sung by The Doombringer himself!'],
+		['evil-song-pico',                                '1416771392237736057',       'Which one\'s more sour? Which one\'s more... gay?'],
+		['dotted-line',                                   '1416564555953209445',       'Let\'s.. chat!'],
+		['dotted-line-donut',                             '1396160645593825290',	   'Everyone gets to be a LITTLE selfish...'],
+		['kms',                                           '1321946684745580635',       'Oh my God.'],
+		['whos-there',                                    '1409572173894652065',       'Hello..? What was that..?'],
+		['hard-bargain',                                  '1351220371982127164',       'This user is actively selling children on the black market.'],
+		['hello-operator',                                '1416896574805643275',       'Guess I could say Hello, Operator!'],
+		['help-me',                                       '1351220726492827750',       'I.. think we need a new TV.'],
 		['underway',                                      '1351221307504853002',       'We\'re here!'],
-		['blue-golfball-bf',                              '1351221693632221326',       'Now it\'s serious'],
-		['oneshot-pico',                                  '1351222317480677448',       'I don\'t need you. or anyone else.'],
-		['hello-operator',                                '1351222814170021949',       'Guess i could say, Hello!, Operator!'],
-		['himsheys-tird',                                 '1351223514421788795',	   'wait this isn\'t right...']
+		['bossy',                                         '1416895755888623746',       'I ain\' taking orders from the likes of you, bozo!'],
+		['bossy-lunch',                                   '1416776476266856670',       'My team is looking a little SPARSE!'],
+		['aldi', 			                              '1392529878703804486',       'Thought grapes were blueberries :rofl:'],
+		['iloveamongus',                                  '1321941565031055380',       'IT\'S EEFFOC!']
 	];
+
 	public var redline:FlxSprite;
 	public var reddot:FlxSprite;
 
@@ -309,7 +320,7 @@ class PlayState extends MusicBeatState
 
 	public static var nextReloadAll:Bool = false;
 
-	public static var FUCKMYLIFE:Bool;
+	public static var FUCKMYLIFE:Bool = false;
 
 	public static function resetAndReload()
 	{
@@ -377,12 +388,11 @@ class PlayState extends MusicBeatState
 		Conductor.bpm = SONG.bpm;
 
 
-		if (PlayState.SONG.song.toLowerCase() == "web-crasher" || PlayState.SONG.song.toLowerCase() == "himsheys") {
-			Lib.application.window.resizable = false;
+		if (PlayState.SONG.song.toLowerCase() == "web-crasher" || PlayState.SONG.song.toLowerCase() == "himsheys" || PlayState.SONG.song.toLowerCase() == "himsheys-tird" || PlayState.SONG.song.toLowerCase() == "web-crasher-gf") 
+		{
 			FUCKMYLIFE = true;
-		} else {
-			FUCKMYLIFE = false;
 		}
+
 		#if DISCORD_ALLOWED
 		// String that contains the mode defined here so it isn't necessary to call changePresence for each mode
 		storyDifficultyText = Difficulty.getString();
@@ -454,7 +464,7 @@ class PlayState extends MusicBeatState
 		add(boyfriendGroup);
 
 		#if (LUA_ALLOWED || HSCRIPT_ALLOWED)
-		luaDebugGroup = new FlxTypedGroup<funkin.psychlua.DebugLuaText>();
+		luaDebugGroup = new FlxTypedGroup<funkin.scripting.DebugLuaText>();
 		luaDebugGroup.cameras = [camOther];
 		add(luaDebugGroup);
 		#end
@@ -520,7 +530,7 @@ class PlayState extends MusicBeatState
 		stagesFunc(function(stage:BaseStage) stage.createPost());
 
 		comboGroup = new FlxSpriteGroup();
-		add(comboGroup);
+		addBehindDad(comboGroup);
 		noteGroup = new FlxTypedGroup<FlxBasic>();
 		add(noteGroup);
 
@@ -535,6 +545,14 @@ class PlayState extends MusicBeatState
 		add(reddot);
 
 		for (i in [redline,reddot]) i.cameras = [camOther];
+
+		if (Highscore.getSongData("oneshot",1).songScore > 0) {
+			OneshotCheck = true;
+		}
+		else {
+		OneshotCheck = false;
+		}
+
 
 		for (i in [showCombo,showComboNum,showRating]) {
 			if (PlayState.SONG.song.toLowerCase() == "well-rounded") {
@@ -607,20 +625,20 @@ class PlayState extends MusicBeatState
 		healthBar.leftToRight = false;
 		healthBar.scrollFactor.set();
 		healthBar.visible = !ClientPrefs.data.hideHud;
-		healthBar.alpha = ClientPrefs.data.healthBarAlpha;
+		healthBar.alpha = 1;
 		reloadHealthBarColors();
 		uiGroup.add(healthBar);
 
 		iconP1 = new HealthIcon(boyfriend.healthIcon, true);
 		iconP1.y = healthBar.y - 75;
 		iconP1.visible = !ClientPrefs.data.hideHud;
-		iconP1.alpha = ClientPrefs.data.healthBarAlpha;
+		iconP1.alpha = 1;
 		uiGroup.add(iconP1);
 
 		iconP2 = new HealthIcon(dad.healthIcon, false);
 		iconP2.y = healthBar.y - 75;
 		iconP2.visible = !ClientPrefs.data.hideHud;
-		iconP2.alpha = ClientPrefs.data.healthBarAlpha;
+		iconP2.alpha = 1;
 		uiGroup.add(iconP2);
 
 		scoreTxt = new FlxText(0, healthBar.y + 40, FlxG.width, "", 20);
@@ -699,7 +717,38 @@ class PlayState extends MusicBeatState
 		}
 		#end
 
-		checkVideoShit();
+		if (PlayState.SONG.song.toLowerCase() == "yoylefake") 
+		{
+			yoylefakes = new Video4();
+			yoylefakes.onFormat(()->
+			{
+				yoylefakes.setGraphicSize(FlxG.width, FlxG.height);
+				yoylefakes.updateHitbox();
+				yoylefakes.antialiasing = false;
+				yoylefakes.cameras = [camOther];
+			});
+
+			yoylefakes.load(Paths.video('yoylefakeStart'));
+			add(yoylefakes);
+
+			//Video4.cacheVid(Paths.video('yoylefake'));
+			//Video4.cacheVid(Paths.video('yoylefakeEnd'));
+		}
+		else if (PlayState.SONG.song.toLowerCase() == "oneshot-pico") 
+		{
+			po1 = new Video4();
+			po1.onFormat(()->
+			{
+				po1.setGraphicSize(FlxG.width, FlxG.height);
+				po1.updateHitbox();
+				po1.antialiasing = false;
+				po1.cameras = [camOther];
+			});
+
+			po1.load(Paths.video('oneshotpicomixstart'));
+			add(po1);
+		}
+
 		startCallback();
 		RecalculateRating();
 
@@ -729,105 +778,6 @@ class PlayState extends MusicBeatState
 		Paths.clearUnusedMemory();
 
 		if(eventNotes.length < 1) checkEventNote();
-	}
-
-	function checkVideoShit() {
-		if (PlayState.SONG.song.toLowerCase() == "yoylefake") {
-			yoylefakes = new Video4();
-			yoylefakes.onFormat(()->{
-				yoylefakes.setGraphicSize(FlxG.width, FlxG.height);
-				yoylefakes.updateHitbox();
-				yoylefakes.antialiasing = false;
-				yoylefakes.cameras = [camOther];
-			});
-			yoylefakes.load(Paths.video('yoylefakeStart'),[Video4.muted]);
-			add(yoylefakes);
-
-			yoylefake1 = new Video4();
-			yoylefake1.onFormat(()->{
-				yoylefake1.setGraphicSize(FlxG.width, FlxG.height);
-				yoylefake1.updateHitbox();
-				yoylefake1.antialiasing = false;
-				yoylefake1.cameras = [camHUD];
-			});
-			yoylefake1.load(Paths.video('yoylefake'));
-			insert(0, yoylefake1); // ayo why was it adding thats sus 😂 //die bitch
-		
-			yoylefake2 = new Video4();
-			yoylefake2.load(Paths.video('yoylefakeEnd'),[Video4.muted]);
-			Video4.cacheVid(Paths.video('yoylefakeEnd'));
-			yoylefake2.cameras = [camOther];
-
-			yoylefake2 = new Video4();
-			yoylefake2.onFormat(()->{
-				yoylefake2.setGraphicSize(FlxG.width, FlxG.height);
-				yoylefake2.updateHitbox();
-				yoylefake2.antialiasing = false;
-				yoylefake2.cameras = [camOther];
-			});
-			yoylefake2.load(Paths.video('yoylefakeEnd'));
-			add(yoylefake2);
-
-			//Video4.cacheVid(Paths.video('yoylefake'));
-			//Video4.cacheVid(Paths.video('yoylefakeEnd'));
-		} 
-		else if (PlayState.SONG.song.toLowerCase() == "web-crasher") {
-			webcrasher = new Video4();
-			webcrasher.onFormat(()->{
-				webcrasher.setGraphicSize(FlxG.width, FlxG.height);
-				webcrasher.updateHitbox();
-				webcrasher.antialiasing = false;
-				webcrasher.cameras = [camHUD];
-			});
-			webcrasher.load(Paths.video('web'),[Video4.muted]);
-			insert(0,webcrasher);
-		}
-		else if (PlayState.SONG.song.toLowerCase() == "dotted-line") {
-			dottedline = new Video4();
-			dottedline.onFormat(()->{
-				dottedline.setGraphicSize(FlxG.width, FlxG.height);
-				dottedline.updateHitbox();
-				dottedline.antialiasing = false;
-				dottedline.cameras = [camOther];
-			});
-			dottedline.load(Paths.video('dottedline'));
-			add(dottedline);
-		}
-		else if (PlayState.SONG.song.toLowerCase() == "bossy") {
-			bossy = new Video4();
-			bossy.onFormat(()->{
-				bossy.setGraphicSize(FlxG.width, FlxG.height);
-				bossy.updateHitbox();
-				bossy.antialiasing = false;
-				bossy.cameras = [camOther];
-			});
-			bossy.load(Paths.video('bossy'));
-			insert(0,bossy);
-		}
-		else if (PlayState.SONG.song.toLowerCase() == "oneshot-pico") {
-			po1 = new Video4();
-			po1.onFormat(()->{
-				po1.setGraphicSize(FlxG.width, FlxG.height);
-				po1.updateHitbox();
-				po1.antialiasing = false;
-				po1.cameras = [camOther];
-			});
-			po1.load(Paths.video('oneshotpicomixStart'),[Video4.muted]);
-			add(po1);
-
-			po2 = new Video4();
-			po2.onFormat(()->{
-				po2.setGraphicSize(FlxG.width, FlxG.height);
-				po2.updateHitbox();
-				po2.antialiasing = false;
-				po2.cameras = [camHUD];
-			});
-			po2.load(Paths.video('oneshotpicomixEnd'),[Video4.muted]);
-			insert(0, po2);
-		}
-		else {
-			return;
-		}
 	}
 
 	function set_songSpeed(value:Float):Float
@@ -874,14 +824,14 @@ class PlayState extends MusicBeatState
 
 	#if (LUA_ALLOWED || HSCRIPT_ALLOWED)
 	public function addTextToDebug(text:String, color:FlxColor) {
-		var newText:funkin.psychlua.DebugLuaText = luaDebugGroup.recycle(funkin.psychlua.DebugLuaText);
+		var newText:funkin.scripting.DebugLuaText = luaDebugGroup.recycle(funkin.scripting.DebugLuaText);
 		newText.text = text;
 		newText.color = color;
 		newText.disableTime = 6;
 		newText.alpha = 1;
 		newText.setPosition(10, 8 - newText.height);
 
-		luaDebugGroup.forEachAlive(function(spr:funkin.psychlua.DebugLuaText) {
+		luaDebugGroup.forEachAlive(function(spr:funkin.scripting.DebugLuaText) {
 			spr.y += newText.height + 2;
 		});
 		luaDebugGroup.add(newText);
@@ -1189,7 +1139,7 @@ class PlayState extends MusicBeatState
 						note.copyAlpha = false;
 						note.alpha = note.multAlpha;
 						if(ClientPrefs.data.middleScroll && !note.mustPress)
-							note.alpha *= 0.35;
+							note.alpha *= 1;
 					}
 				});
 
@@ -1391,9 +1341,9 @@ class PlayState extends MusicBeatState
 		}
 
 		songLength = FlxG.sound.music.length;
-		FlxTween.tween(timeTxt, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
+		FlxTween.tween(timeTxt, {alpha: 0.5}, 0.5, {ease: FlxEase.circOut});
 
-		var curTime = Math.round((FlxG.sound.music.length - Conductor.songPosition - ClientPrefs.data.noteOffset)/1000);
+		var curTime = Math.round((FlxG.sound.music.length - Conductor.songPosition - ClientPrefs.data.noteOffset)/1000); //IM Lazy to do the math
 		FlxTween.tween(redline, {x: FlxG.width-1285},     curTime,    {ease: FlxEase.linear});
 		FlxTween.tween(reddot,  {x: FlxG.width-35},       curTime,    {ease: FlxEase.linear});
 
@@ -2126,8 +2076,11 @@ class PlayState extends MusicBeatState
 				FlxTween.tween(FlxG.sound.music, {pitch: 0}, 1, {ease: FlxEase.quadOut, onComplete:Void->{FlxG.sound.music.stop();}});
 				FlxTween.tween(FlxG.camera, {zoom: FlxG.camera.zoom + 3, angle: 6}, 1, {ease: FlxEase.quadOut});
 				FlxG.camera.fade(FlxColor.BLACK, 0.6, false, function() {
-					new FlxTimer().start(2.5,Void->{
-						PauseSubState.restartSong(false);
+					new FlxTimer().start(2.5,Void ->
+					{
+						if (SONG.song.toLowerCase() == 'whos-there') FlxG.switchState(() -> new funkin.states.BigDickLeafyWorld(false));
+						else 
+							PauseSubState.restartSong(false);
 					});
 				});
 
@@ -2164,48 +2117,12 @@ class PlayState extends MusicBeatState
 		if(Math.isNaN(flValue1)) flValue1 = null;
 		if(Math.isNaN(flValue2)) flValue2 = null;
 
-		switch(eventName) {
-			case 'dumb video':
-				switch(value1) {
-					case 'yoylefakes':
-						yoylefakes.delayAndStart();
-					case 'yoylefake1':
-						yoylefake1.delayAndStart();
-					case 'destroy':
-						FlxG.camera.flash();
-						if (yoylefake1 != null) {
-							yoylefake1.destroy();
-						}
-					case 'yoylefake2':
-						var fuck = new FlxSprite().makeGraphic(1,1,FlxColor.WHITE);
-						fuck.setGraphicSize(FlxG.width,FlxG.height);
-						fuck.updateHitbox();
-						fuck.scrollFactor.set();
-						fuck.cameras = [camOther]; 
-						insert(members.indexOf(yoylefake2)+1,fuck);
-						yoylefake2.delayAndStart();
-						FlxTween.tween(fuck, {alpha: 0}, 1, {ease: FlxEase.quadOut});
-					case 'webcrasher':
-						webcrasher.delayAndStart();
-					case 'bossy':
-						bossy.delayAndStart();
-					case 'oneshot-pico-mix-start':
-						po1.delayAndStart();
-					case 'oneshot-pico-mix':
-						po2.delayAndStart();
-					case 'oneshot-pico-mix-2':
-					po2.cameras = [camOther]; 
-					case 'destroy2':
-						FlxG.camera.flash();
-						if (webcrasher != null) {
-							webcrasher.destroy();
-						} 
-					case 'dottedline':
-						dottedline.delayAndStart();
-				}
+		switch(eventName) 
+		{
 			case 'Hey!':
 				var value:Int = 2;
-				switch(value1.toLowerCase().trim()) {
+				switch(value1.toLowerCase().trim()) 
+				{
 					case 'bf' | 'boyfriend' | '0':
 						value = 0;
 					case 'gf' | 'girlfriend' | '1':
@@ -2214,18 +2131,24 @@ class PlayState extends MusicBeatState
 
 				if(flValue2 == null || flValue2 <= 0) flValue2 = 0.6;
 
-				if(value != 0) {
-					if(dad.curCharacter.startsWith('gf')) { //Tutorial GF is actually Dad! The GF is an imposter!! ding ding ding ding ding ding ding, dindinding, end my suffering
+				if(value != 0) 
+				{
+					if(dad.curCharacter.startsWith('gf')) 
+					{ //Tutorial GF is actually Dad! The GF is an imposter!! ding ding ding ding ding ding ding, dindinding, end my suffering
 						dad.playAnim('cheer', true);
 						dad.specialAnim = true;
 						dad.heyTimer = flValue2;
-					} else if (gf != null) {
+					} 
+					else if (gf != null) 
+					{
 						gf.playAnim('cheer', true);
 						gf.specialAnim = true;
 						gf.heyTimer = flValue2;
 					}
 				}
-				if(value != 1) {
+
+				if(value != 1) 
+				{
 					boyfriend.playAnim('hey', true);
 					boyfriend.specialAnim = true;
 					boyfriend.heyTimer = flValue2;
@@ -2236,7 +2159,8 @@ class PlayState extends MusicBeatState
 				gfSpeed = Math.round(flValue1);
 
 			case 'Add Camera Zoom':
-				if(ClientPrefs.data.camZooms && FlxG.camera.zoom < 1.35) {
+				if(ClientPrefs.data.camZooms && FlxG.camera.zoom < 1.35) 
+				{
 					if(flValue1 == null) flValue1 = 0.015;
 					if(flValue2 == null) flValue2 = 0.03;
 
@@ -2247,14 +2171,16 @@ class PlayState extends MusicBeatState
 			case 'Play Animation':
 				//trace('Anim to play: ' + value1);
 				var char:Character = dad;
-				switch(value2.toLowerCase().trim()) {
+				switch(value2.toLowerCase().trim()) 
+				{
 					case 'bf' | 'boyfriend':
 						char = boyfriend;
 					case 'gf' | 'girlfriend':
 						char = gf;
 					default:
 						if(flValue2 == null) flValue2 = 0;
-						switch(Math.round(flValue2)) {
+						switch(Math.round(flValue2)) 
+						{
 							case 1: char = boyfriend;
 							case 2: char = gf;
 						}
@@ -2282,7 +2208,8 @@ class PlayState extends MusicBeatState
 
 			case 'Alt Idle Animation':
 				var char:Character = dad;
-				switch(value1.toLowerCase().trim()) {
+				switch(value1.toLowerCase().trim()) 
+				{
 					case 'gf' | 'girlfriend':
 						char = gf;
 					case 'boyfriend' | 'bf':
@@ -2291,7 +2218,8 @@ class PlayState extends MusicBeatState
 						var val:Int = Std.parseInt(value1);
 						if(Math.isNaN(val)) val = 0;
 
-						switch(val) {
+						switch(val) 
+						{
 							case 1: char = boyfriend;
 							case 2: char = gf;
 						}
@@ -2306,24 +2234,27 @@ class PlayState extends MusicBeatState
 			case 'Screen Shake':
 				var valuesArray:Array<String> = [value1, value2];
 				var targetsArray:Array<FlxCamera> = [camGame, camHUD];
-				for (i in 0...targetsArray.length) {
+
+				for (i in 0...targetsArray.length) 
+				{
 					var split:Array<String> = valuesArray[i].split(',');
 					var duration:Float = 0;
 					var intensity:Float = 0;
+
 					if(split[0] != null) duration = Std.parseFloat(split[0].trim());
 					if(split[1] != null) intensity = Std.parseFloat(split[1].trim());
+
 					if(Math.isNaN(duration)) duration = 0;
 					if(Math.isNaN(intensity)) intensity = 0;
 
-					if(duration > 0 && intensity != 0) {
-						targetsArray[i].shake(intensity, duration);
-					}
+					if(duration > 0 && intensity != 0) targetsArray[i].shake(intensity, duration);
 				}
 
 
 			case 'Change Character':
 				var charType:Int = 0;
-				switch(value1.toLowerCase().trim()) {
+				switch(value1.toLowerCase().trim()) 
+				{
 					case 'gf' | 'girlfriend':
 						charType = 2;
 					case 'dad' | 'opponent':
@@ -2333,12 +2264,12 @@ class PlayState extends MusicBeatState
 						if(Math.isNaN(charType)) charType = 0;
 				}
 
-				switch(charType) {
+				switch(charType) 
+				{
 					case 0:
-						if(boyfriend.curCharacter != value2) {
-							if(!boyfriendMap.exists(value2)) {
-								addCharacterToList(value2, charType);
-							}
+						if(boyfriend.curCharacter != value2) 
+						{
+							if(!boyfriendMap.exists(value2)) addCharacterToList(value2, charType);
 
 							var lastAlpha:Float = boyfriend.alpha;
 							boyfriend.alpha = 0.00001;
@@ -2349,22 +2280,22 @@ class PlayState extends MusicBeatState
 						setOnScripts('boyfriendName', boyfriend.curCharacter);
 
 					case 1:
-						if(dad.curCharacter != value2) {
-							if(!dadMap.exists(value2)) {
-								addCharacterToList(value2, charType);
-							}
+						if(dad.curCharacter != value2) 
+						{
+							if(!dadMap.exists(value2)) addCharacterToList(value2, charType);
 
 							var wasGf:Bool = dad.curCharacter.startsWith('gf-') || dad.curCharacter == 'gf';
 							var lastAlpha:Float = dad.alpha;
+
 							dad.alpha = 0.00001;
 							dad = dadMap.get(value2);
-							if(!dad.curCharacter.startsWith('gf-') && dad.curCharacter != 'gf') {
-								if(wasGf && gf != null) {
-									gf.visible = true;
-								}
-							} else if(gf != null) {
-								gf.visible = false;
-							}
+
+							if(!dad.curCharacter.startsWith('gf-') && dad.curCharacter != 'gf') 
+							{
+								if(wasGf && gf != null) gf.visible = true;
+							} 
+							else if(gf != null) gf.visible = false;
+							
 							dad.alpha = lastAlpha;
 							iconP2.changeIcon(dad.healthIcon);
 						}
@@ -2375,9 +2306,7 @@ class PlayState extends MusicBeatState
 						{
 							if(gf.curCharacter != value2)
 							{
-								if(!gfMap.exists(value2)) {
-									addCharacterToList(value2, charType);
-								}
+								if(!gfMap.exists(value2)) addCharacterToList(value2, charType);
 
 								var lastAlpha:Float = gf.alpha;
 								gf.alpha = 0.00001;
@@ -2517,48 +2446,11 @@ class PlayState extends MusicBeatState
 
 
 	public var transitioning = false;
+	public var percent:Float;
 	public function endSong()
 	{
-		var percent:Float = ratingPercent;
+		percent = ratingPercent;
 		if(Math.isNaN(percent)) percent = 0;
-
-		if (PlayState.SONG.song.toLowerCase() == "web-crasher") {
-			if (!Progress.isWebCrashed) {
-				Progress.isWebCrashed = true;
-			}
-		}
-
-		if (PlayState.SONG.song.toLowerCase() == "oneshot") {
-			if (!Progress.isOneshotUnlocked) {
-				Progress.isOneshotUnlocked = true;
-			}
-
-			if (!Progress.isUnlockedSour) {
-				transitioning = true;
-				
-				Highscore.saveSongData(SONG.song,storyDifficulty,songScore,percent,Highscore.calculateFC(songMisses,percent),ratingsData[0].hits,ratingsData[1].hits,ratingsData[2].hits,ratingsData[3].hits);
-				
-				Progress.isUnlockedSour = true;
-				FlxTransitionableState.skipNextTransIn = FlxTransitionableState.skipNextTransOut = true;
-				FlxG.switchState(()->new funkin.states.CharacterUnlock('sourapple'));
-			}
-		}
-
-		if (PlayState.SONG.song.toLowerCase() == "blue-golfball") {
-			if (!Progress.isUnlockedHatty) {
-				transitioning = true;
-				
-				Highscore.saveSongData(SONG.song,storyDifficulty,songScore,percent,Highscore.calculateFC(songMisses,percent),ratingsData[0].hits,ratingsData[1].hits,ratingsData[2].hits,ratingsData[3].hits);
-				
-				Progress.isUnlockedHatty = true;
-				FlxTransitionableState.skipNextTransIn = FlxTransitionableState.skipNextTransOut = true;
-				FlxG.switchState(()->new funkin.states.CharacterUnlock('hatty'));
-			}
-		}
-
-		if (PlayState.SONG.song.toLowerCase() == "web-crasher" || PlayState.SONG.song.toLowerCase() == "himsheys") {
-			Lib.application.window.resizable = true;
-		}
 
 		//Should kill you if you tried to cheat
 		if(!startingSong) {
@@ -2599,6 +2491,24 @@ class PlayState extends MusicBeatState
 		{
 			#if !switch
 			Highscore.saveSongData(SONG.song,storyDifficulty,songScore,percent,Highscore.calculateFC(songMisses,percent),ratingsData[0].hits,ratingsData[1].hits,ratingsData[2].hits,ratingsData[3].hits);
+			ModSave.markSongSeen('${SONG.song.toLowerCase()}');
+
+			if (ModSave.secretSongs.exists(SONG.song.toLowerCase())) 
+			{
+				if (ModSave.secretSongs.get(SONG.song.toLowerCase()) == true) ModSave.editSecretSave('${SONG.song.toLowerCase()}');
+			}
+
+			/*final name = (SONG.song.toLowerCase() + Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+FreeplayState.SelectedThumb.songName+'/charmix.txt'));
+
+			if (ModSave.playableMixes.exists(name)) 
+			{
+				if (ModSave.playableMixes.get(name) == false) 
+				{
+					ModSave.editPlayableSave('$name');
+					FlxG.switchState(()->new funkin.states.CharacterUnlock('${Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+FreeplayState.SelectedThumb.songName+'/charmix.txt')}'));
+				}
+			}*/
+
 			#end
 			playbackRate = 1;
 
@@ -2625,12 +2535,13 @@ class PlayState extends MusicBeatState
 					FlxG.switchState(funkin.states.NewMain.new);
 
 					// if ()
-					if(!ClientPrefs.getGameplaySetting('practice') && !ClientPrefs.data.botPlay) {
-						//StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
+					if(!ClientPrefs.getGameplaySetting('practice') && !ClientPrefs.data.botPlay) 
+					{
+						StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
 						Highscore.saveSongData(SONG.song,storyDifficulty,songScore,percent,Highscore.calculateFC(songMisses,percent),ratingsData[0].hits,ratingsData[1].hits,ratingsData[2].hits,ratingsData[3].hits);
 
-						//FlxG.save.data.weekCompleted = StoryMenuState.weekCompleted;
-						//FlxG.save.flush();
+						FlxG.save.data.weekCompleted = StoryMenuState.weekCompleted;
+						FlxG.save.flush();
 					}
 					changedDifficulty = false;
 				}
@@ -2654,8 +2565,23 @@ class PlayState extends MusicBeatState
 				#if DISCORD_ALLOWED DiscordClient.resetClientID(); #end
 
 				DiscordClient.set_clientID("1260051488265470014");
-				FlxG.switchState(FreeplayState.new);
+
+				//really bruh
+				if (FUCKMYLIFE) 
+				{
+					CoolUtil.tweenWindowResize({x: 1280, y: 720}, 0.3 * 4, function ()
+					{
+						Lib.application.window.resizable = true;
+						FlxG.switchState(()-> new FreeplayState());
+					}, true);
+				} else FlxG.switchState(()-> new FreeplayState());
+
 				//FlxG.sound.playMusic(Paths.music('freakyMenu'));
+
+				FlxG.sound.music.pause();
+				FlxG.sound.music.stop();
+
+				FlxG.sound.playMusic(Paths.music('freeplayMenu'), 0);
 				changedDifficulty = false;
 			}
 			transitioning = true;
@@ -3306,7 +3232,7 @@ class PlayState extends MusicBeatState
 		FlxG.stage.removeEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
 		FlxG.stage.removeEventListener(KeyboardEvent.KEY_UP, onKeyRelease);
 		FlxG.animationTimeScale = 1;
-		#if FLX_PITCH FlxG.sound.music.pitch = 1; #end
+		#if FLX_PITCH if (FlxG.sound.music != null) FlxG.sound.music.pitch = 1; #end
 		Note.globalRgbShaders = [];
 		funkin.backend.NoteTypesConfig.clearNoteTypesData();
 		instance = null;
@@ -3317,7 +3243,7 @@ class PlayState extends MusicBeatState
 	var lastStepHit:Int = -1;
 	override function stepHit()
 	{
-		if (SONG.needsVoices && FlxG.sound.music.time >= -ClientPrefs.data.noteOffset)
+		if (SONG.needsVoices && FlxG.sound.music.time >= -ClientPrefs.data.noteOffset && FlxG.sound.music != null)
 		{
 			var timeSub:Float = Conductor.songPosition - Conductor.offset;
 			var syncTime:Float = 20 * playbackRate;
@@ -3711,19 +3637,20 @@ class PlayState extends MusicBeatState
 
 	#if (!flash && sys)
 	public var runtimeShaders:Map<String, Array<String>> = new Map<String, Array<String>>();
-	public function createRuntimeShader(name:String):FlxRuntimeShader
+	#end
+	public function createRuntimeShader(shaderName:String):ErrorHandledRuntimeShader
 	{
-		if(!ClientPrefs.data.shaders) return new FlxRuntimeShader();
+		#if (!flash && sys)
+		if(!ClientPrefs.data.shaders) return new ErrorHandledRuntimeShader(shaderName);
 
-		#if (!flash && MODS_ALLOWED && sys)
-		if(!runtimeShaders.exists(name) && !initLuaShader(name))
+		if(!runtimeShaders.exists(shaderName) && !initLuaShader(shaderName))
 		{
-			FlxG.log.warn('Shader $name is missing!');
-			return new FlxRuntimeShader();
+			FlxG.log.warn('Shader $shaderName is missing!');
+			return new ErrorHandledRuntimeShader(shaderName);
 		}
 
-		var arr:Array<String> = runtimeShaders.get(name);
-		return new FlxRuntimeShader(arr[0], arr[1]);
+		var arr:Array<String> = runtimeShaders.get(shaderName);
+		return new ErrorHandledRuntimeShader(shaderName, arr[0], arr[1]);
 		#else
 		FlxG.log.warn("Platform unsupported for Runtime Shaders!");
 		return null;
@@ -3734,7 +3661,7 @@ class PlayState extends MusicBeatState
 	{
 		if(!ClientPrefs.data.shaders) return false;
 
-		#if (MODS_ALLOWED && !flash && sys)
+		#if (!flash && sys)
 		if(runtimeShaders.exists(name))
 		{
 			FlxG.log.warn('Shader $name was already initialized!');
@@ -3777,5 +3704,4 @@ class PlayState extends MusicBeatState
 		#end
 		return false;
 	}
-	#end
 }

@@ -1,9 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="unknown.png">
-	<!-- Created with Adobe Animate version 22.0.8.217 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="unknown0000" x="7" y="7" width="340" height="191"/>
-	<SubTexture name="unknown0001" x="7" y="205" width="340" height="191"/>
-	<SubTexture name="unknown0002" x="7" y="403" width="340" height="191"/>
-	<SubTexture name="unknown0003" x="7" y="601" width="340" height="191"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="unknown.png" width="1365" height="193">
+	<SubTexture name="unknown0000" x="1" y="1" width="340" height="191" frameX="-0" frameY="-0" frameWidth="340" frameHeight="191"/>
+	<SubTexture name="unknown0001" x="342" y="1" width="340" height="191" frameX="-0" frameY="-0" frameWidth="340" frameHeight="191"/>
+	<SubTexture name="unknown0002" x="683" y="1" width="340" height="191" frameX="-0" frameY="-0" frameWidth="340" frameHeight="191"/>
+	<SubTexture name="unknown0003" x="1024" y="1" width="340" height="191" frameX="-0" frameY="-0" frameWidth="340" frameHeight="191"/>
 </TextureAtlas>

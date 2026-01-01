@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="split two soul.png" width="3696" height="3460">
+	<SubTexture name="split alt down instance 10000" x="3342" y="2343" width="259" height="401" frameX="-0" frameY="-0" frameWidth="260" frameHeight="405"/>
+	<SubTexture name="split alt down instance 10001" x="3342" y="2343" width="259" height="401" frameX="-0" frameY="-0" frameWidth="260" frameHeight="405"/>
+	<SubTexture name="split alt down instance 10002" x="3355" y="1554" width="250" height="400" frameX="-0" frameY="-4" frameWidth="260" frameHeight="405"/>
+	<SubTexture name="split alt down instance 10003" x="3355" y="1554" width="250" height="400" frameX="-0" frameY="-4" frameWidth="260" frameHeight="405"/>
+	<SubTexture name="split alt down instance 10004" x="3355" y="1554" width="250" height="400" frameX="-0" frameY="-4" frameWidth="260" frameHeight="405"/>
+	<SubTexture name="split alt down instance 10005" x="3355" y="1554" width="250" height="400" frameX="-0" frameY="-4" frameWidth="260" frameHeight="405"/>
+	<SubTexture name="split alt down instance 10006" x="3355" y="1554" width="250" height="400" frameX="-0" frameY="-4" frameWidth="260" frameHeight="405"/>
+	<SubTexture name="split alt down instance 10007" x="3355" y="1554" width="250" height="400" frameX="-0" frameY="-4" frameWidth="260" frameHeight="405"/>
+	<SubTexture name="split alt down instance 10008" x="3355" y="1554" width="250" height="400" frameX="-0" frameY="-4" frameWidth="260" frameHeight="405"/>
+	<SubTexture name="split alt down instance 10009" x="3355" y="1554" width="250" height="400" frameX="-0" frameY="-4" frameWidth="260" frameHeight="405"/>
+	<SubTexture name="split alt idle instance 10000" x="3348" y="1955" width="245" height="386" frameX="-0" frameY="-1" frameWidth="246" frameHeight="387"/>
+	<SubTexture name="split alt left instance 10000" x="3010" y="1947" width="337" height="395" frameX="-0" frameY="-0" frameWidth="338" frameHeight="399"/>
+	<SubTexture name="split alt left instance 10001" x="3010" y="1947" width="337" height="395" frameX="-0" frameY="-0" frameWidth="338" frameHeight="399"/>
+	<SubTexture name="split alt left instance 10002" x="3006" y="2964" width="333" height="391" frameX="-4" frameY="-7" frameWidth="338" frameHeight="399"/>
+	<SubTexture name="split alt left instance 10003" x="3006" y="2964" width="333" height="391" frameX="-4" frameY="-7" frameWidth="338" frameHeight="399"/>
+	<SubTexture name="split alt left instance 10004" x="3006" y="2964" width="333" height="391" frameX="-4" frameY="-7" frameWidth="338" frameHeight="399"/>
+	<SubTexture name="split alt left instance 10005" x="3006" y="2964" width="333" height="391" frameX="-4" frameY="-7" frameWidth="338" frameHeight="399"/>
+	<SubTexture name="split alt left instance 10006" x="3006" y="2964" width="333" height="391" frameX="-4" frameY="-7" frameWidth="338" frameHeight="399"/>
+	<SubTexture name="split alt left instance 10007" x="3006" y="2964" width="333" height="391" frameX="-4" frameY="-7" frameWidth="338" frameHeight="399"/>
+	<SubTexture name="split alt left instance 10008" x="3006" y="2964" width="333" height="391" frameX="-4" frameY="-7" frameWidth="338" frameHeight="399"/>
+	<SubTexture name="split alt left instance 10009" x="3006" y="2964" width="333" height="391" frameX="-4" frameY="-7" frameWidth="338" frameHeight="399"/>
+	<SubTexture name="split alt right instance 10000" x="2202" y="3056" width="334" height="355" frameX="-0" frameY="-1" frameWidth="334" frameHeight="358"/>
+	<SubTexture name="split alt right instance 10001" x="2202" y="3056" width="334" height="355" frameX="-0" frameY="-1" frameWidth="334" frameHeight="358"/>
+	<SubTexture name="split alt right instance 10002" x="3297" y="426" width="316" height="357" frameX="-4" frameY="-1" frameWidth="334" frameHeight="358"/>
+	<SubTexture name="split alt right instance 10003" x="3297" y="426" width="316" height="357" frameX="-4" frameY="-1" frameWidth="334" frameHeight="358"/>
+	<SubTexture name="split alt right instance 10004" x="3297" y="426" width="316" height="357" frameX="-4" frameY="-1" frameWidth="334" frameHeight="358"/>
+	<SubTexture name="split alt right instance 10005" x="3297" y="426" width="316" height="357" frameX="-4" frameY="-1" frameWidth="334" frameHeight="358"/>
+	<SubTexture name="split alt right instance 10006" x="3297" y="426" width="316" height="357" frameX="-4" frameY="-1" frameWidth="334" frameHeight="358"/>
+	<SubTexture name="split alt right instance 10007" x="3297" y="426" width="316" height="357" frameX="-4" frameY="-1" frameWidth="334" frameHeight="358"/>
+	<SubTexture name="split alt right instance 10008" x="3297" y="426" width="316" height="357" frameX="-4" frameY="-1" frameWidth="334" frameHeight="358"/>
+	<SubTexture name="split alt right instance 10009" x="3297" y="426" width="316" height="357" frameX="-4" frameY="-1" frameWidth="334" frameHeight="358"/>
+	<SubTexture name="split alt up instance 10000" x="1" y="2739" width="439" height="336" rotated="true" frameX="-4" frameY="-0" frameWidth="340" frameHeight="440"/>
+	<SubTexture name="split alt up instance 10001" x="1" y="2739" width="439" height="336" rotated="true" frameX="-4" frameY="-0" frameWidth="340" frameHeight="440"/>
+	<SubTexture name="split alt up instance 10002" x="3021" y="1" width="337" height="424" frameX="-0" frameY="-16" frameWidth="340" frameHeight="440"/>
+	<SubTexture name="split alt up instance 10003" x="3021" y="1" width="337" height="424" frameX="-0" frameY="-16" frameWidth="340" frameHeight="440"/>
+	<SubTexture name="split alt up instance 10004" x="3021" y="1" width="337" height="424" frameX="-0" frameY="-16" frameWidth="340" frameHeight="440"/>
+	<SubTexture name="split alt up instance 10005" x="3021" y="1" width="337" height="424" frameX="-0" frameY="-16" frameWidth="340" frameHeight="440"/>
+	<SubTexture name="split alt up instance 10006" x="3021" y="1" width="337" height="424" frameX="-0" frameY="-16" frameWidth="340" frameHeight="440"/>
+	<SubTexture name="split alt up instance 10007" x="3021" y="1" width="337" height="424" frameX="-0" frameY="-16" frameWidth="340" frameHeight="440"/>
+	<SubTexture name="split alt up instance 10008" x="3021" y="1" width="337" height="424" frameX="-0" frameY="-16" frameWidth="340" frameHeight="440"/>
+	<SubTexture name="split alt up instance 10009" x="3021" y="1" width="337" height="424" frameX="-0" frameY="-16" frameWidth="340" frameHeight="440"/>
+	<SubTexture name="split down instance 10000" x="3006" y="2552" width="335" height="411" rotated="true" frameX="-0" frameY="-13" frameWidth="414" frameHeight="348"/>
+	<SubTexture name="split down instance 10001" x="3006" y="2552" width="335" height="411" rotated="true" frameX="-0" frameY="-13" frameWidth="414" frameHeight="348"/>
+	<SubTexture name="split down instance 10002" x="3010" y="1554" width="344" height="392" rotated="true" frameX="-21" frameY="-1" frameWidth="414" frameHeight="348"/>
+	<SubTexture name="split down instance 10003" x="3010" y="1554" width="344" height="392" rotated="true" frameX="-21" frameY="-1" frameWidth="414" frameHeight="348"/>
+	<SubTexture name="split down instance 10004" x="3010" y="1554" width="344" height="392" rotated="true" frameX="-21" frameY="-1" frameWidth="414" frameHeight="348"/>
+	<SubTexture name="split down instance 10005" x="3010" y="1554" width="344" height="392" rotated="true" frameX="-21" frameY="-1" frameWidth="414" frameHeight="348"/>
+	<SubTexture name="split down instance 10006" x="3010" y="1554" width="344" height="392" rotated="true" frameX="-21" frameY="-1" frameWidth="414" frameHeight="348"/>
+	<SubTexture name="split down instance 10007" x="3010" y="1554" width="344" height="392" rotated="true" frameX="-21" frameY="-1" frameWidth="414" frameHeight="348"/>
+	<SubTexture name="split down instance 10008" x="3010" y="1554" width="344" height="392" rotated="true" frameX="-21" frameY="-1" frameWidth="414" frameHeight="348"/>
+	<SubTexture name="split down instance 10009" x="3010" y="1554" width="344" height="392" rotated="true" frameX="-21" frameY="-1" frameWidth="414" frameHeight="348"/>
+	<SubTexture name="split idle instance 10000" x="1528" y="3022" width="339" height="361" frameX="-0" frameY="-1" frameWidth="340" frameHeight="362"/>
+	<SubTexture name="split left instance 10000" x="861" y="2739" width="367" height="393" frameX="-0" frameY="-1" frameWidth="377" frameHeight="398"/>
+	<SubTexture name="split left instance 10001" x="861" y="2739" width="367" height="393" frameX="-0" frameY="-1" frameWidth="377" frameHeight="398"/>
+	<SubTexture name="split left instance 10002" x="2901" y="439" width="395" height="365" rotated="true" frameX="-11" frameY="-3" frameWidth="377" frameHeight="398"/>
+	<SubTexture name="split left instance 10003" x="2901" y="439" width="395" height="365" rotated="true" frameX="-11" frameY="-3" frameWidth="377" frameHeight="398"/>
+	<SubTexture name="split left instance 10004" x="2901" y="439" width="395" height="365" rotated="true" frameX="-11" frameY="-3" frameWidth="377" frameHeight="398"/>
+	<SubTexture name="split left instance 10005" x="2901" y="439" width="395" height="365" rotated="true" frameX="-11" frameY="-3" frameWidth="377" frameHeight="398"/>
+	<SubTexture name="split left instance 10006" x="2901" y="439" width="395" height="365" rotated="true" frameX="-11" frameY="-3" frameWidth="377" frameHeight="398"/>
+	<SubTexture name="split left instance 10007" x="2901" y="439" width="395" height="365" rotated="true" frameX="-11" frameY="-3" frameWidth="377" frameHeight="398"/>
+	<SubTexture name="split left instance 10008" x="2901" y="439" width="395" height="365" rotated="true" frameX="-11" frameY="-3" frameWidth="377" frameHeight="398"/>
+	<SubTexture name="split left instance 10009" x="2901" y="439" width="395" height="365" rotated="true" frameX="-11" frameY="-3" frameWidth="377" frameHeight="398"/>
+	<SubTexture name="split right instance 10000" x="1229" y="3020" width="298" height="423" frameX="-18" frameY="-1" frameWidth="321" frameHeight="424"/>
+	<SubTexture name="split right instance 10001" x="1229" y="3020" width="298" height="423" frameX="-18" frameY="-1" frameWidth="321" frameHeight="424"/>
+	<SubTexture name="split right instance 10002" x="1" y="3076" width="415" height="320" rotated="true" frameX="-0" frameY="-9" frameWidth="321" frameHeight="424"/>
+	<SubTexture name="split right instance 10003" x="1" y="3076" width="415" height="320" rotated="true" frameX="-0" frameY="-9" frameWidth="321" frameHeight="424"/>
+	<SubTexture name="split right instance 10004" x="1" y="3076" width="415" height="320" rotated="true" frameX="-0" frameY="-9" frameWidth="321" frameHeight="424"/>
+	<SubTexture name="split right instance 10005" x="1" y="3076" width="415" height="320" rotated="true" frameX="-0" frameY="-9" frameWidth="321" frameHeight="424"/>
+	<SubTexture name="split right instance 10006" x="1" y="3076" width="415" height="320" rotated="true" frameX="-0" frameY="-9" frameWidth="321" frameHeight="424"/>
+	<SubTexture name="split right instance 10007" x="1" y="3076" width="415" height="320" rotated="true" frameX="-0" frameY="-9" frameWidth="321" frameHeight="424"/>
+	<SubTexture name="split right instance 10008" x="1" y="3076" width="415" height="320" rotated="true" frameX="-0" frameY="-9" frameWidth="321" frameHeight="424"/>
+	<SubTexture name="split right instance 10009" x="1" y="3076" width="415" height="320" rotated="true" frameX="-0" frameY="-9" frameWidth="321" frameHeight="424"/>
+	<SubTexture name="split transition instance 10000" x="1868" y="3022" width="333" height="359" frameX="-109" frameY="-73" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10001" x="1868" y="3022" width="333" height="359" frameX="-109" frameY="-73" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10002" x="813" y="3133" width="347" height="326" rotated="true" frameX="-107" frameY="-87" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10003" x="813" y="3133" width="347" height="326" rotated="true" frameX="-107" frameY="-87" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10004" x="3371" y="784" width="324" height="344" frameX="-108" frameY="-90" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10005" x="3371" y="784" width="324" height="344" frameX="-108" frameY="-90" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10006" x="3359" y="1" width="324" height="344" frameX="-108" frameY="-90" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10007" x="3340" y="2964" width="300" height="369" frameX="-132" frameY="-51" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10008" x="3340" y="2964" width="300" height="369" frameX="-132" frameY="-51" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10009" x="3010" y="1178" width="365" height="375" frameX="-99" frameY="-15" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10010" x="3010" y="1178" width="365" height="375" frameX="-99" frameY="-15" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10011" x="3010" y="1178" width="365" height="375" frameX="-99" frameY="-15" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10012" x="2623" y="2976" width="373" height="346" frameX="-95" frameY="-5" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10013" x="2623" y="2976" width="373" height="346" frameX="-95" frameY="-5" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10014" x="2623" y="2976" width="373" height="346" frameX="-95" frameY="-5" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10015" x="2987" y="805" width="383" height="372" frameX="-90" frameY="-1" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10016" x="2987" y="805" width="383" height="372" frameX="-90" frameY="-1" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10017" x="417" y="3088" width="395" height="330" frameX="-79" frameY="-61" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10018" x="417" y="3088" width="395" height="330" frameX="-79" frameY="-61" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10019" x="441" y="2739" width="419" height="348" frameX="-73" frameY="-96" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10020" x="441" y="2739" width="419" height="348" frameX="-73" frameY="-96" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10021" x="2637" y="2552" width="368" height="423" rotated="true" frameX="-72" frameY="-78" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10022" x="2254" y="2632" width="368" height="423" rotated="true" frameX="-72" frameY="-78" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10023" x="1325" y="2649" width="417" height="370" frameX="-81" frameY="-74" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10024" x="1743" y="2651" width="417" height="370" frameX="-81" frameY="-74" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10025" x="2637" y="2122" width="372" height="429" rotated="true" frameX="-70" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10026" x="2637" y="1260" width="372" height="430" rotated="true" frameX="-69" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10027" x="2637" y="1691" width="372" height="430" rotated="true" frameX="-69" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10028" x="2648" y="1" width="372" height="437" rotated="true" frameX="-62" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10029" x="2614" y="822" width="372" height="437" rotated="true" frameX="-62" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10030" x="2462" y="449" width="438" height="372" frameX="-61" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10031" x="443" y="2366" width="440" height="372" frameX="-59" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10032" x="884" y="2366" width="440" height="372" frameX="-59" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10033" x="1812" y="2278" width="441" height="372" frameX="-58" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10034" x="1" y="2366" width="441" height="372" frameX="-58" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10035" x="2264" y="2189" width="372" height="442" rotated="true" frameX="-57" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10036" x="1369" y="2276" width="442" height="372" frameX="-57" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10037" x="2264" y="1745" width="372" height="443" rotated="true" frameX="-56" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10038" x="2264" y="1299" width="372" height="445" rotated="true" frameX="-54" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10039" x="2275" y="1" width="372" height="447" rotated="true" frameX="-52" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10040" x="2241" y="851" width="372" height="447" rotated="true" frameX="-52" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10041" x="2012" y="478" width="449" height="372" frameX="-50" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10042" x="915" y="1993" width="453" height="372" frameX="-46" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10043" x="459" y="1993" width="455" height="372" frameX="-44" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10044" x="1" y="1993" width="457" height="372" frameX="-42" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10045" x="1461" y="1814" width="372" height="461" rotated="true" frameX="-38" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10046" x="1891" y="1811" width="372" height="466" rotated="true" frameX="-33" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10047" x="1891" y="1340" width="372" height="470" rotated="true" frameX="-29" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10048" x="1868" y="866" width="372" height="473" rotated="true" frameX="-26" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10049" x="1902" y="1" width="372" height="476" rotated="true" frameX="-23" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10050" x="1529" y="493" width="482" height="372" frameX="-17" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10051" x="489" y="1620" width="485" height="372" frameX="-14" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10052" x="975" y="1620" width="485" height="372" frameX="-14" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10053" x="1" y="1620" width="487" height="372" frameX="-12" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10054" x="1495" y="872" width="372" height="491" rotated="true" frameX="-8" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10055" x="497" y="1247" width="493" height="372" frameX="-6" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10056" x="1529" y="1" width="372" height="491" rotated="true" frameX="-8" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10057" x="991" y="1247" width="493" height="372" frameX="-6" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10058" x="999" y="499" width="496" height="372" frameX="-3" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10059" x="501" y="501" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10060" x="1" y="1247" width="495" height="372" frameX="-4" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10061" x="1156" y="1" width="372" height="496" rotated="true" frameX="-3" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10062" x="410" y="1" width="372" height="499" rotated="true" frameX="-0" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10063" x="1" y="501" width="499" height="372" frameX="-0" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10064" x="783" y="1" width="372" height="497" rotated="true" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10065" x="1" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10066" x="499" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10067" x="997" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10068" x="1" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10069" x="499" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10070" x="997" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10071" x="1" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10072" x="499" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10073" x="997" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10074" x="1" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10075" x="499" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10076" x="997" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10077" x="1" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10078" x="499" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split transition instance 10079" x="997" y="874" width="497" height="372" frameX="-2" frameY="-72" frameWidth="500" frameHeight="446"/>
+	<SubTexture name="split up instance 10000" x="1" y="1" width="408" height="465" frameX="-0" frameY="-0" frameWidth="411" frameHeight="466"/>
+	<SubTexture name="split up instance 10001" x="1" y="1" width="408" height="465" frameX="-0" frameY="-0" frameWidth="411" frameHeight="466"/>
+	<SubTexture name="split up instance 10002" x="1485" y="1364" width="405" height="449" frameX="-5" frameY="-13" frameWidth="411" frameHeight="466"/>
+	<SubTexture name="split up instance 10003" x="1485" y="1364" width="405" height="449" frameX="-5" frameY="-13" frameWidth="411" frameHeight="466"/>
+	<SubTexture name="split up instance 10004" x="1485" y="1364" width="405" height="449" frameX="-5" frameY="-13" frameWidth="411" frameHeight="466"/>
+	<SubTexture name="split up instance 10005" x="1485" y="1364" width="405" height="449" frameX="-5" frameY="-13" frameWidth="411" frameHeight="466"/>
+	<SubTexture name="split up instance 10006" x="1485" y="1364" width="405" height="449" frameX="-5" frameY="-13" frameWidth="411" frameHeight="466"/>
+	<SubTexture name="split up instance 10007" x="1485" y="1364" width="405" height="449" frameX="-5" frameY="-13" frameWidth="411" frameHeight="466"/>
+	<SubTexture name="split up instance 10008" x="1485" y="1364" width="405" height="449" frameX="-5" frameY="-13" frameWidth="411" frameHeight="466"/>
+	<SubTexture name="split up instance 10009" x="1485" y="1364" width="405" height="449" frameX="-5" frameY="-13" frameWidth="411" frameHeight="466"/>
+</TextureAtlas>

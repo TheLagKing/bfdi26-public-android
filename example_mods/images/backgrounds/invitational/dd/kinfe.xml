@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="kinfe.png" width="1814" height="371">
+	<SubTexture name="Knife Eh instance 10000" x="1" y="1" width="150" height="368" frameX="-4" frameY="-1" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10001" x="1" y="1" width="150" height="368" frameX="-4" frameY="-1" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10002" x="1" y="1" width="150" height="368" frameX="-4" frameY="-1" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10003" x="301" y="1" width="150" height="369" frameX="-4" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10004" x="301" y="1" width="150" height="369" frameX="-4" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10005" x="451" y="1" width="151" height="369" frameX="-2" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10006" x="451" y="1" width="151" height="369" frameX="-2" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10007" x="602" y="1" width="152" height="369" frameX="-1" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10008" x="602" y="1" width="152" height="369" frameX="-1" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10009" x="754" y="1" width="152" height="369" frameX="-0" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10010" x="754" y="1" width="152" height="369" frameX="-0" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10011" x="754" y="1" width="152" height="369" frameX="-0" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10012" x="906" y="1" width="151" height="369" frameX="-1" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Eh instance 10013" x="906" y="1" width="151" height="369" frameX="-1" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10000" x="151" y="1" width="150" height="368" frameX="-4" frameY="-1" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10001" x="151" y="1" width="150" height="368" frameX="-4" frameY="-1" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10002" x="151" y="1" width="150" height="368" frameX="-4" frameY="-1" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10003" x="1057" y="1" width="150" height="369" frameX="-4" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10004" x="1057" y="1" width="150" height="369" frameX="-4" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10005" x="1207" y="1" width="151" height="369" frameX="-2" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10006" x="1207" y="1" width="151" height="369" frameX="-2" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10007" x="1358" y="1" width="152" height="369" frameX="-1" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10008" x="1358" y="1" width="152" height="369" frameX="-1" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10009" x="1510" y="1" width="152" height="369" frameX="-0" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10010" x="1510" y="1" width="152" height="369" frameX="-0" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10011" x="1510" y="1" width="152" height="369" frameX="-0" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10012" x="1662" y="1" width="151" height="369" frameX="-1" frameY="-0" frameWidth="155" frameHeight="369"/>
+	<SubTexture name="Knife Happy instance 10013" x="1662" y="1" width="151" height="369" frameX="-1" frameY="-0" frameWidth="155" frameHeight="369"/>
+</TextureAtlas>

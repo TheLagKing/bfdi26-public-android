@@ -31,6 +31,7 @@ import funkin.data.Controls;
 import funkin.data.ClientPrefs;
 
 import funkin.utils.CoolUtil;
+import funkin.utils.MathUtil;
 
 import funkin.objects.Alphabet;
 import funkin.objects.BGSprite;
@@ -40,7 +41,7 @@ import funkin.states.LoadingState;
 
 #if flxanimate
 import flxanimate.*;
-import flxanimate.PsychFlxAnimate as FlxAnimate;
+import funkin.flxanimate.PsychFlxAnimate as FlxAnimate;
 #end
 
 #if VIDEOS_ALLOWED

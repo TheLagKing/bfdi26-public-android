@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="buttons.png" width="5238" height="91">
+	<SubTexture name="website instance 10000" x="2122" y="0" width="474" height="81" frameX="-23" frameY="-43" frameWidth="520" frameHeight="150"/>
+	<SubTexture name="website selected instance 10000" x="4755" y="0" width="483" height="91" frameX="-24" frameY="-44" frameWidth="536" frameHeight="166"/>
+	<SubTexture name="credits instance 10000" x="502" y="0" width="429" height="81" frameX="-8" frameY="-43" frameWidth="448" frameHeight="150"/>
+	<SubTexture name="credits selected instance 10000" x="3106" y="0" width="439" height="91" frameX="-9" frameY="-44" frameWidth="464" frameHeight="166"/>
+	<SubTexture name="freeplay instance 10000" x="0" y="0" width="502" height="79" frameX="-10" frameY="-44" frameWidth="515" frameHeight="150"/>
+	<SubTexture name="freeplay selected instance 10000" x="2596" y="0" width="510" height="89" frameX="-12" frameY="-45" frameWidth="531" frameHeight="166"/>
+	<SubTexture name="mainsongs instance 10000" x="931" y="0" width="702" height="81" frameX="-5" frameY="-43" frameWidth="718" frameHeight="150"/>
+	<SubTexture name="mainsongs selected instance 10000" x="3545" y="0" width="711" height="91" frameX="-7" frameY="-44" frameWidth="735" frameHeight="166"/>
+	<SubTexture name="options instance 10000" x="1633" y="0" width="489" height="81" frameX="-8" frameY="-43" frameWidth="508" frameHeight="150"/>
+	<SubTexture name="options selected instance 10000" x="4256" y="0" width="499" height="91" frameX="-9" frameY="-44" frameWidth="524" frameHeight="166"/>
+</TextureAtlas>

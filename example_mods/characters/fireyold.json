@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-4,
+				25
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				30,
+				51
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				12,
+				44
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				61,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				10,
+				30
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-1,
+				52
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "altup"
+		},
+		{
+			"offsets": [
+				-19,
+				42
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "altright"
+		},
+		{
+			"offsets": [
+				-2,
+				25
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "altdown"
+		},
+		{
+			"offsets": [
+				45,
+				25
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "altleft"
+		}
+	],
+	"vocals_file": "firey",
+	"no_antialiasing": true,
+	"image": "characters/himsheys/retrofirey",
+	"position": [
+		10,
+		380
+	],
+	"healthicon": "firey",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-60,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

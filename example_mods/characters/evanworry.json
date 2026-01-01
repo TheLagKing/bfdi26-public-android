@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-89,
+				-82
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Evan WORRYIDLE instance 1"
+		},
+		{
+			"offsets": [
+				-27,
+				-98
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Evan WORRYDOWN instance 1"
+		},
+		{
+			"offsets": [
+				-90,
+				-46
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Evan WORRYUP instance 1"
+		},
+		{
+			"offsets": [
+				-91,
+				-100
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "Evan WORRYMISS instance 1"
+		},
+		{
+			"offsets": [
+				-11,
+				-84
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Evan WORRYLEFT instance 1"
+		},
+		{
+			"offsets": [
+				-107,
+				-86
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Evan WORRYRIGHT instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/oneshot/Evan WORRY",
+	"position": [
+		20,
+		400
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		222,
+		34,
+		114
+	],
+	"camera_position": [
+		-100,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

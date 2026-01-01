@@ -2,30 +2,18 @@
   "dependencies": [
     {
       "name": "lime",
-      "type": "git",
-      "dir": null,
-      "ref": "develop",
-      "url": "https://github.com/lavycat/lime"
-    },
-    {
-      "name": "compiletime",
       "type": "haxelib",
-      "version": null
-    },
-    {
-      "name": "format",
-      "type": "haxelib",
-      "version": null
-    },
-    {
-      "name": "openfl",
-      "type": "haxelib",
-      "version": "9.4.1"
+      "version": "8.1.3"
     },
     {
       "name": "flixel",
       "type": "haxelib",
       "version": "6.0.0"
+    },
+    {
+      "name": "openfl",
+      "type": "haxelib",
+      "version": "9.4.1"
     },
     {
       "name": "flixel-addons",
@@ -41,6 +29,16 @@
       "name": "flixel-ui",
       "type": "haxelib",
       "version": "2.6.4"
+    },
+    {
+      "name": "compiletime",
+      "type": "haxelib",
+      "version": null
+    },
+    {
+      "name": "format",
+      "type": "haxelib",
+      "version": null
     },
     {
       "name": "hxcpp",
@@ -62,7 +60,7 @@
     {
       "name": "hxvlc",
       "type": "haxelib",
-      "version": "1.9.6"
+      "version": "1.9.5"
     },
     {
       "name": "hscript",

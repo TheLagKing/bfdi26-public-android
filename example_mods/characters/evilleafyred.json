@@ -1,0 +1,47 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				-90
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "moreevil0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				934,
+				-90
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "moreevil"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/whos-there/evilerleafy",
+	"position": [
+		40,
+		370
+	],
+	"healthicon": "evilleafy",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		51
+	],
+	"camera_position": [
+		-120,
+		50
+	],
+	"sing_duration": 6.09999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

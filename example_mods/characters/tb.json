@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-430,
+				-255
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "tb1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-430,
+				-255
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "tb2",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-408,
+				-251
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "walk",
+			"loop": false,
+			"name": "tbwalk"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bossy/tbbop",
+	"position": [
+		-80,
+		-50
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		240,
+		340
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

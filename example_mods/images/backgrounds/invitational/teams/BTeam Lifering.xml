@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="BTeam Lifering.png" width="1839" height="286">
+	<SubTexture name="Lifering Idle instance 10000" x="1" y="1" width="266" height="277" frameX="-0" frameY="-7" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10001" x="1" y="1" width="266" height="277" frameX="-0" frameY="-7" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10002" x="267" y="1" width="265" height="279" frameX="-1" frameY="-5" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10003" x="267" y="1" width="265" height="279" frameX="-1" frameY="-5" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10004" x="794" y="1" width="262" height="282" frameX="-1" frameY="-2" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10005" x="794" y="1" width="262" height="282" frameX="-1" frameY="-2" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10006" x="1056" y="1" width="261" height="283" frameX="-1" frameY="-1" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10007" x="1056" y="1" width="261" height="283" frameX="-1" frameY="-1" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10008" x="1578" y="1" width="260" height="284" frameX="-1" frameY="-0" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10009" x="1578" y="1" width="260" height="284" frameX="-1" frameY="-0" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10010" x="1317" y="1" width="261" height="283" frameX="-0" frameY="-1" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10011" x="1317" y="1" width="261" height="283" frameX="-0" frameY="-1" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10012" x="532" y="1" width="262" height="281" frameX="-1" frameY="-3" frameWidth="266" frameHeight="284"/>
+	<SubTexture name="Lifering Idle instance 10013" x="532" y="1" width="262" height="281" frameX="-1" frameY="-3" frameWidth="266" frameHeight="284"/>
+</TextureAtlas>

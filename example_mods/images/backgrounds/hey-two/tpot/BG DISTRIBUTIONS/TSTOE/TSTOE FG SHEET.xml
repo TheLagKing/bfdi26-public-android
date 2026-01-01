@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TSTOE FG SHEET.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TSTOE FG SHEET instance 10000" x="7" y="7" width="2398" height="1047" frameX="-18" frameY="-8" frameWidth="2421" frameHeight="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10001" x="7" y="7" width="2398" height="1047" frameX="-18" frameY="-8" frameWidth="2421" frameHeight="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10002" x="2412" y="7" width="2398" height="1048" frameX="-18" frameY="-7" frameWidth="2421" frameHeight="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10003" x="4817" y="7" width="2396" height="1048" frameX="-18" frameY="-7" frameWidth="2421" frameHeight="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10004" x="7" y="1062" width="2407" height="1052" frameX="-7" frameY="-3" frameWidth="2421" frameHeight="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10005" x="2421" y="1062" width="2410" height="1052" frameX="-7" frameY="-3" frameWidth="2421" frameHeight="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10006" x="4838" y="1062" width="2414" height="1054" frameX="-3" frameY="-1" frameWidth="2421" frameHeight="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10007" x="7" y="2123" width="2417" height="1054" frameX="-3" frameY="-1" frameWidth="2421" frameHeight="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10008" x="2431" y="2123" width="2420" height="1055" frameX="0" frameY="0" frameWidth="2421" frameHeight="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10009" x="4858" y="2123" width="2421" height="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10010" x="7" y="3185" width="2421" height="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10011" x="7" y="3185" width="2421" height="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10012" x="2435" y="3185" width="2421" height="1055"/>
+	<SubTexture name="TSTOE FG SHEET instance 10013" x="2435" y="3185" width="2421" height="1055"/>
+</TextureAtlas>

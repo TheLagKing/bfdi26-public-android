@@ -1,0 +1,36 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				223,
+				207
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "X FALL instance 1",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/hey-four/x falling",
+	"position": [
+		200,
+		660
+	],
+	"healthicon": "four",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-350,
+		-110
+	],
+	"sing_duration": 2.5,
+	"scale": 0.75,
+	"_editor_isPlayer": false
+}

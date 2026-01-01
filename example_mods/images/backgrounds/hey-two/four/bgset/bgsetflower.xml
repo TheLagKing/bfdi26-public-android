@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bgsetflower.png" width="1676" height="1414">
+	<SubTexture name="bgsetflower instance 10000" x="684" y="823" width="342" height="409" frameX="-4" frameY="-14" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10001" x="684" y="823" width="342" height="409" frameX="-4" frameY="-14" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10002" x="342" y="897" width="341" height="409" frameX="-5" frameY="-13" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10003" x="342" y="897" width="341" height="409" frameX="-5" frameY="-13" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10004" x="684" y="413" width="342" height="410" frameX="-6" frameY="-11" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10005" x="684" y="413" width="342" height="410" frameX="-6" frameY="-11" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10006" x="652" y="0" width="342" height="412" frameX="-9" frameY="-8" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10007" x="652" y="0" width="342" height="412" frameX="-9" frameY="-8" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10008" x="0" y="602" width="342" height="413" frameX="-11" frameY="-7" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10009" x="0" y="602" width="342" height="413" frameX="-11" frameY="-7" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10010" x="0" y="602" width="342" height="413" frameX="-11" frameY="-7" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10011" x="0" y="602" width="342" height="413" frameX="-11" frameY="-7" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10012" x="0" y="602" width="342" height="413" frameX="-11" frameY="-7" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflower instance 10013" x="0" y="602" width="342" height="413" frameX="-11" frameY="-7" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10000" x="1335" y="342" width="339" height="339" frameX="-0" frameY="-352" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10001" x="1335" y="342" width="339" height="339" frameX="-0" frameY="-352" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10002" x="319" y="0" width="333" height="484" frameX="-10" frameY="-298" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10003" x="319" y="0" width="333" height="484" frameX="-10" frameY="-298" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10004" x="0" y="0" width="319" height="602" frameX="-40" frameY="-180" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10005" x="1335" y="0" width="341" height="342" frameX="-61" frameY="-71" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10006" x="0" y="1015" width="342" height="399" frameX="-80" frameY="-14" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10007" x="0" y="1015" width="342" height="399" frameX="-80" frameY="-14" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10008" x="994" y="0" width="341" height="413" frameX="-91" frameY="-0" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10009" x="994" y="0" width="341" height="413" frameX="-91" frameY="-0" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10010" x="342" y="484" width="342" height="413" frameX="-92" frameY="-0" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10011" x="342" y="484" width="342" height="413" frameX="-92" frameY="-0" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10012" x="0" y="602" width="342" height="413" frameX="-92" frameY="-0" frameWidth="439" frameHeight="783"/>
+	<SubTexture name="bgsetflowerappear instance 10013" x="0" y="602" width="342" height="413" frameX="-92" frameY="-0" frameWidth="439" frameHeight="783"/>
+</TextureAtlas>

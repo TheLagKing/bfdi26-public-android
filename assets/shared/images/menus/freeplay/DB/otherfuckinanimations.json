@@ -1,0 +1,104 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				159,
+				252
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "talk nervous",
+			"loop": true,
+			"name": "db talk nervous instance 1"
+		},
+		{
+			"offsets": [
+				147,
+				252
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "talk joy",
+			"loop": true,
+			"name": "db talk joy instance 1"
+		},
+		{
+			"offsets": [
+				151,
+				252
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "talk frantic",
+			"loop": true,
+			"name": "db talk frantic instance 1"
+		},
+		{
+			"offsets": [
+				141,
+				252
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "sit s",
+			"loop": true,
+			"name": "db sit in silence instance 1"
+		},
+		{
+			"offsets": [
+				149,
+				252
+			],
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			],
+			"fps": 24,
+			"anim": "sit frantic",
+			"loop": true,
+			"name": "db sit frantic instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "otherfuckinanimations",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "face",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.8,
+	"_editor_isPlayer": true
+}

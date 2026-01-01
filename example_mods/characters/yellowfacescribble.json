@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				572,
+				-139
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				506,
+				168
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				419,
+				39
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				655,
+				50
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				533,
+				50
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/hard-bargain/yellowfaceartstyle",
+	"position": [
+		625,
+		140
+	],
+	"healthicon": "yellowface",
+	"flip_x": false,
+	"healthbar_colors": [
+		251,
+		221,
+		78
+	],
+	"camera_position": [
+		-450,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.8,
+	"_editor_isPlayer": false
+}

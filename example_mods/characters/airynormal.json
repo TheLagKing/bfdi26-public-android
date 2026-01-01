@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				50,
+				170
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Airy NORMALIDLE instance 1"
+		},
+		{
+			"offsets": [
+				31,
+				155
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Airy NORMALDOWN instance 1"
+		},
+		{
+			"offsets": [
+				54,
+				198
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Airy NORMALUP instance 1"
+		},
+		{
+			"offsets": [
+				25,
+				165
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Airy NORMALRIGHT instance 1"
+		},
+		{
+			"offsets": [
+				88,
+				163
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Airy NORMALLEFT instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/oneshot/Airy NORMAL",
+	"position": [
+		40,
+		370
+	],
+	"healthicon": "airy",
+	"flip_x": false,
+	"healthbar_colors": [
+		80,
+		120,
+		160
+	],
+	"camera_position": [
+		-120,
+		-150
+	],
+	"sing_duration": 4.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

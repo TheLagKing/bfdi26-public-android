@@ -1,0 +1,135 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				20,
+				12
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-11,
+				39
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-34,
+				32
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				52,
+				38
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				10,
+				29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-5,
+				11
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "altdown"
+		},
+		{
+			"offsets": [
+				-13,
+				40
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "altup"
+		},
+		{
+			"offsets": [
+				38,
+				40
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "altleft"
+		},
+		{
+			"offsets": [
+				-45,
+				35
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "altright"
+		},
+		{
+			"offsets": [
+				57,
+				44
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "inter",
+			"loop": false,
+			"name": "intermission"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/invitational-dearest/mephonedearest",
+	"position": [
+		0,
+		90
+	],
+	"healthicon": "mephone",
+	"flip_x": false,
+	"healthbar_colors": [
+		62,
+		224,
+		243
+	],
+	"camera_position": [
+		-110,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

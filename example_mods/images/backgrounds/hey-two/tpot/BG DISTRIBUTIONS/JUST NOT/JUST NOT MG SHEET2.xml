@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="JUST NOT MG SHEET2.png" width="4273" height="287">
+	<SubTexture name="JUST NOT MG SHEET instance 10000" x="0" y="0" width="393" height="259" frameX="-2348" frameY="-1127" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10001" x="0" y="0" width="393" height="259" frameX="-2348" frameY="-1127" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10002" x="393" y="0" width="393" height="259" frameX="-2348" frameY="-1127" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10003" x="786" y="0" width="390" height="264" frameX="-2348" frameY="-1122" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10004" x="1176" y="0" width="390" height="264" frameX="-2348" frameY="-1122" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10005" x="1566" y="0" width="388" height="266" frameX="-2349" frameY="-1120" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10006" x="1954" y="0" width="388" height="266" frameX="-2349" frameY="-1120" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10007" x="3118" y="0" width="385" height="287" frameX="-2349" frameY="-1095" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10008" x="3503" y="0" width="385" height="287" frameX="-2349" frameY="-1095" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10009" x="3888" y="0" width="385" height="287" frameX="-2349" frameY="-1095" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10010" x="2730" y="0" width="388" height="285" frameX="-2349" frameY="-1097" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10011" x="2730" y="0" width="388" height="285" frameX="-2349" frameY="-1097" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10012" x="2342" y="0" width="388" height="283" frameX="-2349" frameY="-1099" frameWidth="2743" frameHeight="1386"/>
+	<SubTexture name="JUST NOT MG SHEET instance 10013" x="2342" y="0" width="388" height="283" frameX="-2349" frameY="-1099" frameWidth="2743" frameHeight="1386"/>
+</TextureAtlas>

@@ -1,0 +1,135 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				213,
+				200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "tpot idle instance 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				233,
+				128
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "tpot down instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				298,
+				213
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "tpot up instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				209,
+				168
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "tpot right instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				335,
+				191
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "tpot left instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				399,
+				258
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "tpot alt left instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				296,
+				264
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "tpot alt up instance 1"
+		},
+		{
+			"offsets": [
+				216,
+				158
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "tpot alt down instance 1"
+		},
+		{
+			"offsets": [
+				166,
+				267
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "tpot alt right instance 1"
+		},
+		{
+			"offsets": [
+				129,
+				209
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "tpot alt idle instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/hey-two/twodaloo assets",
+	"position": [
+		140,
+		450
+	],
+	"healthicon": "two",
+	"flip_x": false,
+	"healthbar_colors": [
+		68,
+		194,
+		75
+	],
+	"camera_position": [
+		-280,
+		-120
+	],
+	"sing_duration": 5,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

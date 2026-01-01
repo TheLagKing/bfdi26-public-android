@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				149
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Airy BWDOWN instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				210
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Airy BWUP instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				24,
+				169
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Airy BWRIGHT instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				78,
+				167
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Airy BWLEFT instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				50,
+				170
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Airy BWIDLE instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/oneshot/Airy BW",
+	"position": [
+		40,
+		370
+	],
+	"healthicon": "airy",
+	"flip_x": false,
+	"healthbar_colors": [
+		80,
+		120,
+		160
+	],
+	"camera_position": [
+		-120,
+		-150
+	],
+	"sing_duration": 4.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

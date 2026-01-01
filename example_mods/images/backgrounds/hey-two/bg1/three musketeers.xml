@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="three musketeers.png" width="2970" height="2110">
+	<SubTexture name="three musketeers instance 10000" x="990" y="1582" width="989" height="524" frameX="-0" frameY="-9" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10001" x="1981" y="0" width="989" height="524" frameX="-0" frameY="-9" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10002" x="1981" y="524" width="989" height="524" frameX="-0" frameY="-9" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10003" x="0" y="527" width="990" height="524" frameX="-0" frameY="-9" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10004" x="990" y="527" width="990" height="524" frameX="-0" frameY="-9" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10005" x="991" y="0" width="990" height="527" frameX="-0" frameY="-6" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10006" x="0" y="0" width="991" height="527" frameX="-0" frameY="-6" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10007" x="0" y="1051" width="990" height="529" frameX="-0" frameY="-4" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10008" x="0" y="1580" width="990" height="530" frameX="-0" frameY="-3" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10009" x="990" y="1051" width="990" height="531" frameX="-0" frameY="-2" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10010" x="990" y="1051" width="990" height="531" frameX="-0" frameY="-2" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10011" x="990" y="1051" width="990" height="531" frameX="-0" frameY="-2" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10012" x="990" y="1051" width="990" height="531" frameX="-0" frameY="-2" frameWidth="1006" frameHeight="534"/>
+	<SubTexture name="three musketeers instance 10013" x="1979" y="1582" width="989" height="528" frameX="-0" frameY="-5" frameWidth="1006" frameHeight="534"/>
+</TextureAtlas>

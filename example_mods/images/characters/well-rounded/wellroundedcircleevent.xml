@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="wellroundedcircleevent.png" width="2162" height="2127">
+	<SubTexture name="Awesome0000" x="1556" y="1716" width="112" height="171" rotated="true" frameX="-269" frameY="-101" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0001" x="2054" y="1821" width="104" height="124" rotated="true" frameX="-448" frameY="-116" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0002" x="2037" y="535" width="107" height="124" frameX="-619" frameY="-101" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0003" x="1865" y="446" width="171" height="116" frameX="-732" frameY="-99" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0004" x="2037" y="426" width="124" height="108" frameX="-912" frameY="-114" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0005" x="2010" y="912" width="107" height="130" frameX="-1083" frameY="-98" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0006" x="668" y="1554" width="171" height="121" frameX="-1196" frameY="-96" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0007" x="2017" y="313" width="125" height="112" frameX="-1375" frameY="-112" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0008" x="1325" y="1934" width="108" height="134" frameX="-1546" frameY="-96" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0009" x="172" y="1554" width="171" height="126" frameX="-1659" frameY="-93" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0010" x="1434" y="1934" width="116" height="124" rotated="true" frameX="-1839" frameY="-110" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0011" x="1217" y="1934" width="107" height="139" frameX="-2010" frameY="-93" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0012" x="1060" y="1549" width="171" height="130" frameX="-2123" frameY="-91" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0013" x="966" y="1934" width="125" height="120" frameX="-2302" frameY="-108" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0014" x="1865" y="912" width="144" height="108" rotated="true" frameX="-2473" frameY="-90" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0015" x="1865" y="804" width="171" height="107" frameX="-2454" frameY="-104" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0016" x="2054" y="1946" width="100" height="124" rotated="true" frameX="-2323" frameY="-118" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0017" x="2036" y="107" width="108" height="121" frameX="-2170" frameY="-103" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0018" x="1865" y="563" width="171" height="113" frameX="-1995" frameY="-101" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0019" x="1991" y="1" width="125" height="105" frameX="-1863" frameY="-116" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0020" x="1865" y="677" width="152" height="126" frameX="-1711" frameY="-100" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0021" x="1865" y="194" width="170" height="118" frameX="-1536" frameY="-98" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0022" x="2037" y="794" width="124" height="110" frameX="-1404" frameY="-113" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0023" x="1865" y="313" width="151" height="132" frameX="-1252" frameY="-97" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0024" x="344" y="1554" width="170" height="124" frameX="-1077" frameY="-94" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0025" x="2018" y="677" width="124" height="116" frameX="-945" frameY="-110" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0026" x="515" y="1554" width="152" height="138" frameX="-792" frameY="-94" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0027" x="1" y="1554" width="170" height="129" frameX="-618" frameY="-91" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0028" x="1092" y="1934" width="124" height="120" frameX="-486" frameY="-108" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0029" x="716" y="1934" width="124" height="122" frameX="-333" frameY="-107" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0030" x="1387" y="581" width="76" height="171" frameX="-352" frameY="-99" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0031" x="716" y="1932" width="1" height="1" frameX="-0" frameY="-0" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0032" x="1565" y="195" width="88" height="147" frameX="-356" frameY="-98" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0033" x="1865" y="912" width="144" height="108" rotated="true" frameX="-356" frameY="-90" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0034" x="1102" y="1164" width="134" height="171" rotated="true" frameX="-377" frameY="-88" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0035" x="841" y="1934" width="124" height="122" frameX="-465" frameY="-107" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0036" x="1865" y="912" width="144" height="108" rotated="true" frameX="-545" frameY="-90" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0037" x="888" y="1549" width="171" height="134" frameX="-566" frameY="-88" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0038" x="841" y="1934" width="124" height="122" frameX="-654" frameY="-107" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0039" x="1865" y="912" width="144" height="108" rotated="true" frameX="-734" frameY="-90" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0040" x="1" y="1360" width="886" height="193" frameX="-17" frameY="-41" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0041" x="1669" y="195" width="195" height="856" rotated="true" frameX="-97" frameY="-42" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0042" x="787" y="1739" width="768" height="194" frameX="-191" frameY="-47" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0043" x="1" y="1932" width="714" height="194" frameX="-273" frameY="-42" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0044" x="1" y="1739" width="785" height="192" frameX="-353" frameY="-45" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0045" x="1864" y="1052" width="190" height="768" rotated="true" frameX="-478" frameY="-47" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0046" x="1669" y="1052" width="194" height="843" rotated="true" frameX="-531" frameY="-47" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0047" x="1271" y="774" width="194" height="964" rotated="true" frameX="-562" frameY="-41" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0048" x="1480" y="386" width="188" height="1009" rotated="true" frameX="-624" frameY="-41" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0049" x="1" y="1164" width="1100" height="195" frameX="-662" frameY="-42" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0050" x="1" y="969" width="1200" height="194" frameX="-713" frameY="-47" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0051" x="1" y="774" width="1269" height="194" frameX="-752" frameY="-42" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0052" x="1" y="581" width="1385" height="192" frameX="-790" frameY="-45" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0053" x="1" y="386" width="1478" height="194" frameX="-874" frameY="-41" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0054" x="1" y="195" width="1563" height="190" frameX="-922" frameY="-47" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0055" x="1" y="1" width="1669" height="193" frameX="-970" frameY="-41" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0056" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-988" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0057" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1009" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0058" x="1556" y="1896" width="289" height="194" frameX="-1041" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0059" x="1556" y="1896" width="289" height="194" frameX="-1062" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0060" x="1864" y="1821" width="189" height="286" rotated="true" frameX="-1088" frameY="-27" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0061" x="1864" y="1821" width="189" height="286" rotated="true" frameX="-1088" frameY="-27" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0062" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1088" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0063" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1090" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0064" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1093" frameY="-29" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0065" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1095" frameY="-29" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0066" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1098" frameY="-29" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0067" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1100" frameY="-29" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0068" x="1556" y="1896" width="289" height="194" frameX="-1113" frameY="-26" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0069" x="1556" y="1896" width="289" height="194" frameX="-1116" frameY="-27" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0070" x="1556" y="1896" width="289" height="194" frameX="-1118" frameY="-27" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0071" x="1556" y="1896" width="289" height="194" frameX="-1121" frameY="-27" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0072" x="1556" y="1896" width="289" height="194" frameX="-1123" frameY="-27" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0073" x="1556" y="1896" width="289" height="194" frameX="-1125" frameY="-27" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0074" x="1864" y="1821" width="189" height="286" rotated="true" frameX="-1133" frameY="-26" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0075" x="1864" y="1821" width="189" height="286" rotated="true" frameX="-1136" frameY="-26" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0076" x="888" y="1360" width="286" height="188" frameX="-1138" frameY="-27" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0077" x="1864" y="1821" width="189" height="286" rotated="true" frameX="-1141" frameY="-27" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0078" x="1864" y="1821" width="189" height="286" rotated="true" frameX="-1143" frameY="-27" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0079" x="1864" y="1821" width="189" height="286" rotated="true" frameX="-1146" frameY="-27" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0080" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1131" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0081" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0082" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0083" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0084" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0085" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0086" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0087" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0088" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0089" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0090" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0091" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0092" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0093" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0094" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0095" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0096" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0097" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0098" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0099" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0100" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0101" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0102" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0103" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0104" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0105" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0106" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0107" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0108" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0109" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0110" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0111" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0112" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0113" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0114" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0115" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0116" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0117" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0118" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0119" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0120" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0121" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0122" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0123" x="1466" y="1396" width="192" height="319" rotated="true" frameX="-1130" frameY="-28" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0124" x="1671" y="1" width="319" height="192" frameX="-1129" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0125" x="1671" y="1" width="319" height="192" frameX="-1107" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0126" x="1671" y="1" width="319" height="192" frameX="-1085" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0127" x="1671" y="1" width="319" height="192" frameX="-1063" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0128" x="1671" y="1" width="319" height="192" frameX="-1038" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0129" x="1671" y="1" width="319" height="192" frameX="-1016" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0130" x="1671" y="1" width="319" height="192" frameX="-994" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0131" x="1671" y="1" width="319" height="192" frameX="-972" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0132" x="1671" y="1" width="319" height="192" frameX="-953" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0133" x="1671" y="1" width="319" height="192" frameX="-930" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0134" x="1671" y="1" width="319" height="192" frameX="-908" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0135" x="1671" y="1" width="319" height="192" frameX="-886" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0136" x="1671" y="1" width="319" height="192" frameX="-861" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0137" x="1671" y="1" width="319" height="192" frameX="-839" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0138" x="1671" y="1" width="319" height="192" frameX="-817" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0139" x="1671" y="1" width="319" height="192" frameX="-795" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0140" x="1671" y="1" width="319" height="192" frameX="-776" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0141" x="1671" y="1" width="319" height="192" frameX="-754" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0142" x="1671" y="1" width="319" height="192" frameX="-732" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0143" x="1671" y="1" width="319" height="192" frameX="-710" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0144" x="1671" y="1" width="319" height="192" frameX="-685" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0145" x="1671" y="1" width="319" height="192" frameX="-662" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0146" x="1671" y="1" width="319" height="192" frameX="-640" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0147" x="1671" y="1" width="319" height="192" frameX="-618" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0148" x="1671" y="1" width="319" height="192" frameX="-599" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0149" x="1671" y="1" width="319" height="192" frameX="-577" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0150" x="1671" y="1" width="319" height="192" frameX="-555" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0151" x="1671" y="1" width="319" height="192" frameX="-533" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0152" x="1671" y="1" width="319" height="192" frameX="-508" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0153" x="1671" y="1" width="319" height="192" frameX="-486" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0154" x="1671" y="1" width="319" height="192" frameX="-464" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0155" x="1671" y="1" width="319" height="192" frameX="-442" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0156" x="1671" y="1" width="319" height="192" frameX="-422" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0157" x="1671" y="1" width="319" height="192" frameX="-400" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0158" x="1671" y="1" width="319" height="192" frameX="-378" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0159" x="1671" y="1" width="319" height="192" frameX="-356" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0160" x="1671" y="1" width="319" height="192" frameX="-331" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0161" x="1671" y="1" width="319" height="192" frameX="-309" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0162" x="1671" y="1" width="319" height="192" frameX="-287" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0163" x="1671" y="1" width="319" height="192" frameX="-265" frameY="-18" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0164" x="1671" y="1" width="319" height="192" frameX="-246" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0165" x="1671" y="1" width="319" height="192" frameX="-224" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0166" x="1671" y="1" width="319" height="192" frameX="-202" frameY="-31" frameWidth="2659" frameHeight="331"/>
+	<SubTexture name="Awesome0167" x="1671" y="1" width="319" height="192" frameX="-177" frameY="-18" frameWidth="2659" frameHeight="331"/>
+</TextureAtlas>

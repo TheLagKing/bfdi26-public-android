@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-10,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "ALT FOUR IDLE instance 1"
+		},
+		{
+			"offsets": [
+				0,
+				-5
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "ALT FOUR DOWN instance 1"
+		},
+		{
+			"offsets": [
+				38,
+				118
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "ALT FOUR UP instance 1"
+		},
+		{
+			"offsets": [
+				100,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "ALT FOUR LEFT instance 1"
+		},
+		{
+			"offsets": [
+				2,
+				9
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "ALT FOUR RIGHT instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/hey-four/foursie",
+	"position": [
+		-120,
+		200
+	],
+	"healthicon": "four",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		100,
+		255
+	],
+	"camera_position": [
+		0,
+		130
+	],
+	"sing_duration": 4,
+	"scale": 0.7,
+	"_editor_isPlayer": false
+}

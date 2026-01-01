@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TEAM8S SHEET.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TEAM8S SHEET instance 10000" x="7" y="7" width="1909" height="718" frameX="-3" frameY="-13" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10001" x="7" y="7" width="1909" height="718" frameX="-3" frameY="-13" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10002" x="1923" y="7" width="1890" height="719" frameX="-3" frameY="-12" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10003" x="3820" y="7" width="1890" height="719" frameX="-3" frameY="-12" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10004" x="5717" y="7" width="1889" height="728" frameX="-2" frameY="-3" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10005" x="7" y="742" width="1889" height="728" frameX="-2" frameY="-3" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10006" x="1903" y="742" width="1897" height="730" frameX="-1" frameY="-1" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10007" x="3807" y="742" width="1897" height="730" frameX="-1" frameY="-1" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10008" x="5711" y="742" width="1891" height="731" frameX="0" frameY="0" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10009" x="7" y="1480" width="1891" height="731" frameX="0" frameY="0" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10010" x="1905" y="1480" width="1891" height="731" frameX="0" frameY="0" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10011" x="3803" y="1480" width="1891" height="731" frameX="0" frameY="0" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10012" x="5701" y="1480" width="1891" height="729" frameX="0" frameY="-2" frameWidth="1912" frameHeight="731"/>
+	<SubTexture name="TEAM8S SHEET instance 10013" x="7" y="2218" width="1891" height="729" frameX="0" frameY="-2" frameWidth="1912" frameHeight="731"/>
+</TextureAtlas>

@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-28,
+				-92
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Evan BWDOWN instance 1"
+		},
+		{
+			"offsets": [
+				-58,
+				-71
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Evan BWIDLE instance 1"
+		},
+		{
+			"offsets": [
+				-56,
+				-30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Evan BWUP instance 1"
+		},
+		{
+			"offsets": [
+				-56,
+				-63
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "Evan BWMISS instance 1"
+		},
+		{
+			"offsets": [
+				-1,
+				-68
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Evan BWLEFT instance 1"
+		},
+		{
+			"offsets": [
+				-77,
+				-80
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Evan BWRIGHT instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/oneshot/Evan BW",
+	"position": [
+		20,
+		400
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		222,
+		34,
+		114
+	],
+	"camera_position": [
+		-100,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

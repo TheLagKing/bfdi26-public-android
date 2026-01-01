@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="TSTOE MG SHEET.png" width="2232" height="829">
+	<SubTexture name="TSTOE MG SHEET instance 10000" x="1913" y="0" width="319" height="829" frameX="-10" frameY="-9" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10001" x="1913" y="0" width="319" height="829" frameX="-10" frameY="-9" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10002" x="1913" y="0" width="319" height="829" frameX="-10" frameY="-9" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10003" x="1595" y="0" width="318" height="823" frameX="-7" frameY="-9" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10004" x="1595" y="0" width="318" height="823" frameX="-7" frameY="-9" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10005" x="1276" y="0" width="319" height="812" frameX="-0" frameY="-9" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10006" x="1276" y="0" width="319" height="812" frameX="-0" frameY="-9" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10007" x="957" y="0" width="319" height="806" frameX="-2" frameY="-4" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10008" x="957" y="0" width="319" height="806" frameX="-2" frameY="-4" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10009" x="0" y="0" width="319" height="802" frameX="-4" frameY="-2" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10010" x="0" y="0" width="319" height="802" frameX="-4" frameY="-2" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10011" x="319" y="0" width="319" height="803" frameX="-7" frameY="-0" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10012" x="319" y="0" width="319" height="803" frameX="-7" frameY="-0" frameWidth="329" frameHeight="840"/>
+	<SubTexture name="TSTOE MG SHEET instance 10013" x="638" y="0" width="319" height="803" frameX="-9" frameY="-4" frameWidth="329" frameHeight="840"/>
+</TextureAtlas>

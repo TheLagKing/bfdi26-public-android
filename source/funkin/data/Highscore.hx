@@ -90,6 +90,10 @@ class Highscore
 		if (FlxG.save.data.songScoreDatas != null) songScoreDatas = FlxG.save.data.songScoreDatas;
 	}
 
+	public static function saveSongRatings(songName:String, sicks:Int, goods:Int, bads:Int, shits:Int) { //rewrite
+        ratingData.set(songName, [sicks, goods, bads, shits]);
+    }
+
 	public static function getSongRatings(songName:String):Array<Int> {
         return ratingData.exists(songName) ? ratingData.get(songName) : [0, 0, 0, 0];
     }
@@ -110,7 +114,7 @@ class Highscore
 			
 		tempData.songScore = setSongScore(tempData.songScore,score);
 		tempData.songRating = setSongRating(tempData.songRating,rating);
-		tempData.songFC = cast(setSongFC(tempData.songFC,fc),FCLevel);
+		tempData.songFC = cast(setSongFC(tempData.songFC,fc),FCLevel); //casted to ints to compare then casted back to rating
 		tempData.sick = sick;
 		tempData.good = good;
 		tempData.bad = bad;
@@ -134,7 +138,7 @@ class Highscore
 		return SDCB;
 	}
 
-	static function songScoreDataTemplate():SongScoreData 
+	public static function songScoreDataTemplate():SongScoreData 
 	{
 		return {
 			songScore: 0,

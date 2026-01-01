@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="robot_flower_you_are_so_alone_and_sad.png" width="2405" height="544">
+	<SubTexture name="ROBOT FLOWER BG instance 10000" x="0" y="0" width="338" height="535" frameX="-0" frameY="-14" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10001" x="0" y="0" width="338" height="535" frameX="-0" frameY="-14" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10002" x="338" y="0" width="337" height="536" frameX="-2" frameY="-12" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10003" x="338" y="0" width="337" height="536" frameX="-2" frameY="-12" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10004" x="675" y="0" width="334" height="538" frameX="-33" frameY="-3" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10005" x="675" y="0" width="334" height="538" frameX="-33" frameY="-3" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10006" x="1351" y="0" width="349" height="542" frameX="-52" frameY="-0" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10007" x="1351" y="0" width="349" height="542" frameX="-52" frameY="-0" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10008" x="2049" y="0" width="356" height="544" frameX="-56" frameY="-5" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10009" x="2049" y="0" width="356" height="544" frameX="-56" frameY="-5" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10010" x="2049" y="0" width="356" height="544" frameX="-56" frameY="-5" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10011" x="1700" y="0" width="349" height="542" frameX="-51" frameY="-6" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10012" x="1700" y="0" width="349" height="542" frameX="-51" frameY="-6" frameWidth="412" frameHeight="551"/>
+	<SubTexture name="ROBOT FLOWER BG instance 10013" x="1009" y="0" width="342" height="540" frameX="-46" frameY="-7" frameWidth="412" frameHeight="551"/>
+</TextureAtlas>

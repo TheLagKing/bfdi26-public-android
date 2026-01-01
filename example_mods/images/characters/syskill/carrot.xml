@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="carrot.png" width="3187" height="3558">
+	<SubTexture name="kid named down instance 10000" x="2172" y="2169" width="473" height="526" frameX="-0" frameY="-5" frameWidth="481" frameHeight="532"/>
+	<SubTexture name="kid named down instance 10001" x="2172" y="2169" width="473" height="526" frameX="-0" frameY="-5" frameWidth="481" frameHeight="532"/>
+	<SubTexture name="kid named down instance 10002" x="2699" y="543" width="480" height="509" frameX="-0" frameY="-19" frameWidth="481" frameHeight="532"/>
+	<SubTexture name="kid named down instance 10003" x="2699" y="543" width="480" height="509" frameX="-0" frameY="-19" frameWidth="481" frameHeight="532"/>
+	<SubTexture name="kid named down instance 10004" x="2699" y="543" width="480" height="509" frameX="-0" frameY="-19" frameWidth="481" frameHeight="532"/>
+	<SubTexture name="kid named down instance 10005" x="2699" y="543" width="480" height="509" frameX="-0" frameY="-19" frameWidth="481" frameHeight="532"/>
+	<SubTexture name="kid named down instance 10006" x="2699" y="543" width="480" height="509" frameX="-0" frameY="-19" frameWidth="481" frameHeight="532"/>
+	<SubTexture name="kid named down instance 10007" x="2699" y="543" width="480" height="509" frameX="-0" frameY="-19" frameWidth="481" frameHeight="532"/>
+	<SubTexture name="kid named down instance 10008" x="2699" y="543" width="480" height="509" frameX="-0" frameY="-19" frameWidth="481" frameHeight="532"/>
+	<SubTexture name="kid named down instance 10009" x="697" y="2354" width="450" height="528" frameX="-11" frameY="-1" frameWidth="481" frameHeight="532"/>
+	<SubTexture name="kid named down instance 10010" x="697" y="2354" width="450" height="528" frameX="-11" frameY="-1" frameWidth="481" frameHeight="532"/>
+	<SubTexture name="kid named idle instance 10000" x="1391" y="1691" width="405" height="555" frameX="-2" frameY="-9" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10001" x="1391" y="1691" width="405" height="555" frameX="-2" frameY="-9" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10002" x="1469" y="2247" width="414" height="526" frameX="-0" frameY="-38" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10003" x="1469" y="2247" width="414" height="526" frameX="-0" frameY="-38" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10004" x="2344" y="1" width="408" height="541" frameX="-2" frameY="-22" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10005" x="2344" y="1" width="408" height="541" frameX="-2" frameY="-22" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10006" x="1621" y="1123" width="387" height="552" frameX="-11" frameY="-10" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10007" x="1621" y="1123" width="387" height="552" frameX="-11" frameY="-10" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10008" x="1244" y="1131" width="376" height="559" frameX="-16" frameY="-3" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10009" x="1244" y="1131" width="376" height="559" frameX="-16" frameY="-3" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10010" x="519" y="617" width="365" height="564" frameX="-21" frameY="-0" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10011" x="519" y="617" width="365" height="564" frameX="-21" frameY="-0" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10012" x="1001" y="1" width="365" height="564" frameX="-21" frameY="-0" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10013" x="1001" y="1" width="365" height="564" frameX="-21" frameY="-0" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10014" x="1001" y="1" width="365" height="564" frameX="-21" frameY="-0" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10015" x="1001" y="1" width="365" height="564" frameX="-21" frameY="-0" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named idle instance 10016" x="1001" y="1" width="365" height="564" frameX="-21" frameY="-0" frameWidth="415" frameHeight="564"/>
+	<SubTexture name="kid named left instance 10000" x="2753" y="1" width="433" height="526" frameX="-0" frameY="-31" frameWidth="548" frameHeight="558"/>
+	<SubTexture name="kid named left instance 10001" x="2753" y="1" width="433" height="526" frameX="-0" frameY="-31" frameWidth="548" frameHeight="558"/>
+	<SubTexture name="kid named left instance 10002" x="1905" y="555" width="437" height="552" frameX="-22" frameY="-6" frameWidth="548" frameHeight="558"/>
+	<SubTexture name="kid named left instance 10003" x="1905" y="555" width="437" height="552" frameX="-22" frameY="-6" frameWidth="548" frameHeight="558"/>
+	<SubTexture name="kid named left instance 10004" x="1905" y="555" width="437" height="552" frameX="-22" frameY="-6" frameWidth="548" frameHeight="558"/>
+	<SubTexture name="kid named left instance 10005" x="1905" y="555" width="437" height="552" frameX="-22" frameY="-6" frameWidth="548" frameHeight="558"/>
+	<SubTexture name="kid named left instance 10006" x="1905" y="555" width="437" height="552" frameX="-22" frameY="-6" frameWidth="548" frameHeight="558"/>
+	<SubTexture name="kid named left instance 10007" x="1905" y="555" width="437" height="552" frameX="-22" frameY="-6" frameWidth="548" frameHeight="558"/>
+	<SubTexture name="kid named left instance 10008" x="1905" y="555" width="437" height="552" frameX="-22" frameY="-6" frameWidth="548" frameHeight="558"/>
+	<SubTexture name="kid named left instance 10009" x="936" y="1746" width="454" height="556" frameX="-94" frameY="-0" frameWidth="548" frameHeight="558"/>
+	<SubTexture name="kid named left instance 10010" x="936" y="1746" width="454" height="556" frameX="-94" frameY="-0" frameWidth="548" frameHeight="558"/>
+	<SubTexture name="kid named right instance 10000" x="1367" y="1" width="537" height="561" frameX="-34" frameY="-5" frameWidth="571" frameHeight="567"/>
+	<SubTexture name="kid named right instance 10001" x="1367" y="1" width="537" height="561" frameX="-34" frameY="-5" frameWidth="571" frameHeight="567"/>
+	<SubTexture name="kid named right instance 10002" x="367" y="1232" width="512" height="563" frameX="-27" frameY="-0" frameWidth="571" frameHeight="567"/>
+	<SubTexture name="kid named right instance 10003" x="367" y="1232" width="512" height="563" frameX="-27" frameY="-0" frameWidth="571" frameHeight="567"/>
+	<SubTexture name="kid named right instance 10004" x="367" y="1232" width="512" height="563" frameX="-27" frameY="-0" frameWidth="571" frameHeight="567"/>
+	<SubTexture name="kid named right instance 10005" x="367" y="1232" width="512" height="563" frameX="-27" frameY="-0" frameWidth="571" frameHeight="567"/>
+	<SubTexture name="kid named right instance 10006" x="367" y="1232" width="512" height="563" frameX="-27" frameY="-0" frameWidth="571" frameHeight="567"/>
+	<SubTexture name="kid named right instance 10007" x="367" y="1232" width="512" height="563" frameX="-27" frameY="-0" frameWidth="571" frameHeight="567"/>
+	<SubTexture name="kid named right instance 10008" x="367" y="1232" width="512" height="563" frameX="-27" frameY="-0" frameWidth="571" frameHeight="567"/>
+	<SubTexture name="kid named right instance 10009" x="440" y="1796" width="495" height="557" frameX="-1" frameY="-7" frameWidth="571" frameHeight="567"/>
+	<SubTexture name="kid named right instance 10010" x="440" y="1796" width="495" height="557" frameX="-1" frameY="-7" frameWidth="571" frameHeight="567"/>
+	<SubTexture name="kid named syskill instance 10000" x="1797" y="1676" width="374" height="548" frameX="-11" frameY="-0" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10001" x="2009" y="1108" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10002" x="2343" y="555" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10003" x="2343" y="555" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10004" x="2354" y="1093" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10005" x="2354" y="1631" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10006" x="2009" y="1108" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10007" x="1" y="2356" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10008" x="1" y="2356" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10009" x="2343" y="555" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10010" x="2343" y="555" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10011" x="2354" y="1093" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10012" x="2354" y="1093" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10013" x="2009" y="1108" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10014" x="2009" y="1108" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10015" x="1" y="2356" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10016" x="1" y="2356" width="344" height="537" frameX="-12" frameY="-8" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10017" x="346" y="2356" width="350" height="529" frameX="-7" frameY="-16" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10018" x="2699" y="1053" width="369" height="507" frameX="-0" frameY="-38" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10019" x="2699" y="1561" width="390" height="486" frameX="-9" frameY="-53" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10020" x="952" y="2883" width="393" height="463" frameX="-22" frameY="-76" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10021" x="2646" y="2270" width="367" height="478" frameX="-60" frameY="-58" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10022" x="1884" y="2680" width="195" height="452" frameX="-226" frameY="-24" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10023" x="1720" y="563" width="131" height="267" frameX="-284" frameY="-12" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10024" x="2172" y="1646" width="155" height="268" frameX="-290" frameY="-30" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10025" x="2172" y="1646" width="155" height="268" frameX="-290" frameY="-30" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10026" x="3014" y="2592" width="156" height="294" frameX="-290" frameY="-112" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10027" x="1675" y="2774" width="200" height="223" frameX="-274" frameY="-247" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10028" x="2619" y="2749" width="274" height="211" frameX="-244" frameY="-301" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10029" x="2292" y="2696" width="326" height="251" frameX="-204" frameY="-252" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10030" x="1367" y="3322" width="375" height="197" frameX="-171" frameY="-297" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10031" x="1346" y="3133" width="420" height="188" frameX="-142" frameY="-298" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10032" x="472" y="3347" width="449" height="186" frameX="-129" frameY="-291" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10033" x="922" y="3347" width="444" height="197" frameX="-143" frameY="-284" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10034" x="472" y="3116" width="465" height="218" frameX="-126" frameY="-264" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10035" x="2699" y="2048" width="484" height="221" frameX="-108" frameY="-251" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10036" x="1" y="2894" width="478" height="221" frameX="-111" frameY="-247" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10037" x="480" y="2886" width="471" height="213" frameX="-118" frameY="-255" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10038" x="2523" y="2961" width="221" height="82" frameX="-118" frameY="-255" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10039" x="2523" y="2961" width="221" height="82" frameX="-118" frameY="-255" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10040" x="2523" y="2961" width="221" height="82" frameX="-118" frameY="-255" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10041" x="2523" y="2961" width="221" height="82" frameX="-118" frameY="-255" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10042" x="2523" y="2961" width="221" height="82" frameX="-118" frameY="-255" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10043" x="2523" y="2961" width="221" height="82" frameX="-118" frameY="-255" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill instance 10044" x="2523" y="2961" width="221" height="82" frameX="-118" frameY="-255" frameWidth="593" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10000" x="2523" y="2961" width="221" height="82" frameX="-61" frameY="-265" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10001" x="2523" y="2961" width="221" height="82" frameX="-61" frameY="-265" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10002" x="2523" y="2961" width="221" height="82" frameX="-61" frameY="-265" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10003" x="2292" y="2948" width="230" height="82" frameX="-65" frameY="-267" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10004" x="2292" y="2948" width="230" height="82" frameX="-65" frameY="-267" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10005" x="2894" y="2887" width="265" height="147" frameX="-84" frameY="-270" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10006" x="2894" y="2887" width="265" height="147" frameX="-84" frameY="-270" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10007" x="1346" y="2831" width="328" height="294" frameX="-139" frameY="-247" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10008" x="1346" y="2831" width="328" height="294" frameX="-139" frameY="-247" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10009" x="1767" y="3133" width="405" height="366" frameX="-64" frameY="-197" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10010" x="1767" y="3133" width="405" height="366" frameX="-64" frameY="-197" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10011" x="1" y="3116" width="470" height="441" frameX="-3" frameY="-126" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10012" x="1" y="3116" width="470" height="441" frameX="-3" frameY="-126" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10013" x="1905" y="1" width="438" height="553" frameX="-3" frameY="-12" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10014" x="1905" y="1" width="438" height="553" frameX="-3" frameY="-12" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10015" x="1" y="1797" width="438" height="558" frameX="-4" frameY="-5" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10016" x="1" y="1797" width="438" height="558" frameX="-4" frameY="-5" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10017" x="1001" y="566" width="365" height="564" frameX="-0" frameY="-0" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10018" x="1001" y="566" width="365" height="564" frameX="-0" frameY="-0" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10019" x="1001" y="566" width="365" height="564" frameX="-0" frameY="-0" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10020" x="1001" y="566" width="365" height="564" frameX="-0" frameY="-0" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10021" x="1001" y="566" width="365" height="564" frameX="-0" frameY="-0" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10022" x="1001" y="566" width="365" height="564" frameX="-0" frameY="-0" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named syskill return instance 10023" x="1001" y="566" width="365" height="564" frameX="-0" frameY="-0" frameWidth="474" frameHeight="568"/>
+	<SubTexture name="kid named up instance 10000" x="1" y="624" width="517" height="607" frameX="-0" frameY="-15" frameWidth="547" frameHeight="627"/>
+	<SubTexture name="kid named up instance 10001" x="1" y="624" width="517" height="607" frameX="-0" frameY="-15" frameWidth="547" frameHeight="627"/>
+	<SubTexture name="kid named up instance 10002" x="1" y="1" width="506" height="622" frameX="-14" frameY="-1" frameWidth="547" frameHeight="627"/>
+	<SubTexture name="kid named up instance 10003" x="1" y="1" width="506" height="622" frameX="-14" frameY="-1" frameWidth="547" frameHeight="627"/>
+	<SubTexture name="kid named up instance 10004" x="1" y="1" width="506" height="622" frameX="-14" frameY="-1" frameWidth="547" frameHeight="627"/>
+	<SubTexture name="kid named up instance 10005" x="1" y="1" width="506" height="622" frameX="-14" frameY="-1" frameWidth="547" frameHeight="627"/>
+	<SubTexture name="kid named up instance 10006" x="1" y="1" width="506" height="622" frameX="-14" frameY="-1" frameWidth="547" frameHeight="627"/>
+	<SubTexture name="kid named up instance 10007" x="1" y="1" width="506" height="622" frameX="-14" frameY="-1" frameWidth="547" frameHeight="627"/>
+	<SubTexture name="kid named up instance 10008" x="1" y="1" width="506" height="622" frameX="-14" frameY="-1" frameWidth="547" frameHeight="627"/>
+	<SubTexture name="kid named up instance 10009" x="508" y="1" width="492" height="615" frameX="-55" frameY="-12" frameWidth="547" frameHeight="627"/>
+	<SubTexture name="kid named up instance 10010" x="508" y="1" width="492" height="615" frameX="-55" frameY="-12" frameWidth="547" frameHeight="627"/>
+	<SubTexture name="kid named walking anim instance 10000" x="440" y="2354" width="1" height="1" frameX="-0" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10001" x="440" y="2354" width="1" height="1" frameX="-0" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10002" x="519" y="1182" width="27" height="44" frameX="-12" frameY="-290" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10003" x="519" y="1182" width="27" height="44" frameX="-12" frameY="-290" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10004" x="519" y="1182" width="27" height="44" frameX="-12" frameY="-290" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10005" x="519" y="1182" width="27" height="44" frameX="-12" frameY="-290" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10006" x="1675" y="2998" width="53" height="107" frameX="-38" frameY="-248" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10007" x="1675" y="2998" width="53" height="107" frameX="-38" frameY="-248" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10008" x="1675" y="2998" width="53" height="107" frameX="-38" frameY="-248" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10009" x="1675" y="2998" width="53" height="107" frameX="-38" frameY="-248" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10010" x="3069" y="1053" width="116" height="173" frameX="-65" frameY="-208" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10011" x="3069" y="1053" width="116" height="173" frameX="-65" frameY="-208" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10012" x="3069" y="1053" width="116" height="173" frameX="-65" frameY="-208" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10013" x="3069" y="1053" width="116" height="173" frameX="-65" frameY="-208" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10014" x="2172" y="1915" width="132" height="242" frameX="-88" frameY="-157" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10015" x="2172" y="1915" width="132" height="242" frameX="-88" frameY="-157" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10016" x="2172" y="1915" width="132" height="242" frameX="-88" frameY="-157" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10017" x="2172" y="1915" width="132" height="242" frameX="-88" frameY="-157" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10018" x="3014" y="2270" width="157" height="321" frameX="-123" frameY="-118" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10019" x="3014" y="2270" width="157" height="321" frameX="-123" frameY="-118" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10020" x="3014" y="2270" width="157" height="321" frameX="-123" frameY="-118" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10021" x="2080" y="2696" width="211" height="396" frameX="-136" frameY="-71" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10022" x="2080" y="2696" width="211" height="396" frameX="-136" frameY="-71" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10023" x="2080" y="2696" width="211" height="396" frameX="-136" frameY="-71" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10024" x="1884" y="2225" width="262" height="454" frameX="-132" frameY="-56" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10025" x="1884" y="2225" width="262" height="454" frameX="-132" frameY="-56" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10026" x="1884" y="2225" width="262" height="454" frameX="-132" frameY="-56" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10027" x="1148" y="2303" width="320" height="527" frameX="-123" frameY="-14" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10028" x="1148" y="2303" width="320" height="527" frameX="-123" frameY="-14" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10029" x="1148" y="2303" width="320" height="527" frameX="-123" frameY="-14" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10030" x="1367" y="563" width="352" height="559" frameX="-125" frameY="-1" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10031" x="1367" y="563" width="352" height="559" frameX="-125" frameY="-1" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10032" x="1367" y="563" width="352" height="559" frameX="-125" frameY="-1" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10033" x="880" y="1182" width="363" height="563" frameX="-137" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10034" x="880" y="1182" width="363" height="563" frameX="-137" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10035" x="880" y="1182" width="363" height="563" frameX="-137" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10036" x="1" y="1232" width="365" height="564" frameX="-136" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10037" x="1" y="1232" width="365" height="564" frameX="-136" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10038" x="1" y="1232" width="365" height="564" frameX="-136" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10039" x="1" y="1232" width="365" height="564" frameX="-136" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10040" x="1" y="1232" width="365" height="564" frameX="-136" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10041" x="1" y="1232" width="365" height="564" frameX="-136" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10042" x="1" y="1232" width="365" height="564" frameX="-136" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10043" x="1" y="1232" width="365" height="564" frameX="-136" frameY="-0" frameWidth="501" frameHeight="564"/>
+	<SubTexture name="kid named walking anim instance 10044" x="1" y="1232" width="365" height="564" frameX="-136" frameY="-0" frameWidth="501" frameHeight="564"/>
+</TextureAtlas>

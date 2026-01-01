@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DEATH PACT MG SHEET.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DEATH PACT MG SHEET instance 10000" x="7" y="7" width="2257" height="972" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10001" x="7" y="7" width="2257" height="972" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10002" x="2271" y="7" width="2257" height="972" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10003" x="4535" y="7" width="2256" height="972" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10004" x="7" y="986" width="2256" height="972" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10005" x="2270" y="986" width="2258" height="972" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10006" x="4535" y="986" width="2258" height="971" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10007" x="7" y="1965" width="2260" height="971" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10008" x="2274" y="1965" width="2260" height="971" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10009" x="4541" y="1965" width="2260" height="971" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10010" x="7" y="2943" width="2260" height="971" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10011" x="7" y="2943" width="2260" height="971" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10012" x="2274" y="2943" width="2258" height="971" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+	<SubTexture name="DEATH PACT MG SHEET instance 10013" x="2274" y="2943" width="2258" height="971" frameX="0" frameY="0" frameWidth="2260" frameHeight="972"/>
+</TextureAtlas>

@@ -2,7 +2,7 @@ package funkin.backend;
 
 import flixel.util.FlxAxes;
 
-// data5's beautiful static extensions
+// datas beautiful static extensions
 class FlxObjectTools
 {
 

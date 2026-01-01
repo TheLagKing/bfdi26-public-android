@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="troll pin.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pin down instance 10000" x="7" y="7" width="138" height="219" frameX="-4" frameY="-15" frameWidth="148" frameHeight="234"/>
+	<SubTexture name="pin down instance 10001" x="7" y="7" width="138" height="219" frameX="-4" frameY="-15" frameWidth="148" frameHeight="234"/>
+	<SubTexture name="pin down instance 10002" x="152" y="7" width="138" height="225" frameX="-7" frameY="-9" frameWidth="148" frameHeight="234"/>
+	<SubTexture name="pin down instance 10003" x="152" y="7" width="138" height="225" frameX="-7" frameY="-9" frameWidth="148" frameHeight="234"/>
+	<SubTexture name="pin down instance 10004" x="152" y="7" width="138" height="225" frameX="-7" frameY="-9" frameWidth="148" frameHeight="234"/>
+	<SubTexture name="pin down instance 10005" x="152" y="7" width="138" height="225" frameX="-7" frameY="-9" frameWidth="148" frameHeight="234"/>
+	<SubTexture name="pin down instance 10006" x="152" y="7" width="138" height="225" frameX="-7" frameY="-9" frameWidth="148" frameHeight="234"/>
+	<SubTexture name="pin down instance 10007" x="297" y="7" width="139" height="228" frameX="-8" frameY="-6" frameWidth="148" frameHeight="234"/>
+	<SubTexture name="pin down instance 10008" x="297" y="7" width="139" height="228" frameX="-8" frameY="-6" frameWidth="148" frameHeight="234"/>
+	<SubTexture name="pin down instance 10009" x="443" y="7" width="148" height="234"/>
+	<SubTexture name="pin idle instance 10000" x="598" y="7" width="170" height="236" frameX="0" frameY="-3" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10001" x="598" y="7" width="170" height="236" frameX="0" frameY="-3" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10002" x="598" y="7" width="170" height="236" frameX="0" frameY="-3" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10003" x="775" y="7" width="168" height="237" frameX="-2" frameY="-2" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10004" x="775" y="7" width="168" height="237" frameX="-2" frameY="-2" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10005" x="950" y="7" width="167" height="238" frameX="-3" frameY="-1" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10006" x="950" y="7" width="167" height="238" frameX="-3" frameY="-1" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10007" x="1124" y="7" width="167" height="239" frameX="-4" frameY="0" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10008" x="1124" y="7" width="167" height="239" frameX="-4" frameY="0" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10009" x="1298" y="7" width="167" height="239" frameX="-4" frameY="0" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10010" x="1298" y="7" width="167" height="239" frameX="-4" frameY="0" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10011" x="1298" y="7" width="167" height="239" frameX="-4" frameY="0" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10012" x="1472" y="7" width="168" height="238" frameX="-3" frameY="-1" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin idle instance 10013" x="1472" y="7" width="168" height="238" frameX="-3" frameY="-1" frameWidth="171" frameHeight="239"/>
+	<SubTexture name="pin left instance 10000" x="1647" y="7" width="175" height="230" frameX="0" frameY="0" frameWidth="198" frameHeight="234"/>
+	<SubTexture name="pin left instance 10001" x="1647" y="7" width="175" height="230" frameX="0" frameY="0" frameWidth="198" frameHeight="234"/>
+	<SubTexture name="pin left instance 10002" x="1829" y="7" width="174" height="230" frameX="-8" frameY="0" frameWidth="198" frameHeight="234"/>
+	<SubTexture name="pin left instance 10003" x="1829" y="7" width="174" height="230" frameX="-8" frameY="0" frameWidth="198" frameHeight="234"/>
+	<SubTexture name="pin left instance 10004" x="1829" y="7" width="174" height="230" frameX="-8" frameY="0" frameWidth="198" frameHeight="234"/>
+	<SubTexture name="pin left instance 10005" x="1829" y="7" width="174" height="230" frameX="-8" frameY="0" frameWidth="198" frameHeight="234"/>
+	<SubTexture name="pin left instance 10006" x="1829" y="7" width="174" height="230" frameX="-8" frameY="0" frameWidth="198" frameHeight="234"/>
+	<SubTexture name="pin left instance 10007" x="2010" y="7" width="173" height="230" frameX="-13" frameY="0" frameWidth="198" frameHeight="234"/>
+	<SubTexture name="pin left instance 10008" x="2010" y="7" width="173" height="230" frameX="-13" frameY="0" frameWidth="198" frameHeight="234"/>
+	<SubTexture name="pin left instance 10009" x="2190" y="7" width="169" height="233" frameX="-29" frameY="-1" frameWidth="198" frameHeight="234"/>
+	<SubTexture name="pin miss instance 10000" x="2366" y="7" width="140" height="254" frameX="-2" frameY="0" frameWidth="148" frameHeight="255"/>
+	<SubTexture name="pin miss instance 10001" x="2366" y="7" width="140" height="254" frameX="-2" frameY="0" frameWidth="148" frameHeight="255"/>
+	<SubTexture name="pin miss instance 10002" x="2513" y="7" width="148" height="230" frameX="0" frameY="-25" frameWidth="148" frameHeight="255"/>
+	<SubTexture name="pin miss instance 10003" x="2513" y="7" width="148" height="230" frameX="0" frameY="-25" frameWidth="148" frameHeight="255"/>
+	<SubTexture name="pin miss instance 10004" x="2668" y="7" width="141" height="240" frameX="-3" frameY="-15" frameWidth="148" frameHeight="255"/>
+	<SubTexture name="pin miss instance 10005" x="2668" y="7" width="141" height="240" frameX="-3" frameY="-15" frameWidth="148" frameHeight="255"/>
+	<SubTexture name="pin miss instance 10006" x="2816" y="7" width="143" height="238" frameX="-2" frameY="-17" frameWidth="148" frameHeight="255"/>
+	<SubTexture name="pin miss instance 10007" x="2816" y="7" width="143" height="238" frameX="-2" frameY="-17" frameWidth="148" frameHeight="255"/>
+	<SubTexture name="pin miss instance 10008" x="2966" y="7" width="142" height="238" frameX="-3" frameY="-17" frameWidth="148" frameHeight="255"/>
+	<SubTexture name="pin miss instance 10009" x="2966" y="7" width="142" height="238" frameX="-3" frameY="-17" frameWidth="148" frameHeight="255"/>
+	<SubTexture name="pin right instance 10000" x="3115" y="7" width="164" height="238" frameX="-34" frameY="0" frameWidth="198" frameHeight="239"/>
+	<SubTexture name="pin right instance 10001" x="3115" y="7" width="164" height="238" frameX="-34" frameY="0" frameWidth="198" frameHeight="239"/>
+	<SubTexture name="pin right instance 10002" x="3286" y="7" width="163" height="238" frameX="-23" frameY="-1" frameWidth="198" frameHeight="239"/>
+	<SubTexture name="pin right instance 10003" x="3286" y="7" width="163" height="238" frameX="-23" frameY="-1" frameWidth="198" frameHeight="239"/>
+	<SubTexture name="pin right instance 10004" x="3286" y="7" width="163" height="238" frameX="-23" frameY="-1" frameWidth="198" frameHeight="239"/>
+	<SubTexture name="pin right instance 10005" x="3286" y="7" width="163" height="238" frameX="-23" frameY="-1" frameWidth="198" frameHeight="239"/>
+	<SubTexture name="pin right instance 10006" x="3286" y="7" width="163" height="238" frameX="-23" frameY="-1" frameWidth="198" frameHeight="239"/>
+	<SubTexture name="pin right instance 10007" x="3456" y="7" width="165" height="238" frameX="-20" frameY="-1" frameWidth="198" frameHeight="239"/>
+	<SubTexture name="pin right instance 10008" x="3456" y="7" width="165" height="238" frameX="-20" frameY="-1" frameWidth="198" frameHeight="239"/>
+	<SubTexture name="pin right instance 10009" x="3628" y="7" width="168" height="237" frameX="0" frameY="-2" frameWidth="198" frameHeight="239"/>
+	<SubTexture name="pin up instance 10000" x="3803" y="7" width="160" height="259" frameX="-8" frameY="0" frameWidth="168" frameHeight="259"/>
+	<SubTexture name="pin up instance 10001" x="3803" y="7" width="160" height="259" frameX="-8" frameY="0" frameWidth="168" frameHeight="259"/>
+	<SubTexture name="pin up instance 10002" x="3970" y="7" width="159" height="254" frameX="-7" frameY="-5" frameWidth="168" frameHeight="259"/>
+	<SubTexture name="pin up instance 10003" x="3970" y="7" width="159" height="254" frameX="-7" frameY="-5" frameWidth="168" frameHeight="259"/>
+	<SubTexture name="pin up instance 10004" x="3970" y="7" width="159" height="254" frameX="-7" frameY="-5" frameWidth="168" frameHeight="259"/>
+	<SubTexture name="pin up instance 10005" x="3970" y="7" width="159" height="254" frameX="-7" frameY="-5" frameWidth="168" frameHeight="259"/>
+	<SubTexture name="pin up instance 10006" x="3970" y="7" width="159" height="254" frameX="-7" frameY="-5" frameWidth="168" frameHeight="259"/>
+	<SubTexture name="pin up instance 10007" x="4136" y="7" width="160" height="251" frameX="-6" frameY="-8" frameWidth="168" frameHeight="259"/>
+	<SubTexture name="pin up instance 10008" x="4303" y="7" width="160" height="251" frameX="-6" frameY="-8" frameWidth="168" frameHeight="259"/>
+	<SubTexture name="pin up instance 10009" x="4470" y="7" width="164" height="243" frameX="0" frameY="-16" frameWidth="168" frameHeight="259"/>
+</TextureAtlas>

@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-376,
+				-24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-349,
+				-24
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "altidle"
+		},
+		{
+			"offsets": [
+				-349,
+				-21
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "trans",
+			"loop": false,
+			"name": "transition0"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/vocal-chords/liygfsprite",
+	"position": [
+		40,
+		370
+	],
+	"healthicon": "leafy",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		-120,
+		50
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

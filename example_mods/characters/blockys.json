@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-40,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "bfdiidle instance 1"
+		},
+		{
+			"offsets": [
+				-1,
+				-17
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "bfdidown instance 1"
+		},
+		{
+			"offsets": [
+				24,
+				38
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "bfdiup instance 1"
+		},
+		{
+			"offsets": [
+				93,
+				-22
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "bfdielft instance 1"
+		},
+		{
+			"offsets": [
+				-90,
+				3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "bfdiright instance 1"
+		},
+		{
+			"offsets": [
+				-35,
+				-4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "bfdimiss instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/yoylefake/blocky bfdi cmix",
+	"position": [
+		20,
+		403
+	],
+	"healthicon": "blocky",
+	"flip_x": true,
+	"healthbar_colors": [
+		232,
+		70,
+		70
+	],
+	"camera_position": [
+		-100,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="book won bfdia23.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bookcasey bg instance 10000" x="7" y="7" width="212" height="305" frameX="0" frameY="-3" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10001" x="226" y="7" width="212" height="307" frameX="0" frameY="-1" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10002" x="445" y="7" width="212" height="308"/>
+	<SubTexture name="bookcasey bg instance 10003" x="664" y="7" width="212" height="308"/>
+	<SubTexture name="bookcasey bg instance 10004" x="883" y="7" width="212" height="308"/>
+	<SubTexture name="bookcasey bg instance 10005" x="1102" y="7" width="212" height="307" frameX="0" frameY="-1" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10006" x="1321" y="7" width="212" height="305" frameX="0" frameY="-2" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10007" x="1540" y="7" width="212" height="305" frameX="0" frameY="-3" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10008" x="1759" y="7" width="212" height="307" frameX="0" frameY="-1" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10009" x="1978" y="7" width="212" height="308"/>
+	<SubTexture name="bookcasey bg instance 10010" x="2197" y="7" width="212" height="308"/>
+	<SubTexture name="bookcasey bg instance 10011" x="2416" y="7" width="212" height="307" frameX="0" frameY="0" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10012" x="2635" y="7" width="212" height="307" frameX="0" frameY="-1" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10013" x="2854" y="7" width="212" height="306" frameX="0" frameY="-2" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10014" x="3073" y="7" width="212" height="305" frameX="0" frameY="-3" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10015" x="3292" y="7" width="212" height="307" frameX="0" frameY="-1" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10016" x="3511" y="7" width="212" height="308"/>
+	<SubTexture name="bookcasey bg instance 10017" x="3730" y="7" width="212" height="308"/>
+	<SubTexture name="bookcasey bg instance 10018" x="3949" y="7" width="212" height="308"/>
+	<SubTexture name="bookcasey bg instance 10019" x="4168" y="7" width="212" height="307" frameX="0" frameY="-1" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10020" x="4387" y="7" width="212" height="305" frameX="0" frameY="-2" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10021" x="4606" y="7" width="212" height="305" frameX="0" frameY="-3" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10022" x="4825" y="7" width="212" height="307" frameX="0" frameY="-1" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10023" x="5044" y="7" width="212" height="308"/>
+	<SubTexture name="bookcasey bg instance 10024" x="5263" y="7" width="212" height="308"/>
+	<SubTexture name="bookcasey bg instance 10025" x="5482" y="7" width="212" height="307" frameX="0" frameY="0" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10026" x="5701" y="7" width="212" height="307" frameX="0" frameY="-1" frameWidth="212" frameHeight="308"/>
+	<SubTexture name="bookcasey bg instance 10027" x="5920" y="7" width="212" height="306" frameX="0" frameY="-2" frameWidth="212" frameHeight="308"/>
+</TextureAtlas>

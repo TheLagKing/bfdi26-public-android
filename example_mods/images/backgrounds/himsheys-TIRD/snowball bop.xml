@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="snowball bop.png" width="335" height="1792">
+	<SubTexture name="snoball instance 10000" x="1" y="1348" width="333" height="443" frameX="-0" frameY="-7" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10001" x="1" y="1348" width="333" height="443" frameX="-0" frameY="-7" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10002" x="1" y="902" width="333" height="446" frameX="-0" frameY="-4" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10003" x="1" y="902" width="333" height="446" frameX="-0" frameY="-4" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10004" x="1" y="452" width="333" height="450" frameX="-0" frameY="-1" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10005" x="1" y="452" width="333" height="450" frameX="-0" frameY="-1" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10006" x="1" y="1" width="333" height="451" frameX="-0" frameY="-0" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10007" x="1" y="1" width="333" height="451" frameX="-0" frameY="-0" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10008" x="1" y="1" width="333" height="451" frameX="-0" frameY="-0" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10009" x="1" y="1" width="333" height="451" frameX="-0" frameY="-0" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10010" x="1" y="1" width="333" height="451" frameX="-0" frameY="-0" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10011" x="1" y="1" width="333" height="451" frameX="-0" frameY="-0" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10012" x="1" y="1" width="333" height="451" frameX="-0" frameY="-0" frameWidth="333" frameHeight="451"/>
+	<SubTexture name="snoball instance 10013" x="1" y="1" width="333" height="451" frameX="-0" frameY="-0" frameWidth="333" frameHeight="451"/>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="evilsongtitle.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Symbol 3 copy 80000" x="3" y="3" width="303" height="151" frameX="0" frameY="-2" frameWidth="306" frameHeight="153"/>
+	<SubTexture name="Symbol 3 copy 80001" x="3" y="3" width="303" height="151" frameX="0" frameY="-2" frameWidth="306" frameHeight="153"/>
+	<SubTexture name="Symbol 3 copy 80002" x="3" y="164" width="300" height="152" frameX="-6" frameY="0" frameWidth="306" frameHeight="153"/>
+	<SubTexture name="Symbol 3 copy 80003" x="3" y="164" width="300" height="152" frameX="-6" frameY="0" frameWidth="306" frameHeight="153"/>
+</TextureAtlas>

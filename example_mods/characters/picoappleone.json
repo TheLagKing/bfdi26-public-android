@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-49,
+				-24
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				25
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-42,
+				-8
+			],
+			"anim": "miss",
+			"fps": 24,
+			"name": "miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-2,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-52,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/oneshot-pico/oneshotpico",
+	"position": [
+		50,
+		340
+	],
+	"healthicon": "sourapple",
+	"flip_x": true,
+	"healthbar_colors": [
+		183,
+		216,
+ 		85
+	],
+	"camera_position": [
+		-100,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

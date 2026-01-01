@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="RUOK BG SHEET.png" width="4794" height="5366">
+	<SubTexture name="RUOK BG SHEET instance 10000" x="0" y="0" width="2397" height="745" frameX="-0" frameY="-53" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10001" x="0" y="0" width="2397" height="745" frameX="-0" frameY="-53" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10002" x="0" y="745" width="2397" height="751" frameX="-0" frameY="-47" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10003" x="0" y="1496" width="2397" height="751" frameX="-0" frameY="-47" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10004" x="0" y="2247" width="2397" height="762" frameX="-0" frameY="-36" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10005" x="2397" y="0" width="2397" height="762" frameX="-0" frameY="-36" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10006" x="2397" y="762" width="2397" height="779" frameX="-0" frameY="-19" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10007" x="2397" y="1541" width="2397" height="779" frameX="-0" frameY="-19" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10008" x="2397" y="2320" width="2397" height="790" frameX="-0" frameY="-8" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10009" x="0" y="3009" width="2397" height="790" frameX="-0" frameY="-8" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10010" x="2397" y="3110" width="2397" height="791" frameX="-0" frameY="-7" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10011" x="0" y="3799" width="2397" height="791" frameX="-0" frameY="-7" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10012" x="2397" y="3901" width="2397" height="776" frameX="-0" frameY="-22" frameWidth="2397" frameHeight="798"/>
+	<SubTexture name="RUOK BG SHEET instance 10013" x="0" y="4590" width="2397" height="776" frameX="-0" frameY="-22" frameWidth="2397" frameHeight="798"/>
+</TextureAtlas>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bgsetgel.png" width="6908" height="209">
+	<SubTexture name="bgsetgel instance 10000" x="6162" y="0" width="249" height="208" frameX="-0" frameY="-1" frameWidth="258" frameHeight="209"/>
+	<SubTexture name="bgsetgel instance 10001" x="6162" y="0" width="249" height="208" frameX="-0" frameY="-1" frameWidth="258" frameHeight="209"/>
+	<SubTexture name="bgsetgel instance 10002" x="5399" y="0" width="255" height="206" frameX="-0" frameY="-3" frameWidth="258" frameHeight="209"/>
+	<SubTexture name="bgsetgel instance 10003" x="5399" y="0" width="255" height="206" frameX="-0" frameY="-3" frameWidth="258" frameHeight="209"/>
+	<SubTexture name="bgsetgel instance 10004" x="3160" y="0" width="256" height="190" frameX="-1" frameY="-3" frameWidth="258" frameHeight="209"/>
+	<SubTexture name="bgsetgel instance 10005" x="3160" y="0" width="256" height="190" frameX="-1" frameY="-3" frameWidth="258" frameHeight="209"/>
+	<SubTexture name="bgsetgel instance 10006" x="3416" y="0" width="255" height="190" frameX="-2" frameY="-3" frameWidth="258" frameHeight="209"/>
+	<SubTexture name="bgsetgel instance 10007" x="3416" y="0" width="255" height="190" frameX="-2" frameY="-3" frameWidth="258" frameHeight="209"/>
+	<SubTexture name="bgsetgel instance 10008" x="3671" y="0" width="256" height="190" frameX="-1" frameY="-3" frameWidth="258" frameHeight="209"/>
+	<SubTexture name="bgsetgel instance 10009" x="3671" y="0" width="256" height="190" frameX="-1" frameY="-3" frameWidth="258" frameHeight="209"/>
+	<SubTexture name="bgsetgel1 instance 10000" x="3927" y="0" width="256" height="190" frameX="-2" frameY="-4" frameWidth="259" frameHeight="210"/>
+	<SubTexture name="bgsetgel1 instance 10001" x="3927" y="0" width="256" height="190" frameX="-2" frameY="-4" frameWidth="259" frameHeight="210"/>
+	<SubTexture name="bgsetgel1 instance 10002" x="5654" y="0" width="256" height="207" frameX="-2" frameY="-3" frameWidth="259" frameHeight="210"/>
+	<SubTexture name="bgsetgel1 instance 10003" x="5654" y="0" width="256" height="207" frameX="-2" frameY="-3" frameWidth="259" frameHeight="210"/>
+	<SubTexture name="bgsetgel1 instance 10004" x="5910" y="0" width="252" height="207" frameX="-1" frameY="-2" frameWidth="259" frameHeight="210"/>
+	<SubTexture name="bgsetgel1 instance 10005" x="5910" y="0" width="252" height="207" frameX="-1" frameY="-2" frameWidth="259" frameHeight="210"/>
+	<SubTexture name="bgsetgel1 instance 10006" x="6411" y="0" width="248" height="209" frameX="-1" frameY="-1" frameWidth="259" frameHeight="210"/>
+	<SubTexture name="bgsetgel1 instance 10007" x="6411" y="0" width="248" height="209" frameX="-1" frameY="-1" frameWidth="259" frameHeight="210"/>
+	<SubTexture name="bgsetgel1 instance 10008" x="6659" y="0" width="249" height="209" frameX="-0" frameY="-1" frameWidth="259" frameHeight="210"/>
+	<SubTexture name="bgsetgel1 instance 10009" x="6659" y="0" width="249" height="209" frameX="-0" frameY="-1" frameWidth="259" frameHeight="210"/>
+	<SubTexture name="bgsetgelfall instance 10000" x="2317" y="0" width="251" height="187" frameX="-186" frameY="-91" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10001" x="1757" y="0" width="256" height="168" frameX="-181" frameY="-107" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10002" x="1207" y="0" width="264" height="161" frameX="-176" frameY="-117" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10003" x="664" y="0" width="240" height="144" frameX="-152" frameY="-129" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10004" x="2013" y="0" width="304" height="176" frameX="-36" frameY="-34" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10005" x="2568" y="0" width="295" height="187" frameX="-42" frameY="-23" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10006" x="2863" y="0" width="297" height="189" frameX="-29" frameY="-14" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10007" x="4183" y="0" width="286" height="195" frameX="-36" frameY="-8" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10008" x="4469" y="0" width="311" height="197" frameX="-16" frameY="-4" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10009" x="4780" y="0" width="309" height="199" frameX="-21" frameY="-2" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10010" x="5089" y="0" width="310" height="201" frameX="-20" frameY="-3" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10011" x="1471" y="0" width="286" height="166" frameX="-27" frameY="-37" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10012" x="904" y="0" width="303" height="147" frameX="-5" frameY="-56" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10013" x="370" y="0" width="294" height="143" frameX="-10" frameY="-60" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10014" x="73" y="0" width="297" height="105" frameX="-0" frameY="-99" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10015" x="1" y="0" width="72" height="15" frameX="-121" frameY="-188" frameWidth="440" frameHeight="279"/>
+	<SubTexture name="bgsetgelfall instance 10016" x="0" y="0" width="1" height="1" frameX="-0" frameY="-0" frameWidth="440" frameHeight="279"/>
+</TextureAtlas>

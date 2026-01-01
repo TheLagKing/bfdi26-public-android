@@ -1,0 +1,113 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				205,
+				206
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "X IDLE instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				181,
+				265
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "X DOWN instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				165,
+				252
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": " XUP instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				205,
+				227
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "X RIGHT instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				289,
+				220
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "X LEFT instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				232,
+				202
+			],
+			"anim": "LAND",
+			"fps": 24,
+			"name": "X LAND instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				224,
+				234
+			],
+			"anim": "WOW",
+			"fps": 24,
+			"name": "X WOW instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				145,
+				215
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "X ALT IDLE instance 1",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/hey-four/xsie",
+	"position": [
+		270,
+		660
+	],
+	"healthicon": "four",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-380,
+		-110
+	],
+	"sing_duration": 3.9,
+	"scale": 0.75,
+	"_editor_isPlayer": false
+}

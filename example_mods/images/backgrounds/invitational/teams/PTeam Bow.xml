@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="PTeam Bow.png" width="2086" height="164">
+	<SubTexture name="Cabbiness instance 10000" x="1583" y="1" width="248" height="162" frameX="-5" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10001" x="1583" y="1" width="248" height="162" frameX="-5" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10002" x="1583" y="1" width="248" height="162" frameX="-5" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10003" x="1831" y="1" width="254" height="162" frameX="-0" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10004" x="1831" y="1" width="254" height="162" frameX="-0" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10005" x="1075" y="1" width="256" height="160" frameX="-1" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10006" x="1075" y="1" width="256" height="160" frameX="-1" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10007" x="2" y="1" width="256" height="153" frameX="-8" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10008" x="2" y="1" width="256" height="153" frameX="-8" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10009" x="1331" y="1" width="252" height="160" frameX="-15" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10010" x="1331" y="1" width="252" height="160" frameX="-15" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10011" x="504" y="1" width="247" height="158" frameX="-21" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10012" x="504" y="1" width="247" height="158" frameX="-21" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10013" x="258" y="1" width="246" height="155" frameX="-23" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10014" x="258" y="1" width="246" height="155" frameX="-23" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10015" x="751" y="1" width="250" height="158" frameX="-28" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10016" x="751" y="1" width="250" height="158" frameX="-28" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10017" x="751" y="1" width="250" height="158" frameX="-28" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10018" x="1001" y="1" width="74" height="158" frameX="-27" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10019" x="1001" y="1" width="74" height="158" frameX="-27" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10020" x="1" y="1" width="1" height="1" frameX="-0" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10021" x="1" y="1" width="1" height="1" frameX="-0" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10022" x="1" y="1" width="1" height="1" frameX="-0" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10023" x="1" y="1" width="1" height="1" frameX="-0" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10024" x="1" y="1" width="1" height="1" frameX="-0" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10025" x="1" y="1" width="1" height="1" frameX="-0" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10026" x="1" y="1" width="1" height="1" frameX="-0" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10027" x="1" y="1" width="1" height="1" frameX="-0" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10028" x="1" y="1" width="1" height="1" frameX="-0" frameY="-0" frameWidth="279" frameHeight="311"/>
+	<SubTexture name="Cabbiness instance 10029" x="1" y="1" width="1" height="1" frameX="-0" frameY="-0" frameWidth="279" frameHeight="311"/>
+</TextureAtlas>

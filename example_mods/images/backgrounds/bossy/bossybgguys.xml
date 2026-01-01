@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bossybgguys.png" width="7418" height="4553">
+	<SubTexture name="bgguys10000" x="1" y="1" width="1236" height="781" frameX="-0" frameY="-6" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10001" x="4945" y="1" width="1236" height="779" frameX="-0" frameY="-8" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10002" x="1" y="782" width="1236" height="775" frameX="-0" frameY="-12" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10003" x="1" y="1557" width="1236" height="769" frameX="-0" frameY="-18" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10004" x="4945" y="1559" width="1236" height="759" frameX="-0" frameY="-28" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10005" x="1" y="2326" width="1236" height="749" frameX="-0" frameY="-38" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10006" x="3709" y="3075" width="1236" height="741" frameX="-0" frameY="-46" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10007" x="4945" y="3815" width="1236" height="735" frameX="-0" frameY="-52" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10008" x="1237" y="3818" width="1236" height="733" frameX="-0" frameY="-54" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10009" x="2473" y="3817" width="1236" height="734" frameX="-0" frameY="-53" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10010" x="6181" y="3077" width="1236" height="737" frameX="-0" frameY="-50" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10011" x="1" y="3075" width="1236" height="743" frameX="-0" frameY="-44" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10012" x="2473" y="2325" width="1236" height="750" frameX="-0" frameY="-37" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10013" x="6181" y="1559" width="1236" height="759" frameX="-0" frameY="-28" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10014" x="2473" y="1557" width="1236" height="768" frameX="-0" frameY="-19" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10015" x="1237" y="782" width="1236" height="775" frameX="-0" frameY="-12" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10016" x="6181" y="1" width="1236" height="779" frameX="-0" frameY="-8" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys10017" x="1237" y="1" width="1236" height="781" frameX="-0" frameY="-6" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20000" x="2473" y="1" width="1236" height="781" frameX="-0" frameY="-6" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20001" x="4945" y="780" width="1236" height="779" frameX="-0" frameY="-8" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20002" x="2473" y="782" width="1236" height="775" frameX="-0" frameY="-12" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20003" x="1237" y="1557" width="1236" height="769" frameX="-0" frameY="-18" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20004" x="4945" y="2318" width="1236" height="759" frameX="-0" frameY="-28" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20005" x="1237" y="2326" width="1236" height="749" frameX="-0" frameY="-38" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20006" x="2473" y="3075" width="1236" height="742" frameX="-0" frameY="-46" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20007" x="6181" y="3814" width="1236" height="736" frameX="-0" frameY="-52" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20008" x="1" y="3818" width="1236" height="734" frameX="-0" frameY="-54" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20009" x="3709" y="3816" width="1236" height="735" frameX="-0" frameY="-53" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20010" x="4945" y="3077" width="1236" height="738" frameX="-0" frameY="-50" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20011" x="1237" y="3075" width="1236" height="743" frameX="-0" frameY="-44" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20012" x="3709" y="2325" width="1236" height="750" frameX="-0" frameY="-37" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20013" x="6181" y="2318" width="1236" height="759" frameX="-0" frameY="-28" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20014" x="3709" y="1557" width="1236" height="768" frameX="-0" frameY="-19" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20015" x="3709" y="782" width="1236" height="775" frameX="-0" frameY="-12" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20016" x="6181" y="780" width="1236" height="779" frameX="-0" frameY="-8" frameWidth="1236" frameHeight="894"/>
+	<SubTexture name="bgguys20017" x="3709" y="1" width="1236" height="781" frameX="-0" frameY="-6" frameWidth="1236" frameHeight="894"/>
+</TextureAtlas>

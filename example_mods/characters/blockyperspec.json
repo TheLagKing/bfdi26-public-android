@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-16,
+				7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "breakidle instance 10"
+		},
+		{
+			"offsets": [
+				-50,
+				-11
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "breakdown haha get it instance 1"
+		},
+		{
+			"offsets": [
+				-31,
+				51
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "breakup instance 1"
+		},
+		{
+			"offsets": [
+				84,
+				4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "breakleft instance 1"
+		},
+		{
+			"offsets": [
+				-114,
+				-5
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "break right instance 1"
+		},
+		{
+			"offsets": [
+				-11,
+				31
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "breakmiss"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/yoylefake/blocky breakdown cmix",
+	"position": [
+		10,
+		400
+	],
+	"healthicon": "blocky",
+	"flip_x": true,
+	"healthbar_colors": [
+		232,
+		70,
+		70
+	],
+	"camera_position": [
+		-100,
+		180
+	],
+	"sing_duration": 6.09999999999999,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

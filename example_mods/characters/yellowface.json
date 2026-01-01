@@ -1,0 +1,135 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				10,
+				30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "hard idle instance 1"
+		},
+		{
+			"offsets": [
+				78,
+				-26
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "hard down instance 1"
+		},
+		{
+			"offsets": [
+				-13,
+				153
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "hard up instance 1"
+		},
+		{
+			"offsets": [
+				4,
+				34
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "hard right instance 1"
+		},
+		{
+			"offsets": [
+				90,
+				22
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "hard left instance 1"
+		},
+		{
+			"offsets": [
+				87,
+				24
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "soft left instance 1"
+		},
+		{
+			"offsets": [
+				1,
+				35
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "soft right instance 1"
+		},
+		{
+			"offsets": [
+				-15,
+				162
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "soft up instance 1"
+		},
+		{
+			"offsets": [
+				78,
+				-27
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "soft down instance 1"
+		},
+		{
+			"offsets": [
+				10,
+				30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "soft idle instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/hard-bargain/fellow yace",
+	"position": [
+		40,
+		300
+	],
+	"healthicon": "yellowface",
+	"flip_x": false,
+	"healthbar_colors": [
+		251,
+		221,
+		78
+	],
+	"camera_position": [
+		-120,
+		30
+	],
+	"sing_duration": 3,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gbtree.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Golf Ball Down instance 10000" x="3" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10001" x="3" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10002" x="247" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10003" x="247" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10004" x="247" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10005" x="247" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10006" x="247" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10007" x="247" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10008" x="247" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10009" x="247" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10010" x="247" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10011" x="247" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10012" x="247" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Down instance 10013" x="247" y="3" width="234" height="240"/>
+	<SubTexture name="Golf Ball Idle instance 10000" x="491" y="3" width="233" height="273"/>
+	<SubTexture name="Golf Ball Idle instance 10001" x="491" y="3" width="233" height="273"/>
+	<SubTexture name="Golf Ball Idle instance 10002" x="734" y="3" width="233" height="273"/>
+	<SubTexture name="Golf Ball Idle instance 10003" x="734" y="3" width="233" height="273"/>
+	<SubTexture name="Golf Ball Idle instance 10004" x="977" y="3" width="233" height="272" frameX="0" frameY="0" frameWidth="233" frameHeight="273"/>
+	<SubTexture name="Golf Ball Idle instance 10005" x="977" y="3" width="233" height="272" frameX="0" frameY="0" frameWidth="233" frameHeight="273"/>
+	<SubTexture name="Golf Ball Idle instance 10006" x="3" y="286" width="233" height="268" frameX="0" frameY="0" frameWidth="233" frameHeight="273"/>
+	<SubTexture name="Golf Ball Idle instance 10007" x="3" y="286" width="233" height="268" frameX="0" frameY="0" frameWidth="233" frameHeight="273"/>
+	<SubTexture name="Golf Ball Idle instance 10008" x="246" y="286" width="233" height="267" frameX="0" frameY="0" frameWidth="233" frameHeight="273"/>
+	<SubTexture name="Golf Ball Idle instance 10009" x="246" y="286" width="233" height="267" frameX="0" frameY="0" frameWidth="233" frameHeight="273"/>
+	<SubTexture name="Golf Ball Idle instance 10010" x="489" y="286" width="233" height="267" frameX="0" frameY="0" frameWidth="233" frameHeight="273"/>
+	<SubTexture name="Golf Ball Idle instance 10011" x="489" y="286" width="233" height="267" frameX="0" frameY="0" frameWidth="233" frameHeight="273"/>
+	<SubTexture name="Golf Ball Idle instance 10012" x="732" y="286" width="233" height="267" frameX="0" frameY="0" frameWidth="233" frameHeight="273"/>
+	<SubTexture name="Golf Ball Idle instance 10013" x="732" y="286" width="233" height="267" frameX="0" frameY="0" frameWidth="233" frameHeight="273"/>
+	<SubTexture name="Golf Ball Left instance 10000" x="975" y="286" width="233" height="279" frameX="-1" frameY="0" frameWidth="234" frameHeight="281"/>
+	<SubTexture name="Golf Ball Left instance 10001" x="975" y="286" width="233" height="279" frameX="-1" frameY="0" frameWidth="234" frameHeight="281"/>
+	<SubTexture name="Golf Ball Left instance 10002" x="3" y="575" width="234" height="281"/>
+	<SubTexture name="Golf Ball Left instance 10003" x="3" y="575" width="234" height="281"/>
+	<SubTexture name="Golf Ball Left instance 10004" x="3" y="575" width="234" height="281"/>
+	<SubTexture name="Golf Ball Left instance 10005" x="3" y="575" width="234" height="281"/>
+	<SubTexture name="Golf Ball Left instance 10006" x="3" y="575" width="234" height="281"/>
+	<SubTexture name="Golf Ball Left instance 10007" x="3" y="575" width="234" height="281"/>
+	<SubTexture name="Golf Ball Left instance 10008" x="3" y="575" width="234" height="281"/>
+	<SubTexture name="Golf Ball Left instance 10009" x="3" y="575" width="234" height="281"/>
+	<SubTexture name="Golf Ball Left instance 10010" x="3" y="575" width="234" height="281"/>
+	<SubTexture name="Golf Ball Left instance 10011" x="3" y="575" width="234" height="281"/>
+	<SubTexture name="Golf Ball Left instance 10012" x="3" y="575" width="234" height="281"/>
+	<SubTexture name="Golf Ball Left instance 10013" x="3" y="575" width="234" height="281"/>
+	<SubTexture name="Golf Ball Right instance 10000" x="247" y="575" width="234" height="280" frameX="0" frameY="0" frameWidth="234" frameHeight="282"/>
+	<SubTexture name="Golf Ball Right instance 10001" x="247" y="575" width="234" height="280" frameX="0" frameY="0" frameWidth="234" frameHeight="282"/>
+	<SubTexture name="Golf Ball Right instance 10002" x="491" y="575" width="234" height="282"/>
+	<SubTexture name="Golf Ball Right instance 10003" x="491" y="575" width="234" height="282"/>
+	<SubTexture name="Golf Ball Right instance 10004" x="491" y="575" width="234" height="282"/>
+	<SubTexture name="Golf Ball Right instance 10005" x="491" y="575" width="234" height="282"/>
+	<SubTexture name="Golf Ball Right instance 10006" x="491" y="575" width="234" height="282"/>
+	<SubTexture name="Golf Ball Right instance 10007" x="491" y="575" width="234" height="282"/>
+	<SubTexture name="Golf Ball Right instance 10008" x="491" y="575" width="234" height="282"/>
+	<SubTexture name="Golf Ball Right instance 10009" x="491" y="575" width="234" height="282"/>
+	<SubTexture name="Golf Ball Right instance 10010" x="491" y="575" width="234" height="282"/>
+	<SubTexture name="Golf Ball Right instance 10011" x="491" y="575" width="234" height="282"/>
+	<SubTexture name="Golf Ball Right instance 10012" x="491" y="575" width="234" height="282"/>
+	<SubTexture name="Golf Ball Right instance 10013" x="491" y="575" width="234" height="282"/>
+	<SubTexture name="Golf Ball Up instance 10000" x="735" y="575" width="233" height="283"/>
+	<SubTexture name="Golf Ball Up instance 10001" x="735" y="575" width="233" height="283"/>
+	<SubTexture name="Golf Ball Up instance 10002" x="978" y="575" width="233" height="279" frameX="0" frameY="0" frameWidth="233" frameHeight="283"/>
+	<SubTexture name="Golf Ball Up instance 10003" x="978" y="575" width="233" height="279" frameX="0" frameY="0" frameWidth="233" frameHeight="283"/>
+	<SubTexture name="Golf Ball Up instance 10004" x="978" y="575" width="233" height="279" frameX="0" frameY="0" frameWidth="233" frameHeight="283"/>
+	<SubTexture name="Golf Ball Up instance 10005" x="978" y="575" width="233" height="279" frameX="0" frameY="0" frameWidth="233" frameHeight="283"/>
+	<SubTexture name="Golf Ball Up instance 10006" x="978" y="575" width="233" height="279" frameX="0" frameY="0" frameWidth="233" frameHeight="283"/>
+	<SubTexture name="Golf Ball Up instance 10007" x="978" y="575" width="233" height="279" frameX="0" frameY="0" frameWidth="233" frameHeight="283"/>
+	<SubTexture name="Golf Ball Up instance 10008" x="978" y="575" width="233" height="279" frameX="0" frameY="0" frameWidth="233" frameHeight="283"/>
+	<SubTexture name="Golf Ball Up instance 10009" x="978" y="575" width="233" height="279" frameX="0" frameY="0" frameWidth="233" frameHeight="283"/>
+	<SubTexture name="Golf Ball Up instance 10010" x="978" y="575" width="233" height="279" frameX="0" frameY="0" frameWidth="233" frameHeight="283"/>
+	<SubTexture name="Golf Ball Up instance 10011" x="978" y="575" width="233" height="279" frameX="0" frameY="0" frameWidth="233" frameHeight="283"/>
+	<SubTexture name="Golf Ball Up instance 10012" x="978" y="575" width="233" height="279" frameX="0" frameY="0" frameWidth="233" frameHeight="283"/>
+	<SubTexture name="Golf Ball Up instance 10013" x="978" y="575" width="233" height="279" frameX="0" frameY="0" frameWidth="233" frameHeight="283"/>
+</TextureAtlas>

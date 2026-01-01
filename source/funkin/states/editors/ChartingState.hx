@@ -223,10 +223,12 @@ class ChartingState extends MusicBeatState
 
 		vortex = FlxG.save.data.chart_vortex;
 		ignoreWarnings = FlxG.save.data.ignoreWarnings;
-		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+
+		final bgs = ['exit','plains','beam','ruins','hpprc'];
+		var rd = FlxG.random.getObject(bgs);
+		var bg:FlxSprite = new FlxSprite().loadImage('menus/main/bgs/${rd}');
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.scrollFactor.set();
-		bg.color = 0xFF222222;
 		add(bg);
 
 		gridLayer = new FlxTypedGroup<FlxSprite>();
@@ -283,7 +285,7 @@ class ChartingState extends MusicBeatState
 		strumLine = new FlxSprite(0, 50).makeGraphic(Std.int(GRID_SIZE * 9), 4);
 		add(strumLine);
 
-		quant = new AttachedSprite('chart_quant','chart_quant');
+		quant = new AttachedSprite('chart_quant','shared/chart_quant');
 		quant.animation.addByPrefix('q','chart_quant',0,false);
 		quant.animation.play('q', true, false, 0);
 		quant.sprTracker = strumLine;
@@ -3136,7 +3138,7 @@ class ChartingState extends MusicBeatState
 				remove(missingText);
 				missingText.destroy();
 			});
-			FlxG.sound.play(Paths.sound('cancelMenu'));
+			FlxG.sound.play(Paths.sound('spaceunpause'));
 		}
 	}
 

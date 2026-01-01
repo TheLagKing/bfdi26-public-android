@@ -7,13 +7,14 @@ import funkin.objects.Alphabet;
 class VisualsUISubState extends BaseOptionsMenu
 {
 	var noteOptionID:Int = -1;
-	var notes:FlxTypedGroup<StrumNote>;
 	var notesTween:Array<FlxTween> = [];
 	var noteY:Float = 90;
 	public function new()
 	{
 		title = 'Visuals and UI';
+		#if DISCORD_ALLOWED
 		rpcTitle = 'Visuals & UI Settings Menu'; //for Discord Rich Presence
+		#end
 
 		var option:Option = new Option('Note Splash Opacity',
 			'How much transparent should the Note Splashes be.',
@@ -29,6 +30,18 @@ class VisualsUISubState extends BaseOptionsMenu
 		var option:Option = new Option('Hide HUD',
 			'If checked, hides most HUD elements.',
 			'hideHud',
+			'bool');
+		addOption(option);
+
+		var option:Option = new Option('Hide Subtitles',
+			'If checked, hides subtitles for in-song dialogue.',
+			'hideSub',
+			'bool');
+		addOption(option);
+
+		var option:Option = new Option('Hide Titlecards',
+			'If checked, hides in-song titlecards.',
+			'hideCards',
 			'bool');
 		addOption(option);
 
@@ -50,9 +63,9 @@ class VisualsUISubState extends BaseOptionsMenu
 			'bool');
 		addOption(option);
 
-		var option:Option = new Option('Health Bar Opacity',
-			'How much transparent should the health bar and icons be.',
-			'healthBarAlpha',
+		var option:Option = new Option('Strum Background Opacity',
+			'Adds a black background to the players Strumline for easier note visibility.',
+			'StrumBGAlpha',
 			'percent');
 		option.scrollSpeed = 1.6;
 		option.minValue = 0.0;
@@ -85,7 +98,6 @@ class VisualsUISubState extends BaseOptionsMenu
 		addOption(option);
 
 		super();
-		add(notes);
 	}
 
 	#if !mobile

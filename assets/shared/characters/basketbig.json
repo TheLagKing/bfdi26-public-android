@@ -1,86 +1,75 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				-88,
+				-101
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "bbIDLE instance 1",
-			"indices": []
+			"indices": [],
+			"name": "bbIDLE instance 1"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-21,
-				-32
+				-83,
+				-103
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "bbDOWN instance 1",
-			"indices": []
+			"indices": [],
+			"name": "bbDOWN instance 1"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				9,
-				36
+				-80,
+				-68
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "bbUP instance 1",
-			"indices": []
+			"indices": [],
+			"name": "bbUP instance 1"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				70,
-				10
+				-24,
+				-93
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "bbLEFT instance 1",
-			"indices": []
+			"indices": [],
+			"name": "bbLEFT instance 1"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-35,
-				7
+				-85,
+				-88
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "bbRIGHT instance 1",
-			"indices": []
+			"indices": [],
+			"name": "bbRIGHT instance 1"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				40,
-				0
+				-84,
+				-94
 			],
-			"anim": "appear",
+			"loop": false,
 			"fps": 24,
-			"name": "bbAPPEAR instance 1",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				1,
-				7
-			],
 			"anim": "miss",
-			"fps": 24,
-			"name": "bbMISS instance 1",
-			"indices": []
+			"indices": [],
+			"name": "bbMISS instance 1"
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
-	"image": "characters/basketball/bbw assets",
+	"image": "characters/dotted-line/bg2/vbbw assets",
 	"position": [
 		100,
 		80
@@ -88,15 +77,15 @@
 	"healthicon": "bb",
 	"flip_x": true,
 	"healthbar_colors": [
-		244,
-		103,
-		60
+		146,
+		70,
+		28
 	],
 	"camera_position": [
 		-100,
 		70
 	],
-	"sing_duration": 4,
-	"scale": 0.84,
+	"sing_duration": 2.5,
+	"scale": 1.3,
 	"_editor_isPlayer": true
 }

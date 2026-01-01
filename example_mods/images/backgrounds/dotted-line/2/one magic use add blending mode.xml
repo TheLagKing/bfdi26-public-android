@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="one magic use add blending mode.png" width="2327" height="2238">
+	<SubTexture name="Magic Star instance 10000" x="1" y="1808" width="401" height="429" frameX="-0" frameY="-14" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10001" x="1" y="1" width="371" height="456" frameX="-15" frameY="-1" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10002" x="1935" y="1" width="389" height="411" frameX="-6" frameY="-23" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10003" x="773" y="456" width="393" height="453" frameX="-4" frameY="-2" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10004" x="802" y="1367" width="361" height="437" frameX="-20" frameY="-10" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10005" x="1523" y="870" width="401" height="432" frameX="-0" frameY="-12" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10006" x="761" y="1" width="369" height="455" frameX="-16" frameY="-1" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10007" x="1935" y="1217" width="391" height="399" frameX="-5" frameY="-29" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10008" x="1" y="913" width="393" height="454" frameX="-4" frameY="-1" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10009" x="1564" y="1" width="365" height="435" frameX="-18" frameY="-11" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10010" x="1523" y="436" width="401" height="434" frameX="-0" frameY="-11" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10011" x="394" y="913" width="365" height="454" frameX="-18" frameY="-1" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10012" x="1935" y="1616" width="391" height="397" frameX="-5" frameY="-29" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10013" x="759" y="913" width="391" height="454" frameX="-5" frameY="-1" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10014" x="1564" y="1302" width="367" height="432" frameX="-17" frameY="-12" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10015" x="1163" y="1361" width="401" height="436" frameX="-0" frameY="-10" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10016" x="1130" y="1" width="363" height="452" frameX="-19" frameY="-2" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10017" x="1931" y="817" width="393" height="400" frameX="-4" frameY="-28" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10018" x="372" y="1" width="389" height="456" frameX="-6" frameY="-0" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10019" x="1564" y="1734" width="371" height="429" frameX="-15" frameY="-13" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10020" x="401" y="1367" width="401" height="438" frameX="-0" frameY="-9" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10021" x="1150" y="909" width="359" height="452" frameX="-21" frameY="-2" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10022" x="1931" y="412" width="395" height="405" frameX="-3" frameY="-25" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10023" x="1" y="457" width="387" height="456" frameX="-7" frameY="-0" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10024" x="402" y="1805" width="373" height="426" frameX="-14" frameY="-15" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10025" x="1" y="1367" width="400" height="441" frameX="-1" frameY="-7" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10026" x="1166" y="453" width="357" height="450" frameX="-22" frameY="-3" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10027" x="1163" y="1797" width="395" height="412" frameX="-3" frameY="-22" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10028" x="388" y="457" width="385" height="456" frameX="-8" frameY="-0" frameWidth="401" frameHeight="457"/>
+	<SubTexture name="Magic Star instance 10029" x="775" y="1805" width="376" height="424" frameX="-13" frameY="-16" frameWidth="401" frameHeight="457"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="notificationiconthing.png" width="599" height="1178">
+	<SubTexture name="amongus0000" x="1" y="1" width="592" height="591" frameX="-2" frameY="-0" frameWidth="597" frameHeight="591"/>
+	<SubTexture name="amongus0001" x="1" y="1" width="592" height="591" frameX="-2" frameY="-0" frameWidth="597" frameHeight="591"/>
+	<SubTexture name="amongus0002" x="1" y="1" width="592" height="591" frameX="-2" frameY="-0" frameWidth="597" frameHeight="591"/>
+	<SubTexture name="amongus0003" x="1" y="1" width="592" height="591" frameX="-2" frameY="-0" frameWidth="597" frameHeight="591"/>
+	<SubTexture name="amongus0004" x="1" y="1" width="592" height="591" frameX="-2" frameY="-0" frameWidth="597" frameHeight="591"/>
+	<SubTexture name="amongus0005" x="1" y="593" width="597" height="584" frameX="-0" frameY="-3" frameWidth="597" frameHeight="591"/>
+	<SubTexture name="amongus0006" x="1" y="593" width="597" height="584" frameX="-0" frameY="-3" frameWidth="597" frameHeight="591"/>
+	<SubTexture name="amongus0007" x="1" y="593" width="597" height="584" frameX="-0" frameY="-3" frameWidth="597" frameHeight="591"/>
+	<SubTexture name="amongus0008" x="1" y="593" width="597" height="584" frameX="-0" frameY="-3" frameWidth="597" frameHeight="591"/>
+	<SubTexture name="amongus0009" x="1" y="593" width="597" height="584" frameX="-0" frameY="-3" frameWidth="597" frameHeight="591"/>
+</TextureAtlas>

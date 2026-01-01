@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pin render.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Pin Idle instance 10000" x="7" y="7" width="691" height="1015"/>
+	<SubTexture name="Pin Idle instance 10001" x="7" y="7" width="691" height="1015"/>
+	<SubTexture name="Pin Idle instance 10002" x="7" y="7" width="691" height="1015"/>
+	<SubTexture name="Pin Idle instance 10003" x="7" y="7" width="691" height="1015"/>
+	<SubTexture name="Pin Idle instance 10004" x="7" y="7" width="691" height="1015"/>
+	<SubTexture name="Pin Idle instance 10005" x="705" y="7" width="682" height="1015" frameX="-1" frameY="0" frameWidth="691" frameHeight="1015"/>
+	<SubTexture name="Pin Idle instance 10006" x="705" y="7" width="682" height="1015" frameX="-1" frameY="0" frameWidth="691" frameHeight="1015"/>
+	<SubTexture name="Pin Idle instance 10007" x="705" y="7" width="682" height="1015" frameX="-1" frameY="0" frameWidth="691" frameHeight="1015"/>
+	<SubTexture name="Pin Idle instance 10008" x="705" y="7" width="682" height="1015" frameX="-1" frameY="0" frameWidth="691" frameHeight="1015"/>
+	<SubTexture name="Pin Idle instance 10009" x="705" y="7" width="682" height="1015" frameX="-1" frameY="0" frameWidth="691" frameHeight="1015"/>
+</TextureAtlas>

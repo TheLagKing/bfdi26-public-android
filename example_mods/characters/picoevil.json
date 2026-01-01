@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				728,
+				-104
+			],
+			"anim": "burp",
+			"fps": 24,
+			"name": "sour burp instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				721,
+				-100
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "sour idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				700,
+				-97
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "sour down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				752,
+				-81
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "sour up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				788,
+				-74
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "sour left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				691,
+				-128
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "sour right",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/FAGGOTS/gay sour apple",
+	"position": [
+		-110,
+		255
+	],
+	"healthicon": "sourapple",
+	"flip_x": true,
+	"healthbar_colors": [
+		183,
+		216,
+ 		85
+	],
+	"camera_position": [
+		0,
+		70
+	],
+	"sing_duration": 2.9,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

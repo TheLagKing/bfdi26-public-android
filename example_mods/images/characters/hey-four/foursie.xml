@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="foursie.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ALT FOUR DOWN instance 10000" x="7" y="7" width="389" height="415" frameX="0" frameY="-27" frameWidth="389" frameHeight="442"/>
+	<SubTexture name="ALT FOUR DOWN instance 10001" x="7" y="7" width="389" height="415" frameX="0" frameY="-27" frameWidth="389" frameHeight="442"/>
+	<SubTexture name="ALT FOUR DOWN instance 10002" x="403" y="7" width="369" height="423" frameX="-10" frameY="-19" frameWidth="389" frameHeight="442"/>
+	<SubTexture name="ALT FOUR DOWN instance 10003" x="403" y="7" width="369" height="423" frameX="-10" frameY="-19" frameWidth="389" frameHeight="442"/>
+	<SubTexture name="ALT FOUR DOWN instance 10004" x="779" y="7" width="361" height="424" frameX="-15" frameY="-18" frameWidth="389" frameHeight="442"/>
+	<SubTexture name="ALT FOUR DOWN instance 10005" x="779" y="7" width="361" height="424" frameX="-15" frameY="-18" frameWidth="389" frameHeight="442"/>
+	<SubTexture name="ALT FOUR DOWN instance 10006" x="1147" y="7" width="351" height="427" frameX="-16" frameY="-15" frameWidth="389" frameHeight="442"/>
+	<SubTexture name="ALT FOUR DOWN instance 10007" x="1147" y="7" width="351" height="427" frameX="-16" frameY="-15" frameWidth="389" frameHeight="442"/>
+	<SubTexture name="ALT FOUR DOWN instance 10008" x="1505" y="7" width="353" height="441" frameX="-18" frameY="0" frameWidth="389" frameHeight="442"/>
+	<SubTexture name="ALT FOUR DOWN instance 10009" x="1505" y="7" width="353" height="441" frameX="-18" frameY="0" frameWidth="389" frameHeight="442"/>
+	<SubTexture name="ALT FOUR IDLE instance 10000" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10001" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10002" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10003" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10004" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10005" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10006" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10007" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10008" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10009" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10010" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10011" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10012" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10013" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10014" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10015" x="2224" y="7" width="352" height="443" frameX="-1" frameY="-3" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10016" x="2224" y="7" width="352" height="443" frameX="-1" frameY="-3" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10017" x="2224" y="7" width="352" height="443" frameX="-1" frameY="-3" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10018" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10019" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10020" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10021" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10022" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10023" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10024" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10025" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10026" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10027" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10028" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10029" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10030" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10031" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR IDLE instance 10032" x="1865" y="7" width="352" height="446" frameX="0" frameY="0" frameWidth="353" frameHeight="446"/>
+	<SubTexture name="ALT FOUR LEFT instance 10000" x="2583" y="7" width="503" height="425" frameX="0" frameY="-12" frameWidth="503" frameHeight="438"/>
+	<SubTexture name="ALT FOUR LEFT instance 10001" x="2583" y="7" width="503" height="425" frameX="0" frameY="-12" frameWidth="503" frameHeight="438"/>
+	<SubTexture name="ALT FOUR LEFT instance 10002" x="3093" y="7" width="488" height="426" frameX="-7" frameY="-12" frameWidth="503" frameHeight="438"/>
+	<SubTexture name="ALT FOUR LEFT instance 10003" x="3093" y="7" width="488" height="426" frameX="-7" frameY="-12" frameWidth="503" frameHeight="438"/>
+	<SubTexture name="ALT FOUR LEFT instance 10004" x="3588" y="7" width="492" height="426" frameX="-7" frameY="-12" frameWidth="503" frameHeight="438"/>
+	<SubTexture name="ALT FOUR LEFT instance 10005" x="3588" y="7" width="492" height="426" frameX="-7" frameY="-12" frameWidth="503" frameHeight="438"/>
+	<SubTexture name="ALT FOUR LEFT instance 10006" x="7" y="460" width="460" height="429" frameX="-35" frameY="-8" frameWidth="503" frameHeight="438"/>
+	<SubTexture name="ALT FOUR LEFT instance 10007" x="7" y="460" width="460" height="429" frameX="-35" frameY="-8" frameWidth="503" frameHeight="438"/>
+	<SubTexture name="ALT FOUR LEFT instance 10008" x="474" y="460" width="354" height="436" frameX="-128" frameY="0" frameWidth="503" frameHeight="438"/>
+	<SubTexture name="ALT FOUR LEFT instance 10009" x="474" y="460" width="354" height="436" frameX="-128" frameY="0" frameWidth="503" frameHeight="438"/>
+	<SubTexture name="ALT FOUR RIGHT instance 10000" x="835" y="460" width="594" height="457" frameX="-8" frameY="-4" frameWidth="602" frameHeight="461"/>
+	<SubTexture name="ALT FOUR RIGHT instance 10001" x="835" y="460" width="594" height="457" frameX="-8" frameY="-4" frameWidth="602" frameHeight="461"/>
+	<SubTexture name="ALT FOUR RIGHT instance 10002" x="1436" y="460" width="571" height="457" frameX="-2" frameY="-4" frameWidth="602" frameHeight="461"/>
+	<SubTexture name="ALT FOUR RIGHT instance 10003" x="1436" y="460" width="571" height="457" frameX="-2" frameY="-4" frameWidth="602" frameHeight="461"/>
+	<SubTexture name="ALT FOUR RIGHT instance 10004" x="2014" y="460" width="569" height="457" frameX="-1" frameY="-4" frameWidth="602" frameHeight="461"/>
+	<SubTexture name="ALT FOUR RIGHT instance 10005" x="2014" y="460" width="569" height="457" frameX="-1" frameY="-4" frameWidth="602" frameHeight="461"/>
+	<SubTexture name="ALT FOUR RIGHT instance 10006" x="2590" y="460" width="560" height="460" frameX="0" frameY="0" frameWidth="602" frameHeight="461"/>
+	<SubTexture name="ALT FOUR RIGHT instance 10007" x="2590" y="460" width="560" height="460" frameX="0" frameY="0" frameWidth="602" frameHeight="461"/>
+	<SubTexture name="ALT FOUR RIGHT instance 10008" x="3157" y="460" width="370" height="454" frameX="-26" frameY="-4" frameWidth="602" frameHeight="461"/>
+	<SubTexture name="ALT FOUR RIGHT instance 10009" x="3157" y="460" width="370" height="454" frameX="-26" frameY="-4" frameWidth="602" frameHeight="461"/>
+	<SubTexture name="ALT FOUR UP instance 10000" x="3534" y="460" width="371" height="612" frameX="-19" frameY="0" frameWidth="402" frameHeight="628"/>
+	<SubTexture name="ALT FOUR UP instance 10001" x="3534" y="460" width="371" height="612" frameX="-19" frameY="0" frameWidth="402" frameHeight="628"/>
+	<SubTexture name="ALT FOUR UP instance 10002" x="7" y="1079" width="390" height="584" frameX="-7" frameY="-30" frameWidth="402" frameHeight="628"/>
+	<SubTexture name="ALT FOUR UP instance 10003" x="7" y="1079" width="390" height="584" frameX="-7" frameY="-30" frameWidth="402" frameHeight="628"/>
+	<SubTexture name="ALT FOUR UP instance 10004" x="404" y="1079" width="390" height="580" frameX="-8" frameY="-34" frameWidth="402" frameHeight="628"/>
+	<SubTexture name="ALT FOUR UP instance 10005" x="404" y="1079" width="390" height="580" frameX="-8" frameY="-34" frameWidth="402" frameHeight="628"/>
+	<SubTexture name="ALT FOUR UP instance 10006" x="404" y="1079" width="390" height="580" frameX="-8" frameY="-34" frameWidth="402" frameHeight="628"/>
+	<SubTexture name="ALT FOUR UP instance 10007" x="801" y="1079" width="402" height="536" frameX="0" frameY="-76" frameWidth="402" frameHeight="628"/>
+	<SubTexture name="ALT FOUR UP instance 10008" x="801" y="1079" width="402" height="536" frameX="0" frameY="-76" frameWidth="402" frameHeight="628"/>
+	<SubTexture name="ALT FOUR UP instance 10009" x="1210" y="1079" width="355" height="445" frameX="-45" frameY="-183" frameWidth="402" frameHeight="628"/>
+	<SubTexture name="ALT FOUR UP instance 10010" x="1210" y="1079" width="355" height="445" frameX="-45" frameY="-183" frameWidth="402" frameHeight="628"/>
+	<SubTexture name="FOUR DOWN instance 10000" x="1572" y="1079" width="374" height="423" frameX="-12" frameY="-14" frameWidth="386" frameHeight="437"/>
+	<SubTexture name="FOUR DOWN instance 10001" x="1572" y="1079" width="374" height="423" frameX="-12" frameY="-14" frameWidth="386" frameHeight="437"/>
+	<SubTexture name="FOUR DOWN instance 10002" x="1953" y="1079" width="367" height="433" frameX="-11" frameY="-4" frameWidth="386" frameHeight="437"/>
+	<SubTexture name="FOUR DOWN instance 10003" x="1953" y="1079" width="367" height="433" frameX="-11" frameY="-4" frameWidth="386" frameHeight="437"/>
+	<SubTexture name="FOUR DOWN instance 10004" x="2327" y="1079" width="367" height="433" frameX="-8" frameY="-4" frameWidth="386" frameHeight="437"/>
+	<SubTexture name="FOUR DOWN instance 10005" x="2327" y="1079" width="367" height="433" frameX="-8" frameY="-4" frameWidth="386" frameHeight="437"/>
+	<SubTexture name="FOUR DOWN instance 10006" x="2327" y="1079" width="367" height="433" frameX="-8" frameY="-4" frameWidth="386" frameHeight="437"/>
+	<SubTexture name="FOUR DOWN instance 10007" x="2327" y="1079" width="367" height="433" frameX="-8" frameY="-4" frameWidth="386" frameHeight="437"/>
+	<SubTexture name="FOUR DOWN instance 10008" x="2701" y="1079" width="350" height="437" frameX="0" frameY="0" frameWidth="386" frameHeight="437"/>
+	<SubTexture name="FOUR DOWN instance 10009" x="2701" y="1079" width="350" height="437" frameX="0" frameY="0" frameWidth="386" frameHeight="437"/>
+	<SubTexture name="FOUR DOWN instance 10010" x="2701" y="1079" width="350" height="437" frameX="0" frameY="0" frameWidth="386" frameHeight="437"/>
+	<SubTexture name="FOUR IDLE instance 10000" x="3058" y="1079" width="367" height="451"/>
+	<SubTexture name="FOUR IDLE instance 10001" x="3058" y="1079" width="367" height="451"/>
+	<SubTexture name="FOUR IDLE instance 10002" x="3058" y="1079" width="367" height="451"/>
+	<SubTexture name="FOUR IDLE instance 10003" x="3058" y="1079" width="367" height="451"/>
+	<SubTexture name="FOUR IDLE instance 10004" x="3058" y="1079" width="367" height="451"/>
+	<SubTexture name="FOUR IDLE instance 10005" x="3058" y="1079" width="367" height="451"/>
+	<SubTexture name="FOUR IDLE instance 10006" x="3058" y="1079" width="367" height="451"/>
+	<SubTexture name="FOUR IDLE instance 10007" x="3058" y="1079" width="367" height="451"/>
+	<SubTexture name="FOUR IDLE instance 10008" x="3432" y="1079" width="359" height="451" frameX="-7" frameY="0" frameWidth="367" frameHeight="451"/>
+	<SubTexture name="FOUR IDLE instance 10009" x="3432" y="1079" width="359" height="451" frameX="-7" frameY="0" frameWidth="367" frameHeight="451"/>
+	<SubTexture name="FOUR IDLE instance 10010" x="3432" y="1079" width="359" height="451" frameX="-7" frameY="0" frameWidth="367" frameHeight="451"/>
+	<SubTexture name="FOUR IDLE instance 10011" x="3432" y="1079" width="359" height="451" frameX="-7" frameY="0" frameWidth="367" frameHeight="451"/>
+	<SubTexture name="FOUR IDLE instance 10012" x="3432" y="1079" width="359" height="451" frameX="-7" frameY="0" frameWidth="367" frameHeight="451"/>
+	<SubTexture name="FOUR IDLE instance 10013" x="3432" y="1079" width="359" height="451" frameX="-7" frameY="0" frameWidth="367" frameHeight="451"/>
+	<SubTexture name="FOUR IDLE instance 10014" x="3432" y="1079" width="359" height="451" frameX="-7" frameY="0" frameWidth="367" frameHeight="451"/>
+	<SubTexture name="FOUR LEFT instance 10000" x="3798" y="1079" width="497" height="446" frameX="0" frameY="-1" frameWidth="497" frameHeight="447"/>
+	<SubTexture name="FOUR LEFT instance 10001" x="3798" y="1079" width="497" height="446" frameX="0" frameY="-1" frameWidth="497" frameHeight="447"/>
+	<SubTexture name="FOUR LEFT instance 10002" x="7" y="1670" width="461" height="447" frameX="-26" frameY="0" frameWidth="497" frameHeight="447"/>
+	<SubTexture name="FOUR LEFT instance 10003" x="7" y="1670" width="461" height="447" frameX="-26" frameY="0" frameWidth="497" frameHeight="447"/>
+	<SubTexture name="FOUR LEFT instance 10004" x="475" y="1670" width="449" height="445" frameX="-35" frameY="-2" frameWidth="497" frameHeight="447"/>
+	<SubTexture name="FOUR LEFT instance 10005" x="475" y="1670" width="449" height="445" frameX="-35" frameY="-2" frameWidth="497" frameHeight="447"/>
+	<SubTexture name="FOUR LEFT instance 10006" x="475" y="1670" width="449" height="445" frameX="-35" frameY="-2" frameWidth="497" frameHeight="447"/>
+	<SubTexture name="FOUR LEFT instance 10007" x="475" y="1670" width="449" height="445" frameX="-35" frameY="-2" frameWidth="497" frameHeight="447"/>
+	<SubTexture name="FOUR LEFT instance 10008" x="931" y="1670" width="361" height="444" frameX="-85" frameY="-3" frameWidth="497" frameHeight="447"/>
+	<SubTexture name="FOUR LEFT instance 10009" x="931" y="1670" width="361" height="444" frameX="-85" frameY="-3" frameWidth="497" frameHeight="447"/>
+	<SubTexture name="FOUR LEFT instance 10010" x="931" y="1670" width="361" height="444" frameX="-85" frameY="-3" frameWidth="497" frameHeight="447"/>
+	<SubTexture name="FOUR RIGHT instance 10000" x="1299" y="1670" width="380" height="449" frameX="-21" frameY="0" frameWidth="401" frameHeight="449"/>
+	<SubTexture name="FOUR RIGHT instance 10001" x="1299" y="1670" width="380" height="449" frameX="-21" frameY="0" frameWidth="401" frameHeight="449"/>
+	<SubTexture name="FOUR RIGHT instance 10002" x="1686" y="1670" width="367" height="441" frameX="-11" frameY="-8" frameWidth="401" frameHeight="449"/>
+	<SubTexture name="FOUR RIGHT instance 10003" x="1686" y="1670" width="367" height="441" frameX="-11" frameY="-8" frameWidth="401" frameHeight="449"/>
+	<SubTexture name="FOUR RIGHT instance 10004" x="2060" y="1670" width="370" height="439" frameX="-7" frameY="-10" frameWidth="401" frameHeight="449"/>
+	<SubTexture name="FOUR RIGHT instance 10005" x="2060" y="1670" width="370" height="439" frameX="-7" frameY="-10" frameWidth="401" frameHeight="449"/>
+	<SubTexture name="FOUR RIGHT instance 10006" x="2060" y="1670" width="370" height="439" frameX="-7" frameY="-10" frameWidth="401" frameHeight="449"/>
+	<SubTexture name="FOUR RIGHT instance 10007" x="2060" y="1670" width="370" height="439" frameX="-7" frameY="-10" frameWidth="401" frameHeight="449"/>
+	<SubTexture name="FOUR RIGHT instance 10008" x="2437" y="1670" width="356" height="446" frameX="0" frameY="-3" frameWidth="401" frameHeight="449"/>
+	<SubTexture name="FOUR RIGHT instance 10009" x="2437" y="1670" width="356" height="446" frameX="0" frameY="-3" frameWidth="401" frameHeight="449"/>
+	<SubTexture name="FOUR RIGHT instance 10010" x="2437" y="1670" width="356" height="446" frameX="0" frameY="-3" frameWidth="401" frameHeight="449"/>
+	<SubTexture name="FOUR UP instance 10000" x="2800" y="1670" width="352" height="475" frameX="0" frameY="0" frameWidth="366" frameHeight="475"/>
+	<SubTexture name="FOUR UP instance 10001" x="2800" y="1670" width="352" height="475" frameX="0" frameY="0" frameWidth="366" frameHeight="475"/>
+	<SubTexture name="FOUR UP instance 10002" x="3159" y="1670" width="349" height="471" frameX="-5" frameY="-4" frameWidth="366" frameHeight="475"/>
+	<SubTexture name="FOUR UP instance 10003" x="3159" y="1670" width="349" height="471" frameX="-5" frameY="-4" frameWidth="366" frameHeight="475"/>
+	<SubTexture name="FOUR UP instance 10004" x="3515" y="1670" width="350" height="471" frameX="-5" frameY="-4" frameWidth="366" frameHeight="475"/>
+	<SubTexture name="FOUR UP instance 10005" x="3515" y="1670" width="350" height="471" frameX="-5" frameY="-4" frameWidth="366" frameHeight="475"/>
+	<SubTexture name="FOUR UP instance 10006" x="3515" y="1670" width="350" height="471" frameX="-5" frameY="-4" frameWidth="366" frameHeight="475"/>
+	<SubTexture name="FOUR UP instance 10007" x="3515" y="1670" width="350" height="471" frameX="-5" frameY="-4" frameWidth="366" frameHeight="475"/>
+	<SubTexture name="FOUR UP instance 10008" x="3872" y="1670" width="352" height="471" frameX="-14" frameY="-4" frameWidth="366" frameHeight="475"/>
+	<SubTexture name="FOUR UP instance 10009" x="3872" y="1670" width="352" height="471" frameX="-14" frameY="-4" frameWidth="366" frameHeight="475"/>
+	<SubTexture name="FOUR UP instance 10010" x="3872" y="1670" width="352" height="471" frameX="-14" frameY="-4" frameWidth="366" frameHeight="475"/>
+</TextureAtlas>

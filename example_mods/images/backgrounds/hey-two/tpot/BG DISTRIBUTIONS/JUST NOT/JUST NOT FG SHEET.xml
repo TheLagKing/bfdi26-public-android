@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="JUST NOT FG SHEET.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="JUST NOT FG SHEET instance 10000" x="7" y="7" width="2639" height="1195" frameX="-9" frameY="-8" frameWidth="2653" frameHeight="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10001" x="2653" y="7" width="2639" height="1195" frameX="-9" frameY="-8" frameWidth="2653" frameHeight="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10002" x="5299" y="7" width="2642" height="1196" frameX="-6" frameY="-7" frameWidth="2653" frameHeight="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10003" x="7" y="1210" width="2640" height="1196" frameX="-6" frameY="-7" frameWidth="2653" frameHeight="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10004" x="2654" y="1210" width="2641" height="1200" frameX="-5" frameY="-3" frameWidth="2653" frameHeight="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10005" x="5302" y="1210" width="2644" height="1200" frameX="-5" frameY="-3" frameWidth="2653" frameHeight="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10006" x="7" y="2417" width="2646" height="1202" frameX="-3" frameY="-1" frameWidth="2653" frameHeight="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10007" x="2660" y="2417" width="2649" height="1202" frameX="-3" frameY="-1" frameWidth="2653" frameHeight="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10008" x="5316" y="2417" width="2652" height="1203" frameX="0" frameY="0" frameWidth="2653" frameHeight="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10009" x="7" y="3627" width="2653" height="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10010" x="2667" y="3627" width="2653" height="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10011" x="5327" y="3627" width="2653" height="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10012" x="7" y="4837" width="2653" height="1203"/>
+	<SubTexture name="JUST NOT FG SHEET instance 10013" x="2667" y="4837" width="2653" height="1203"/>
+</TextureAtlas>

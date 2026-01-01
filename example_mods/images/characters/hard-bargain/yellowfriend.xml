@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="yellowfriend.png" width="2158" height="380">
+	<SubTexture name="BF idle dance0000" x="1737" y="1" width="420" height="378" rotated="true" frameX="-1" frameY="-23" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0001" x="1737" y="1" width="420" height="378" rotated="true" frameX="-1" frameY="-23" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0002" x="1316" y="1" width="420" height="376" rotated="true" frameX="-1" frameY="-23" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0003" x="1316" y="1" width="420" height="376" rotated="true" frameX="-1" frameY="-23" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0004" x="1" y="1" width="427" height="373" rotated="true" frameX="-3" frameY="-16" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0005" x="1" y="1" width="427" height="373" rotated="true" frameX="-3" frameY="-16" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0006" x="873" y="1" width="442" height="375" rotated="true" frameX="-1" frameY="-1" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0007" x="873" y="1" width="442" height="375" rotated="true" frameX="-1" frameY="-1" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0008" x="429" y="1" width="443" height="374" rotated="true" frameX="-2" frameY="-0" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0009" x="429" y="1" width="443" height="374" rotated="true" frameX="-2" frameY="-0" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0010" x="429" y="1" width="443" height="374" rotated="true" frameX="-2" frameY="-0" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0011" x="429" y="1" width="443" height="374" rotated="true" frameX="-2" frameY="-0" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0012" x="429" y="1" width="443" height="374" rotated="true" frameX="-2" frameY="-0" frameWidth="379" frameHeight="443"/>
+	<SubTexture name="BF idle dance0013" x="429" y="1" width="443" height="374" rotated="true" frameX="-2" frameY="-0" frameWidth="379" frameHeight="443"/>
+</TextureAtlas>

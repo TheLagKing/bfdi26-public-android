@@ -1,0 +1,135 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				31,
+				-12
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down instance 1"
+		},
+		{
+			"offsets": [
+				1,
+				31
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up instance 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				-7
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "altidle instance 1"
+		},
+		{
+			"offsets": [
+				31,
+				-12
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "altdown instance 1"
+		},
+		{
+			"offsets": [
+				-1,
+				31
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "altup instance 1"
+		},
+		{
+			"offsets": [
+				6,
+				-8
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "altleft instance 1"
+		},
+		{
+			"offsets": [
+				-10,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "altright instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/invitational-dearest/bass normal",
+	"position": [
+		160,
+		-10
+	],
+	"healthicon": "bass",
+	"flip_x": true,
+	"healthbar_colors": [
+		28,
+		12,
+		37
+	],
+	"camera_position": [
+		30,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

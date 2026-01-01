@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bluegolfballs.png" width="1223" height="989">
+	<SubTexture name="altdown0000" x="704" y="1" width="249" height="307" frameX="-0" frameY="-0" frameWidth="249" frameHeight="307"/>
+	<SubTexture name="altdown0001" x="704" y="1" width="249" height="307" frameX="-0" frameY="-0" frameWidth="249" frameHeight="307"/>
+	<SubTexture name="altdown0002" x="1" y="739" width="301" height="249" rotated="true" frameX="-0" frameY="-6" frameWidth="249" frameHeight="307"/>
+	<SubTexture name="altdown0003" x="1" y="739" width="301" height="249" rotated="true" frameX="-0" frameY="-6" frameWidth="249" frameHeight="307"/>
+	<SubTexture name="altup0000" x="455" y="1" width="248" height="317" frameX="-0" frameY="-0" frameWidth="249" frameHeight="317"/>
+	<SubTexture name="altup0001" x="455" y="1" width="248" height="317" frameX="-0" frameY="-0" frameWidth="249" frameHeight="317"/>
+	<SubTexture name="altup0002" x="323" y="412" width="249" height="312" frameX="-0" frameY="-5" frameWidth="249" frameHeight="317"/>
+	<SubTexture name="altup0003" x="323" y="412" width="249" height="312" frameX="-0" frameY="-5" frameWidth="249" frameHeight="317"/>
+	<SubTexture name="down0000" x="895" y="568" width="263" height="257" frameX="-0" frameY="-13" frameWidth="263" frameHeight="270"/>
+	<SubTexture name="down0001" x="895" y="568" width="263" height="257" frameX="-0" frameY="-13" frameWidth="263" frameHeight="270"/>
+	<SubTexture name="down0002" x="954" y="297" width="253" height="270" frameX="-0" frameY="-0" frameWidth="263" frameHeight="270"/>
+	<SubTexture name="down0003" x="954" y="297" width="253" height="270" frameX="-0" frameY="-0" frameWidth="263" frameHeight="270"/>
+	<SubTexture name="idle0000" x="303" y="739" width="295" height="249" rotated="true" frameX="-0" frameY="-0" frameWidth="249" frameHeight="295"/>
+	<SubTexture name="left0000" x="599" y="615" width="295" height="257" rotated="true" frameX="-0" frameY="-0" frameWidth="290" frameHeight="295"/>
+	<SubTexture name="left0001" x="599" y="615" width="295" height="257" rotated="true" frameX="-0" frameY="-0" frameWidth="290" frameHeight="295"/>
+	<SubTexture name="left0002" x="954" y="1" width="268" height="295" frameX="-22" frameY="-0" frameWidth="290" frameHeight="295"/>
+	<SubTexture name="left0003" x="954" y="1" width="268" height="295" frameX="-22" frameY="-0" frameWidth="290" frameHeight="295"/>
+	<SubTexture name="right0000" x="1" y="443" width="321" height="295" frameX="-18" frameY="-0" frameWidth="339" frameHeight="295"/>
+	<SubTexture name="right0001" x="1" y="443" width="321" height="295" frameX="-18" frameY="-0" frameWidth="339" frameHeight="295"/>
+	<SubTexture name="right0002" x="573" y="319" width="302" height="295" frameX="-0" frameY="-0" frameWidth="339" frameHeight="295"/>
+	<SubTexture name="right0003" x="573" y="319" width="302" height="295" frameX="-0" frameY="-0" frameWidth="339" frameHeight="295"/>
+	<SubTexture name="up0000" x="1" y="1" width="203" height="441" frameX="-24" frameY="-0" frameWidth="249" frameHeight="441"/>
+	<SubTexture name="up0001" x="1" y="1" width="203" height="441" frameX="-24" frameY="-0" frameWidth="249" frameHeight="441"/>
+	<SubTexture name="up0002" x="205" y="1" width="249" height="410" frameX="-0" frameY="-31" frameWidth="249" frameHeight="441"/>
+	<SubTexture name="up0003" x="205" y="1" width="249" height="410" frameX="-0" frameY="-31" frameWidth="249" frameHeight="441"/>
+</TextureAtlas>

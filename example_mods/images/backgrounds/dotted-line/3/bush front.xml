@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bush front.png" width="3277" height="3460">
+	<SubTexture name="bush front instance 10000" x="2457" y="1145" width="819" height="571" frameX="-1" frameY="-9" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10001" x="2457" y="1716" width="819" height="571" frameX="-1" frameY="-9" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10002" x="1638" y="574" width="819" height="572" frameX="-1" frameY="-8" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10003" x="2455" y="2875" width="818" height="572" frameX="-2" frameY="-8" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10004" x="819" y="2878" width="818" height="573" frameX="-2" frameY="-7" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10005" x="1637" y="2872" width="818" height="574" frameX="-2" frameY="-6" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10006" x="2456" y="2300" width="818" height="575" frameX="-2" frameY="-5" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10007" x="819" y="1726" width="818" height="576" frameX="-2" frameY="-4" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10008" x="819" y="2302" width="818" height="576" frameX="-2" frameY="-4" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10009" x="1" y="1" width="818" height="577" frameX="-2" frameY="-3" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10010" x="820" y="575" width="818" height="577" frameX="-2" frameY="-3" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10011" x="1" y="1153" width="818" height="577" frameX="-2" frameY="-3" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10012" x="1639" y="1146" width="818" height="577" frameX="-2" frameY="-3" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10013" x="1639" y="1723" width="818" height="577" frameX="-2" frameY="-3" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10014" x="1" y="1730" width="818" height="577" frameX="-2" frameY="-3" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10015" x="1" y="2307" width="818" height="576" frameX="-2" frameY="-4" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10016" x="1" y="2883" width="818" height="576" frameX="-2" frameY="-4" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10017" x="1" y="578" width="819" height="575" frameX="-1" frameY="-5" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10018" x="819" y="1" width="819" height="574" frameX="-1" frameY="-6" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10019" x="820" y="1152" width="819" height="574" frameX="-1" frameY="-6" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10020" x="1638" y="1" width="819" height="573" frameX="-1" frameY="-7" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10021" x="1637" y="2300" width="819" height="572" frameX="-1" frameY="-8" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10022" x="2457" y="1" width="819" height="572" frameX="-1" frameY="-8" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10023" x="2457" y="573" width="819" height="572" frameX="-1" frameY="-8" frameWidth="830" frameHeight="588"/>
+	<SubTexture name="bush front instance 10024" x="2457" y="1145" width="819" height="571" frameX="-1" frameY="-9" frameWidth="830" frameHeight="588"/>
+</TextureAtlas>

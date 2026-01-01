@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="factory.png" width="5762" height="4322">
+	<SubTexture name="gb bg instance 10000" x="1" y="1" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="gb bg instance 10001" x="1" y="1081" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="gb bg instance 10002" x="1921" y="1" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="gb bg instance 10003" x="1921" y="1081" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="gb bg instance 10004" x="1" y="2161" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="gb bg instance 10005" x="1921" y="2161" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="gb bg instance 10006" x="1" y="3241" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="gb bg instance 10007" x="1921" y="3241" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="gb bg instance 10008" x="3841" y="1" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="gb bg instance 10009" x="3841" y="1081" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="gb bg instance 10010" x="3841" y="2161" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="gb bg instance 10011" x="3841" y="3241" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+</TextureAtlas>

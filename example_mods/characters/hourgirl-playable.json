@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-22,
+				-162
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-18,
+				-85
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-3,
+				-167
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "miss",
+			"indices": [],
+			"name": "miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				-132
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				44,
+				-125
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-10,
+				-110
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/wc-gf/hourglass_playable",
+	"position": [
+		20,
+		325
+	],
+	"healthicon": "hour",
+	"flip_x": true,
+	"healthbar_colors": [
+		66,
+		246,
+		250
+	],
+	"camera_position": [
+		-100,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

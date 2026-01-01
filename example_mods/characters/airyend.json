@@ -1,0 +1,49 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				96,
+				203
+			],
+			"indices": [
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Airy END instance 1"
+		},
+		{
+			"offsets": [
+				94,
+				203
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "die",
+			"loop": false,
+			"name": "Airy END instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/oneshot/Airy END",
+	"position": [
+		40,
+		370
+	],
+	"healthicon": "airy",
+	"flip_x": false,
+	"healthbar_colors": [
+		80,
+		120,
+		160
+	],
+	"camera_position": [
+		-120,
+		-150
+	],
+	"sing_duration": 4.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				136,
+				5
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				55,
+				1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [
+				95,
+				37
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-30,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right"
+		},
+		{
+			"offsets": [
+				136,
+				-394
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": true,
+			"name": "dead"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/funny-fellow-spooky/exclamationmarkff",
+	"position": [
+		40,
+		250
+	],
+	"healthicon": "exclamation",
+	"flip_x": false,
+	"healthbar_colors": [
+		149,
+		113,
+		197
+	],
+	"camera_position": [
+		-30,
+		150
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

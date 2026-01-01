@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="taco cute.png" width="5851" height="163">
+	<SubTexture name="Taco Eh instance 10000" x="1" y="1" width="231" height="159" frameX="-0" frameY="-2" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10001" x="1" y="1" width="231" height="159" frameX="-0" frameY="-2" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10002" x="232" y="1" width="231" height="159" frameX="-0" frameY="-2" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10003" x="911" y="1" width="229" height="160" frameX="-1" frameY="-1" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10004" x="1140" y="1" width="229" height="160" frameX="-1" frameY="-1" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10005" x="2717" y="1" width="226" height="161" frameX="-2" frameY="-0" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10006" x="2943" y="1" width="226" height="161" frameX="-2" frameY="-0" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10007" x="3169" y="1" width="226" height="161" frameX="-2" frameY="-0" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10008" x="3395" y="1" width="226" height="161" frameX="-2" frameY="-0" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10009" x="3621" y="1" width="227" height="161" frameX="-2" frameY="-0" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10010" x="3848" y="1" width="227" height="161" frameX="-2" frameY="-0" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10011" x="4075" y="1" width="227" height="161" frameX="-2" frameY="-0" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10012" x="1369" y="1" width="228" height="160" frameX="-1" frameY="-1" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Eh instance 10013" x="1597" y="1" width="228" height="160" frameX="-1" frameY="-1" frameWidth="231" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10000" x="463" y="1" width="224" height="159" frameX="-0" frameY="-2" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10001" x="463" y="1" width="224" height="159" frameX="-0" frameY="-2" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10002" x="687" y="1" width="224" height="159" frameX="-0" frameY="-2" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10003" x="1825" y="1" width="223" height="160" frameX="-1" frameY="-1" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10004" x="2048" y="1" width="223" height="160" frameX="-1" frameY="-1" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10005" x="4302" y="1" width="221" height="161" frameX="-2" frameY="-0" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10006" x="4523" y="1" width="221" height="161" frameX="-2" frameY="-0" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10007" x="4744" y="1" width="221" height="161" frameX="-2" frameY="-0" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10008" x="4965" y="1" width="221" height="161" frameX="-2" frameY="-0" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10009" x="5186" y="1" width="222" height="161" frameX="-2" frameY="-0" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10010" x="5408" y="1" width="221" height="161" frameX="-2" frameY="-0" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10011" x="5629" y="1" width="221" height="161" frameX="-2" frameY="-0" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10012" x="2271" y="1" width="223" height="160" frameX="-1" frameY="-1" frameWidth="225" frameHeight="162"/>
+	<SubTexture name="Taco Happy instance 10013" x="2494" y="1" width="223" height="160" frameX="-1" frameY="-1" frameWidth="225" frameHeight="162"/>
+</TextureAtlas>

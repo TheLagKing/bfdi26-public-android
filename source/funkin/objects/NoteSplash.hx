@@ -2,7 +2,7 @@ package funkin.objects;
 
 import funkin.backend.animation.PsychAnimationController;
 
-import shaders.RGBPalette;
+import funkin.shaders.RGBPalette;
 
 import flixel.system.FlxAssets.FlxShader;
 import flixel.graphics.frames.FlxFrame;

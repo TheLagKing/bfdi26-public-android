@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="THE S SHEET.png" width="7009" height="2156">
+	<SubTexture name="THE S SHEET instance 10000" x="0" y="0" width="1754" height="708" frameX="-0" frameY="-13" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10001" x="0" y="0" width="1754" height="708" frameX="-0" frameY="-13" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10002" x="1754" y="0" width="1752" height="709" frameX="-0" frameY="-12" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10003" x="3506" y="0" width="1752" height="709" frameX="-0" frameY="-12" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10004" x="0" y="708" width="1751" height="718" frameX="-0" frameY="-3" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10005" x="5258" y="0" width="1751" height="717" frameX="-0" frameY="-3" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10006" x="3501" y="709" width="1750" height="719" frameX="-0" frameY="-1" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10007" x="5251" y="717" width="1750" height="719" frameX="-0" frameY="-1" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10008" x="0" y="1426" width="1750" height="720" frameX="-0" frameY="-0" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10009" x="1750" y="1427" width="1750" height="720" frameX="-0" frameY="-0" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10010" x="3500" y="1428" width="1750" height="720" frameX="-0" frameY="-0" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10011" x="5250" y="1436" width="1750" height="720" frameX="-0" frameY="-0" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10012" x="1751" y="709" width="1750" height="718" frameX="-0" frameY="-2" frameWidth="1772" frameHeight="721"/>
+	<SubTexture name="THE S SHEET instance 10013" x="1751" y="709" width="1750" height="718" frameX="-0" frameY="-2" frameWidth="1772" frameHeight="721"/>
+</TextureAtlas>

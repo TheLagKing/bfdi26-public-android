@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="hives golden freddy.png" width="194" height="497">
+	<SubTexture name="hives instance 10000" x="1" y="1" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10001" x="1" y="1" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10002" x="1" y="1" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10003" x="1" y="1" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10004" x="1" y="1" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10005" x="1" y="1" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10006" x="1" y="1" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10007" x="1" y="166" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10008" x="1" y="166" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10009" x="1" y="166" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10010" x="1" y="166" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10011" x="1" y="166" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10012" x="1" y="166" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10013" x="1" y="166" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10014" x="1" y="331" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10015" x="1" y="331" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10016" x="1" y="331" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10017" x="1" y="331" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10018" x="1" y="331" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10019" x="1" y="331" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+	<SubTexture name="hives instance 10020" x="1" y="331" width="192" height="165" frameX="-0" frameY="-1" frameWidth="193" frameHeight="166"/>
+</TextureAtlas>

@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-744,
+				-36
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "evil idle instance 1"
+		},
+		{
+			"offsets": [
+				-721,
+				-60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "evil down instance 1"
+		},
+		{
+			"offsets": [
+				-739,
+				24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "evil up instance 1"
+		},
+		{
+			"offsets": [
+				-659,
+				-41
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "evil left instance 1"
+		},
+		{
+			"offsets": [
+				-758,
+				-43
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "evil right instance 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-732,
+				-1
+			],
+			"anim": "reaction",
+			"fps": 24,
+			"name": "evil react instance 1",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/FAGGOTS/gay limey",
+	"position": [
+		20,
+		440
+	],
+	"healthicon": "limey",
+	"flip_x": false,
+	"healthbar_colors": [
+		60,
+		213,
+		0
+	],
+	"camera_position": [
+		10,
+		30
+	],
+	"sing_duration": 2.9,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

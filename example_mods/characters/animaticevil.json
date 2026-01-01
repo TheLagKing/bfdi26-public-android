@@ -1,0 +1,146 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				244,
+				-53
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				230,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				50,
+				190
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-20,
+				-47
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				111,
+				211
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "altidle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				332,
+				56
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "altleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				145,
+				-27
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "altdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				172,
+				479
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "altup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				179,
+				59
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "altright",
+			"indices": []
+		},
+		{
+			"offsets": [
+				72,
+				176
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "reach",
+			"loop": false,
+			"name": "reach"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/funny-fellow-spooky/animaticevil",
+	"position": [
+		-40,
+		240
+	],
+	"healthicon": "animatic",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-300,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

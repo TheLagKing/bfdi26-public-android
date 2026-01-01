@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Spotlight Walk.png" width="840" height="1380">
+	<SubTexture name="spotlight walk away instance 10000" x="420" y="693" width="419" height="686" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10001" x="420" y="693" width="419" height="686" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10002" x="420" y="693" width="419" height="686" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10003" x="420" y="693" width="419" height="686" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10004" x="420" y="693" width="419" height="686" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10005" x="420" y="693" width="419" height="686" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10006" x="420" y="693" width="419" height="686" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10007" x="420" y="693" width="419" height="686" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10008" x="420" y="1" width="419" height="692" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10009" x="420" y="1" width="419" height="692" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10010" x="420" y="1" width="419" height="692" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10011" x="420" y="1" width="419" height="692" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10012" x="420" y="1" width="419" height="692" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10013" x="420" y="1" width="419" height="692" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10014" x="420" y="1" width="419" height="692" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10015" x="420" y="1" width="419" height="692" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10016" x="1" y="694" width="419" height="684" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10017" x="1" y="694" width="419" height="684" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10018" x="1" y="694" width="419" height="684" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10019" x="1" y="694" width="419" height="684" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10020" x="1" y="694" width="419" height="684" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10021" x="1" y="694" width="419" height="684" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10022" x="1" y="694" width="419" height="684" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10023" x="1" y="694" width="419" height="684" frameX="-4" frameY="-9" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10024" x="1" y="1" width="419" height="693" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10025" x="1" y="1" width="419" height="693" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10026" x="1" y="1" width="419" height="693" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10027" x="1" y="1" width="419" height="693" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10028" x="1" y="1" width="419" height="693" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10029" x="1" y="1" width="419" height="693" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10030" x="1" y="1" width="419" height="693" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+	<SubTexture name="spotlight walk away instance 10031" x="1" y="1" width="419" height="693" frameX="-1" frameY="-2" frameWidth="423" frameHeight="696"/>
+</TextureAtlas>

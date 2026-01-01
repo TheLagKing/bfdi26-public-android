@@ -1,0 +1,135 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				168,
+				-19
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				248
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-44,
+				28
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				182,
+				24
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				10,
+				30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				10,
+				30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": true,
+			"name": "altidle"
+		},
+		{
+			"offsets": [
+				86,
+				33
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "stompdown"
+		},
+		{
+			"offsets": [
+				119,
+				40
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "stompup"
+		},
+		{
+			"offsets": [
+				100,
+				39
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "stompleft"
+		},
+		{
+			"offsets": [
+				76,
+				39
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "stompright"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bluegolfball-bf/bluegolfballbfmix",
+	"position": [
+		-100,
+		174.5
+	],
+	"healthicon": "bluegolfball",
+	"flip_x": false,
+	"healthbar_colors": [
+		51,
+		153,
+		255
+	],
+	"camera_position": [
+		-125,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

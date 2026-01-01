@@ -5,13 +5,14 @@ import flixel.input.keyboard.FlxKey;
 import flixel.input.gamepad.FlxGamepadInputID;
 
 // Add a variable here and it will get automatically saved
-@:structInit class SaveVariables {
+@:structInit class SaveVariables 
+{
 	public var botPlay:Bool = false;
 	public var downScroll:Bool = false;
 	public var middleScroll:Bool = false;
 	public var opponentStrums:Bool = true;
 	public var lightMode:Bool = false;
-	public var showFPS:Bool = true;
+	public var showFPS:Bool = #if debug true #else false #end; //looks better
 	public var flashing:Bool = true;
 	public var autoPause:Bool = true;
 	public var antialiasing:Bool = true;
@@ -24,28 +25,37 @@ import flixel.input.gamepad.FlxGamepadInputID;
 	public var framerate:Int = 60;
 	public var camZooms:Bool = true;
 	public var hideHud:Bool = false;
+	public var hideCards:Bool = false;
+	public var hideSub:Bool = false;
 	public var noteOffset:Int = 0;
-	public var arrowRGB:Array<Array<FlxColor>> = [
+
+	public var arrowRGB:Array<Array<FlxColor>> = 
+	[
 		[0xFFC24B99, 0xFFFFFFFF, 0xFF3C1F56],
 		[0xFF00FFFF, 0xFFFFFFFF, 0xFF1542B7],
 		[0xFF12FA05, 0xFFFFFFFF, 0xFF0A4447],
-		[0xFFF9393F, 0xFFFFFFFF, 0xFF651038]];
-	public var arrowRGBPixel:Array<Array<FlxColor>> = [
+		[0xFFF9393F, 0xFFFFFFFF, 0xFF651038]
+	];
+
+	public var arrowRGBPixel:Array<Array<FlxColor>> = 
+	[
 		[0xFFE276FF, 0xFFFFF9FF, 0xFF60008D],
 		[0xFF3DCAFF, 0xFFF4FFFF, 0xFF003060],
 		[0xFF71E300, 0xFFF6FFE6, 0xFF003100],
-		[0xFFFF884E, 0xFFFFFAF5, 0xFF6C0000]];
+		[0xFFFF884E, 0xFFFFFAF5, 0xFF6C0000]
+	];
 
 	public var ghostTapping:Bool = true;
 	public var timeBarType:String = 'Time Left';
 	public var scoreZoom:Bool = true;
 	public var noReset:Bool = false;
-	public var healthBarAlpha:Float = 1;
+	public var StrumBGAlpha:Float = 0;
 	public var hitsoundVolume:Float = 0;
 	public var pauseMusic:String = 'Tea Time';
 	public var checkForUpdates:Bool = true;
 	public var comboStacking:Bool = true;
-	public var gameplaySettings:Map<String, Dynamic> = [
+	public var gameplaySettings:Map<String, Dynamic> = 
+	[
 		'scrollspeed' => 1.0,
 		'scrolltype' => 'multiplicative', 
 		// anyone reading this, amod is multiplicative speed mod, cmod is constant speed mod, and xmod is bpm based speed mod.
@@ -73,16 +83,18 @@ import flixel.input.gamepad.FlxGamepadInputID;
 	public var goodWindow:Int = 90;
 	public var badWindow:Int = 135;
 	public var safeFrames:Float = 10;
-	public var guitarHeroSustains:Bool = true;
+	public var guitarHeroSustains:Bool = false; //die
 	public var discordRPC:Bool = true;
 }
 
-class ClientPrefs {
+class ClientPrefs 
+{
 	public static var data:SaveVariables = {};
 	public static var defaultData:SaveVariables = {};
 
 	//Every key has two binds, add your key bind down here and then add your control on options/ControlsSubState.hx and Controls.hx
-	public static var keyBinds:Map<String, Array<FlxKey>> = [
+	public static var keyBinds:Map<String, Array<FlxKey>> = 
+	[
 		//Key Bind, Name for ControlsSubState
 		'note_up'		=> [W, UP],
 		'note_left'		=> [A, LEFT],
@@ -106,7 +118,9 @@ class ClientPrefs {
 		'debug_1'		=> [SEVEN],
 		'debug_2'		=> [EIGHT]
 	];
-	public static var gamepadBinds:Map<String, Array<FlxGamepadInputID>> = [
+
+	public static var gamepadBinds:Map<String, Array<FlxGamepadInputID>> = 
+	[
 		'note_up'		=> [DPAD_UP, Y],
 		'note_left'		=> [DPAD_LEFT, X],
 		'note_down'		=> [DPAD_DOWN, A],
@@ -122,6 +136,7 @@ class ClientPrefs {
 		'pause'			=> [START],
 		'reset'			=> [BACK]
 	];
+	
 	public static var defaultKeys:Map<String, Array<FlxKey>> = null;
 	public static var defaultButtons:Map<String, Array<FlxGamepadInputID>> = null;
 
@@ -152,7 +167,8 @@ class ClientPrefs {
 		defaultButtons = gamepadBinds.copy();
 	}
 
-	public static function saveSettings() {
+	public static function saveSettings() 
+	{
 		for (key in Reflect.fields(data))
 			Reflect.setField(FlxG.save.data, key, Reflect.field(data, key));
 
@@ -168,7 +184,8 @@ class ClientPrefs {
 		FlxG.log.add("Settings saved!");
 	}
 
-	public static function loadPrefs() {
+	public static function loadPrefs() 
+	{
 		#if ACHIEVEMENTS_ALLOWED Achievements.load(); #end
 
 		for (key in Reflect.fields(data))
@@ -244,15 +261,16 @@ class ClientPrefs {
 
 	public static function reloadVolumeKeys()
 	{
-		Main.Setup.muteKeys = keyBinds.get('volume_mute').copy();
-		Main.Setup.volumeDownKeys = keyBinds.get('volume_down').copy();
-		Main.Setup.volumeUpKeys = keyBinds.get('volume_up').copy();
+		Setup.muteKeys = keyBinds.get('volume_mute').copy();
+		Setup.volumeDownKeys = keyBinds.get('volume_down').copy();
+		Setup.volumeUpKeys = keyBinds.get('volume_up').copy();
 		toggleVolumeKeys(true);
 	}
+
 	public static function toggleVolumeKeys(?turnOn:Bool = true)
 	{
-		FlxG.sound.muteKeys = turnOn ? Main.Setup.muteKeys : [];
-		FlxG.sound.volumeDownKeys = turnOn ? Main.Setup.volumeDownKeys : [];
-		FlxG.sound.volumeUpKeys = turnOn ? Main.Setup.volumeUpKeys : [];
+		FlxG.sound.muteKeys = turnOn ? Setup.muteKeys : [];
+		FlxG.sound.volumeDownKeys = turnOn ? Setup.volumeDownKeys : [];
+		FlxG.sound.volumeUpKeys = turnOn ? Setup.volumeUpKeys : [];
 	}
 }

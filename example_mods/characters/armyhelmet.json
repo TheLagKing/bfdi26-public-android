@@ -1,0 +1,102 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-6
+			],
+			"anim": "ugh",
+			"fps": 24,
+			"name": "ugh",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-10
+			],
+			"anim": "miss",
+			"fps": 24,
+			"name": "miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				-12
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				12,
+				24
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				52,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-80,
+				-5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bossy/tankmansprites",
+	"position": [
+		0,
+		430
+	],
+	"healthicon": "army",
+	"flip_x": true,
+	"healthbar_colors": [
+		125,
+		125,
+		125
+	],
+	"camera_position": [
+		-30,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

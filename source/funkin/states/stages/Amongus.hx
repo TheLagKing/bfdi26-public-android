@@ -1,6 +1,5 @@
 package funkin.states.stages;
 import flixel.tweens.FlxTween;
-//you're never gonna become real iloveamongus
 class Amongus extends BaseStage
 {
 	var amongus:BGSprite;

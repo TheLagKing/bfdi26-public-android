@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-66,
+				-121
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "lefy idle instance 1"
+		},
+		{
+			"offsets": [
+				-77,
+				-131
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "lefy down instance 1"
+		},
+		{
+			"offsets": [
+				-85,
+				-85
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "lefy up instance 1"
+		},
+		{
+			"offsets": [
+				-86,
+				-127
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "lefy right instance 1"
+		},
+		{
+			"offsets": [
+				9,
+				-124
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "lefy left instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/wrong-finger/troll leafy",
+	"position": [
+		60,
+		270
+	],
+	"healthicon": "leafy",
+	"flip_x": false,
+	"healthbar_colors": [
+		87,
+		199,
+		0
+	],
+	"camera_position": [
+		-120,
+		50
+	],
+	"sing_duration": 3,
+	"scale": 2,
+	"_editor_isPlayer": false
+}

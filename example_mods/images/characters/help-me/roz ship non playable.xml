@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="roz ship non playable.png" width="3299" height="3379">
+	<SubTexture name="roz down instance 10000" x="1877" y="2782" width="909" height="594" rotated="true" frameX="-0" frameY="-31" frameWidth="594" frameHeight="941"/>
+	<SubTexture name="roz down instance 10001" x="1877" y="2782" width="909" height="594" rotated="true" frameX="-0" frameY="-31" frameWidth="594" frameHeight="941"/>
+	<SubTexture name="roz down instance 10002" x="943" y="2811" width="933" height="566" rotated="true" frameX="-16" frameY="-8" frameWidth="594" frameHeight="941"/>
+	<SubTexture name="roz down instance 10003" x="943" y="2811" width="933" height="566" rotated="true" frameX="-16" frameY="-8" frameWidth="594" frameHeight="941"/>
+	<SubTexture name="roz down instance 10004" x="1968" y="2120" width="941" height="566" rotated="true" frameX="-15" frameY="-0" frameWidth="594" frameHeight="941"/>
+	<SubTexture name="roz down instance 10005" x="1968" y="2120" width="941" height="566" rotated="true" frameX="-15" frameY="-0" frameWidth="594" frameHeight="941"/>
+	<SubTexture name="roz down instance 10006" x="1" y="2811" width="941" height="567" rotated="true" frameX="-14" frameY="-0" frameWidth="594" frameHeight="941"/>
+	<SubTexture name="roz down instance 10007" x="1" y="2811" width="941" height="567" rotated="true" frameX="-14" frameY="-0" frameWidth="594" frameHeight="941"/>
+	<SubTexture name="roz down instance 10008" x="1968" y="2120" width="941" height="566" rotated="true" frameX="-15" frameY="-0" frameWidth="594" frameHeight="941"/>
+	<SubTexture name="roz down instance 10009" x="1968" y="2120" width="941" height="566" rotated="true" frameX="-15" frameY="-0" frameWidth="594" frameHeight="941"/>
+	<SubTexture name="roz idle instance 10000" x="1" y="1019" width="1009" height="584" rotated="true" frameX="-3" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10001" x="1" y="1019" width="1009" height="584" rotated="true" frameX="-3" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10002" x="1" y="1019" width="1009" height="584" rotated="true" frameX="-3" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10003" x="1" y="1019" width="1009" height="584" rotated="true" frameX="-3" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10004" x="1" y="1019" width="1009" height="584" rotated="true" frameX="-3" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10005" x="1" y="1019" width="1009" height="584" rotated="true" frameX="-3" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10006" x="1" y="1019" width="1009" height="584" rotated="true" frameX="-3" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10007" x="497" y="1" width="577" height="1010" frameX="-0" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10008" x="497" y="1" width="577" height="1010" frameX="-0" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10009" x="497" y="1" width="577" height="1010" frameX="-0" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10010" x="497" y="1" width="577" height="1010" frameX="-0" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10011" x="497" y="1" width="577" height="1010" frameX="-0" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10012" x="497" y="1" width="577" height="1010" frameX="-0" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz idle instance 10013" x="497" y="1" width="577" height="1010" frameX="-0" frameY="-1" frameWidth="587" frameHeight="1011"/>
+	<SubTexture name="roz left instance 10000" x="1" y="2185" width="987" height="625" rotated="true" frameX="-0" frameY="-0" frameWidth="625" frameHeight="994"/>
+	<SubTexture name="roz left instance 10001" x="1" y="2185" width="987" height="625" rotated="true" frameX="-0" frameY="-0" frameWidth="625" frameHeight="994"/>
+	<SubTexture name="roz left instance 10002" x="2701" y="1" width="597" height="977" frameX="-25" frameY="-16" frameWidth="625" frameHeight="994"/>
+	<SubTexture name="roz left instance 10003" x="2701" y="1" width="597" height="977" frameX="-25" frameY="-16" frameWidth="625" frameHeight="994"/>
+	<SubTexture name="roz left instance 10004" x="989" y="2185" width="978" height="596" rotated="true" frameX="-28" frameY="-16" frameWidth="625" frameHeight="994"/>
+	<SubTexture name="roz left instance 10005" x="989" y="2185" width="978" height="596" rotated="true" frameX="-28" frameY="-16" frameWidth="625" frameHeight="994"/>
+	<SubTexture name="roz left instance 10006" x="2701" y="979" width="595" height="977" frameX="-28" frameY="-16" frameWidth="625" frameHeight="994"/>
+	<SubTexture name="roz left instance 10007" x="2701" y="979" width="595" height="977" frameX="-28" frameY="-16" frameWidth="625" frameHeight="994"/>
+	<SubTexture name="roz left instance 10008" x="989" y="2185" width="978" height="596" rotated="true" frameX="-28" frameY="-16" frameWidth="625" frameHeight="994"/>
+	<SubTexture name="roz left instance 10009" x="989" y="2185" width="978" height="596" rotated="true" frameX="-28" frameY="-16" frameWidth="625" frameHeight="994"/>
+	<SubTexture name="roz right instance 10000" x="2112" y="994" width="561" height="982" frameX="-16" frameY="-11" frameWidth="589" frameHeight="994"/>
+	<SubTexture name="roz right instance 10001" x="2112" y="994" width="561" height="982" frameX="-16" frameY="-11" frameWidth="589" frameHeight="994"/>
+	<SubTexture name="roz right instance 10002" x="1" y="1604" width="993" height="580" rotated="true" frameX="-9" frameY="-0" frameWidth="589" frameHeight="994"/>
+	<SubTexture name="roz right instance 10003" x="1" y="1604" width="993" height="580" rotated="true" frameX="-9" frameY="-0" frameWidth="589" frameHeight="994"/>
+	<SubTexture name="roz right instance 10004" x="2112" y="1" width="588" height="992" frameX="-1" frameY="-1" frameWidth="589" frameHeight="994"/>
+	<SubTexture name="roz right instance 10005" x="2112" y="1" width="588" height="992" frameX="-1" frameY="-1" frameWidth="589" frameHeight="994"/>
+	<SubTexture name="roz right instance 10006" x="1011" y="1531" width="993" height="588" rotated="true" frameX="-0" frameY="-0" frameWidth="589" frameHeight="994"/>
+	<SubTexture name="roz right instance 10007" x="1011" y="1531" width="993" height="588" rotated="true" frameX="-0" frameY="-0" frameWidth="589" frameHeight="994"/>
+	<SubTexture name="roz right instance 10008" x="2112" y="1" width="588" height="992" frameX="-1" frameY="-1" frameWidth="589" frameHeight="994"/>
+	<SubTexture name="roz right instance 10009" x="2112" y="1" width="588" height="992" frameX="-1" frameY="-1" frameWidth="589" frameHeight="994"/>
+	<SubTexture name="roz up instance 10000" x="1" y="1" width="495" height="1017" frameX="-7" frameY="-1" frameWidth="520" frameHeight="1039"/>
+	<SubTexture name="roz up instance 10001" x="1" y="1" width="495" height="1017" frameX="-7" frameY="-1" frameWidth="520" frameHeight="1039"/>
+	<SubTexture name="roz up instance 10002" x="1075" y="1" width="515" height="1008" frameX="-3" frameY="-30" frameWidth="520" frameHeight="1039"/>
+	<SubTexture name="roz up instance 10003" x="1075" y="1" width="515" height="1008" frameX="-3" frameY="-30" frameWidth="520" frameHeight="1039"/>
+	<SubTexture name="roz up instance 10004" x="1075" y="1010" width="1002" height="520" rotated="true" frameX="-0" frameY="-37" frameWidth="520" frameHeight="1039"/>
+	<SubTexture name="roz up instance 10005" x="1075" y="1010" width="1002" height="520" rotated="true" frameX="-0" frameY="-37" frameWidth="520" frameHeight="1039"/>
+	<SubTexture name="roz up instance 10006" x="1591" y="1" width="520" height="1003" frameX="-0" frameY="-36" frameWidth="520" frameHeight="1039"/>
+	<SubTexture name="roz up instance 10007" x="1591" y="1" width="520" height="1003" frameX="-0" frameY="-36" frameWidth="520" frameHeight="1039"/>
+	<SubTexture name="roz up instance 10008" x="1075" y="1010" width="1002" height="520" rotated="true" frameX="-0" frameY="-37" frameWidth="520" frameHeight="1039"/>
+	<SubTexture name="roz up instance 10009" x="1075" y="1010" width="1002" height="520" rotated="true" frameX="-0" frameY="-37" frameWidth="520" frameHeight="1039"/>
+</TextureAtlas>

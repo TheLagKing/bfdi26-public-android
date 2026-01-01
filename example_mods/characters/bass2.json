@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				88,
+				-12
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "altdown instance 1"
+		},
+		{
+			"offsets": [
+				35,
+				31
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "altup instance 1"
+		},
+		{
+			"offsets": [
+				61,
+				-7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "altleft instance 1"
+		},
+		{
+			"offsets": [
+				60,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "altright instance 1"
+		},
+		{
+			"offsets": [
+				0,
+				6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "inter",
+			"loop": false,
+			"name": "intermission instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/invitational-dearest/bass extra anims",
+	"position": [
+		160,
+		-10
+	],
+	"healthicon": "bass",
+	"flip_x": true,
+	"healthbar_colors": [
+		28,
+		12,
+		37
+	],
+	"camera_position": [
+		30,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

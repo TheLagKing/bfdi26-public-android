@@ -6,6 +6,7 @@ import openfl.system.Capabilities;
 
 import lime.graphics.Image;
 import lime.utils.Assets as LimeAssets;
+import lime.app.Application;
 
 import flixel.math.FlxPoint;
 
@@ -88,16 +89,58 @@ class CoolUtil
 		Lib.application.window.y = Std.int((height / 2) - (Lib.application.window.height / 2));
 	}
 
-	public static inline function centerWindowOnPoint(?point:FlxPoint) {
+	public static inline function centerWindowOnPoint(?point:FlxPoint) 
+	{
 		Lib.application.window.x = Std.int(point.x - (Lib.application.window.width / 2));
 		Lib.application.window.y = Std.int(point.y - (Lib.application.window.height / 2));
 	}
 
-	public static inline function getCenterWindowPoint():FlxPoint {
+	public static inline function getCenterWindowPoint():FlxPoint 
+	{
 		return FlxPoint.get(
 			Lib.application.window.x + (Lib.application.window.width / 2),
 			Lib.application.window.y + (Lib.application.window.height / 2)
 		);
+	}
+
+	public static var _windowTween:FlxTween = null;
+	public static var _windowRes:FlxPoint;
+	public static var _windowPos:FlxPoint;
+
+	public static function tweenWindowResize(values:Dynamic, time:Float = 0.3 * 4, ?onComplete:Void->Void = null, big:Bool = false) 
+	{
+		FlxG.updateFramerate = 30; //makes it smoother and consistant
+
+		FlxG.mouse.visible = false;
+
+		_windowRes = FlxPoint.get(Lib.application.window.width, Lib.application.window.height); //Lib.application.window.width, Lib.application.window.height
+		_windowPos = getCenterWindowPoint();
+								
+		_windowTween = FlxTween.tween(_windowRes, values, time, {ease: FlxEase.circInOut, onUpdate: (_) -> 
+		{
+			FlxG.resizeWindow(Std.int(_windowRes.x), Std.int(_windowRes.y));
+			
+			centerWindowOnPoint(_windowPos);
+		}, onComplete: _ -> 
+		{
+			if (onComplete != null) onComplete();
+
+			var finalvalues = [big ? 1280 : 960, 720];
+
+			flixel.system.scaleModes.BaseScaleMode.ogSize = FlxPoint.get(finalvalues[0], finalvalues[1]); //921, 691
+			FlxG.scaleMode = new flixel.system.scaleModes.RatioScaleMode();
+
+			FlxG.updateFramerate = ClientPrefs.data.framerate;
+
+			FlxG.resizeWindow(finalvalues[0], finalvalues[1]);
+			FlxG.resizeGame(finalvalues[0], finalvalues[1]);
+
+			centerWindowOnPoint(_windowPos);
+			
+			_windowPos.put(); 
+			_windowPos.put();
+			FlxG.mouse.visible = true;
+		}});
 	}
 
 	public static function floorDecimal(value:Float, decimals:Int):Float

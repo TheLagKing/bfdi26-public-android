@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="beautiful babe.png" width="6714" height="197">
+	<SubTexture name="suitcase down instance 10000" x="1" y="1" width="195" height="174" frameX="-0" frameY="-19" frameWidth="199" frameHeight="193"/>
+	<SubTexture name="suitcase down instance 10001" x="1" y="1" width="195" height="174" frameX="-0" frameY="-19" frameWidth="199" frameHeight="193"/>
+	<SubTexture name="suitcase down instance 10002" x="197" y="1" width="192" height="179" frameX="-4" frameY="-14" frameWidth="199" frameHeight="193"/>
+	<SubTexture name="suitcase down instance 10003" x="197" y="1" width="192" height="179" frameX="-4" frameY="-14" frameWidth="199" frameHeight="193"/>
+	<SubTexture name="suitcase down instance 10004" x="390" y="1" width="192" height="180" frameX="-4" frameY="-13" frameWidth="199" frameHeight="193"/>
+	<SubTexture name="suitcase down instance 10005" x="390" y="1" width="192" height="180" frameX="-4" frameY="-13" frameWidth="199" frameHeight="193"/>
+	<SubTexture name="suitcase down instance 10006" x="583" y="1" width="193" height="180" frameX="-3" frameY="-13" frameWidth="199" frameHeight="193"/>
+	<SubTexture name="suitcase down instance 10007" x="583" y="1" width="193" height="180" frameX="-3" frameY="-13" frameWidth="199" frameHeight="193"/>
+	<SubTexture name="suitcase down instance 10008" x="583" y="1" width="193" height="180" frameX="-3" frameY="-13" frameWidth="199" frameHeight="193"/>
+	<SubTexture name="suitcase down instance 10009" x="2463" y="1" width="192" height="183" frameX="-5" frameY="-10" frameWidth="199" frameHeight="193"/>
+	<SubTexture name="suitcase down instance 10010" x="2463" y="1" width="192" height="183" frameX="-5" frameY="-10" frameWidth="199" frameHeight="193"/>
+	<SubTexture name="suitcase down instance 10011" x="5910" y="1" width="193" height="192" rotated="true" frameX="-6" frameY="-0" frameWidth="199" frameHeight="193"/>
+	<SubTexture name="suitcase idle instance 10000" x="5713" y="1" width="196" height="190" rotated="true" frameX="-0" frameY="-6" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10001" x="5713" y="1" width="196" height="190" rotated="true" frameX="-0" frameY="-6" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10002" x="4716" y="1" width="197" height="189" rotated="true" frameX="-0" frameY="-5" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10003" x="4716" y="1" width="197" height="189" rotated="true" frameX="-0" frameY="-5" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10004" x="4914" y="1" width="198" height="189" rotated="true" frameX="-2" frameY="-4" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10005" x="4914" y="1" width="198" height="189" rotated="true" frameX="-2" frameY="-4" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10006" x="5113" y="1" width="199" height="189" rotated="true" frameX="-3" frameY="-3" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10007" x="5113" y="1" width="199" height="189" rotated="true" frameX="-3" frameY="-3" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10008" x="5313" y="1" width="199" height="189" rotated="true" frameX="-4" frameY="-3" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10009" x="5313" y="1" width="199" height="189" rotated="true" frameX="-4" frameY="-3" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10010" x="5513" y="1" width="199" height="189" rotated="true" frameX="-4" frameY="-3" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10011" x="5513" y="1" width="199" height="189" rotated="true" frameX="-4" frameY="-3" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10012" x="5513" y="1" width="199" height="189" rotated="true" frameX="-4" frameY="-3" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase idle instance 10013" x="5513" y="1" width="199" height="189" rotated="true" frameX="-4" frameY="-3" frameWidth="193" frameHeight="202"/>
+	<SubTexture name="suitcase left instance 10000" x="3716" y="1" width="200" height="186" rotated="true" frameX="-43" frameY="-37" frameWidth="282" frameHeight="237"/>
+	<SubTexture name="suitcase left instance 10001" x="3716" y="1" width="200" height="186" rotated="true" frameX="-43" frameY="-37" frameWidth="282" frameHeight="237"/>
+	<SubTexture name="suitcase left instance 10002" x="3917" y="1" width="199" height="186" rotated="true" frameX="-46" frameY="-38" frameWidth="282" frameHeight="237"/>
+	<SubTexture name="suitcase left instance 10003" x="3917" y="1" width="199" height="186" rotated="true" frameX="-46" frameY="-38" frameWidth="282" frameHeight="237"/>
+	<SubTexture name="suitcase left instance 10004" x="4117" y="1" width="199" height="186" rotated="true" frameX="-47" frameY="-38" frameWidth="282" frameHeight="237"/>
+	<SubTexture name="suitcase left instance 10005" x="4117" y="1" width="199" height="186" rotated="true" frameX="-47" frameY="-38" frameWidth="282" frameHeight="237"/>
+	<SubTexture name="suitcase left instance 10006" x="4317" y="1" width="199" height="186" rotated="true" frameX="-47" frameY="-38" frameWidth="282" frameHeight="237"/>
+	<SubTexture name="suitcase left instance 10007" x="4317" y="1" width="199" height="186" rotated="true" frameX="-47" frameY="-38" frameWidth="282" frameHeight="237"/>
+	<SubTexture name="suitcase left instance 10008" x="4317" y="1" width="199" height="186" rotated="true" frameX="-47" frameY="-38" frameWidth="282" frameHeight="237"/>
+	<SubTexture name="suitcase left instance 10009" x="4517" y="1" width="198" height="186" rotated="true" frameX="-52" frameY="-39" frameWidth="282" frameHeight="237"/>
+	<SubTexture name="suitcase left instance 10010" x="4517" y="1" width="198" height="186" rotated="true" frameX="-52" frameY="-39" frameWidth="282" frameHeight="237"/>
+	<SubTexture name="suitcase left instance 10011" x="3518" y="1" width="197" height="185" rotated="true" frameX="-76" frameY="-40" frameWidth="282" frameHeight="237"/>
+	<SubTexture name="suitcase miss instance 10000" x="6309" y="1" width="202" height="195" rotated="true" frameX="-0" frameY="-2" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10001" x="6309" y="1" width="202" height="195" rotated="true" frameX="-0" frameY="-2" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10002" x="6309" y="1" width="202" height="195" rotated="true" frameX="-0" frameY="-2" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10003" x="6512" y="1" width="201" height="195" rotated="true" frameX="-1" frameY="-3" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10004" x="6512" y="1" width="201" height="195" rotated="true" frameX="-1" frameY="-3" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10005" x="6512" y="1" width="201" height="195" rotated="true" frameX="-1" frameY="-3" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10006" x="6104" y="1" width="204" height="192" rotated="true" frameX="-3" frameY="-0" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10007" x="6104" y="1" width="204" height="192" rotated="true" frameX="-3" frameY="-0" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10008" x="6104" y="1" width="204" height="192" rotated="true" frameX="-3" frameY="-0" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10009" x="6309" y="1" width="202" height="195" rotated="true" frameX="-0" frameY="-2" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10010" x="6309" y="1" width="202" height="195" rotated="true" frameX="-0" frameY="-2" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10011" x="6309" y="1" width="202" height="195" rotated="true" frameX="-0" frameY="-2" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10012" x="6512" y="1" width="201" height="195" rotated="true" frameX="-1" frameY="-3" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10013" x="6512" y="1" width="201" height="195" rotated="true" frameX="-1" frameY="-3" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10014" x="6512" y="1" width="201" height="195" rotated="true" frameX="-1" frameY="-3" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10015" x="6104" y="1" width="204" height="192" rotated="true" frameX="-3" frameY="-0" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10016" x="6104" y="1" width="204" height="192" rotated="true" frameX="-3" frameY="-0" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase miss instance 10017" x="6104" y="1" width="204" height="192" rotated="true" frameX="-3" frameY="-0" frameWidth="196" frameHeight="204"/>
+	<SubTexture name="suitcase right instance 10000" x="777" y="1" width="199" height="180" rotated="true" frameX="-49" frameY="-2" frameWidth="229" frameHeight="201"/>
+	<SubTexture name="suitcase right instance 10001" x="777" y="1" width="199" height="180" rotated="true" frameX="-49" frameY="-2" frameWidth="229" frameHeight="201"/>
+	<SubTexture name="suitcase right instance 10002" x="977" y="1" width="197" height="180" rotated="true" frameX="-44" frameY="-4" frameWidth="229" frameHeight="201"/>
+	<SubTexture name="suitcase right instance 10003" x="977" y="1" width="197" height="180" rotated="true" frameX="-44" frameY="-4" frameWidth="229" frameHeight="201"/>
+	<SubTexture name="suitcase right instance 10004" x="1175" y="1" width="197" height="180" rotated="true" frameX="-43" frameY="-4" frameWidth="229" frameHeight="201"/>
+	<SubTexture name="suitcase right instance 10005" x="1175" y="1" width="197" height="180" rotated="true" frameX="-43" frameY="-4" frameWidth="229" frameHeight="201"/>
+	<SubTexture name="suitcase right instance 10006" x="1373" y="1" width="197" height="180" rotated="true" frameX="-42" frameY="-4" frameWidth="229" frameHeight="201"/>
+	<SubTexture name="suitcase right instance 10007" x="1373" y="1" width="197" height="180" rotated="true" frameX="-42" frameY="-4" frameWidth="229" frameHeight="201"/>
+	<SubTexture name="suitcase right instance 10008" x="1373" y="1" width="197" height="180" rotated="true" frameX="-42" frameY="-4" frameWidth="229" frameHeight="201"/>
+	<SubTexture name="suitcase right instance 10009" x="1571" y="1" width="198" height="181" rotated="true" frameX="-30" frameY="-3" frameWidth="229" frameHeight="201"/>
+	<SubTexture name="suitcase right instance 10010" x="1571" y="1" width="198" height="181" rotated="true" frameX="-30" frameY="-3" frameWidth="229" frameHeight="201"/>
+	<SubTexture name="suitcase right instance 10011" x="3082" y="1" width="198" height="184" rotated="true" frameX="-0" frameY="-3" frameWidth="229" frameHeight="201"/>
+	<SubTexture name="suitcase up instance 10000" x="3281" y="1" width="236" height="184" rotated="true" frameX="-0" frameY="-0" frameWidth="185" frameHeight="236"/>
+	<SubTexture name="suitcase up instance 10001" x="3281" y="1" width="236" height="184" rotated="true" frameX="-0" frameY="-0" frameWidth="185" frameHeight="236"/>
+	<SubTexture name="suitcase up instance 10002" x="1770" y="1" width="231" height="182" rotated="true" frameX="-2" frameY="-5" frameWidth="185" frameHeight="236"/>
+	<SubTexture name="suitcase up instance 10003" x="1770" y="1" width="231" height="182" rotated="true" frameX="-2" frameY="-5" frameWidth="185" frameHeight="236"/>
+	<SubTexture name="suitcase up instance 10004" x="2002" y="1" width="230" height="182" rotated="true" frameX="-2" frameY="-6" frameWidth="185" frameHeight="236"/>
+	<SubTexture name="suitcase up instance 10005" x="2002" y="1" width="230" height="182" rotated="true" frameX="-2" frameY="-6" frameWidth="185" frameHeight="236"/>
+	<SubTexture name="suitcase up instance 10006" x="2233" y="1" width="229" height="182" rotated="true" frameX="-2" frameY="-7" frameWidth="185" frameHeight="236"/>
+	<SubTexture name="suitcase up instance 10007" x="2233" y="1" width="229" height="182" rotated="true" frameX="-2" frameY="-7" frameWidth="185" frameHeight="236"/>
+	<SubTexture name="suitcase up instance 10008" x="2233" y="1" width="229" height="182" rotated="true" frameX="-2" frameY="-7" frameWidth="185" frameHeight="236"/>
+	<SubTexture name="suitcase up instance 10009" x="2656" y="1" width="221" height="183" rotated="true" frameX="-2" frameY="-15" frameWidth="185" frameHeight="236"/>
+	<SubTexture name="suitcase up instance 10010" x="2656" y="1" width="221" height="183" rotated="true" frameX="-2" frameY="-15" frameWidth="185" frameHeight="236"/>
+	<SubTexture name="suitcase up instance 10011" x="2878" y="1" width="203" height="183" rotated="true" frameX="-1" frameY="-33" frameWidth="185" frameHeight="236"/>
+</TextureAtlas>

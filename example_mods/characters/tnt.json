@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				27,
+				34
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-2,
+				-4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "miss",
+			"indices": [],
+			"name": "miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				118,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				42,
+				18
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/hard-bargain/tnthardbargain",
+	"position": [
+		100,
+		205
+	],
+	"healthicon": "spookynew",
+	"flip_x": true,
+	"healthbar_colors": [
+		145,
+		0,
+		145
+	],
+	"camera_position": [
+		-40,
+		150
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

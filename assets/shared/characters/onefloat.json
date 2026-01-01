@@ -53,14 +53,14 @@
 			"fps": 24,
 			"anim": "idle",
 			"loop": true,
-			"name": "oneIDEL instance 1"
+			"name": "oneIDLE instance 1"
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
-	"image": "characters/one/one floating",
+	"image": "characters/dotted-line/bg0/one float assets",
 	"position": [
-		740,
+		840,
 		310
 	],
 	"healthicon": "one",
@@ -68,13 +68,13 @@
 	"healthbar_colors": [
 		0,
 		0,
-		255
+		105
 	],
 	"camera_position": [
 		-120,
 		10
 	],
-	"sing_duration": 3.2,
+	"sing_duration": 2.5,
 	"scale": 1,
 	"_editor_isPlayer": false
 }

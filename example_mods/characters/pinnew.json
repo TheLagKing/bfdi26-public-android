@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-50,
+				79
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "pin idle instance 1"
+		},
+		{
+			"offsets": [
+				-83,
+				69
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "pin down instance 1"
+		},
+		{
+			"offsets": [
+				-99,
+				119
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "pin miss instance 1"
+		},
+		{
+			"offsets": [
+				-58,
+				118
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "pin up instance 1"
+		},
+		{
+			"offsets": [
+				15,
+				76
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "pin left instance 1"
+		},
+		{
+			"offsets": [
+				-55,
+				81
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "pin right instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/wrong-finger/troll pin",
+	"position": [
+		40,
+		500
+	],
+	"healthicon": "pin",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		24,
+		0
+	],
+	"camera_position": [
+		50,
+		-60
+	],
+	"sing_duration": 4,
+	"scale": 2,
+	"_editor_isPlayer": true
+}

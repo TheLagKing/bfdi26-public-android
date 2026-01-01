@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="tree back 3.png" width="1692" height="1790">
+	<SubTexture name="tree back 3 instance 10000" x="1129" y="180" width="562" height="178" frameX="-0" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10001" x="1127" y="1254" width="562" height="178" frameX="-0" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10002" x="564" y="1432" width="562" height="178" frameX="-0" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10003" x="1128" y="359" width="563" height="178" frameX="-1" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10004" x="1128" y="537" width="563" height="178" frameX="-1" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10005" x="1" y="1433" width="562" height="178" frameX="-2" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10006" x="1128" y="715" width="563" height="178" frameX="-2" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10007" x="564" y="1254" width="563" height="178" frameX="-3" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10008" x="1" y="1255" width="563" height="178" frameX="-3" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10009" x="1" y="181" width="564" height="179" frameX="-3" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10010" x="1" y="360" width="564" height="179" frameX="-3" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10011" x="1" y="539" width="564" height="179" frameX="-3" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10012" x="562" y="1" width="564" height="179" frameX="-3" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10013" x="565" y="359" width="563" height="179" frameX="-3" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10014" x="565" y="538" width="563" height="179" frameX="-3" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10015" x="565" y="180" width="564" height="179" frameX="-3" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10016" x="565" y="717" width="563" height="179" frameX="-3" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10017" x="1" y="718" width="563" height="179" frameX="-3" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10018" x="564" y="896" width="563" height="179" frameX="-3" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10019" x="1126" y="1" width="562" height="179" frameX="-3" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10020" x="1" y="897" width="563" height="179" frameX="-2" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10021" x="564" y="1075" width="563" height="179" frameX="-2" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10022" x="1" y="1076" width="563" height="179" frameX="-2" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10023" x="1127" y="896" width="562" height="179" frameX="-2" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10024" x="1" y="1" width="561" height="180" frameX="-2" frameY="-0" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10025" x="1126" y="1432" width="562" height="178" frameX="-1" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10026" x="563" y="1610" width="562" height="178" frameX="-1" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10027" x="1" y="1611" width="562" height="178" frameX="-1" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10028" x="1125" y="1610" width="562" height="178" frameX="-0" frameY="-1" frameWidth="568" frameHeight="180"/>
+	<SubTexture name="tree back 3 instance 10029" x="1127" y="1075" width="562" height="179" frameX="-0" frameY="-1" frameWidth="568" frameHeight="180"/>
+</TextureAtlas>

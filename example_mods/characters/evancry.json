@@ -1,0 +1,146 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-91,
+				-92
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Evan CRYIDLE instance 1"
+		},
+		{
+			"offsets": [
+				-47,
+				-118
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Evan CRYDOWN instance 1"
+		},
+		{
+			"offsets": [
+				-99,
+				-26
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Evan CRYUP instance 1"
+		},
+		{
+			"offsets": [
+				-88,
+				-104
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "Evan CRYMISS instance 1"
+		},
+		{
+			"offsets": [
+				9,
+				-99
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Evan CRYLEFT instance 1"
+		},
+		{
+			"offsets": [
+				-112,
+				-96
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Evan CRYRIGHT instance 1"
+		},
+		{
+			"offsets": [
+				-80,
+				-97
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "Evan TIREDRIGHT instance 1"
+		},
+		{
+			"offsets": [
+				-66,
+				-71
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "Evan TIREDUP instance 1"
+		},
+		{
+			"offsets": [
+				-6,
+				-100
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "Evan TIREDLEFT instance 1"
+		},
+		{
+			"offsets": [
+				-31,
+				-114
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "Evan TIREDDOWN instance 1"
+		},
+		{
+			"offsets": [
+				-70,
+				-95
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": true,
+			"name": "Evan TIREDIDLE instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/oneshot/Evan CRY + TIRED",
+	"position": [
+		20,
+		400
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		222,
+		34,
+		114
+	],
+	"camera_position": [
+		-100,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

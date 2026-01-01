@@ -1,0 +1,60 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-1,
+				-97
+			],
+			"indices": [
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Evan END instance 1"
+		},
+		{
+			"offsets": [
+				-1,
+				-97
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "die",
+			"loop": false,
+			"name": "Evan END instance 1"
+		},
+		{
+			"offsets": [
+				-60,
+				-170
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "Evan DEAD instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/oneshot/Evan END",
+	"position": [
+		20,
+		400
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		222,
+		34,
+		114
+	],
+	"camera_position": [
+		-100,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

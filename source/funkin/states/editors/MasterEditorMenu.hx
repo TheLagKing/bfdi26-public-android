@@ -104,7 +104,6 @@ class MasterEditorMenu extends MusicBeatState
 					LoadingState.loadAndSwitchState(new CharacterEditorState(Character.DEFAULT_CHARACTER, false));
 			}
 			FlxG.sound.music.volume = 0;
-			FreeplayState.destroyFreeplayVocals();
 		}
 		
 		var bullShit:Int = 0;
@@ -127,7 +126,7 @@ class MasterEditorMenu extends MusicBeatState
 
 	function changeSelection(change:Int = 0)
 	{
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
+		FlxG.sound.play(Paths.sound('scrollup1'), 0.4);
 
 		curSelected += change;
 
@@ -140,7 +139,7 @@ class MasterEditorMenu extends MusicBeatState
 	#if MODS_ALLOWED
 	function changeDirectory(change:Int = 0)
 	{
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
+		FlxG.sound.play(Paths.sound('scrollup1'), 0.4);
 
 		curDirectory += change;
 

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sun.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sunappear0000" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0001" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0002" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0003" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0004" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0005" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0006" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0007" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0008" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0009" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0010" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0011" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0012" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0013" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0014" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0015" x="3" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0016" x="791" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0017" x="791" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0018" x="791" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0019" x="1579" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0020" x="1579" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0021" x="2367" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0022" x="2367" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0023" x="2367" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0024" x="3155" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0025" x="3155" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0026" x="3943" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0027" x="3943" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0028" x="4731" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0029" x="4731" y="3" width="778" height="783"/>
+	<SubTexture name="Sunappear0030" x="4731" y="3" width="778" height="783"/>
+	<SubTexture name="Sundance0000" x="5519" y="3" width="778" height="783" frameX="0" frameY="-13" frameWidth="778" frameHeight="796"/>
+	<SubTexture name="Sundance0001" x="5519" y="3" width="778" height="783" frameX="0" frameY="-13" frameWidth="778" frameHeight="796"/>
+	<SubTexture name="Sundance0002" x="3" y="3" width="778" height="783" frameX="0" frameY="-11" frameWidth="778" frameHeight="783"/>
+	<SubTexture name="Sundance0003" x="3" y="3" width="778" height="783" frameX="0" frameY="-11" frameWidth="778" frameHeight="783"/>
+	<SubTexture name="Sundance0004" x="6307" y="3" width="778" height="783" frameX="0" frameY="-7" frameWidth="778" frameHeight="796"/>
+	<SubTexture name="Sundance0005" x="6307" y="3" width="778" height="783" frameX="0" frameY="-7" frameWidth="778" frameHeight="796"/>
+	<SubTexture name="Sundance0006" x="3" y="3" width="778" height="783" frameX="0" frameY="-3" frameWidth="778" frameHeight="783"/>
+	<SubTexture name="Sundance0007" x="3" y="3" width="778" height="783" frameX="0" frameY="-3" frameWidth="778" frameHeight="783"/>
+	<SubTexture name="Sundance0008" x="4731" y="3" width="778" height="783"/>
+	<SubTexture name="Sundance0009" x="4731" y="3" width="778" height="783"/>
+	<SubTexture name="Sundance0010" x="4731" y="3" width="778" height="783"/>
+	<SubTexture name="Sundance0011" x="4731" y="3" width="778" height="783"/>
+	<SubTexture name="Sundance0012" x="4731" y="3" width="778" height="783"/>
+	<SubTexture name="Sundance0013" x="4731" y="3" width="778" height="783"/>
+	<SubTexture name="Sundance0014" x="4731" y="3" width="778" height="783"/>
+</TextureAtlas>

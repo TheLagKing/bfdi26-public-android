@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="shifty oh hell nah.png" width="2116" height="2097">
+	<SubTexture name="shifty oh nah instance 10000" x="1070" y="1973" width="221" height="123" frameX="-1937" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10001" x="1070" y="1973" width="221" height="123" frameX="-1738" frameY="-130" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10002" x="1070" y="1973" width="221" height="123" frameX="-1539" frameY="-130" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10003" x="1869" y="1673" width="123" height="236" rotated="true" frameX="-1339" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10004" x="635" y="1973" width="435" height="123" frameX="-1140" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10005" x="1" y="1973" width="634" height="123" frameX="-941" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10006" x="1869" y="839" width="123" height="834" rotated="true" frameX="-741" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10007" x="1" y="1" width="884" height="123" frameX="-691" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10008" x="1" y="1" width="884" height="123" frameX="-691" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10009" x="844" y="1850" width="838" height="123" frameX="-737" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10010" x="1869" y="1" width="123" height="838" rotated="true" frameX="-737" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10011" x="1" y="124" width="846" height="123" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10012" x="1" y="247" width="846" height="123" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10013" x="1" y="1727" width="843" height="123" frameX="-732" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10014" x="844" y="1727" width="843" height="123" frameX="-732" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10015" x="1746" y="1" width="123" height="843" rotated="true" frameX="-732" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10016" x="1746" y="844" width="123" height="843" rotated="true" frameX="-732" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10017" x="1" y="1850" width="843" height="123" frameX="-732" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10018" x="1" y="370" width="846" height="125" frameX="-729" frameY="-125" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10019" x="1" y="495" width="846" height="125" frameX="-729" frameY="-125" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10020" x="1" y="620" width="846" height="123" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10021" x="1" y="743" width="846" height="123" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10022" x="1" y="866" width="846" height="123" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10023" x="885" y="1" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10024" x="1" y="989" width="846" height="123" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10025" x="1008" y="1" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10026" x="1" y="1112" width="846" height="123" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10027" x="1131" y="1" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10028" x="1" y="1235" width="846" height="123" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10029" x="1254" y="1" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10030" x="1" y="1358" width="846" height="123" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10031" x="1377" y="1" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10032" x="1" y="1481" width="846" height="123" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10033" x="1500" y="1" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10034" x="1" y="1604" width="846" height="123" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10035" x="847" y="847" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10036" x="970" y="847" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10037" x="1093" y="847" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10038" x="1216" y="847" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10039" x="1339" y="847" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10040" x="1462" y="847" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10041" x="1623" y="1" width="123" height="846" rotated="true" frameX="-729" frameY="-131" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10042" x="1585" y="847" width="123" height="846" rotated="true" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10043" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10044" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10045" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10046" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10047" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10048" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10049" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10050" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10051" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10052" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10053" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10054" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10055" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10056" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10057" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10058" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10059" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10060" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10061" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10062" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10063" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10064" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10065" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10066" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10067" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10068" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10069" x="1291" y="1973" width="221" height="123" frameX="-729" frameY="-137" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10070" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10071" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10072" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10073" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10074" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10075" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10076" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10077" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10078" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10079" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10080" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10081" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10082" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10083" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10084" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10085" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10086" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10087" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10088" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10089" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10090" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10091" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10092" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10093" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10094" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10095" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10096" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10097" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10098" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10099" x="1512" y="1973" width="221" height="123" frameX="-735" frameY="-138" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10100" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10101" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10102" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10103" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10104" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10105" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10106" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10107" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10108" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10109" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10110" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10111" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10112" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10113" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10114" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10115" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10116" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10117" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10118" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10119" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10120" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10121" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10122" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10123" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10124" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10125" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10126" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10127" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10128" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10129" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10130" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10131" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10132" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10133" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10134" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10135" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10136" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10137" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10138" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10139" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10140" x="1733" y="1687" width="123" height="221" rotated="true" frameX="-730" frameY="-132" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10141" x="1733" y="1909" width="221" height="123" frameX="-731" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10142" x="1992" y="222" width="123" height="220" rotated="true" frameX="-731" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10143" x="1992" y="222" width="123" height="220" rotated="true" frameX="-731" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10144" x="1992" y="222" width="123" height="220" rotated="true" frameX="-731" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10145" x="1992" y="222" width="123" height="220" rotated="true" frameX="-731" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10146" x="1992" y="222" width="123" height="220" rotated="true" frameX="-732" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10147" x="1992" y="222" width="123" height="220" rotated="true" frameX="-733" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10148" x="1992" y="222" width="123" height="220" rotated="true" frameX="-735" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10149" x="1992" y="222" width="123" height="220" rotated="true" frameX="-738" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10150" x="1992" y="222" width="123" height="220" rotated="true" frameX="-743" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10151" x="1992" y="222" width="123" height="220" rotated="true" frameX="-749" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10152" x="1992" y="222" width="123" height="220" rotated="true" frameX="-758" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10153" x="1992" y="222" width="123" height="220" rotated="true" frameX="-769" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10154" x="1992" y="222" width="123" height="220" rotated="true" frameX="-784" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10155" x="1992" y="222" width="123" height="220" rotated="true" frameX="-802" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10156" x="1992" y="222" width="123" height="220" rotated="true" frameX="-825" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10157" x="1992" y="222" width="123" height="220" rotated="true" frameX="-852" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10158" x="1992" y="222" width="123" height="220" rotated="true" frameX="-886" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10159" x="1992" y="222" width="123" height="220" rotated="true" frameX="-925" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10160" x="1992" y="222" width="123" height="220" rotated="true" frameX="-972" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10161" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1027" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10162" x="1992" y="442" width="123" height="220" rotated="true" frameX="-1093" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10163" x="1992" y="442" width="123" height="220" rotated="true" frameX="-1145" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10164" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1187" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10165" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1219" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10166" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1244" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10167" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1262" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10168" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1276" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10169" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1286" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10170" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1293" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10171" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1297" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10172" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1300" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10173" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1302" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10174" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1303" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10175" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1303" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10176" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1304" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10177" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1304" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10178" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1304" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10179" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1304" frameY="-134" frameWidth="2158" frameHeight="262"/>
+	<SubTexture name="shifty oh nah instance 10180" x="1992" y="1" width="123" height="221" rotated="true" frameX="-1304" frameY="-134" frameWidth="2158" frameHeight="262"/>
+</TextureAtlas>

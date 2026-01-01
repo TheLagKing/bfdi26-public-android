@@ -5,30 +5,26 @@ import funkin.objects.Character;
 class GraphicsSettingsSubState extends BaseOptionsMenu
 {
 	var antialiasingOption:Int;
-	var boyfriend:Character = null;
+	//var boyfriend:Character = null;
 	public function new()
 	{
 		title = 'Graphics';
+		#if DISCORD_ALLOWED
 		rpcTitle = 'Graphics Settings Menu'; //for Discord Rich Presence
+		#end
 
-		boyfriend = new Character(650, 60, 'ballbf', true);
+		/*boyfriend = new Character(650, 60, 'ballbf', true);
 		boyfriend.setGraphicSize(Std.int(boyfriend.width * 0.75));
 		boyfriend.updateHitbox();
 		boyfriend.dance();
 		boyfriend.animation.finishCallback = function (name:String) boyfriend.dance();
-		boyfriend.visible = false;
+		boyfriend.visible = false;*/
 
 		//I'd suggest using "Low Quality" as an example for making your own option since it is the simplest here
 		var option:Option = new Option('Low Quality', //Name
 			'If checked, disables some background details,\ndecreases loading times and improves performance.', //Description
 			'lowQuality', //Save data variable name
 			'bool'); //Variable type
-		addOption(option);
-
-		var option:Option = new Option('Light Mode',
-			'If checked, enables light mode for the freeplay menu.',
-			'lightMode',
-			'bool');
 		addOption(option);
 
 		var option:Option = new Option('Anti-Aliasing',
@@ -60,14 +56,14 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 
 		final refreshRate:Int = FlxG.stage.application.window.displayMode.refreshRate;
 		option.minValue = 60;
-		option.maxValue = 240; //id never recommend playing this mod on anything higher than 140 fps
+		option.maxValue = 240;
 		option.defaultValue = Std.int(FlxMath.bound(refreshRate, option.minValue, option.maxValue));
 		option.displayFormat = '%v FPS';
 		option.onChange = onChangeFramerate;
 		#end
 
 		super();
-		insert(1, boyfriend);
+		//insert(1, boyfriend);
 	}
 
 	function onChangeAntiAliasing()
@@ -98,6 +94,6 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 	override function changeSelection(change:Int = 0)
 	{
 		super.changeSelection(change);
-		boyfriend.visible = (antialiasingOption == curSelected);
+		//boyfriend.visible = (antialiasingOption == curSelected);
 	}
 }

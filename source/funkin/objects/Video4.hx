@@ -5,7 +5,6 @@ import flixel.util.FlxSignal;
 import hxvlc.flixel.FlxVideoSprite;
 
 // with hxvlcs improvements this is less needed but still has its values
-// originally made by data5 thank you for everything
 
 /**
  * Handles video playback as a `FlxSprite`. Has additional features for ease
@@ -80,7 +79,7 @@ class Video4 extends FlxVideoSprite
 	{
 		super.update(elapsed);
 		
-		if (FlxG.keys.justPressed.SPACE && canSkip)
+		if ((FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER) && canSkip)
 		{
 			onSkip.dispatch();
 			if (bitmap.isPlaying)

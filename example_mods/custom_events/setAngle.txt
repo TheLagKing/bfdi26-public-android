@@ -1,0 +1,7 @@
+Angle tween thing
+
+v1 = Angle
+
+v2 = time,ease
+
+if v2 is blank it's 1.25,'cubeOut'

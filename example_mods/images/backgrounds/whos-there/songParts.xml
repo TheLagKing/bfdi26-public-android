@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="songParts.png" width="5450" height="2118">
+	<SubTexture name="bfdia 5b floor" x="0" y="1707" width="5200" height="411" frameX="-0" frameY="-0" frameWidth="5200" frameHeight="411"/>
+	<SubTexture name="canyon" x="0" y="0" width="3344" height="1707" frameX="-0" frameY="-0" frameWidth="3344" frameHeight="1707"/>
+	<SubTexture name="canyonevilleafy" x="3740" y="1165" width="46" height="82" frameX="-0" frameY="-0" frameWidth="46" frameHeight="82"/>
+	<SubTexture name="evilerleafy" x="3542" y="1165" width="198" height="358" frameX="-0" frameY="-0" frameWidth="198" frameHeight="358"/>
+	<SubTexture name="evilleafy" x="3344" y="1165" width="198" height="359" frameX="-1" frameY="-1" frameWidth="200" frameHeight="361"/>
+	<SubTexture name="waltzbg" x="3344" y="0" width="2106" height="1165" frameX="-0" frameY="-0" frameWidth="2106" frameHeight="1165"/>
+</TextureAtlas>

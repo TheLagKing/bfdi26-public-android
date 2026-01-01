@@ -1,0 +1,146 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				730,
+				-100
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "split hatty instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				720,
+				-139
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "split hatty down instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				728,
+				-78
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "split hatty up instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				688,
+				-118
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "split hatty left instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				707,
+				-123
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "split hatty right instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				664,
+				-124
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "miss",
+			"indices": [],
+			"name": "split hatty miss instance 1"
+		},
+		{
+			"offsets": [
+				723,
+				-113
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "split hatty happy instance 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				721,
+				-141
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "split hatty d happy instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				662,
+				-91
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "split hatty u happy instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				754,
+				-129
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "split hatty l happy instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				649,
+				-119
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "split hatty r happy instance 1",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/hey-two/split hatty soul",
+	"position": [
+		-100,
+		390
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		222,
+		34,
+		114
+	],
+	"camera_position": [
+		116,
+		200
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

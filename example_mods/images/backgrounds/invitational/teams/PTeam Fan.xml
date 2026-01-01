@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="PTeam Fan.png" width="1952" height="262">
+	<SubTexture name="Fan Idle instance 10000" x="562" y="1" width="273" height="260" rotated="true" frameX="-2" frameY="-9" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10001" x="562" y="1" width="273" height="260" rotated="true" frameX="-2" frameY="-9" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10002" x="835" y="1" width="274" height="260" rotated="true" frameX="-0" frameY="-8" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10003" x="835" y="1" width="274" height="260" rotated="true" frameX="-0" frameY="-8" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10004" x="1" y="1" width="279" height="259" rotated="true" frameX="-2" frameY="-3" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10005" x="1" y="1" width="279" height="259" rotated="true" frameX="-2" frameY="-3" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10006" x="280" y="1" width="282" height="259" rotated="true" frameX="-14" frameY="-0" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10007" x="280" y="1" width="282" height="259" rotated="true" frameX="-14" frameY="-0" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10008" x="1109" y="1" width="281" height="260" rotated="true" frameX="-16" frameY="-1" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10009" x="1109" y="1" width="281" height="260" rotated="true" frameX="-16" frameY="-1" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10010" x="1390" y="1" width="281" height="260" rotated="true" frameX="-15" frameY="-1" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10011" x="1390" y="1" width="281" height="260" rotated="true" frameX="-15" frameY="-1" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10012" x="1671" y="1" width="280" height="260" rotated="true" frameX="-14" frameY="-2" frameWidth="277" frameHeight="283"/>
+	<SubTexture name="Fan Idle instance 10013" x="1671" y="1" width="280" height="260" rotated="true" frameX="-14" frameY="-2" frameWidth="277" frameHeight="283"/>
+</TextureAtlas>

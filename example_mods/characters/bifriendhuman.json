@@ -1,0 +1,47 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				290,
+				-226
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "bifriend right instance 1"
+		},
+		{
+			"offsets": [
+				290,
+				-226
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "bifriend left instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/wc-gf/bifriend human sit",
+	"position": [
+		50,
+		220
+	],
+	"healthicon": "prideflag",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		170,
+		250
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

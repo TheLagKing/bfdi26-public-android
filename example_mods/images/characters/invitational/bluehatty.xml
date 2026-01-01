@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+might remove later you can do color transform for bf
+-->
+<TextureAtlas imagePath="bluehatty.png" width="2141" height="2132">
+	<SubTexture name="haddy boi instance 10000" x="1181" y="953" width="329" height="491" rotated="true" frameX="-1" frameY="-31" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10001" x="1181" y="953" width="329" height="491" rotated="true" frameX="-1" frameY="-31" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10002" x="474" y="475" width="359" height="475" rotated="true" frameX="-5" frameY="-1" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10003" x="474" y="475" width="359" height="475" rotated="true" frameX="-5" frameY="-1" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10004" x="834" y="475" width="355" height="477" rotated="true" frameX="-8" frameY="-5" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10005" x="834" y="475" width="355" height="477" rotated="true" frameX="-8" frameY="-5" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10006" x="1" y="772" width="353" height="476" rotated="true" frameX="-9" frameY="-8" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10007" x="1" y="772" width="353" height="476" rotated="true" frameX="-9" frameY="-8" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10008" x="355" y="951" width="476" height="352" frameX="-9" frameY="-9" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10009" x="355" y="951" width="476" height="352" frameX="-9" frameY="-9" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10010" x="355" y="951" width="476" height="352" frameX="-9" frameY="-9" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10011" x="355" y="951" width="476" height="352" frameX="-9" frameY="-9" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10012" x="355" y="951" width="476" height="352" frameX="-9" frameY="-9" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="haddy boi instance 10013" x="355" y="951" width="476" height="352" frameX="-9" frameY="-9" frameWidth="492" frameHeight="361"/>
+	<SubTexture name="red down instance 10000" x="1848" y="1734" width="292" height="351" rotated="true" frameX="-12" frameY="-35" frameWidth="471" frameHeight="330"/>
+	<SubTexture name="red down instance 10001" x="1848" y="1734" width="292" height="351" rotated="true" frameX="-12" frameY="-35" frameWidth="471" frameHeight="330"/>
+	<SubTexture name="red down instance 10002" x="1774" y="1429" width="350" height="304" frameX="-12" frameY="-23" frameWidth="471" frameHeight="330"/>
+	<SubTexture name="red down instance 10003" x="1774" y="1429" width="350" height="304" frameX="-12" frameY="-23" frameWidth="471" frameHeight="330"/>
+	<SubTexture name="red down instance 10004" x="1774" y="1429" width="350" height="304" frameX="-12" frameY="-23" frameWidth="471" frameHeight="330"/>
+	<SubTexture name="red down instance 10005" x="1774" y="1429" width="350" height="304" frameX="-12" frameY="-23" frameWidth="471" frameHeight="330"/>
+	<SubTexture name="red down instance 10006" x="1774" y="1429" width="350" height="304" frameX="-12" frameY="-23" frameWidth="471" frameHeight="330"/>
+	<SubTexture name="red down instance 10007" x="1535" y="1782" width="312" height="349" rotated="true" frameX="-10" frameY="-15" frameWidth="471" frameHeight="330"/>
+	<SubTexture name="red down instance 10008" x="1535" y="1782" width="312" height="349" rotated="true" frameX="-10" frameY="-15" frameWidth="471" frameHeight="330"/>
+	<SubTexture name="red down instance 10009" x="1530" y="478" width="327" height="468" rotated="true" frameX="-0" frameY="-0" frameWidth="471" frameHeight="330"/>
+	<SubTexture name="red idle instance 10000" x="343" y="1642" width="476" height="332" frameX="-0" frameY="-8" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10001" x="343" y="1642" width="476" height="332" frameX="-0" frameY="-8" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10002" x="1531" y="1" width="333" height="476" rotated="true" frameX="-1" frameY="-7" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10003" x="1531" y="1" width="333" height="476" rotated="true" frameX="-1" frameY="-7" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10004" x="343" y="1304" width="476" height="337" frameX="-4" frameY="-3" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10005" x="343" y="1304" width="476" height="337" frameX="-4" frameY="-3" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10006" x="1190" y="477" width="339" height="475" rotated="true" frameX="-7" frameY="-1" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10007" x="1190" y="477" width="339" height="475" rotated="true" frameX="-7" frameY="-1" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10008" x="1190" y="1" width="340" height="475" rotated="true" frameX="-8" frameY="-0" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10009" x="1190" y="1" width="340" height="475" rotated="true" frameX="-8" frameY="-0" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10010" x="1190" y="1" width="340" height="475" rotated="true" frameX="-8" frameY="-0" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10011" x="1190" y="1" width="340" height="475" rotated="true" frameX="-8" frameY="-0" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10012" x="1190" y="1" width="340" height="475" rotated="true" frameX="-8" frameY="-0" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red idle instance 10013" x="1190" y="1" width="340" height="475" rotated="true" frameX="-8" frameY="-0" frameWidth="487" frameHeight="345"/>
+	<SubTexture name="red left instance 10000" x="845" y="1" width="342" height="472" rotated="true" frameX="-0" frameY="-0" frameWidth="530" frameHeight="348"/>
+	<SubTexture name="red left instance 10001" x="845" y="1" width="342" height="472" rotated="true" frameX="-0" frameY="-0" frameWidth="530" frameHeight="348"/>
+	<SubTexture name="red left instance 10002" x="1" y="1249" width="341" height="473" rotated="true" frameX="-14" frameY="-1" frameWidth="530" frameHeight="348"/>
+	<SubTexture name="red left instance 10003" x="1" y="1249" width="341" height="473" rotated="true" frameX="-14" frameY="-1" frameWidth="530" frameHeight="348"/>
+	<SubTexture name="red left instance 10004" x="1" y="1249" width="341" height="473" rotated="true" frameX="-14" frameY="-1" frameWidth="530" frameHeight="348"/>
+	<SubTexture name="red left instance 10005" x="1" y="1249" width="341" height="473" rotated="true" frameX="-14" frameY="-1" frameWidth="530" frameHeight="348"/>
+	<SubTexture name="red left instance 10006" x="1" y="1249" width="341" height="473" rotated="true" frameX="-14" frameY="-1" frameWidth="530" frameHeight="348"/>
+	<SubTexture name="red left instance 10007" x="1298" y="1445" width="475" height="336" frameX="-23" frameY="-6" frameWidth="530" frameHeight="348"/>
+	<SubTexture name="red left instance 10008" x="1298" y="1445" width="475" height="336" frameX="-23" frameY="-6" frameWidth="530" frameHeight="348"/>
+	<SubTexture name="red left instance 10009" x="1511" y="953" width="334" height="475" rotated="true" frameX="-51" frameY="-9" frameWidth="530" frameHeight="348"/>
+	<SubTexture name="red right instance 10000" x="1" y="1723" width="335" height="381" rotated="true" frameX="-84" frameY="-1" frameWidth="480" frameHeight="340"/>
+	<SubTexture name="red right instance 10001" x="1" y="1723" width="335" height="381" rotated="true" frameX="-84" frameY="-1" frameWidth="480" frameHeight="340"/>
+	<SubTexture name="red right instance 10002" x="820" y="1781" width="364" height="335" frameX="-82" frameY="-1" frameWidth="480" frameHeight="340"/>
+	<SubTexture name="red right instance 10003" x="820" y="1781" width="364" height="335" frameX="-82" frameY="-1" frameWidth="480" frameHeight="340"/>
+	<SubTexture name="red right instance 10004" x="820" y="1781" width="364" height="335" frameX="-82" frameY="-1" frameWidth="480" frameHeight="340"/>
+	<SubTexture name="red right instance 10005" x="820" y="1781" width="364" height="335" frameX="-82" frameY="-1" frameWidth="480" frameHeight="340"/>
+	<SubTexture name="red right instance 10006" x="820" y="1781" width="364" height="335" frameX="-82" frameY="-1" frameWidth="480" frameHeight="340"/>
+	<SubTexture name="red right instance 10007" x="1185" y="1782" width="349" height="335" frameX="-77" frameY="-1" frameWidth="480" frameHeight="340"/>
+	<SubTexture name="red right instance 10008" x="1185" y="1782" width="349" height="335" frameX="-77" frameY="-1" frameWidth="480" frameHeight="340"/>
+	<SubTexture name="red right instance 10009" x="820" y="1445" width="477" height="335" frameX="-0" frameY="-0" frameWidth="480" frameHeight="340"/>
+	<SubTexture name="red up instance 10000" x="1" y="1" width="471" height="390" frameX="-2" frameY="-0" frameWidth="478" frameHeight="394"/>
+	<SubTexture name="red up instance 10001" x="1" y="1" width="471" height="390" frameX="-2" frameY="-0" frameWidth="478" frameHeight="394"/>
+	<SubTexture name="red up instance 10002" x="1" y="392" width="472" height="379" frameX="-0" frameY="-12" frameWidth="478" frameHeight="394"/>
+	<SubTexture name="red up instance 10003" x="1" y="392" width="472" height="379" frameX="-0" frameY="-12" frameWidth="478" frameHeight="394"/>
+	<SubTexture name="red up instance 10004" x="1" y="392" width="472" height="379" frameX="-0" frameY="-12" frameWidth="478" frameHeight="394"/>
+	<SubTexture name="red up instance 10005" x="1" y="392" width="472" height="379" frameX="-0" frameY="-12" frameWidth="478" frameHeight="394"/>
+	<SubTexture name="red up instance 10006" x="1" y="392" width="472" height="379" frameX="-0" frameY="-12" frameWidth="478" frameHeight="394"/>
+	<SubTexture name="red up instance 10007" x="474" y="1" width="370" height="473" rotated="true" frameX="-0" frameY="-21" frameWidth="478" frameHeight="394"/>
+	<SubTexture name="red up instance 10008" x="474" y="1" width="370" height="473" rotated="true" frameX="-0" frameY="-21" frameWidth="478" frameHeight="394"/>
+	<SubTexture name="red up instance 10009" x="832" y="953" width="348" height="475" rotated="true" frameX="-0" frameY="-43" frameWidth="478" frameHeight="394"/>
+</TextureAtlas>

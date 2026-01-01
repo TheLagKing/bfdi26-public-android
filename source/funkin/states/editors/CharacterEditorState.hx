@@ -78,22 +78,7 @@ class CharacterEditorState extends MusicBeatState
 		loadBG();
 
 		animsTxtGroup = new FlxTypedGroup<FlxText>();
-		silhouettes = new FlxSpriteGroup();
-		add(silhouettes);
 
-		var dad:FlxSprite = new FlxSprite(dadPosition.x, dadPosition.y).loadGraphic(Paths.image('editors/silhouetteDad'));
-		dad.antialiasing = ClientPrefs.data.antialiasing;
-		dad.active = false;
-		dad.offset.set(-4, 1);
-		silhouettes.add(dad);
-
-		var boyfriend:FlxSprite = new FlxSprite(bfPosition.x, bfPosition.y + 350).loadGraphic(Paths.image('editors/silhouetteBF'));
-		boyfriend.antialiasing = ClientPrefs.data.antialiasing;
-		boyfriend.active = false;
-		boyfriend.offset.set(-6, 2);
-		silhouettes.add(boyfriend);
-
-		silhouettes.alpha = 0.25;
 
 		ghost = new FlxSprite();
 		ghost.visible = false;
@@ -1045,7 +1030,7 @@ class CharacterEditorState extends MusicBeatState
 		}
 	}
 
-	final assetFolder = 'week1';  //load from assets/week1/
+	final assetFolder = 'shared/images';  //load from assets/week1/
 	inline function loadBG()
 	{
 		var lastLoaded = Paths.currentLevel;
@@ -1053,14 +1038,11 @@ class CharacterEditorState extends MusicBeatState
 
 		/////////////
 		// bg data //
+		
 		/////////////
-		var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
+		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('titlebg'));
+		bg.scale.set(FlxG.width, FlxG.height);
 		add(bg);
-
-		var stageFront:BGSprite = new BGSprite('stagefront', -650, 600, 0.9, 0.9);
-		stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
-		stageFront.updateHitbox();
-		add(stageFront);
 
 		dadPosition.set(100, 100);
 		bfPosition.set(770, 100);

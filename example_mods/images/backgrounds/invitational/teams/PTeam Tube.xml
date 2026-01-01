@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="PTeam Tube.png" width="913" height="342">
+	<SubTexture name="Test Tube Idle instance 10000" x="1" y="1" width="137" height="332" frameX="-0" frameY="-8" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10001" x="1" y="1" width="137" height="332" frameX="-0" frameY="-8" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10002" x="138" y="1" width="130" height="332" frameX="-5" frameY="-8" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10003" x="138" y="1" width="130" height="332" frameX="-5" frameY="-8" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10004" x="268" y="1" width="126" height="338" frameX="-8" frameY="-2" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10005" x="268" y="1" width="126" height="338" frameX="-8" frameY="-2" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10006" x="527" y="1" width="127" height="340" frameX="-8" frameY="-0" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10007" x="527" y="1" width="127" height="340" frameX="-8" frameY="-0" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10008" x="654" y="1" width="129" height="340" frameX="-7" frameY="-0" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10009" x="654" y="1" width="129" height="340" frameX="-7" frameY="-0" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10010" x="783" y="1" width="129" height="340" frameX="-7" frameY="-0" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10011" x="783" y="1" width="129" height="340" frameX="-7" frameY="-0" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10012" x="394" y="1" width="133" height="339" frameX="-4" frameY="-1" frameWidth="138" frameHeight="341"/>
+	<SubTexture name="Test Tube Idle instance 10013" x="394" y="1" width="133" height="339" frameX="-4" frameY="-1" frameWidth="138" frameHeight="341"/>
+</TextureAtlas>

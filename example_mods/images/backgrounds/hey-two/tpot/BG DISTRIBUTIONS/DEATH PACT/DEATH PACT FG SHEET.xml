@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DEATH PACT FG SHEET.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DEATH PACT FG SHEET instance 10000" x="7" y="7" width="2654" height="1122" frameX="-20" frameY="-8" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10001" x="2668" y="7" width="2650" height="1122" frameX="-20" frameY="-8" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10002" x="5325" y="7" width="2676" height="1124" frameX="-18" frameY="-6" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10003" x="7" y="1138" width="2651" height="1124" frameX="-18" frameY="-6" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10004" x="2665" y="1138" width="2671" height="1128" frameX="-17" frameY="-2" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10005" x="5343" y="1138" width="2650" height="1128" frameX="-17" frameY="-2" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10006" x="7" y="2273" width="2628" height="1129" frameX="-17" frameY="-1" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10007" x="2642" y="2273" width="2670" height="1129" frameX="0" frameY="-1" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10008" x="5319" y="2273" width="2664" height="1130" frameX="0" frameY="0" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10009" x="7" y="3410" width="2702" height="1130" frameX="-3" frameY="0" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10010" x="2716" y="3410" width="2649" height="1130" frameX="-3" frameY="0" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10011" x="5372" y="3410" width="2644" height="1130" frameX="-8" frameY="0" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10012" x="7" y="4547" width="2645" height="1130" frameX="-8" frameY="0" frameWidth="2705" frameHeight="1130"/>
+	<SubTexture name="DEATH PACT FG SHEET instance 10013" x="2659" y="4547" width="2645" height="1130" frameX="-8" frameY="0" frameWidth="2705" frameHeight="1130"/>
+</TextureAtlas>

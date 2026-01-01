@@ -1,0 +1,195 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				101,
+				374
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				185,
+				763
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-57,
+				431
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				449,
+				408
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				56,
+				430
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				313,
+				544
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "start",
+			"indices": [],
+			"name": "blud spawn instance 1"
+		},
+		{
+			"offsets": [
+				149,
+				472
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "fellaform",
+			"indices": [],
+			"name": "small blud instance 1"
+		},
+		{
+			"offsets": [
+				105,
+				428
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "fellaformundo",
+			"indices": [],
+			"name": "small blud go back instance 1"
+		},
+		{
+			"offsets": [
+				54,
+				157
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "small bludD instance 1"
+		},
+		{
+			"offsets": [
+				115,
+				207
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "small bludU instance 1"
+		},
+		{
+			"offsets": [
+				272,
+				152
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "small bludL instance 1"
+		},
+		{
+			"offsets": [
+				-5,
+				144
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "small bludR instance 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				116,
+				206
+			],
+			"anim": "danceLeft-alt",
+			"fps": 24,
+			"name": "blud idle instance 1",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				101,
+				209
+			],
+			"anim": "danceRight-alt",
+			"fps": 24,
+			"name": "blud idle instance 1",
+			"indices": [
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/funny-fellow/animaticsprites",
+	"position": [
+		190,
+		610
+	],
+	"healthicon": "animatic",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-60,
+		-450
+	],
+	"sing_duration": 6,
+	"scale": 1.2,
+	"_editor_isPlayer": false
+}

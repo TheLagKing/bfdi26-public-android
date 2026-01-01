@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="split hatty soul.png" width="8131" height="457">
+	<SubTexture name="split hatty d happy instance 10000" x="1" y="1" width="275" height="179" frameX="-0" frameY="-15" frameWidth="275" frameHeight="195"/>
+	<SubTexture name="split hatty d happy instance 10001" x="1" y="1" width="275" height="179" frameX="-0" frameY="-15" frameWidth="275" frameHeight="195"/>
+	<SubTexture name="split hatty d happy instance 10002" x="277" y="1" width="274" height="184" frameX="-1" frameY="-10" frameWidth="275" frameHeight="195"/>
+	<SubTexture name="split hatty d happy instance 10003" x="277" y="1" width="274" height="184" frameX="-1" frameY="-10" frameWidth="275" frameHeight="195"/>
+	<SubTexture name="split hatty d happy instance 10004" x="277" y="1" width="274" height="184" frameX="-1" frameY="-10" frameWidth="275" frameHeight="195"/>
+	<SubTexture name="split hatty d happy instance 10005" x="277" y="1" width="274" height="184" frameX="-1" frameY="-10" frameWidth="275" frameHeight="195"/>
+	<SubTexture name="split hatty d happy instance 10006" x="277" y="1" width="274" height="184" frameX="-1" frameY="-10" frameWidth="275" frameHeight="195"/>
+	<SubTexture name="split hatty d happy instance 10007" x="552" y="1" width="274" height="184" frameX="-1" frameY="-10" frameWidth="275" frameHeight="195"/>
+	<SubTexture name="split hatty d happy instance 10008" x="827" y="1" width="273" height="185" frameX="-1" frameY="-9" frameWidth="275" frameHeight="195"/>
+	<SubTexture name="split hatty d happy instance 10009" x="2466" y="1" width="272" height="194" frameX="-1" frameY="-1" frameWidth="275" frameHeight="195"/>
+	<SubTexture name="split hatty down instance 10000" x="1101" y="1" width="272" height="187" frameX="-2" frameY="-10" frameWidth="274" frameHeight="197"/>
+	<SubTexture name="split hatty down instance 10001" x="1101" y="1" width="272" height="187" frameX="-2" frameY="-10" frameWidth="274" frameHeight="197"/>
+	<SubTexture name="split hatty down instance 10002" x="1374" y="1" width="272" height="191" frameX="-0" frameY="-6" frameWidth="274" frameHeight="197"/>
+	<SubTexture name="split hatty down instance 10003" x="1374" y="1" width="272" height="191" frameX="-0" frameY="-6" frameWidth="274" frameHeight="197"/>
+	<SubTexture name="split hatty down instance 10004" x="1374" y="1" width="272" height="191" frameX="-0" frameY="-6" frameWidth="274" frameHeight="197"/>
+	<SubTexture name="split hatty down instance 10005" x="1374" y="1" width="272" height="191" frameX="-0" frameY="-6" frameWidth="274" frameHeight="197"/>
+	<SubTexture name="split hatty down instance 10006" x="1647" y="1" width="272" height="191" frameX="-0" frameY="-6" frameWidth="274" frameHeight="197"/>
+	<SubTexture name="split hatty down instance 10007" x="1920" y="1" width="272" height="191" frameX="-0" frameY="-6" frameWidth="274" frameHeight="197"/>
+	<SubTexture name="split hatty down instance 10008" x="2193" y="1" width="272" height="191" frameX="-0" frameY="-6" frameWidth="274" frameHeight="197"/>
+	<SubTexture name="split hatty down instance 10009" x="2739" y="1" width="272" height="197" frameX="-1" frameY="-0" frameWidth="274" frameHeight="197"/>
+	<SubTexture name="split hatty happy instance 10000" x="2894" y="199" width="271" height="218" frameX="-6" frameY="-1" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10001" x="2894" y="199" width="271" height="218" frameX="-6" frameY="-1" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10002" x="3166" y="200" width="271" height="218" frameX="-6" frameY="-1" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10003" x="3166" y="200" width="271" height="218" frameX="-6" frameY="-1" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10004" x="2621" y="199" width="272" height="216" frameX="-3" frameY="-3" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10005" x="2621" y="199" width="272" height="216" frameX="-3" frameY="-3" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10006" x="3438" y="203" width="272" height="219" frameX="-1" frameY="-0" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10007" x="3438" y="203" width="272" height="219" frameX="-1" frameY="-0" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10008" x="3711" y="204" width="272" height="219" frameX="-1" frameY="-0" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10009" x="3711" y="204" width="272" height="219" frameX="-1" frameY="-0" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10010" x="3711" y="204" width="272" height="219" frameX="-1" frameY="-0" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10011" x="3711" y="204" width="272" height="219" frameX="-1" frameY="-0" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10012" x="3711" y="204" width="272" height="219" frameX="-1" frameY="-0" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty happy instance 10013" x="3711" y="204" width="272" height="219" frameX="-1" frameY="-0" frameWidth="277" frameHeight="219"/>
+	<SubTexture name="split hatty instance 10000" x="4195" y="205" width="271" height="222" frameX="-6" frameY="-11" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10001" x="4195" y="205" width="271" height="222" frameX="-6" frameY="-11" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10002" x="4467" y="205" width="272" height="223" frameX="-5" frameY="-10" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10003" x="4467" y="205" width="272" height="223" frameX="-5" frameY="-10" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10004" x="5220" y="205" width="271" height="233" frameX="-4" frameY="-0" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10005" x="5220" y="205" width="271" height="233" frameX="-4" frameY="-0" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10006" x="5492" y="206" width="272" height="233" frameX="-1" frameY="-0" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10007" x="5492" y="206" width="272" height="233" frameX="-1" frameY="-0" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10008" x="5765" y="206" width="272" height="233" frameX="-0" frameY="-0" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10009" x="5765" y="206" width="272" height="233" frameX="-0" frameY="-0" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10010" x="5765" y="206" width="272" height="233" frameX="-0" frameY="-0" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10011" x="5765" y="206" width="272" height="233" frameX="-0" frameY="-0" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10012" x="5765" y="206" width="272" height="233" frameX="-0" frameY="-0" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty instance 10013" x="5765" y="206" width="272" height="233" frameX="-0" frameY="-0" frameWidth="277" frameHeight="233"/>
+	<SubTexture name="split hatty l happy instance 10000" x="3826" y="1" width="273" height="202" frameX="-1" frameY="-1" frameWidth="304" frameHeight="204"/>
+	<SubTexture name="split hatty l happy instance 10001" x="3826" y="1" width="273" height="202" frameX="-1" frameY="-1" frameWidth="304" frameHeight="204"/>
+	<SubTexture name="split hatty l happy instance 10002" x="4374" y="1" width="273" height="203" frameX="-7" frameY="-0" frameWidth="304" frameHeight="204"/>
+	<SubTexture name="split hatty l happy instance 10003" x="4374" y="1" width="273" height="203" frameX="-7" frameY="-0" frameWidth="304" frameHeight="204"/>
+	<SubTexture name="split hatty l happy instance 10004" x="4374" y="1" width="273" height="203" frameX="-7" frameY="-0" frameWidth="304" frameHeight="204"/>
+	<SubTexture name="split hatty l happy instance 10005" x="4374" y="1" width="273" height="203" frameX="-7" frameY="-0" frameWidth="304" frameHeight="204"/>
+	<SubTexture name="split hatty l happy instance 10006" x="4648" y="1" width="273" height="203" frameX="-7" frameY="-0" frameWidth="304" frameHeight="204"/>
+	<SubTexture name="split hatty l happy instance 10007" x="4100" y="1" width="273" height="202" frameX="-7" frameY="-1" frameWidth="304" frameHeight="204"/>
+	<SubTexture name="split hatty l happy instance 10008" x="4922" y="1" width="272" height="203" frameX="-10" frameY="-0" frameWidth="304" frameHeight="204"/>
+	<SubTexture name="split hatty l happy instance 10009" x="5195" y="1" width="274" height="203" frameX="-30" frameY="-0" frameWidth="304" frameHeight="204"/>
+	<SubTexture name="split hatty left instance 10000" x="1786" y="193" width="205" height="213" frameX="-0" frameY="-1" frameWidth="231" frameHeight="214"/>
+	<SubTexture name="split hatty left instance 10001" x="1786" y="193" width="205" height="213" frameX="-0" frameY="-1" frameWidth="231" frameHeight="214"/>
+	<SubTexture name="split hatty left instance 10002" x="1169" y="189" width="204" height="212" frameX="-6" frameY="-2" frameWidth="231" frameHeight="214"/>
+	<SubTexture name="split hatty left instance 10003" x="1169" y="189" width="204" height="212" frameX="-6" frameY="-2" frameWidth="231" frameHeight="214"/>
+	<SubTexture name="split hatty left instance 10004" x="1169" y="189" width="204" height="212" frameX="-6" frameY="-2" frameWidth="231" frameHeight="214"/>
+	<SubTexture name="split hatty left instance 10005" x="1169" y="189" width="204" height="212" frameX="-6" frameY="-2" frameWidth="231" frameHeight="214"/>
+	<SubTexture name="split hatty left instance 10006" x="1169" y="189" width="204" height="212" frameX="-6" frameY="-2" frameWidth="231" frameHeight="214"/>
+	<SubTexture name="split hatty left instance 10007" x="1374" y="193" width="204" height="212" frameX="-6" frameY="-2" frameWidth="231" frameHeight="214"/>
+	<SubTexture name="split hatty left instance 10008" x="1579" y="193" width="206" height="212" frameX="-7" frameY="-2" frameWidth="231" frameHeight="214"/>
+	<SubTexture name="split hatty left instance 10009" x="2205" y="193" width="211" height="214" frameX="-20" frameY="-0" frameWidth="231" frameHeight="214"/>
+	<SubTexture name="split hatty miss instance 10000" x="3216" y="1" width="203" height="198" frameX="-0" frameY="-10" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10001" x="3012" y="1" width="203" height="197" frameX="-0" frameY="-10" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10002" x="3420" y="1" width="202" height="198" frameX="-1" frameY="-9" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10003" x="3623" y="1" width="202" height="201" frameX="-1" frameY="-7" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10004" x="7928" y="1" width="202" height="208" frameX="-1" frameY="-0" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10005" x="6966" y="1" width="202" height="205" frameX="-1" frameY="-2" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10006" x="5673" y="1" width="202" height="204" frameX="-1" frameY="-3" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10007" x="7169" y="1" width="202" height="205" frameX="-1" frameY="-3" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10008" x="5470" y="1" width="202" height="203" frameX="-1" frameY="-4" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10009" x="5876" y="1" width="202" height="204" frameX="-1" frameY="-4" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10010" x="6079" y="1" width="202" height="204" frameX="-1" frameY="-4" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10011" x="6282" y="1" width="202" height="204" frameX="-1" frameY="-4" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10012" x="6485" y="1" width="202" height="204" frameX="-1" frameY="-4" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty miss instance 10013" x="6485" y="1" width="202" height="204" frameX="-1" frameY="-4" frameWidth="203" frameHeight="208"/>
+	<SubTexture name="split hatty r happy instance 10000" x="2417" y="196" width="203" height="214" frameX="-33" frameY="-0" frameWidth="236" frameHeight="214"/>
+	<SubTexture name="split hatty r happy instance 10001" x="2417" y="196" width="203" height="214" frameX="-33" frameY="-0" frameWidth="236" frameHeight="214"/>
+	<SubTexture name="split hatty r happy instance 10002" x="759" y="187" width="204" height="211" frameX="-24" frameY="-3" frameWidth="236" frameHeight="214"/>
+	<SubTexture name="split hatty r happy instance 10003" x="759" y="187" width="204" height="211" frameX="-24" frameY="-3" frameWidth="236" frameHeight="214"/>
+	<SubTexture name="split hatty r happy instance 10004" x="759" y="187" width="204" height="211" frameX="-24" frameY="-3" frameWidth="236" frameHeight="214"/>
+	<SubTexture name="split hatty r happy instance 10005" x="759" y="187" width="204" height="211" frameX="-24" frameY="-3" frameWidth="236" frameHeight="214"/>
+	<SubTexture name="split hatty r happy instance 10006" x="759" y="187" width="204" height="211" frameX="-24" frameY="-3" frameWidth="236" frameHeight="214"/>
+	<SubTexture name="split hatty r happy instance 10007" x="964" y="189" width="204" height="211" frameX="-24" frameY="-3" frameWidth="236" frameHeight="214"/>
+	<SubTexture name="split hatty r happy instance 10008" x="1" y="181" width="205" height="210" frameX="-21" frameY="-3" frameWidth="236" frameHeight="214"/>
+	<SubTexture name="split hatty r happy instance 10009" x="1992" y="193" width="212" height="213" frameX="-0" frameY="-1" frameWidth="236" frameHeight="214"/>
+	<SubTexture name="split hatty right instance 10000" x="6688" y="1" width="277" height="204" frameX="-14" frameY="-6" frameWidth="291" frameHeight="210"/>
+	<SubTexture name="split hatty right instance 10001" x="6688" y="1" width="277" height="204" frameX="-14" frameY="-6" frameWidth="291" frameHeight="210"/>
+	<SubTexture name="split hatty right instance 10002" x="7372" y="1" width="277" height="205" frameX="-8" frameY="-5" frameWidth="291" frameHeight="210"/>
+	<SubTexture name="split hatty right instance 10003" x="7372" y="1" width="277" height="205" frameX="-8" frameY="-5" frameWidth="291" frameHeight="210"/>
+	<SubTexture name="split hatty right instance 10004" x="7372" y="1" width="277" height="205" frameX="-8" frameY="-5" frameWidth="291" frameHeight="210"/>
+	<SubTexture name="split hatty right instance 10005" x="7372" y="1" width="277" height="205" frameX="-8" frameY="-5" frameWidth="291" frameHeight="210"/>
+	<SubTexture name="split hatty right instance 10006" x="7372" y="1" width="277" height="205" frameX="-8" frameY="-5" frameWidth="291" frameHeight="210"/>
+	<SubTexture name="split hatty right instance 10007" x="7650" y="1" width="277" height="205" frameX="-8" frameY="-5" frameWidth="291" frameHeight="210"/>
+	<SubTexture name="split hatty right instance 10008" x="207" y="186" width="277" height="206" frameX="-7" frameY="-4" frameWidth="291" frameHeight="210"/>
+	<SubTexture name="split hatty right instance 10009" x="485" y="186" width="273" height="210" frameX="-0" frameY="-0" frameWidth="291" frameHeight="210"/>
+	<SubTexture name="split hatty u happy instance 10000" x="6449" y="206" width="205" height="239" frameX="-2" frameY="-0" frameWidth="210" frameHeight="239"/>
+	<SubTexture name="split hatty u happy instance 10001" x="6449" y="206" width="205" height="239" frameX="-2" frameY="-0" frameWidth="210" frameHeight="239"/>
+	<SubTexture name="split hatty u happy instance 10002" x="6038" y="206" width="204" height="233" frameX="-2" frameY="-6" frameWidth="210" frameHeight="239"/>
+	<SubTexture name="split hatty u happy instance 10003" x="6038" y="206" width="204" height="233" frameX="-2" frameY="-6" frameWidth="210" frameHeight="239"/>
+	<SubTexture name="split hatty u happy instance 10004" x="6038" y="206" width="204" height="233" frameX="-2" frameY="-6" frameWidth="210" frameHeight="239"/>
+	<SubTexture name="split hatty u happy instance 10005" x="6038" y="206" width="204" height="233" frameX="-2" frameY="-6" frameWidth="210" frameHeight="239"/>
+	<SubTexture name="split hatty u happy instance 10006" x="6038" y="206" width="204" height="233" frameX="-2" frameY="-6" frameWidth="210" frameHeight="239"/>
+	<SubTexture name="split hatty u happy instance 10007" x="6243" y="206" width="205" height="233" frameX="-2" frameY="-6" frameWidth="210" frameHeight="239"/>
+	<SubTexture name="split hatty u happy instance 10008" x="4740" y="205" width="205" height="231" frameX="-2" frameY="-8" frameWidth="210" frameHeight="239"/>
+	<SubTexture name="split hatty u happy instance 10009" x="3984" y="204" width="210" height="219" frameX="-0" frameY="-20" frameWidth="210" frameHeight="239"/>
+	<SubTexture name="split hatty up instance 10000" x="7485" y="207" width="276" height="249" frameX="-1" frameY="-0" frameWidth="280" frameHeight="251"/>
+	<SubTexture name="split hatty up instance 10001" x="7485" y="207" width="276" height="249" frameX="-1" frameY="-0" frameWidth="280" frameHeight="251"/>
+	<SubTexture name="split hatty up instance 10002" x="6931" y="207" width="276" height="244" frameX="-1" frameY="-6" frameWidth="280" frameHeight="251"/>
+	<SubTexture name="split hatty up instance 10003" x="6931" y="207" width="276" height="244" frameX="-1" frameY="-6" frameWidth="280" frameHeight="251"/>
+	<SubTexture name="split hatty up instance 10004" x="6931" y="207" width="276" height="244" frameX="-1" frameY="-6" frameWidth="280" frameHeight="251"/>
+	<SubTexture name="split hatty up instance 10005" x="6931" y="207" width="276" height="244" frameX="-1" frameY="-6" frameWidth="280" frameHeight="251"/>
+	<SubTexture name="split hatty up instance 10006" x="6931" y="207" width="276" height="244" frameX="-1" frameY="-6" frameWidth="280" frameHeight="251"/>
+	<SubTexture name="split hatty up instance 10007" x="7208" y="207" width="276" height="244" frameX="-1" frameY="-6" frameWidth="280" frameHeight="251"/>
+	<SubTexture name="split hatty up instance 10008" x="6655" y="206" width="275" height="242" frameX="-2" frameY="-8" frameWidth="280" frameHeight="251"/>
+	<SubTexture name="split hatty up instance 10009" x="4946" y="205" width="273" height="231" frameX="-7" frameY="-18" frameWidth="280" frameHeight="251"/>
+</TextureAtlas>

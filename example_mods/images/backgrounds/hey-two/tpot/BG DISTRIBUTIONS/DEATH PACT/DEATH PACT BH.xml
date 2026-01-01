@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DEATH PACT BH.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10000" x="7" y="7" width="486" height="486" frameX="0" frameY="-7" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10001" x="7" y="7" width="486" height="486" frameX="0" frameY="-7" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10002" x="7" y="7" width="486" height="486" frameX="0" frameY="-7" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10003" x="500" y="7" width="486" height="485" frameX="0" frameY="-5" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10004" x="500" y="7" width="486" height="485" frameX="0" frameY="-5" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10005" x="993" y="7" width="478" height="478" frameX="-4" frameY="-1" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10006" x="993" y="7" width="478" height="478" frameX="-4" frameY="-1" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10007" x="1478" y="7" width="476" height="474" frameX="-5" frameY="-1" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10008" x="1478" y="7" width="476" height="474" frameX="-5" frameY="-1" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10009" x="1961" y="7" width="476" height="474" frameX="-5" frameY="0" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10010" x="1961" y="7" width="476" height="474" frameX="-5" frameY="0" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10011" x="1961" y="7" width="476" height="474" frameX="-5" frameY="0" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10012" x="1961" y="7" width="476" height="474" frameX="-5" frameY="0" frameWidth="486" frameHeight="493"/>
+	<SubTexture name="BLACK HOLE DEATH PACT BG instance 10013" x="1961" y="7" width="476" height="474" frameX="-5" frameY="0" frameWidth="486" frameHeight="493"/>
+</TextureAtlas>

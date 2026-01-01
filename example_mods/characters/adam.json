@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				10,
+				30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "FATZ IDLE instance 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				14
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "FATZ DOWN instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				101,
+				127
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "FATZ UP instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				136,
+				44
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "FATZ LEFT instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				24
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "FATZ RIGHT instance 1",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/aldi/greatest artist of our generation",
+	"position": [
+		40,
+		400
+	],
+	"healthicon": "adam",
+	"flip_x": false,
+	"healthbar_colors": [
+		61,
+		155,
+		75
+	],
+	"camera_position": [
+		-120,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

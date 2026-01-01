@@ -1,9 +1,0 @@
-{
-	"name": "BFDI 26",
-	"description": "",
-	"restart":false,
-	"runsGlobally": true,
-	"color": [30, 0,2],
-	"discordRPC": "",
-	"iconFramerate": 10
-}

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Noway.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Nodance0000" x="3" y="3" width="297" height="470" frameX="-3" frameY="-3" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0001" x="3" y="3" width="297" height="470" frameX="-3" frameY="-3" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0002" x="310" y="3" width="294" height="473" frameX="-8" frameY="0" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0003" x="310" y="3" width="294" height="473" frameX="-8" frameY="0" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0004" x="614" y="3" width="296" height="473" frameX="-4" frameY="0" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0005" x="614" y="3" width="296" height="473" frameX="-4" frameY="0" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0006" x="920" y="3" width="299" height="472" frameX="-1" frameY="-1" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0007" x="920" y="3" width="299" height="472" frameX="-1" frameY="-1" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0008" x="1229" y="3" width="300" height="472" frameX="0" frameY="-1" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0009" x="1229" y="3" width="300" height="472" frameX="0" frameY="-1" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0010" x="1229" y="3" width="300" height="472" frameX="0" frameY="-1" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0011" x="1229" y="3" width="300" height="472" frameX="0" frameY="-1" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0012" x="1229" y="3" width="300" height="472" frameX="0" frameY="-1" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nodance0013" x="1229" y="3" width="300" height="472" frameX="0" frameY="-1" frameWidth="302" frameHeight="473"/>
+	<SubTexture name="Nowalk0000" x="1539" y="3" width="300" height="480" frameX="0" frameY="0" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0001" x="1539" y="3" width="300" height="480" frameX="0" frameY="0" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0002" x="1539" y="3" width="300" height="480" frameX="0" frameY="0" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0003" x="1539" y="3" width="300" height="480" frameX="0" frameY="0" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0004" x="1539" y="3" width="300" height="480" frameX="0" frameY="0" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0005" x="1849" y="3" width="300" height="474" frameX="0" frameY="-9" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0006" x="1849" y="3" width="300" height="474" frameX="0" frameY="-9" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0007" x="1849" y="3" width="300" height="474" frameX="0" frameY="-9" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0008" x="1849" y="3" width="300" height="474" frameX="0" frameY="-9" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0009" x="1849" y="3" width="300" height="474" frameX="0" frameY="-9" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0010" x="2159" y="3" width="300" height="472" frameX="0" frameY="-3" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0011" x="2159" y="3" width="300" height="472" frameX="0" frameY="-3" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0012" x="2159" y="3" width="300" height="472" frameX="0" frameY="-3" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0013" x="2159" y="3" width="300" height="472" frameX="0" frameY="-3" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0014" x="2159" y="3" width="300" height="472" frameX="0" frameY="-3" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0015" x="2469" y="3" width="300" height="481" frameX="0" frameY="-9" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0016" x="2469" y="3" width="300" height="481" frameX="0" frameY="-9" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0017" x="2469" y="3" width="300" height="481" frameX="0" frameY="-9" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0018" x="2469" y="3" width="300" height="481" frameX="0" frameY="-9" frameWidth="300" frameHeight="490"/>
+	<SubTexture name="Nowalk0019" x="2469" y="3" width="300" height="481" frameX="0" frameY="-9" frameWidth="300" frameHeight="490"/>
+</TextureAtlas>

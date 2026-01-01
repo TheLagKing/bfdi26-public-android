@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="BTeam Blueberry.png" width="983" height="136">
+	<SubTexture name="Blueberry Idle instance 10000" x="706" y="1" width="138" height="134" rotated="true" frameX="-0" frameY="-6" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10001" x="706" y="1" width="138" height="134" rotated="true" frameX="-0" frameY="-6" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10002" x="844" y="1" width="138" height="134" rotated="true" frameX="-0" frameY="-6" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10003" x="844" y="1" width="138" height="134" rotated="true" frameX="-0" frameY="-6" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10004" x="285" y="1" width="141" height="132" rotated="true" frameX="-1" frameY="-3" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10005" x="285" y="1" width="141" height="132" rotated="true" frameX="-1" frameY="-3" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10006" x="1" y="1" width="142" height="131" rotated="true" frameX="-2" frameY="-2" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10007" x="1" y="1" width="142" height="131" rotated="true" frameX="-2" frameY="-2" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10008" x="143" y="1" width="142" height="131" rotated="true" frameX="-2" frameY="-2" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10009" x="143" y="1" width="142" height="131" rotated="true" frameX="-2" frameY="-2" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10010" x="426" y="1" width="141" height="133" rotated="true" frameX="-1" frameY="-3" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10011" x="426" y="1" width="141" height="133" rotated="true" frameX="-1" frameY="-3" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10012" x="567" y="1" width="139" height="133" rotated="true" frameX="-1" frameY="-5" frameWidth="135" frameHeight="145"/>
+	<SubTexture name="Blueberry Idle instance 10013" x="567" y="1" width="139" height="133" rotated="true" frameX="-1" frameY="-5" frameWidth="135" frameHeight="145"/>
+</TextureAtlas>

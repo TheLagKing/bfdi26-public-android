@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-40,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "hat idle instance 1"
+		},
+		{
+			"offsets": [
+				-50,
+				-13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "haddy down instance 1"
+		},
+		{
+			"offsets": [
+				-47,
+				50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "haddy up instance 1"
+		},
+		{
+			"offsets": [
+				21,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "haddy left instance 1"
+		},
+		{
+			"offsets": [
+				-62,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "haddy right instance 1"
+		},
+		{
+			"offsets": [
+				-69,
+				18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "miss",
+			"indices": [],
+			"name": "haddy boi instance 1"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/invitational/bfii",
+	"position": [
+		0,
+		400
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		222,
+		34,
+		114
+	],
+	"camera_position": [
+		-30,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

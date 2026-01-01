@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="PTeam Clover.png" width="4494" height="218">
+	<SubTexture name="Clover Unpaint instance 10000" x="976" y="1" width="334" height="212" rotated="true" frameX="-0" frameY="-1" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10001" x="976" y="1" width="334" height="212" rotated="true" frameX="-0" frameY="-1" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10002" x="976" y="1" width="334" height="212" rotated="true" frameX="-0" frameY="-1" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10003" x="1310" y="1" width="332" height="212" rotated="true" frameX="-1" frameY="-3" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10004" x="1310" y="1" width="332" height="212" rotated="true" frameX="-1" frameY="-3" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10005" x="1963" y="1" width="325" height="213" rotated="true" frameX="-5" frameY="-11" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10006" x="1963" y="1" width="325" height="213" rotated="true" frameX="-5" frameY="-11" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10007" x="3236" y="1" width="316" height="216" rotated="true" frameX="-8" frameY="-20" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10008" x="3236" y="1" width="316" height="216" rotated="true" frameX="-8" frameY="-20" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10009" x="3552" y="1" width="313" height="216" rotated="true" frameX="-11" frameY="-23" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10010" x="3552" y="1" width="313" height="216" rotated="true" frameX="-11" frameY="-23" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10011" x="2606" y="1" width="314" height="215" rotated="true" frameX="-13" frameY="-22" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10012" x="2606" y="1" width="314" height="215" rotated="true" frameX="-13" frameY="-22" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10013" x="659" y="1" width="317" height="211" rotated="true" frameX="-17" frameY="-19" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10014" x="659" y="1" width="317" height="211" rotated="true" frameX="-17" frameY="-19" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10015" x="1" y="1" width="330" height="210" rotated="true" frameX="-25" frameY="-5" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10016" x="1" y="1" width="330" height="210" rotated="true" frameX="-25" frameY="-5" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10017" x="1" y="1" width="330" height="210" rotated="true" frameX="-25" frameY="-5" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10018" x="331" y="1" width="328" height="210" rotated="true" frameX="-24" frameY="-7" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10019" x="331" y="1" width="328" height="210" rotated="true" frameX="-24" frameY="-7" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10020" x="1642" y="1" width="321" height="212" rotated="true" frameX="-19" frameY="-15" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10021" x="1642" y="1" width="321" height="212" rotated="true" frameX="-19" frameY="-15" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10022" x="3865" y="1" width="315" height="216" rotated="true" frameX="-11" frameY="-21" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10023" x="3865" y="1" width="315" height="216" rotated="true" frameX="-11" frameY="-21" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10024" x="4180" y="1" width="313" height="216" rotated="true" frameX="-9" frameY="-23" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10025" x="4180" y="1" width="313" height="216" rotated="true" frameX="-9" frameY="-23" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10026" x="2920" y="1" width="316" height="215" rotated="true" frameX="-8" frameY="-20" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10027" x="2920" y="1" width="316" height="215" rotated="true" frameX="-8" frameY="-20" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10028" x="2288" y="1" width="318" height="213" rotated="true" frameX="-8" frameY="-18" frameWidth="236" frameHeight="336"/>
+	<SubTexture name="Clover Unpaint instance 10029" x="2288" y="1" width="318" height="213" rotated="true" frameX="-8" frameY="-18" frameWidth="236" frameHeight="336"/>
+</TextureAtlas>

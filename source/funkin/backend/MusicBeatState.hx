@@ -4,9 +4,15 @@ import flixel.addons.ui.FlxUIState;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.FlxState;
 import funkin.backend.PsychCamera;
+import funkin.api.DiscordClient;
+import openfl.net.URLLoader;
+import openfl.net.URLRequest;
+import openfl.events.Event;
 
 class MusicBeatState extends FlxUIState
 {
+	public static var banlist:Array<String> = [];
+
 	private var curSection:Int = 0;
 	private var stepsToDo:Int = 0;
 
@@ -15,7 +21,9 @@ class MusicBeatState extends FlxUIState
 
 	private var curDecStep:Float = 0;
 	private var curDecBeat:Float = 0;
+
 	public var controls(get, never):Controls;
+
 	private function get_controls()
 	{
 		return Controls.instance;
@@ -23,22 +31,50 @@ class MusicBeatState extends FlxUIState
 
 	var _psychCameraInitialized:Bool = false;
 
-	public function new() {super();}
+	public function new() super();
 
-	override function create() {
+	override function create() 
+	{
 		var skip:Bool = FlxTransitionableState.skipNextTransOut;
 		#if MODS_ALLOWED Mods.updatedOnState = false; #end
 
-		if(!_psychCameraInitialized) initPsychCamera();
+		if (!_psychCameraInitialized) initPsychCamera();
 
 		super.create();
 
-		if(!skip) {
-			findActiveState().openSubState(new CustomFadeTransition(0.6, true));
-		}
+		if(!skip) findActiveState().openSubState(new CustomFadeTransition(0.7, true));
 		FlxTransitionableState.skipNextTransOut = false;
 		timePassedOnState = 0;
+
+		/*if (Type.getClassName(Type.getClass(FlxG.state)) != 'funkin.states.Banned')
+		{
+			loadBanList();
+
+			if (banlist.contains(DiscordClient.userId))
+			{
+				FlxG.save.data.bannedhaha = true;
+
+				FlxG.switchState(funkin.states.Banned.new);
+				#if debug trace('ur banned'); #end
+			} #if debug else trace('ur not banned'); #end
+		}*/
 	}
+
+	/*public static function loadBanList() 
+	{
+        var loader = new URLLoader();
+        
+		loader.addEventListener(Event.COMPLETE, function(e:Event) 
+		{
+            var data:String = cast(loader.data, String);
+            banlist = data.split("\n");
+            for (i in 0...banlist.length) banlist[i] = StringTools.trim(banlist[i]);
+            
+			#if debug trace("Ban list: " + banlist); #end
+        });
+
+        loader.load(new URLRequest("https://pastebin.com/raw/j4Bg7Nhe"));
+    }*/
 
 	public function initPsychCamera():PsychCamera
 	{
@@ -46,14 +82,13 @@ class MusicBeatState extends FlxUIState
 		FlxG.cameras.reset(camera);
 		FlxG.cameras.setDefaultDrawTarget(camera, true);
 		_psychCameraInitialized = true;
-		//trace('initialized psych camera ' + Sys.cpuTime());
+
 		return camera;
 	}
 
 	public static var timePassedOnState:Float = 0;
 	override function update(elapsed:Float)
 	{
-		//everyStep();
 		var oldStep:Int = curStep;
 		timePassedOnState += elapsed;
 
@@ -62,18 +97,19 @@ class MusicBeatState extends FlxUIState
 
 		if (oldStep != curStep)
 		{
-			if(curStep > 0) stepHit();
+			if (curStep > 0) stepHit();
 
-			if(PlayState.SONG != null)
+			if (PlayState.SONG != null)
 			{
 				if (oldStep < curStep) updateSection();
 				else rollbackSection();
 			}
 		}
 
-		if(FlxG.save.data != null) FlxG.save.data.fullscreen = FlxG.fullscreen;
+		if (FlxG.save.data != null) FlxG.save.data.fullscreen = FlxG.fullscreen;
 		
-		stagesFunc(function(stage:BaseStage) {
+		stagesFunc(function(stage:BaseStage) 
+		{
 			stage.update(elapsed);
 		});
 
@@ -82,8 +118,8 @@ class MusicBeatState extends FlxUIState
 
 	private function updateSection():Void
 	{
-		if(stepsToDo < 1) stepsToDo = Math.round(getBeatsOnSection() * 4);
-		while(curStep >= stepsToDo)
+		if (stepsToDo < 1) stepsToDo = Math.round(getBeatsOnSection() * 4);
+		while (curStep >= stepsToDo)
 		{
 			curSection++;
 			var beats:Float = getBeatsOnSection();
@@ -94,23 +130,24 @@ class MusicBeatState extends FlxUIState
 
 	private function rollbackSection():Void
 	{
-		if(curStep < 0) return;
+		if (curStep < 0) return;
 
 		var lastSection:Int = curSection;
 		curSection = 0;
 		stepsToDo = 0;
+		
 		for (i in 0...PlayState.SONG.notes.length)
 		{
 			if (PlayState.SONG.notes[i] != null)
 			{
 				stepsToDo += Math.round(getBeatsOnSection() * 4);
-				if(stepsToDo > curStep) break;
+				if (stepsToDo > curStep) break;
 				
 				curSection++;
 			}
 		}
 
-		if(curSection > lastSection) sectionHit();
+		if (curSection > lastSection) sectionHit();
 	}
 
 	private function updateBeat():Void
@@ -130,11 +167,11 @@ class MusicBeatState extends FlxUIState
 
 	override function startOutro(onOutroComplete:() -> Void)
 	{
-		
 		if (!FlxTransitionableState.skipNextTransIn)
 		{
-			findActiveState().openSubState(new CustomFadeTransition(0.6, false));
-			CustomFadeTransition.finishCallback = onOutroComplete;	
+			findActiveState().openSubState(new CustomFadeTransition(0.7, false));
+			CustomFadeTransition.finishCallback = onOutroComplete;
+			
 			return;
 		}
 		FlxTransitionableState.skipNextTransIn = false;
@@ -148,20 +185,22 @@ class MusicBeatState extends FlxUIState
 
 	public function stepHit():Void
 	{
-		stagesFunc(function(stage:BaseStage) {
+		stagesFunc(function(stage:BaseStage) 
+		{
 			stage.curStep = curStep;
 			stage.curDecStep = curDecStep;
 			stage.stepHit();
 		});
 
-		if (curStep % 4 == 0)
-			beatHit();
+		if (curStep % 4 == 0) beatHit();
 	}
 
 	public var stages:Array<BaseStage> = [];
+
 	public function beatHit():Void
 	{
-		stagesFunc(function(stage:BaseStage) {
+		stagesFunc(function(stage:BaseStage) 
+		{
 			stage.curBeat = curBeat;
 			stage.curDecBeat = curDecBeat;
 			stage.beatHit();
@@ -170,7 +209,8 @@ class MusicBeatState extends FlxUIState
 
 	public function sectionHit():Void
 	{
-		stagesFunc(function(stage:BaseStage) {
+		stagesFunc(function(stage:BaseStage) 
+		{
 			stage.curSection = curSection;
 			stage.sectionHit();
 		});
@@ -184,7 +224,8 @@ class MusicBeatState extends FlxUIState
 	function getBeatsOnSection()
 	{
 		var val:Null<Float> = 4;
-		if(PlayState.SONG != null && PlayState.SONG.notes[curSection] != null) val = PlayState.SONG.notes[curSection].sectionBeats;
+		if (PlayState.SONG != null && PlayState.SONG.notes[curSection] != null) val = PlayState.SONG.notes[curSection].sectionBeats;
+
 		return val == null ? 4 : val;
 	}
 
@@ -194,6 +235,7 @@ class MusicBeatState extends FlxUIState
 
 		var deepest = state;
 		if (state.subState != null) state = MusicBeatState.findActiveState(state.subState);
+
 		return state;
 	}
 }

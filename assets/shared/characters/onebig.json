@@ -2,63 +2,63 @@
 	"animations": [
 		{
 			"offsets": [
-				10,
-				30
+				-210,
+				-150
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle",
-			"loop": false,
+			"indices": [],
 			"name": "oneTRUEidle"
 		},
 		{
 			"offsets": [
-				8,
-				71
+				-213,
+				-97
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
+			"indices": [],
 			"name": "oneUP instance 1"
 		},
 		{
 			"offsets": [
-				8,
-				21
+				-216,
+				-166
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
+			"indices": [],
 			"name": "oneDOWN instance 1"
 		},
 		{
 			"offsets": [
-				42,
-				33
+				-184,
+				-148
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
+			"indices": [],
 			"name": "oneLEFT instance 1"
 		},
 		{
 			"offsets": [
-				-1,
-				84
+				-221,
+				-108
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
+			"indices": [],
 			"name": "oneRIGHT instance 1"
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
-	"image": "characters/one/one big assets",
+	"image": "characters/dotted-line/bg2/vone assets",
 	"position": [
 		-350,
 		-150
@@ -68,13 +68,13 @@
 	"healthbar_colors": [
 		0,
 		0,
-		255
+		105
 	],
 	"camera_position": [
-		-120,
+		0,
 		50
 	],
-	"sing_duration": 4,
-	"scale": 1,
+	"sing_duration": 2.5,
+	"scale": 1.6,
 	"_editor_isPlayer": false
 }

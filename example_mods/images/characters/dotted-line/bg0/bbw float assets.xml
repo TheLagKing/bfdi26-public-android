@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bbw float assets.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bbDOWN instance 10000" x="7" y="7" width="281" height="286" frameX="-4" frameY="-24" frameWidth="285" frameHeight="323"/>
+	<SubTexture name="bbDOWN instance 10001" x="7" y="7" width="281" height="286" frameX="-4" frameY="-24" frameWidth="285" frameHeight="323"/>
+	<SubTexture name="bbDOWN instance 10002" x="295" y="7" width="275" height="295" frameX="-3" frameY="-17" frameWidth="285" frameHeight="323"/>
+	<SubTexture name="bbDOWN instance 10003" x="295" y="7" width="275" height="295" frameX="-3" frameY="-17" frameWidth="285" frameHeight="323"/>
+	<SubTexture name="bbDOWN instance 10004" x="295" y="7" width="275" height="295" frameX="-3" frameY="-17" frameWidth="285" frameHeight="323"/>
+	<SubTexture name="bbDOWN instance 10005" x="295" y="7" width="275" height="295" frameX="-3" frameY="-17" frameWidth="285" frameHeight="323"/>
+	<SubTexture name="bbDOWN instance 10006" x="295" y="7" width="275" height="295" frameX="-3" frameY="-17" frameWidth="285" frameHeight="323"/>
+	<SubTexture name="bbDOWN instance 10007" x="577" y="7" width="274" height="296" frameX="-3" frameY="-11" frameWidth="285" frameHeight="323"/>
+	<SubTexture name="bbDOWN instance 10008" x="577" y="7" width="274" height="296" frameX="-3" frameY="-11" frameWidth="285" frameHeight="323"/>
+	<SubTexture name="bbDOWN instance 10009" x="858" y="7" width="275" height="323" frameX="0" frameY="0" frameWidth="285" frameHeight="323"/>
+	<SubTexture name="bbIDLE instance 10000" x="1140" y="7" width="275" height="331" frameX="0" frameY="0" frameWidth="275" frameHeight="334"/>
+	<SubTexture name="bbIDLE instance 10001" x="1422" y="7" width="275" height="331" frameX="0" frameY="0" frameWidth="275" frameHeight="334"/>
+	<SubTexture name="bbIDLE instance 10002" x="1704" y="7" width="275" height="332" frameX="0" frameY="0" frameWidth="275" frameHeight="334"/>
+	<SubTexture name="bbIDLE instance 10003" x="7" y="346" width="275" height="334"/>
+	<SubTexture name="bbIDLE instance 10004" x="289" y="346" width="275" height="333" frameX="0" frameY="0" frameWidth="275" frameHeight="334"/>
+	<SubTexture name="bbIDLE instance 10005" x="571" y="346" width="275" height="333" frameX="0" frameY="0" frameWidth="275" frameHeight="334"/>
+	<SubTexture name="bbIDLE instance 10006" x="853" y="346" width="275" height="332" frameX="0" frameY="0" frameWidth="275" frameHeight="334"/>
+	<SubTexture name="bbIDLE instance 10007" x="1135" y="346" width="275" height="329" frameX="0" frameY="0" frameWidth="275" frameHeight="334"/>
+	<SubTexture name="bbIDLE instance 10008" x="1417" y="346" width="275" height="329" frameX="0" frameY="0" frameWidth="275" frameHeight="334"/>
+	<SubTexture name="bbIDLE instance 10009" x="1699" y="346" width="275" height="331" frameX="0" frameY="0" frameWidth="275" frameHeight="334"/>
+	<SubTexture name="bbLEFT instance 10000" x="7" y="687" width="297" height="290" frameX="0" frameY="0" frameWidth="315" frameHeight="321"/>
+	<SubTexture name="bbLEFT instance 10001" x="7" y="687" width="297" height="290" frameX="0" frameY="0" frameWidth="315" frameHeight="321"/>
+	<SubTexture name="bbLEFT instance 10002" x="311" y="687" width="301" height="298" frameX="-8" frameY="-1" frameWidth="315" frameHeight="321"/>
+	<SubTexture name="bbLEFT instance 10003" x="311" y="687" width="301" height="298" frameX="-8" frameY="-1" frameWidth="315" frameHeight="321"/>
+	<SubTexture name="bbLEFT instance 10004" x="311" y="687" width="301" height="298" frameX="-8" frameY="-1" frameWidth="315" frameHeight="321"/>
+	<SubTexture name="bbLEFT instance 10005" x="311" y="687" width="301" height="298" frameX="-8" frameY="-1" frameWidth="315" frameHeight="321"/>
+	<SubTexture name="bbLEFT instance 10006" x="311" y="687" width="301" height="298" frameX="-8" frameY="-1" frameWidth="315" frameHeight="321"/>
+	<SubTexture name="bbLEFT instance 10007" x="619" y="687" width="302" height="303" frameX="-13" frameY="-3" frameWidth="315" frameHeight="321"/>
+	<SubTexture name="bbLEFT instance 10008" x="619" y="687" width="302" height="303" frameX="-13" frameY="-3" frameWidth="315" frameHeight="321"/>
+	<SubTexture name="bbLEFT instance 10009" x="928" y="687" width="287" height="318" frameX="-24" frameY="-3" frameWidth="315" frameHeight="321"/>
+	<SubTexture name="bbRIGHT instance 10000" x="1222" y="687" width="285" height="302" frameX="-26" frameY="0" frameWidth="311" frameHeight="327"/>
+	<SubTexture name="bbRIGHT instance 10001" x="1222" y="687" width="285" height="302" frameX="-26" frameY="0" frameWidth="311" frameHeight="327"/>
+	<SubTexture name="bbRIGHT instance 10002" x="1514" y="687" width="281" height="309" frameX="-18" frameY="-1" frameWidth="311" frameHeight="327"/>
+	<SubTexture name="bbRIGHT instance 10003" x="1514" y="687" width="281" height="309" frameX="-18" frameY="-1" frameWidth="311" frameHeight="327"/>
+	<SubTexture name="bbRIGHT instance 10004" x="1514" y="687" width="281" height="309" frameX="-18" frameY="-1" frameWidth="311" frameHeight="327"/>
+	<SubTexture name="bbRIGHT instance 10005" x="1514" y="687" width="281" height="309" frameX="-18" frameY="-1" frameWidth="311" frameHeight="327"/>
+	<SubTexture name="bbRIGHT instance 10006" x="1514" y="687" width="281" height="309" frameX="-18" frameY="-1" frameWidth="311" frameHeight="327"/>
+	<SubTexture name="bbRIGHT instance 10007" x="7" y="1012" width="281" height="306" frameX="-13" frameY="-1" frameWidth="311" frameHeight="327"/>
+	<SubTexture name="bbRIGHT instance 10008" x="7" y="1012" width="281" height="306" frameX="-13" frameY="-1" frameWidth="311" frameHeight="327"/>
+	<SubTexture name="bbRIGHT instance 10009" x="295" y="1012" width="282" height="325" frameX="0" frameY="-2" frameWidth="311" frameHeight="327"/>
+	<SubTexture name="bbUP instance 10000" x="584" y="1012" width="275" height="301" frameX="-1" frameY="0" frameWidth="276" frameHeight="346"/>
+	<SubTexture name="bbUP instance 10001" x="584" y="1012" width="275" height="301" frameX="-1" frameY="0" frameWidth="276" frameHeight="346"/>
+	<SubTexture name="bbUP instance 10002" x="866" y="1012" width="275" height="303" frameX="0" frameY="-15" frameWidth="276" frameHeight="346"/>
+	<SubTexture name="bbUP instance 10003" x="866" y="1012" width="275" height="303" frameX="0" frameY="-15" frameWidth="276" frameHeight="346"/>
+	<SubTexture name="bbUP instance 10004" x="866" y="1012" width="275" height="303" frameX="0" frameY="-15" frameWidth="276" frameHeight="346"/>
+	<SubTexture name="bbUP instance 10005" x="866" y="1012" width="275" height="303" frameX="0" frameY="-15" frameWidth="276" frameHeight="346"/>
+	<SubTexture name="bbUP instance 10006" x="866" y="1012" width="275" height="303" frameX="0" frameY="-15" frameWidth="276" frameHeight="346"/>
+	<SubTexture name="bbUP instance 10007" x="1148" y="1012" width="275" height="305" frameX="0" frameY="-17" frameWidth="276" frameHeight="346"/>
+	<SubTexture name="bbUP instance 10008" x="1148" y="1012" width="275" height="305" frameX="0" frameY="-17" frameWidth="276" frameHeight="346"/>
+	<SubTexture name="bbUP instance 10009" x="1430" y="1012" width="275" height="315" frameX="0" frameY="-31" frameWidth="276" frameHeight="346"/>
+</TextureAtlas>

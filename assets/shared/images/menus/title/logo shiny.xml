@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="logo shiny.png" width="467" height="7911">
+	<SubTexture name="Symbol 12 copy instance 10000" x="1" y="1" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10001" x="1" y="227" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10002" x="1" y="453" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10003" x="1" y="679" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10004" x="1" y="905" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10005" x="1" y="1131" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10006" x="1" y="1357" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10007" x="1" y="1583" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10008" x="1" y="1809" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10009" x="1" y="2035" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10010" x="1" y="2261" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10011" x="1" y="2487" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10012" x="1" y="2713" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10013" x="1" y="2939" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10014" x="1" y="3165" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10015" x="1" y="3391" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10016" x="1" y="3617" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10017" x="1" y="3843" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10018" x="1" y="4069" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10019" x="1" y="4295" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10020" x="1" y="4521" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10021" x="1" y="4747" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10022" x="1" y="4973" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10023" x="1" y="5199" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10024" x="1" y="5425" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10025" x="1" y="5651" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10026" x="1" y="5877" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10027" x="1" y="6103" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10028" x="1" y="6329" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10029" x="1" y="6555" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10030" x="1" y="6781" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10031" x="1" y="7007" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10032" x="1" y="7233" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10033" x="1" y="7459" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+	<SubTexture name="Symbol 12 copy instance 10034" x="1" y="7685" width="465" height="225" frameX="-7" frameY="-8" frameWidth="484" frameHeight="244"/>
+</TextureAtlas>

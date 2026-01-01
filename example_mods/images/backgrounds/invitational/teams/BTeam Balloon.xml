@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="BTeam Balloon.png" width="1795" height="201">
+	<SubTexture name="Balloon Idle instance 10000" x="1290" y="1" width="250" height="198" rotated="true" frameX="-2" frameY="-12" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10001" x="1290" y="1" width="250" height="198" rotated="true" frameX="-2" frameY="-12" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10002" x="780" y="1" width="251" height="197" rotated="true" frameX="-2" frameY="-11" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10003" x="780" y="1" width="251" height="197" rotated="true" frameX="-2" frameY="-11" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10004" x="1" y="1" width="258" height="192" rotated="true" frameX="-4" frameY="-4" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10005" x="1" y="1" width="258" height="192" rotated="true" frameX="-4" frameY="-4" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10006" x="259" y="1" width="260" height="195" rotated="true" frameX="-1" frameY="-1" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10007" x="259" y="1" width="260" height="195" rotated="true" frameX="-1" frameY="-1" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10008" x="519" y="1" width="261" height="196" rotated="true" frameX="-0" frameY="-0" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10009" x="519" y="1" width="261" height="196" rotated="true" frameX="-0" frameY="-0" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10010" x="1031" y="1" width="259" height="197" rotated="true" frameX="-0" frameY="-2" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10011" x="1031" y="1" width="259" height="197" rotated="true" frameX="-0" frameY="-2" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10012" x="1540" y="1" width="254" height="199" rotated="true" frameX="-0" frameY="-7" frameWidth="201" frameHeight="262"/>
+	<SubTexture name="Balloon Idle instance 10013" x="1540" y="1" width="254" height="199" rotated="true" frameX="-0" frameY="-7" frameWidth="201" frameHeight="262"/>
+</TextureAtlas>

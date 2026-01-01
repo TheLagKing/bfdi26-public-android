@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="split speaker soul.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="speaker bg instance 10000" x="5" y="5" width="184" height="287" frameX="-9" frameY="-10" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10001" x="5" y="5" width="184" height="287" frameX="-9" frameY="-10" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10002" x="194" y="5" width="184" height="289" frameX="-8" frameY="-8" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10003" x="194" y="5" width="184" height="289" frameX="-8" frameY="-8" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10004" x="383" y="5" width="183" height="293" frameX="-7" frameY="-4" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10005" x="383" y="5" width="183" height="293" frameX="-7" frameY="-4" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10006" x="571" y="5" width="185" height="297" frameX="-3" frameY="0" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10007" x="571" y="5" width="185" height="297" frameX="-3" frameY="0" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10008" x="761" y="5" width="186" height="297" frameX="-2" frameY="0" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10009" x="761" y="5" width="186" height="297" frameX="-2" frameY="0" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10010" x="952" y="5" width="187" height="297" frameX="0" frameY="0" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10011" x="952" y="5" width="187" height="297" frameX="0" frameY="0" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10012" x="1144" y="5" width="186" height="293" frameX="-2" frameY="-3" frameWidth="193" frameHeight="297"/>
+	<SubTexture name="speaker bg instance 10013" x="1144" y="5" width="186" height="293" frameX="-2" frameY="-3" frameWidth="193" frameHeight="297"/>
+</TextureAtlas>
