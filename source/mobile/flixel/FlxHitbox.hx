@@ -1,5 +1,5 @@
 package mobile.flixel;
-
+/*
 import flixel.util.FlxGradient;
 import flixel.group.FlxSpriteGroup;
 import flixel.util.FlxDestroyUtil;
@@ -143,3 +143,4 @@ class FlxHitbox extends FlxSpriteGroup {
 		return hintSpr;
 	}
 }
+*/
