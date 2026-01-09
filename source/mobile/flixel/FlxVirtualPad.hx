@@ -1,5 +1,5 @@
 package mobile.flixel;
-
+/*
 import flixel.FlxG;
 import flixel.graphics.frames.FlxTileFrames;
 import flixel.group.FlxSpriteGroup;
@@ -225,3 +225,4 @@ enum FlxActionMode {
 	FULL;
 	NONE;
 }
+*/
