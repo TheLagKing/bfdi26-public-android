@@ -94,12 +94,20 @@ class Main extends Sprite
 		funkin.api.system.AudioSwitchFix.init();
 		#end
 
-		// Credits to MAJigsaw77 (he's the og author for this code)
+		#if mobile
+  		#if android
+  		SUtil.requestPermissions();
+  		#end
+  		Sys.setCwd(SUtil.getStorageDirectory());
+  		#end
+ 		mobile.backend.CrashHandler.init();
+
+		/* Credits to MAJigsaw77 (he's the og author for this code)
 		#if android
 		Sys.setCwd(Path.addTrailingSlash(Context.getExternalFilesDir()));
 		#elseif ios
 		Sys.setCwd(lime.system.System.applicationStorageDirectory);
-		#end
+		#end*/
 
 		var _game = new FlxGame(game.width, game.height, game.firstState, game.fps, game.fps, game.skipSplash, game.startFullscreen);
 		@:privateAccess _game._customSoundTray = funkin.objects.BFDISoundTray;
