@@ -427,7 +427,7 @@ class FreeplayState extends MusicBeatState
 					} else FlxG.mouse.load(Setup.mouseIdle, 0.12);
 				}
 	
-				if (FlxG.mouse.overlaps(thumbnails) && !selected && (controls.ACCEPT || FlxG.mouse.justPressed) 
+				if (FlxG.mouse.overlaps(thumbnails) && !selected && (controls.ACCEPT || FlxG.mouse.justPressed))
 				{
 					if (ModSave.secretSongs.exists(songs[curSelected].sn) && ModSave.secretSongs.get(songs[curSelected].sn) == true)
 					{
