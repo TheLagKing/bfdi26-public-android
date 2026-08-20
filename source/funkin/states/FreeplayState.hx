@@ -213,6 +213,7 @@ class FreeplayState extends MusicBeatState
 		settings.setScale(0.13);
 		settings.color = ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE;
 
+		if (canScroll) {
 		FlxMouseEvent.add(settings,(settings)->
 		{
 			FlxTween.cancelTweensOf(settings);
@@ -223,6 +224,7 @@ class FreeplayState extends MusicBeatState
 
 			FlxTimer.wait(1, () -> openSubState(new funkin.substates.GameplayChangersSubstate()));
 		},null,null,null,false,true,false);
+	    }
 
 		changelog = new FlxSprite().loadImage('menus/freeplay/changelog graphic');
 		changelog.setScale(0.75, 0.75);
@@ -364,13 +366,10 @@ class FreeplayState extends MusicBeatState
 	override function update(elapsed:Float)
 	{
 		var justTouched:Bool = false;
-		var justReleased:Bool = false;
-
+		
 		#if mobile
                 for (touch in FlxG.touches.list)
 	                if (touch.justPressed) justTouched = true;
-		        for (Releasetouch in FlxG.touches.list)
-		            if (Releasetouch.justReleased) justReleased = true;
 		#end
 
 		if (FlxG.sound.music.volume < 0.7)
@@ -402,8 +401,8 @@ class FreeplayState extends MusicBeatState
 			//i think i want it this way but im not sure honestly will probably change it back later
 			if (allowedToUseMouse) 
 			{
-				if (FlxG.mouse.justPressed || justTouched) usingMouse = true;
-				else if (FlxG.mouse.justReleased || justReleased) 
+				if (FlxG.mouse.justPressed) usingMouse = true;
+				else if (FlxG.mouse.justReleased) 
 				{
 					usingMouse = false;
 					allowedToUseMouse = false;
@@ -428,7 +427,7 @@ class FreeplayState extends MusicBeatState
 					} else FlxG.mouse.load(Setup.mouseIdle, 0.12);
 				}
 	
-				if (FlxG.mouse.overlaps(thumbnails) && !selected && (controls.ACCEPT || FlxG.mouse.justPressed || justTouched)) 
+				if (FlxG.mouse.overlaps(thumbnails) && !selected && (controls.ACCEPT || FlxG.mouse.justPressed) 
 				{
 					if (ModSave.secretSongs.exists(songs[curSelected].sn) && ModSave.secretSongs.get(songs[curSelected].sn) == true)
 					{
@@ -550,10 +549,12 @@ class SelectedThumb extends MusicBeatSubstate
     var songThumb:Null<FlxSprite> = null;
 	
 	var swap:Null<FlxSprite> = null;
+	var canDoShit:Bool = true;
 	var can:Bool = true;
 
 	var canCycle:Bool = false;
 	var songUnlockable:Bool = false;
+	var justTouched:Bool = false;
 	
 	var otherSong:Null<String> = null;
 	public static var songName:Null<String> = null;
@@ -921,10 +922,12 @@ class SelectedThumb extends MusicBeatSubstate
 				if (!box.visible) 
 				{
 					if (canCycle) canCycle = false;
+				    if (canDoShit) canDoShit = false;
 					
 					if (box.animation.name != 'idle') 
 					{
 						FlxTimer.wait(0.3, () -> bubble.playAnim('talk'));
+				        FlxTimer.wait(0.6, () -> canDoShit = true);
 						box.visible = true;
 						box.playAnimation('appear');
 					}
@@ -1120,8 +1123,6 @@ class SelectedThumb extends MusicBeatSubstate
 
 	override function update(elapsed:Float) 
 	{
-		var justTouched:Bool = false;
-
 		#if mobile
                 for (touch in FlxG.touches.list)
 	                if (touch.justPressed) justTouched = true;
@@ -1203,7 +1204,7 @@ class SelectedThumb extends MusicBeatSubstate
 		
 		if (can && !isWebCrasher) 
 		{
-			if (controls.BACK #if mobile || virtualPad.buttonB.justPressed #end) 
+			if (canDoShit && (controls.BACK #if mobile || virtualPad.buttonB.justPressed #end)) 
 			{
 				FlxG.sound.play(Paths.sound('spaceunpause'));
 				FlxTween.tween(parent.screen, {alpha: 0},0.4);
