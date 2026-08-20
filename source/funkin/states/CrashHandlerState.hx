@@ -42,28 +42,29 @@ class CrashHandlerState extends MusicBeatState
         add(errorTxt);
 
         var infoTxt = new FlxText(24, 0, 
-            'Press ESCAPE to return to title screen\n
-            Press ENTER to be redirected to the BFDI26 community server (bug reports channel)');
+            'Press ESCAPE/B to return to title screen\n
+            Press ENTER/A to be redirected to the BFDI26 community server (bug reports channel)');
         infoTxt.setFormat(Paths.font("flashing.ttf"), 24, 0xFFFFFFFF, RIGHT);
         infoTxt.x = FlxG.width - infoTxt.width - 16;
         infoTxt.y = FlxG.height- infoTxt.height - 16;
         add(infoTxt);
+
+        #if mobile
+		addVirtualPad(NONE, A_B);
+		#end
     }
 
     override function update(elapsed:Float)
     {
         super.update(elapsed);
-        if (FlxG.keys.justPressed.ANY)
+        if (FlxG.keys.justPressed.ESCAPE #if mobile || virtualPad.buttonB.justPressed #end)
         {
-            if (FlxG.keys.justPressed.ESCAPE)
-            {
-                FlxG.switchState(funkin.states.Title.new);
-            }
+            FlxG.switchState(funkin.states.Title.new);
+        }
 
-            if (FlxG.keys.justPressed.ENTER)
-            {
-                CoolUtil.browserLoad('https://discord.gg/jr4wnT6zgh'); //invite to the server that takes you directly to the bugs report channel
-            }
+        if (FlxG.keys.justPressed.ENTER #if mobile || virtualPad.buttonA.justPressed #end)
+        {
+            CoolUtil.browserLoad('https://discord.gg/yoylefake'); //invite to the server that takes you directly to the bugs report channel
         }
     }
 }
