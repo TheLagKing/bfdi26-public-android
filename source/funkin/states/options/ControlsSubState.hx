@@ -351,6 +351,9 @@ class ControlsSubState extends MusicBeatSubstate
 		{
 			if(FlxG.keys.justPressed.ESCAPE || FlxG.gamepads.anyJustPressed(B) #if mobile || virtualPad.buttonB.justPressed #end)
 			{
+				#if mobile
+				closeSs();
+				#end
 				close();
 				return;
 			}
