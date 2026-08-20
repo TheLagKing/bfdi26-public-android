@@ -107,43 +107,42 @@ class CoolUtil
 	public static var _windowRes:FlxPoint;
 	public static var _windowPos:FlxPoint;
 
-	public static function tweenWindowResize(values:Dynamic, time:Float = 0.3 * 4, ?onComplete:Void->Void = null, big:Bool = false)
+	public static function tweenWindowResize(values:Dynamic, time:Float = 0.3 * 4, ?onComplete:Void->Void = null, big:Bool = false) 
 	{
-    FlxG.updateFramerate = 30;
-    FlxG.mouse.visible = false;
+		FlxG.updateFramerate = 30; //makes it smoother and consistant
 
-    _windowRes = FlxPoint.get(Lib.application.window.width, Lib.application.window.height);
-    _windowPos = getCenterWindowPoint();
+		FlxG.mouse.visible = false;
 
-    _windowTween = FlxTween.tween(_windowRes, values, time, {ease: FlxEase.circInOut, onUpdate: (_) ->
-            {
-                FlxG.resizeWindow(Std.int(_windowRes.x), Std.int(_windowRes.y));
+		_windowRes = FlxPoint.get(Lib.application.window.width, Lib.application.window.height); //Lib.application.window.width, Lib.application.window.height
+		_windowPos = getCenterWindowPoint();
+								
+		_windowTween = FlxTween.tween(_windowRes, values, time, {ease: FlxEase.circInOut, onUpdate: (_) -> 
+		{
+			FlxG.resizeWindow(Std.int(_windowRes.x), Std.int(_windowRes.y));
+			
+			//centerWindowOnPoint(_windowPos);
+		}, onComplete: _ -> 
+		{
+			if (onComplete != null) onComplete();
 
-                #if desktop
-                centerWindowOnPoint(_windowPos);
-                #end
-            }, onComplete: (_) ->
-            {
-                if (onComplete != null)
-                    onComplete();
+			var finalvalues = [big ? 1280 : 960, 720];
 
-                var finalW = big ? 1280 : 960;
-                var finalH = 720;
+			flixel.system.scaleModes.BaseScaleMode.ogSize = FlxPoint.get(finalvalues[0], finalvalues[1]); //921, 691
+			FlxG.scaleMode = new flixel.system.scaleModes.RatioScaleMode();
 
-                flixel.system.scaleModes.BaseScaleMode.ogSize = FlxPoint.get(finalW, finalH);
+			FlxG.updateFramerate = ClientPrefs.data.framerate;
 
-                FlxG.scaleMode = new flixel.system.scaleModes.RatioScaleMode();
+			FlxG.resizeWindow(finalvalues[0], finalvalues[1]);
+			FlxG.resizeGame(finalvalues[0], finalvalues[1]);
 
-                FlxG.resizeWindow(finalW, finalH);
-
-                FlxG.updateFramerate = ClientPrefs.data.framerate;
-                FlxG.mouse.visible = true;
-
-                _windowPos.put();
-                _windowRes.put();
-            }});
-    }
-
+			//centerWindowOnPoint(_windowPos);
+			
+			_windowPos.put(); 
+			_windowPos.put();
+			FlxG.mouse.visible = true;
+		}});
+	}
+	
 	public static function floorDecimal(value:Float, decimals:Int):Float
 	{
 		if(decimals < 1)
