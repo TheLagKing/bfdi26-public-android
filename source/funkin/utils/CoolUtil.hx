@@ -120,7 +120,7 @@ class CoolUtil
 		{
 			FlxG.resizeWindow(Std.int(_windowRes.x), Std.int(_windowRes.y));
 			
-			//centerWindowOnPoint(_windowPos);
+			#if mobile centerWindowOnPoint(_windowPos); #end
 		}, onComplete: _ -> 
 		{
 			if (onComplete != null) onComplete();
@@ -133,9 +133,9 @@ class CoolUtil
 			FlxG.updateFramerate = ClientPrefs.data.framerate;
 
 			FlxG.resizeWindow(finalvalues[0], finalvalues[1]);
-			FlxG.resizeGame(finalvalues[0], finalvalues[1]);
+			#if mobile FlxG.resizeGame(finalvalues[0], finalvalues[1]);
 
-			//centerWindowOnPoint(_windowPos);
+			centerWindowOnPoint(_windowPos); #end
 			
 			_windowPos.put(); 
 			_windowPos.put();
