@@ -102,7 +102,7 @@ class DiscordClient
 		#end
 	}
 
-	public static function changePresence(?details:String = 'BFDI 26 - GREETINGS AND SALUATIONS', ?activityName:String, ?state:Null<String>, ?smallImageKey : String, ?hasStartTimestamp : Bool, ?endTimestamp: Float)
+	public static function changePresence(?details:String = 'BFDI 26 - GREETINGS AND SALUATIONS', ?activityName:String = '', ?state:Null<String>, ?smallImageKey : String, ?hasStartTimestamp : Bool, ?endTimestamp: Float)
 	{
 		var startTimestamp:Float = 0;
 		if (hasStartTimestamp) startTimestamp = Date.now().getTime();
