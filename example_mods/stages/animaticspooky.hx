@@ -118,7 +118,7 @@ function onBeatHit()
 				bg.loadGraphic(Paths.image('backgrounds/funnyfellow/spooky/evilbg'));
 				flashing = false;
 				killStuff.kill();
-				screen.alpha = 1;
+				screen.alpha = 0.65;
 				shader.setFloat("amount", 0.02);
 			case 332: camGame.visible = false;
 		}
