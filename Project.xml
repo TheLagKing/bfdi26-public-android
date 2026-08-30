@@ -86,6 +86,7 @@
 	<haxelib name="flixel"/>
 	<haxelib name="flixel-ui"/>
 	<haxelib name="flixel-addons"/>
+	<haxelib name="flixel-animate"/>
 	<haxelib name="tjson"/>
 	<haxelib name="compiletime"/>
 	<haxelib name="hscript-iris" if="HSCRIPT_ALLOWED"/>
