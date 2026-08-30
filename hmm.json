@@ -33,6 +33,13 @@
       "type": "haxelib",
       "version": "2.6.4"
     },
+	{
+      "name": "flixel-animate",
+      "type": "git",
+      "dir": null,
+      "ref": "c5e3393c70b71a191f20fa902114cea92042e486",
+      "url": "https://github.com/MaybeMaru/flixel-animate"
+    },
     {
       "name": "compiletime",
       "type": "haxelib",
