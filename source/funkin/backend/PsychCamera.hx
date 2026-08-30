@@ -15,15 +15,15 @@ import flixel.math.FlxPoint;
 import flixel.math.FlxRect;
 import flixel.system.FlxAssets.FlxShader;
 
-import funkin.graphics.framebuffer.FixedBitmapData;
-import funkin.graphics.shaders.RuntimeCustomBlendShader;
+import funkin.backend.animation.FixedBitmapData;
+import funkin.shaders.RuntimeCustomBlendShader;
 
 import openfl.Lib;
 import openfl.display.BitmapData;
 import openfl.display.BlendMode;
 import openfl.display.OpenGLRenderer;
 
-using funkin.graphics.framebuffer.BitmapDataUtil;
+using funkin.backend.animation.BitmapDataUtil;
 
 // PsychCamera handles followLerp based on elapsed
 // and stops camera from snapping at higher framerates
