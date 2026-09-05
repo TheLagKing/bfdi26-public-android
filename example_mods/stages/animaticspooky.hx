@@ -49,7 +49,7 @@ function onCreatePost()
     screen.updateHitbox();
 	screen.screenCenter();
 	screen.scale.set(2,2);
-	screen.blend = 2;
+	screen.blend = 9;
     screen.alpha = 0;
     addBehindDad(screen);
 
@@ -118,7 +118,7 @@ function onBeatHit()
 				bg.loadGraphic(Paths.image('backgrounds/funnyfellow/spooky/evilbg'));
 				flashing = false;
 				killStuff.kill();
-				screen.alpha = 0.65;
+				screen.alpha = 1;
 				shader.setFloat("amount", 0.02);
 			case 332: camGame.visible = false;
 		}
