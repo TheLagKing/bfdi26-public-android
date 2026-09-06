@@ -1154,7 +1154,7 @@ class SelectedThumb extends MusicBeatSubstate
 				FlxTween.tween(questionCam, {alpha: 0.00001},0.5, {onComplete:Void -> 
 				{
 					nextFunfact();
-					createVPad();
+					addVirtualPad(NONE, B_T);
 				}});
 			}
 		}
