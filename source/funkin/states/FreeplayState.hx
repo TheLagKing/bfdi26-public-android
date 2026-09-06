@@ -455,7 +455,7 @@ class FreeplayState extends MusicBeatState
 		}
 		
 		var backPressed = controls.BACK;
-		#if mobile backPressed ||= !controls.isInSubstate && virtualPad.buttonB.justPressed; #end
+		#if mobile backPressed = !controls.isInSubstate && virtualPad.buttonB.justPressed || controls.BACK; #end
 		if (backPressed && canScroll)
 		{
 			FlxMouseEvent.removeAll();
@@ -796,7 +796,7 @@ class SelectedThumb extends MusicBeatSubstate
 		});
 
 		typer.onChange.add(() -> text2.text = typer.text);
-		typer.skipKeys = [flixel.input.keyboard.FlxKey.SPACE, justTouched];
+		typer.skipKeys = [flixel.input.keyboard.FlxKey.SPACE];
 
 		typer.onTypingComplete.add(()->
 		{
