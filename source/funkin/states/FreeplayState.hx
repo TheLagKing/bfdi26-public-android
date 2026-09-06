@@ -24,9 +24,6 @@ import flixel.input.mouse.FlxMouseEvent;
 import flixel.system.FlxAssets.FlxShader;
 import flixel.addons.transition.FlxTransitionableState;
 
-import mobile.MobileControls;
-import mobile.flixel.FlxVirtualPad;
-
 //ill recode this to work with nullsafety later im tired
 //@:nullSafety
 class FreeplayState extends MusicBeatState
@@ -365,17 +362,15 @@ class FreeplayState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		var justTouched:Bool = false;
-		
-		#if mobile
+	    var justTouched:Bool = false;
+	
+	    #if mobile
                 for (touch in FlxG.touches.list)
 	                if (touch.justPressed) justTouched = true;
 		#end
-
+		
 		if (FlxG.sound.music.volume < 0.7)
 		FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
-		
-		final thing = Highscore.getSongData(songs[curSelected].sn,1);
 
 		load.angle -= (elapsed*40)-3;
 
@@ -435,6 +430,7 @@ class FreeplayState extends MusicBeatState
 					}
 					else 
 					{
+					    final thing = Highscore.getSongData(songs[curSelected].sn,1);
 						if (thing.songScore > 0) 
 						{
 							var value = FlxG.random.int(1,3);
@@ -457,8 +453,10 @@ class FreeplayState extends MusicBeatState
 				}
 			}
 		}
-
-		if (#if mobile !controls.isInSubstate && #end (controls.BACK #if mobile || virtualPad.buttonB.justPressed #end) && canScroll)
+		
+		var backPressed = controls.BACK;
+		#if mobile backPressed ||= !controls.isInSubstate && virtualPad.buttonB.justPressed; #end
+		if (backPressed && canScroll)
 		{
 			FlxMouseEvent.removeAll();
 
@@ -742,7 +740,7 @@ class SelectedThumb extends MusicBeatSubstate
 		bubbleAnim = FlxG.random.int(1,3);
 
 		var path = (songName == 'aldi' ? 'menus/freeplay/DB/DB-ALDI' : 'menus/freeplay/DB/DB$bubbleAnim');
-		bubble = new ModchartSprite(#if mobile 920 #else 960 #end,450).loadFrames(path);
+		bubble = new ModchartSprite(#if mobile 40 - #end 960,450).loadFrames(path);
 		bubble.addAnimByPrefix('idle', 'idle');
 		bubble.addAnimByPrefix('talk', 'talk');
 		bubble.playAnim('idle');
@@ -783,7 +781,7 @@ class SelectedThumb extends MusicBeatSubstate
 		typer = new FlxTextTyper();
 		add(typer);
 
-		text2 = new FlxText(403.5, 570, Std.int(box.width - 28), "");
+		text2 = new FlxText(#if mobile 40 - #end 403.5, 570, Std.int(box.width - 28), "");
 		text2.setFormat(Paths.font("Shag-Lounge.otf"), 26, ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE, LEFT); //, FlxTextBorderStyle.OUTLINE, ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE
 		text2.alpha = 0;
 		text2.updateHitbox();
@@ -798,7 +796,7 @@ class SelectedThumb extends MusicBeatSubstate
 		});
 
 		typer.onChange.add(() -> text2.text = typer.text);
-		typer.skipKeys = [flixel.input.keyboard.FlxKey.SPACE];
+		typer.skipKeys = [flixel.input.keyboard.FlxKey.SPACE, justTouched];
 
 		typer.onTypingComplete.add(()->
 		{
@@ -821,7 +819,7 @@ class SelectedThumb extends MusicBeatSubstate
 				{
 					boxhover = false;
 
-					FlxTween.tween(questionCam, {alpha: 1}, 0.6, {onComplete:Void -> { canAnswer = true; addVirtualPad(LEFT_RIGHT, NONE); virtualPad.cameras = [questionCam];}});
+					FlxTween.tween(questionCam, {alpha: 1}, 0.6, {onComplete:Void -> { canAnswer = true; addVirtualPad(LEFT_RIGHT, A); virtualPad.cameras = [questionCam];}});
 					box.arrowThing(false);
 				}
 
@@ -1021,7 +1019,12 @@ class SelectedThumb extends MusicBeatSubstate
 		questionCam.alpha = 0.000001;
 		change();
 
-        #if mobile
+        createVPad();
+	}
+	
+	function createVPad()
+	{
+	   #if mobile
         controls.isInSubstate = true;
 		if (canCycle || songUnlockable) addVirtualPad(NONE, B_T);
 		else addVirtualPad(NONE, B);
@@ -1153,6 +1156,7 @@ class SelectedThumb extends MusicBeatSubstate
 				FlxTween.tween(questionCam, {alpha: 0.00001},0.5, {onComplete:Void -> 
 				{
 					nextFunfact();
+					createVPad();
 				}});
 			}
 		}
