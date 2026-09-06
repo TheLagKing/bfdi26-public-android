@@ -12,9 +12,7 @@ class VisualsUISubState extends BaseOptionsMenu
 	public function new()
 	{
 		title = 'Visuals and UI';
-		#if DISCORD_ALLOWED
 		rpcTitle = 'Visuals & UI Settings Menu'; //for Discord Rich Presence
-		#end
 
 		var option:Option = new Option('Note Splash Opacity',
 			'How much transparent should the Note Splashes be.',

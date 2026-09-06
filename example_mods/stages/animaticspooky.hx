@@ -49,7 +49,7 @@ function onCreatePost()
     screen.updateHitbox();
 	screen.screenCenter();
 	screen.scale.set(2,2);
-	screen.blend = 2;
+	screen.blend = 9;
     screen.alpha = 0;
     addBehindDad(screen);
 

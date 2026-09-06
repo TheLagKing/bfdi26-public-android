@@ -113,7 +113,7 @@ addLuaSprite('v',true)
 makeLuaSprite('r', 'backgrounds/oneshot/overlay',100,0)
 setProperty('r.visible',false)
 setObjectCamera('r','camHUD')
-setBlendMode('r','lighten')
+setBlendMode('r','screen')
 addLuaSprite('r',false)
 --
 
@@ -219,7 +219,7 @@ setBlendMode('Attente','subtract')
         setShaderFloat('evanm','quality',10.0)
         setShaderFloat('evanm','merge',1.0)
         setShaderFloat('evanm', "size",3.5);
-        setShaderFloat('evanm','alpha',0.35)
+        setShaderFloat('evanm','bruh',0.35)
 	end
 end
 
@@ -232,7 +232,7 @@ setShaderFloat(object, 'angOffset', math.rad(getProperty(object..'.frame.angle')
 setShaderFloat(object, 'brightness',getProperty('box.x'))
 setShaderFloat('boyfriend', 'dist',getProperty('box.y'))
 setShaderFloat('dad', 'dist',getProperty('box.y')*1.25)
-setShaderFloat('evanm', 'alpha',getProperty('box.y'))
+--setShaderFloat('evanm', 'bruh',getProperty('box.y'))
 end
 end
 

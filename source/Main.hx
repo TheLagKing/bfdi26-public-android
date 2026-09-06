@@ -2,10 +2,6 @@ package;
 
 import Type;
 
-#if android
-//import android.content.Context;
-#end
-
 import funkin.api.FPSCounter;
 
 import flixel.addons.transition.FlxTransitionableState;
@@ -105,25 +101,6 @@ class Main extends Sprite
  		#end
  		Sys.setCwd(SUtil.getStorageDirectory());
  		#end
-		mobile.backend.CrashHandler.init();
-/*
-		#if mobile
-		MobileUtil.getPermissions();
-		Sys.setCwd(haxe.io.Path.addTrailingSlash(MobileUtil.getDirectory()));
-
-		if (!MobileUtil.areAssetsCopied("assets/"))
-			MobileUtil.copyAssetsFromAPK("assets/");
-
-		if (!MobileUtil.areAssetsCopied("assets/videos/"))
-			MobileUtil.copyAssetsFromAPK("assets/videos/");
-		#end
-
-		 Credits to MAJigsaw77 (he's the og author for this code)
-		#if android
-		Sys.setCwd(Path.addTrailingSlash(Context.getExternalFilesDir()));
-		#elseif ios
-		Sys.setCwd(lime.system.System.applicationStorageDirectory);
-		#end*/
 		
 		var _game = new FlxGame(game.width, game.height, game.firstState, game.fps, game.fps, game.skipSplash, game.startFullscreen);
 		@:privateAccess _game._customSoundTray = funkin.objects.BFDISoundTray;
@@ -150,13 +127,11 @@ class Main extends Sprite
 		#if android FlxG.android.preventDefaultKeys = [BACK]; #end
 		LimeSystem.allowScreenTimeout = ClientPrefs.data.screensaver;
 
-		//#if !mobile
 		fpsVar = new FPSCounter(10, 3, 0xFFFFFF);
 		addChild(fpsVar);
 		Lib.current.stage.align = "tl";
 		Lib.current.stage.scaleMode = StageScaleMode.NO_SCALE;
 		fpsVar.visible = ClientPrefs.data.showFPS;
-		//#end
 
 		#if linux
 		var icon = Image.fromFile("icon.png");
@@ -173,7 +148,7 @@ class Main extends Sprite
 		//Lib.application.window.resizable = false;
 
 		loadBanList();
-
+/*
 		#if DISCORD_ALLOWED
 		if (banlist.contains(DiscordClient.userId))
 		{
@@ -183,7 +158,7 @@ class Main extends Sprite
 		} #if debug else trace('ur not banned'); #end
 		trace(banlist);
 		#end
-
+*/
 		// shader coords fix
 		FlxG.signals.focusGained.add(function() {
 			onResize();

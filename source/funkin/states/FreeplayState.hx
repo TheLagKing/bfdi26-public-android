@@ -24,9 +24,6 @@ import flixel.input.mouse.FlxMouseEvent;
 import flixel.system.FlxAssets.FlxShader;
 import flixel.addons.transition.FlxTransitionableState;
 
-import mobile.MobileControls;
-import mobile.flixel.FlxVirtualPad;
-
 //ill recode this to work with nullsafety later im tired
 //@:nullSafety
 class FreeplayState extends MusicBeatState
@@ -213,6 +210,7 @@ class FreeplayState extends MusicBeatState
 		settings.setScale(0.13);
 		settings.color = ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE;
 
+		if (canScroll) {
 		FlxMouseEvent.add(settings,(settings)->
 		{
 			FlxTween.cancelTweensOf(settings);
@@ -223,6 +221,7 @@ class FreeplayState extends MusicBeatState
 
 			FlxTimer.wait(1, () -> openSubState(new funkin.substates.GameplayChangersSubstate()));
 		},null,null,null,false,true,false);
+	    }
 
 		changelog = new FlxSprite().loadImage('menus/freeplay/changelog graphic');
 		changelog.setScale(0.75, 0.75);
@@ -363,20 +362,15 @@ class FreeplayState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		var justTouched:Bool = false;
-		var justReleased:Bool = false;
-
-		#if mobile
+	    var justTouched:Bool = false;
+	
+	    #if mobile
                 for (touch in FlxG.touches.list)
 	                if (touch.justPressed) justTouched = true;
-		        for (Releasetouch in FlxG.touches.list)
-		            if (Releasetouch.justReleased) justReleased = true;
 		#end
-
+		
 		if (FlxG.sound.music.volume < 0.7)
 		FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
-		
-		final thing = Highscore.getSongData(songs[curSelected].sn,1);
 
 		load.angle -= (elapsed*40)-3;
 
@@ -402,8 +396,8 @@ class FreeplayState extends MusicBeatState
 			//i think i want it this way but im not sure honestly will probably change it back later
 			if (allowedToUseMouse) 
 			{
-				if (FlxG.mouse.justPressed || justTouched) usingMouse = true;
-				else if (FlxG.mouse.justReleased || justReleased) 
+				if (FlxG.mouse.justPressed) usingMouse = true;
+				else if (FlxG.mouse.justReleased) 
 				{
 					usingMouse = false;
 					allowedToUseMouse = false;
@@ -428,7 +422,7 @@ class FreeplayState extends MusicBeatState
 					} else FlxG.mouse.load(Setup.mouseIdle, 0.12);
 				}
 	
-				if (FlxG.mouse.overlaps(thumbnails) && !selected && (controls.ACCEPT || FlxG.mouse.justPressed || justTouched)) 
+				if (FlxG.mouse.overlaps(thumbnails) && !selected && (controls.ACCEPT || FlxG.mouse.justPressed))
 				{
 					if (ModSave.secretSongs.exists(songs[curSelected].sn) && ModSave.secretSongs.get(songs[curSelected].sn) == true)
 					{
@@ -436,6 +430,7 @@ class FreeplayState extends MusicBeatState
 					}
 					else 
 					{
+					    final thing = Highscore.getSongData(songs[curSelected].sn,1);
 						if (thing.songScore > 0) 
 						{
 							var value = FlxG.random.int(1,3);
@@ -458,8 +453,8 @@ class FreeplayState extends MusicBeatState
 				}
 			}
 		}
-
-		if (#if mobile !controls.isInSubstate && #end (controls.BACK #if mobile || virtualPad.buttonB.justPressed #end) && canScroll)
+		
+		if (#if mobile virtualPad.buttonB.justPressed || #end controls.BACK && canScroll)
 		{
 			FlxMouseEvent.removeAll();
 
@@ -550,10 +545,12 @@ class SelectedThumb extends MusicBeatSubstate
     var songThumb:Null<FlxSprite> = null;
 	
 	var swap:Null<FlxSprite> = null;
+	var canDoShit:Bool = true;
 	var can:Bool = true;
 
 	var canCycle:Bool = false;
 	var songUnlockable:Bool = false;
+	var justTouched:Bool = false;
 	
 	var otherSong:Null<String> = null;
 	public static var songName:Null<String> = null;
@@ -782,7 +779,7 @@ class SelectedThumb extends MusicBeatSubstate
 		typer = new FlxTextTyper();
 		add(typer);
 
-		text2 = new FlxText(403.5, 570, Std.int(box.width - 28), "");
+		text2 = new FlxText(#if mobile 363.5 #else 403.5 #end, 570, Std.int(box.width - 28), "");
 		text2.setFormat(Paths.font("Shag-Lounge.otf"), 26, ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE, LEFT); //, FlxTextBorderStyle.OUTLINE, ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE
 		text2.alpha = 0;
 		text2.updateHitbox();
@@ -820,7 +817,7 @@ class SelectedThumb extends MusicBeatSubstate
 				{
 					boxhover = false;
 
-					FlxTween.tween(questionCam, {alpha: 1}, 0.6, {onComplete:Void -> { canAnswer = true; addVirtualPad(LEFT_RIGHT, NONE); virtualPad.cameras = [questionCam];}});
+					FlxTween.tween(questionCam, {alpha: 1}, 0.6, {onComplete:Void -> { canAnswer = true; addVirtualPad(LEFT_RIGHT, A); virtualPad.cameras = [questionCam];}});
 					box.arrowThing(false);
 				}
 
@@ -921,10 +918,12 @@ class SelectedThumb extends MusicBeatSubstate
 				if (!box.visible) 
 				{
 					if (canCycle) canCycle = false;
+				    if (canDoShit) canDoShit = false;
 					
 					if (box.animation.name != 'idle') 
 					{
 						FlxTimer.wait(0.3, () -> bubble.playAnim('talk'));
+				        FlxTimer.wait(0.6, () -> canDoShit = true);
 						box.visible = true;
 						box.playAnimation('appear');
 					}
@@ -1018,7 +1017,12 @@ class SelectedThumb extends MusicBeatSubstate
 		questionCam.alpha = 0.000001;
 		change();
 
-        #if mobile
+        createVPad();
+	}
+	
+	function createVPad()
+	{
+	   #if mobile
         controls.isInSubstate = true;
 		if (canCycle || songUnlockable) addVirtualPad(NONE, B_T);
 		else addVirtualPad(NONE, B);
@@ -1120,8 +1124,6 @@ class SelectedThumb extends MusicBeatSubstate
 
 	override function update(elapsed:Float) 
 	{
-		var justTouched:Bool = false;
-
 		#if mobile
                 for (touch in FlxG.touches.list)
 	                if (touch.justPressed) justTouched = true;
@@ -1152,6 +1154,7 @@ class SelectedThumb extends MusicBeatSubstate
 				FlxTween.tween(questionCam, {alpha: 0.00001},0.5, {onComplete:Void -> 
 				{
 					nextFunfact();
+					createVPad();
 				}});
 			}
 		}
@@ -1203,7 +1206,7 @@ class SelectedThumb extends MusicBeatSubstate
 		
 		if (can && !isWebCrasher) 
 		{
-			if (controls.BACK #if mobile || virtualPad.buttonB.justPressed #end) 
+			if (canDoShit && (controls.BACK #if mobile || virtualPad.buttonB.justPressed #end)) 
 			{
 				FlxG.sound.play(Paths.sound('spaceunpause'));
 				FlxTween.tween(parent.screen, {alpha: 0},0.4);

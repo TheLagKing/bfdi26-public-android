@@ -48,7 +48,7 @@ function onCreatePost()
             FlxTween.tween( game.getLuaObject('bfPhantom').colorTransform, { redOffset: 17, greenOffset: 34, blueOffset: 115, redMultiplier: 0, greenMultiplier: 0, blueMultiplier: 0 },0.1);
             FlxTween.tween( game.getLuaObject('bfPhantom2').colorTransform, { redOffset: 75, greenOffset: 35, blueOffset: 35, redMultiplier: 0, greenMultiplier: 0, blueMultiplier: 0 },0.1);
         ]])
-setBlendMode('bfPhantom2','lighten')
+setBlendMode('bfPhantom2','screen')
 setBlendMode('bfPhantom','add')
 
 bfphantomx = getProperty('bfPhantom.x')
@@ -97,7 +97,7 @@ bfphantomy = getProperty('bfPhantom.y')
     ]])
 
     setBlendMode('dadPhantom','add')
-    setBlendMode('dadPhantom2','lighten')
+    setBlendMode('dadPhantom2','screen')
 
     dadphantomx = getProperty('dadPhantom.x')
     dadphantomy = getProperty('dadPhantom.y')

@@ -94,7 +94,7 @@ function onUpdate()
         setShaderFloat(characters[i],'quality',10.0)
         setShaderFloat(characters[i],'merge',1.0)
         setShaderFloat(characters[i], "size",3.35);
-        setShaderFloat(characters[i],'alpha',0.35)
+        setShaderFloat(characters[i],'bruh',0.35)
         end
     end
 -----------------------------dad playanim---------------

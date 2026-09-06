@@ -1,30 +1,33 @@
 #pragma header
 
-// SHADER BY EXISTICAL ON SHADERTOY https://www.shadertoy.com/view/Xltfzj i only ported and edited it a bit
+float pi = 6.28318530718;
 
-const float pi = 6.28318530718; // Pi * 2
 uniform float directions;
 uniform float quality;
 uniform float size;
 uniform float merge;
-uniform float alpha;
+uniform float bruh;
 
-void main() {
+void main()
+{
     vec2 uv = openfl_TextureCoordv.xy;
     vec2 radius = size / openfl_TextureSize.xy;
-	vec4 ocolor = texture2D(bitmap, uv);
-    vec4 color = texture2D(bitmap, uv);
-	
-    // Blur calculations
-    for (float d = 0.0; d < pi; d += pi / directions) {
-    for (float i = 1.0 / quality; i < 1.001; i += 1.0 / quality) {
-        color += texture2D(
-            bitmap,
-            uv + vec2(cos(d), sin(d) * 2.0) * radius * i
-        );
-    }
-}
 
-color /= quality * directions + 1.0;
-gl_FragColor = color * alpha;
+    vec4 color = texture2D(bitmap, uv);
+
+    float dirStep = pi / directions;
+    float qualityStep = 1.0 / quality;
+
+    for (float d = 0.0; d < pi; d += dirStep)
+    {
+        for (float i = qualityStep; i < 1.001; i += qualityStep)
+        {
+            vec2 offset = vec2(cos(d), sin(d) * 2.0) * radius * i;
+            color += texture2D(bitmap, uv + offset);
+        }
+    }
+
+    color /= (quality * directions + 1.0);
+
+    gl_FragColor = color * bruh;
 }

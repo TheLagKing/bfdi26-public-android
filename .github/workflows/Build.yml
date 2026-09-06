@@ -10,10 +10,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
+      - name: Setup Java JDK
+        uses: actions/setup-java@main
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
       - name: Setup Haxe
         uses: krdlab/setup-haxe@master
         with:
-          haxe-version: 4.3.7
+          haxe-version: 4.3.6
 
       - name: Install Libraries
         run: |
@@ -26,7 +32,7 @@ jobs:
           haxe compile.hxml
 
       - name: Restore Cache
-        uses: actions/cache@v5
+        uses: actions/cache@v4
         with:
           key: cache-android-night
           path: |
@@ -40,7 +46,7 @@ jobs:
         run: |
           haxelib run lime config ANDROID_SDK $ANDROID_HOME
           haxelib run lime config ANDROID_NDK_ROOT $ANDROID_NDK_LATEST_HOME
-          haxelib run lime config JAVA_HOME $JAVA_HOME_17_X64
+          haxelib run lime config JAVA_HOME $JAVA_HOME
           haxelib run lime config ANDROID_SETUP true 
 
       - name: Compile
@@ -73,7 +79,7 @@ jobs:
               }
             }
       - name: Uploading new cache
-        uses: actions/cache@v5
+        uses: actions/cache@v4
         with:
           # caching again since for some reason it doesnt work with the first post cache shit
           key: cache-android-night

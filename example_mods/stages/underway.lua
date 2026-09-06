@@ -16,7 +16,7 @@ makeLuaSprite('o3','backgrounds/underway/wire/Lighten',0,0)
 addLuaSprite('o3',true)
 scaleObject('o3',1.5,1.5)
 setScrollFactor('o3',0,0)
-setBlendMode('o3','lighten')
+setBlendMode('o3','screen')
 screenCenter('o3','xy')
 
 makeLuaSprite('back','backgrounds/underway/wire/Back',550,0)
