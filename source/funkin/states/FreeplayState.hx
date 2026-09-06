@@ -454,9 +454,7 @@ class FreeplayState extends MusicBeatState
 			}
 		}
 		
-		var backPressed = controls.BACK;
-		#if mobile backPressed = !controls.isInSubstate && virtualPad.buttonB.justPressed || controls.BACK; #end
-		if (backPressed && canScroll)
+		if (#if mobile virtualPad.buttonB.justPressed || #end controls.BACK && canScroll)
 		{
 			FlxMouseEvent.removeAll();
 
@@ -740,7 +738,7 @@ class SelectedThumb extends MusicBeatSubstate
 		bubbleAnim = FlxG.random.int(1,3);
 
 		var path = (songName == 'aldi' ? 'menus/freeplay/DB/DB-ALDI' : 'menus/freeplay/DB/DB$bubbleAnim');
-		bubble = new ModchartSprite(#if mobile 40 - #end 960,450).loadFrames(path);
+		bubble = new ModchartSprite(#if mobile 920 #else 960 #end,450).loadFrames(path);
 		bubble.addAnimByPrefix('idle', 'idle');
 		bubble.addAnimByPrefix('talk', 'talk');
 		bubble.playAnim('idle');
@@ -781,7 +779,7 @@ class SelectedThumb extends MusicBeatSubstate
 		typer = new FlxTextTyper();
 		add(typer);
 
-		text2 = new FlxText(#if mobile 40 - #end 403.5, 570, Std.int(box.width - 28), "");
+		text2 = new FlxText(#if mobile 363.5 #else 403.5 #end, 570, Std.int(box.width - 28), "");
 		text2.setFormat(Paths.font("Shag-Lounge.otf"), 26, ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE, LEFT); //, FlxTextBorderStyle.OUTLINE, ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE
 		text2.alpha = 0;
 		text2.updateHitbox();
