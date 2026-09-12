@@ -1,15 +1,25 @@
 {
 	"directory": "",
-	"defaultZoom": 0.65,
+	"defaultZoom": 0.7,
 	"isPixelStage": false,
-	"camera_speed": 1.25,
+	"camera_speed": 100,
 
-	"boyfriend": [1695, 915],
-	"girlfriend": [1255,1400],
-	"opponent": [680,915],
-	"hide_girlfriend": true,
+	"boyfriend": [1525, 900],
+	"girlfriend": [1825,1375],
+	"opponent": [615,835],
+	"hide_girlfriend": false,
 
-	"camera_boyfriend": [-330,-100],
-	"camera_opponent": [205,75],
-	"camera_girlfriend": [1625,1500]
+	"camera_boyfriend": [-200,-90],
+	"camera_opponent": [75,150],
+	"camera_girlfriend": [500,400],
+    "images_to_cache": [
+    "backgrounds/funnyfellow/funnyfellowbgbetter",
+	"backgrounds/funnyfellow/bombeyepatch",
+	"backgrounds/funnyfellow/flowers",
+	"backgrounds/funnyfellow/goldenapple",
+	"backgrounds/funnyfellow/spagparticle",
+	"backgrounds/funnyfellow/sticky",
+	"backgrounds/funnyfellow/tomatoe",
+	"backgrounds/funnyfellow/yoshiegg"
+    ]
 }

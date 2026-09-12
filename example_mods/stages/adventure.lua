@@ -86,6 +86,22 @@ setProperty('sb.antialiasing',false)
 addLuaSprite('sb',true)
 end
 
+function onCreatePost()
+makeLuaSprite('endbg','backgrounds/himshey/endingstuff',0,0)
+scaleObject('endbg',0.78,0.78)
+setObjectCamera('endbg','other')
+screenCenter('endbg','xy')
+addLuaSprite('endbg',true)
+setProperty('endbg.visible',false)
+
+makeAnimatedLuaSprite('endfirey','backgrounds/himshey/fireyending',52.5,272.5)
+addAnimationByPrefix('endfirey','idle','Symbol 3 instance 1',24,true)
+scaleObject('endfirey',0.7,0.7)
+setObjectCamera('endfirey','other')
+addLuaSprite('endfirey',true)
+setProperty('endfirey.visible',false)
+end
+
 function onUpdatePost()
 
 if getMouseX('other') >180 and getMouseX('other') <775 and getMouseY('other') >512 and getMouseY('other') <705 then
@@ -140,5 +156,8 @@ doTweenAlpha('logoshit4','f',0,2,'quadOut')
 doTweenAlpha('logoshit2','logos',0,1,'quadOut')
 elseif name == 'Trigger' and v1 == 'sbwalk' then
 doTweenX('sbwalking','sb',2500,25)
+elseif name == 'Trigger' and v1 == 'endscreen' then
+setProperty('endfirey.visible',true)
+setProperty('endbg.visible',true)
 end
 end

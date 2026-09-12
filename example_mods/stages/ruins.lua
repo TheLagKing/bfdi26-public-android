@@ -98,11 +98,11 @@ addLuaSprite('lollipop',true)
 
 makeLuaSprite('black', '', 0, 0)
 setScrollFactor('black', 0, 0)
-makeGraphic('black',1280,720,'00FF00')
+makeGraphic('black',1,1,'00FF00')
 setBlendMode('black','multiply')
 setProperty('black.alpha',0)
 setObjectCamera('black','other')
-scaleObject('black',1.5,1.5)
+scaleObject('black',1280*1.5,720*1.5)
 addLuaSprite('black',true)
 screenCenter('black', 'xy')
 end

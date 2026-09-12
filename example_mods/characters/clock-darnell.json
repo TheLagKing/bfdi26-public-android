@@ -1,0 +1,369 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				-17
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "0clock/down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				97
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "0clock/up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				-18
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "0clock/right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				20
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "0clock/left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				119,
+				48
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "0clock/shockdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				133,
+				233
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "0clock/shockup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				138
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "0clock/shockright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				227,
+				167
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "0clock/shockleft",
+			"indices": []
+		},
+		{
+			"offsets": [
+				57,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "ring",
+			"indices": [],
+			"name": "0clock/ring"
+		},
+		{
+			"offsets": [
+				-93,
+				-2
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "0clock/altidle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "0clock/idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				119,
+				48
+			],
+			"anim": "singDOWN-althold",
+			"fps": 24,
+			"name": "0clock/shockdown",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				133,
+				233
+			],
+			"anim": "singUP-althold",
+			"fps": 24,
+			"name": "0clock/shockup",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				138
+			],
+			"anim": "singRIGHT-althold",
+			"fps": 24,
+			"name": "0clock/shockright",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				227,
+				167
+			],
+			"anim": "singLEFT-althold",
+			"fps": 24,
+			"name": "0clock/shockleft",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				4
+			],
+			"anim": "snap",
+			"fps": 24,
+			"name": "0clock/snap",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-43,
+				-57
+			],
+			"anim": "singDOWN-skeptical",
+			"fps": 24,
+			"name": "0clock/skepticaldown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-27,
+				27
+			],
+			"anim": "singUP-skeptical",
+			"fps": 24,
+			"name": "0clock/skepticalup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-62,
+				-22
+			],
+			"anim": "singRIGHT-skeptical",
+			"fps": 24,
+			"name": "0clock/skepticalright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				-2
+			],
+			"anim": "singLEFT-skeptical",
+			"fps": 24,
+			"name": "0clock/skepticalleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				67,
+				91
+			],
+			"anim": "singDOWN-angry",
+			"fps": 24,
+			"name": "0clock/doublealtdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				100,
+				198
+			],
+			"anim": "singUP-angry",
+			"fps": 24,
+			"name": "0clock/doublealtup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				113
+			],
+			"anim": "singRIGHT-angry",
+			"fps": 24,
+			"name": "0clock/doublealtright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				199,
+				112
+			],
+			"anim": "singLEFT-angry",
+			"fps": 24,
+			"name": "0clock/doublealtleft",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-1,
+				-25
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-angry",
+			"indices": [],
+			"name": "0clock/doublealtidle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/time-darnell/clock",
+	"position": [
+		-150,
+		130
+	],
+	"healthicon": "clock-darnell",
+	"vslice_sustains": false,
+	"flip_x": false,
+	"healthbar_colors": [
+		120,
+		240,
+		188
+	],
+	"camera_position": [
+		400,
+		370
+	],
+	"sing_duration": 5,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

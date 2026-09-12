@@ -1,0 +1,258 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				-29
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "fussyIDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				137,
+				-12
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "fussyLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				28,
+				-19
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "fussyDOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				67
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "fussyUP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				6
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "fussyRIGHT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				5,
+				-33
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "boys",
+			"indices": [],
+			"name": "fussyBOYS"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				21,
+				45
+			],
+			"anim": "WORLD",
+			"fps": 24,
+			"name": "fussyWORLD",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				29,
+				0
+			],
+			"anim": "DAYOFF",
+			"fps": 24,
+			"name": "fussyDAYOFF",
+			"indices": []
+		},
+		{
+			"offsets": [
+				28,
+				-21
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "reaction1",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58
+			],
+			"name": "fussyREACTION"
+		},
+		{
+			"offsets": [
+				12,
+				-12
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "reaction2",
+			"indices": [
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174
+			],
+			"name": "fussyREACTION"
+		},
+		{
+			"offsets": [
+				5,
+				-33
+			],
+			"indices": [
+				158,
+				158
+			],
+			"fps": 24,
+			"anim": "idle-end",
+			"loop": false,
+			"name": "fussyBOYS"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfdimemes/headcanon two",
+	"position": [
+		0,
+		-25
+	],
+	"healthicon": "hc-tew",
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colors": [
+		254,
+		112,
+		112
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

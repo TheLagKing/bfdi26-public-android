@@ -1,5 +1,4 @@
 #pragma header
-
 uniform float iTime;
 #define iChannel0 bitmap
 #define iChannel1 bitmap
@@ -22,8 +21,8 @@ vec4 getDistortedTexture(sampler2D iChanne0, vec2 uv) {
 
 void mainImage()
 {
-vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
-vec2 iResolution = openfl_TextureSize;
+    vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
+    vec2 iResolution = openfl_TextureSize;
 	vec2 uv = fragCoord.xy / iResolution.xy;
 	float t = iTime;
 	vec2 mid = vec2(0.5,0.5);

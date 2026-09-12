@@ -1,0 +1,103 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				-105
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "finalIDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				61,
+				-110
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "finalLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				-55
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "finalUP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-36,
+				-121
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "finalDOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				-106
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "finalRIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				-44
+			],
+			"anim": "friends",
+			"fps": 24,
+			"name": "finalFRIENDS",
+			"indices": []
+		},
+		{
+			"offsets": [
+				198,
+				-86
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "boys",
+			"loop": false,
+			"name": "finalBOYS"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfdimemes/gay baby x",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "yfriend",
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		30
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

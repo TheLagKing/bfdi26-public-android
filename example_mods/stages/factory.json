@@ -9,7 +9,16 @@
     "girlfriend": [225, 361],
     "opponent": [200,251.75],
 
-    "camera_boyfriend": [-200,-40],
-	"camera_opponent": [250,-75],
-	"camera_girlfriend": [-425,-300]
+    "camera_boyfriend": [-200,-45],
+	"camera_opponent": [250,-80],
+	"camera_girlfriend": [-425,-305],
+    "images_to_cache": [
+    "backgrounds/bossy/boomboom",
+    "backgrounds/bossy/bossybgguys",
+    "backgrounds/bossy/factory",
+    "backgrounds/bossy/helmetside1",
+    "backgrounds/bossy/helmetside2",
+    "backgrounds/bossy/MULTIPLYY",
+    "backgrounds/bossy/SUBTRACTalpha16bgoverlay"
+    ]
 }

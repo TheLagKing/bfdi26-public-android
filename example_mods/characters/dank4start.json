@@ -1,0 +1,37 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "dankSTART",
+			"loop": false,
+			"name": "dankSTART"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfdimemes/soulful four start",
+	"position": [
+		-137,
+		-20
+	],
+"healthicon": "soulful-four",
+	"vslice_sustains": true,
+	"flip_x": true,
+	"healthbar_colors": [
+		38,
+		172,
+		255
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

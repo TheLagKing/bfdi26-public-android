@@ -1,0 +1,18 @@
+{
+	"directory": "",
+	"defaultZoom": 1.1,
+	"stageUI": "",
+	
+	"boyfriend": [850, 110],
+	"girlfriend": [400, 130],
+	"opponent": [100, 100],
+	"hide_girlfriend": true,
+	
+	"camera_boyfriend": [200, 125],
+	"camera_opponent": [0, 0],
+	"camera_girlfriend": [0, 0],
+	"camera_speed": 1,
+    "images_to_cache": [
+	"characters/euthanized/punchingbag"
+	]
+}

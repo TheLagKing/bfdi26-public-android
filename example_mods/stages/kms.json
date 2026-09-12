@@ -10,5 +10,9 @@
 
     "camera_boyfriend": [-200,200],
 	"camera_opponent": [200,-35],
-	"camera_girlfriend": [-400,-300]
+	"camera_girlfriend": [-400,-300],
+    "images_to_cache": [
+    "backgrounds/kms/BG",
+    "backgrounds/kms/thisguyfuckingrocks"
+    ]
 }

@@ -100,20 +100,15 @@ end
 
 function onCreatePost()
 setProperty('gf.alpha',0)
+if not middlescroll then
 for i = 0, 3 do
 j = (i + 4)
 
 iPos = _G['defaultPlayerStrumX'..i];
 jPos = _G['defaultOpponentStrumX'..i];
-if alreadySwapped then
-iPos = _G['defaultOpponentStrumX'..i];
-jPos = _G['defaultPlayerStrumX'..i];
-end
+
 noteTweenX('note'..i..'TwnX', i, iPos, 1.25, 'cubeInOut');
 noteTweenX('note'..j..'TwnX', j, jPos, 1.25, 'cubeInOut');
-if middlescroll == true then
-noteTweenX('note'..i..'TwnX',j,iPos, 1.25, 'cubeInOut');
-noteTweenX('note'..j..'TwnX',i,jPos, 1.25, 'cubeInOut');
 end
 end
 
@@ -124,6 +119,7 @@ setScrollFactor('gfGroup',1,1)
 setScrollFactor('dadGroup',1.1,1.1)
 setObjectOrder('dadGroup',20)
 end
+
 function onEvent(name,v1)
 if name == 'Trigger' and v1 == 'intro' then
 bfy = getProperty('boyfriend.y')
@@ -139,21 +135,15 @@ elseif name == 'Trigger' and v1 == 'wireframe' then
 cameraFlash('camGame','86d0ae',0.5)
 setBlendMode('strumbg','')
 
+if not middlescroll then
 alreadySwapped = true
 for i = 0, 3 do
 j = (i + 4)
 
-iPos = _G['defaultPlayerStrumX'..i];
-jPos = _G['defaultOpponentStrumX'..i];
-if alreadySwapped then
 iPos = _G['defaultOpponentStrumX'..i];
 jPos = _G['defaultPlayerStrumX'..i];
-end
 noteTweenX('note'..i..'TwnX', i, iPos, 1.25, 'cubeInOut');
 noteTweenX('note'..j..'TwnX', j, jPos, 1.25, 'cubeInOut');
-if middlescroll == true then
-noteTweenX('note'..i..'TwnX',j,iPos, 1.25, 'cubeInOut');
-noteTweenX('note'..j..'TwnX',i,jPos, 1.25, 'cubeInOut');
 end
 end
 
@@ -185,21 +175,16 @@ setObjectOrder('dadGroup',15)
 setScrollFactor('dadGroup',1,1)
 elseif name == 'Trigger' and v1 == 'sidepov' then
 setBlendMode('strumbg','multiply')
+
+if not middlescroll then
 alreadySwapped = false
 for i = 0, 3 do
 j = (i + 4)
 
 iPos = _G['defaultPlayerStrumX'..i];
 jPos = _G['defaultOpponentStrumX'..i];
-if alreadySwapped then
-iPos = _G['defaultOpponentStrumX'..i];
-jPos = _G['defaultPlayerStrumX'..i];
-end
 noteTweenX('note'..i..'TwnX', i, iPos, 1.25, 'cubeInOut');
 noteTweenX('note'..j..'TwnX', j, jPos, 1.25, 'cubeInOut');
-if middlescroll == true then
-noteTweenX('note'..i..'TwnX',j,iPos, 1.25, 'cubeInOut');
-noteTweenX('note'..j..'TwnX',i,jPos, 1.25, 'cubeInOut');
 end
 end
 

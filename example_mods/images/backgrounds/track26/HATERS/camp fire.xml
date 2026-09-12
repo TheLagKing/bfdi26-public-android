@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="camp fire.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Symbol 18 instance 10000" x="0" y="0" width="83" height="119" frameX="-12" frameY="0" frameWidth="102" frameHeight="122"/>
+	<SubTexture name="Symbol 18 instance 10001" x="88" y="0" width="98" height="106" frameX="0" frameY="-13" frameWidth="102" frameHeight="122"/>
+	<SubTexture name="Symbol 18 instance 10002" x="191" y="0" width="94" height="99" frameX="-3" frameY="-20" frameWidth="102" frameHeight="122"/>
+	<SubTexture name="Symbol 18 instance 10003" x="290" y="0" width="93" height="112" frameX="-7" frameY="-7" frameWidth="102" frameHeight="122"/>
+	<SubTexture name="Symbol 18 instance 10004" x="388" y="0" width="93" height="113" frameX="-7" frameY="-9" frameWidth="102" frameHeight="122"/>
+	<SubTexture name="Symbol 18 instance 10005" x="486" y="0" width="92" height="104" frameX="-10" frameY="-18" frameWidth="102" frameHeight="122"/>
+</TextureAtlas>

@@ -1,12 +1,8 @@
-- Yoylefake V1.5
-- Oneshot V2
-- Hey Two, Who's There, Invitational, Bossy, Vocal Chords & Time & MORE resprites
-- Hey Two & Who's There rechart
-- Webcrasher & Hey Two GF mix
-- Syskill & Evil Song Pico mix
-- Invitational DD mix
-- Bossy Lunchbox mix
-- Funny Fellow Spooky mix
-- One original song..?
-- Lots of new funfacts!
-- QOL & Misc Changes
+- 3 Brand new songs! 
+  These are the last playable ones you're getting till 26B so make them count!
+- Funny Fellow V3!
+- Time Darnell Mix!
+- Right Finger!
+- Added Vram and Streamed Music for optimization!
+- Added new credits menu!
+- Many, MANY bug fixes, see the full list by pressing Enter!

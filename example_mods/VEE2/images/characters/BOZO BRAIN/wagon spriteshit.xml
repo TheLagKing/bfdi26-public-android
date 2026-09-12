@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wagon spriteshit.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="up pose instance 10000" x="5" y="5" width="500" height="878" frameX="0" frameY="0" frameWidth="564" frameHeight="878"/>
+	<SubTexture name="up pose instance 10001" x="5" y="5" width="500" height="878" frameX="0" frameY="0" frameWidth="564" frameHeight="878"/>
+	<SubTexture name="up pose instance 10002" x="5" y="888" width="483" height="813" frameX="-2" frameY="-65" frameWidth="564" frameHeight="878"/>
+	<SubTexture name="up pose instance 10003" x="5" y="888" width="483" height="813" frameX="-2" frameY="-65" frameWidth="564" frameHeight="878"/>
+	<SubTexture name="up pose instance 10004" x="5" y="1706" width="484" height="807" frameX="-1" frameY="-71" frameWidth="564" frameHeight="878"/>
+	<SubTexture name="up pose instance 10005" x="5" y="1706" width="484" height="807" frameX="-1" frameY="-71" frameWidth="564" frameHeight="878"/>
+	<SubTexture name="up pose instance 10006" x="5" y="1706" width="484" height="807" frameX="-1" frameY="-71" frameWidth="564" frameHeight="878"/>
+	<SubTexture name="up pose instance 10007" x="493" y="888" width="476" height="780" frameX="0" frameY="-98" frameWidth="564" frameHeight="878"/>
+	<SubTexture name="up pose instance 10008" x="493" y="888" width="476" height="780" frameX="0" frameY="-98" frameWidth="564" frameHeight="878"/>
+	<SubTexture name="up pose instance 10009" x="2323" y="1599" width="558" height="604" frameX="-6" frameY="-274" frameWidth="564" frameHeight="878"/>
+	<SubTexture name="wagon down instance 10000" x="1306" y="2329" width="861" height="374" frameX="0" frameY="-117" frameWidth="861" frameHeight="491"/>
+	<SubTexture name="wagon down instance 10001" x="1306" y="2329" width="861" height="374" frameX="0" frameY="-117" frameWidth="861" frameHeight="491"/>
+	<SubTexture name="wagon down instance 10002" x="3500" y="464" width="802" height="399" frameX="-21" frameY="-84" frameWidth="861" frameHeight="491"/>
+	<SubTexture name="wagon down instance 10003" x="3500" y="464" width="802" height="399" frameX="-21" frameY="-84" frameWidth="861" frameHeight="491"/>
+	<SubTexture name="wagon down instance 10004" x="3128" y="1143" width="788" height="402" frameX="-27" frameY="-81" frameWidth="861" frameHeight="491"/>
+	<SubTexture name="wagon down instance 10005" x="3128" y="1143" width="788" height="402" frameX="-27" frameY="-81" frameWidth="861" frameHeight="491"/>
+	<SubTexture name="wagon down instance 10006" x="3128" y="1143" width="788" height="402" frameX="-27" frameY="-81" frameWidth="861" frameHeight="491"/>
+	<SubTexture name="wagon down instance 10007" x="4060" y="1541" width="770" height="384" frameX="-22" frameY="-90" frameWidth="861" frameHeight="491"/>
+	<SubTexture name="wagon down instance 10008" x="4060" y="1541" width="770" height="384" frameX="-22" frameY="-90" frameWidth="861" frameHeight="491"/>
+	<SubTexture name="wagon down instance 10009" x="4307" y="537" width="648" height="463" frameX="-68" frameY="0" frameWidth="861" frameHeight="491"/>
+	<SubTexture name="wagon idle instance 10000" x="4335" y="5" width="615" height="527" frameX="-14" frameY="-54" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10001" x="2886" y="2156" width="609" height="544" frameX="-13" frameY="-36" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10002" x="2798" y="581" width="607" height="557" frameX="-9" frameY="-24" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10003" x="1712" y="1759" width="606" height="565" frameX="-7" frameY="-17" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10004" x="2191" y="5" width="604" height="571" frameX="-6" frameY="-12" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10005" x="2189" y="590" width="604" height="575" frameX="-4" frameY="-8" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10006" x="1712" y="1176" width="604" height="578" frameX="-3" frameY="-6" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10007" x="1582" y="5" width="604" height="580" frameX="-2" frameY="-4" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10008" x="1103" y="1645" width="604" height="582" frameX="-1" frameY="-3" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10009" x="974" y="1056" width="603" height="584" frameX="-1" frameY="-1" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10010" x="974" y="466" width="603" height="585" frameX="0" frameY="0" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10011" x="494" y="1673" width="604" height="585" frameX="0" frameY="0" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10012" x="1582" y="590" width="602" height="581" frameX="-3" frameY="-3" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon idle instance 10013" x="2886" y="1599" width="602" height="552" frameX="-14" frameY="-28" frameWidth="629" frameHeight="585"/>
+	<SubTexture name="wagon left instance 10000" x="2323" y="2208" width="553" height="498" frameX="0" frameY="-31" frameWidth="654" frameHeight="532"/>
+	<SubTexture name="wagon left instance 10001" x="2323" y="2208" width="553" height="498" frameX="0" frameY="-31" frameWidth="654" frameHeight="532"/>
+	<SubTexture name="wagon left instance 10002" x="3921" y="1005" width="559" height="531" frameX="-13" frameY="0" frameWidth="654" frameHeight="532"/>
+	<SubTexture name="wagon left instance 10003" x="3921" y="1005" width="559" height="531" frameX="-13" frameY="0" frameWidth="654" frameHeight="532"/>
+	<SubTexture name="wagon left instance 10004" x="3493" y="1550" width="562" height="532" frameX="-14" frameY="0" frameWidth="654" frameHeight="532"/>
+	<SubTexture name="wagon left instance 10005" x="3493" y="1550" width="562" height="532" frameX="-14" frameY="0" frameWidth="654" frameHeight="532"/>
+	<SubTexture name="wagon left instance 10006" x="3493" y="1550" width="562" height="532" frameX="-14" frameY="0" frameWidth="654" frameHeight="532"/>
+	<SubTexture name="wagon left instance 10007" x="3500" y="2087" width="566" height="515" frameX="-22" frameY="-16" frameWidth="654" frameHeight="532"/>
+	<SubTexture name="wagon left instance 10008" x="3500" y="2087" width="566" height="515" frameX="-22" frameY="-16" frameWidth="654" frameHeight="532"/>
+	<SubTexture name="wagon left instance 10009" x="4071" y="1930" width="542" height="409" frameX="-112" frameY="-113" frameWidth="654" frameHeight="532"/>
+	<SubTexture name="wagon right instance 10000" x="510" y="5" width="803" height="456" frameX="-34" frameY="0" frameWidth="837" frameHeight="456"/>
+	<SubTexture name="wagon right instance 10001" x="510" y="5" width="803" height="456" frameX="-34" frameY="0" frameWidth="837" frameHeight="456"/>
+	<SubTexture name="wagon right instance 10002" x="494" y="2263" width="807" height="422" frameX="-20" frameY="-34" frameWidth="837" frameHeight="456"/>
+	<SubTexture name="wagon right instance 10003" x="494" y="2263" width="807" height="422" frameX="-20" frameY="-34" frameWidth="837" frameHeight="456"/>
+	<SubTexture name="wagon right instance 10004" x="2800" y="5" width="807" height="418" frameX="-18" frameY="-38" frameWidth="837" frameHeight="456"/>
+	<SubTexture name="wagon right instance 10005" x="2800" y="5" width="807" height="418" frameX="-18" frameY="-38" frameWidth="837" frameHeight="456"/>
+	<SubTexture name="wagon right instance 10006" x="2800" y="5" width="807" height="418" frameX="-18" frameY="-38" frameWidth="837" frameHeight="456"/>
+	<SubTexture name="wagon right instance 10007" x="2321" y="1170" width="802" height="424" frameX="-15" frameY="-32" frameWidth="837" frameHeight="456"/>
+	<SubTexture name="wagon right instance 10008" x="2321" y="1170" width="802" height="424" frameX="-15" frameY="-32" frameWidth="837" frameHeight="456"/>
+	<SubTexture name="wagon right instance 10009" x="3612" y="5" width="718" height="454" frameX="0" frameY="-2" frameWidth="837" frameHeight="456"/>
+</TextureAtlas>

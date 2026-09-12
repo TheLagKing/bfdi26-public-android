@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-123,
+				-514
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "bocky idle"
+		},
+		{
+			"offsets": [
+				-111,
+				-511
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "bocky down"
+		},
+		{
+			"offsets": [
+				-122,
+				-423
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "bocky up"
+		},
+		{
+			"offsets": [
+				-52,
+				-477
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "bocky left"
+		},
+		{
+			"offsets": [
+				-133,
+				-519
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "bocky right"
+		},
+		{
+			"offsets": [
+				-141,
+				-555
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "bocky miss"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/yoylecone/bocky assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "bocky",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		68,
+		158
+	],
+	"camera_position": [
+		-150,
+		570
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

@@ -1,0 +1,81 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "stage1",
+			"loop": true,
+			"name": "momokagan stage 1"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "stage2",
+			"loop": true,
+			"name": "momokagan stage 2"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "stage3",
+			"loop": true,
+			"name": "momokagan stage 3"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "stage4",
+			"loop": true,
+			"name": "momokagan stage 4"
+		},
+		{
+			"offsets": [
+				13,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "stage5",
+			"loop": true,
+			"name": "momokagan stage 5"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfdimemes/momokagan",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "one",
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colors": [
+		13,
+		36,
+		255
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

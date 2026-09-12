@@ -1,0 +1,81 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-29,
+				120
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "C DOWN"
+		},
+		{
+			"offsets": [
+				8,
+				209
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "C UP"
+		},
+		{
+			"offsets": [
+				72,
+				120
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "C LEFT"
+		},
+		{
+			"offsets": [
+				-30,
+				120
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "C IDLE SPLICE"
+		},
+		{
+			"offsets": [
+				-29,
+				120
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "C IDLE RIGHT"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/right-finger/coiny wrongy splice",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "coine",
+	"vslice_sustains": false,
+	"flip_x": false,
+	"healthbar_colors": [
+		236,
+		159,
+		1
+	],
+	"camera_position": [
+		-50,
+		-40
+	],
+	"sing_duration": 3,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

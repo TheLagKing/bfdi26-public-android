@@ -1,0 +1,70 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "1neneandpico/idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				-2
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "1neneandpico/altidle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				64,
+				0
+			],
+			"anim": "uhoh",
+			"fps": 24,
+			"name": "1neneandpico/uhoh",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				66,
+				-2
+			],
+			"anim": "idle-alt2",
+			"fps": 24,
+			"name": "1neneandpico/twoaltidle",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/time-darnell/nene",
+	"position": [
+		140,
+		200
+	],
+	"healthicon": "clock",
+	"vslice_sustains": false,
+	"flip_x": false,
+	"healthbar_colors": [
+		7,
+		54,
+		61
+	],
+	"camera_position": [
+		-120,
+		50
+	],
+	"sing_duration": 5,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,114 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "dankIDLE"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				197,
+				-24
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "dankLEFT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				47,
+				-60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "dankDOWN"
+		},
+		{
+			"offsets": [
+				-36,
+				62
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "dankUP"
+		},
+		{
+			"offsets": [
+				-25,
+				9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "dankRIGHT"
+		},
+		{
+			"offsets": [
+				-43,
+				-15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-preBOI",
+			"indices": [],
+			"name": "dankPREBOI"
+		},
+		{
+			"offsets": [
+				380,
+				216
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "BOI",
+			"indices": [],
+			"name": "dankBOI"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-24,
+				15
+			],
+			"anim": "miss",
+			"fps": 24,
+			"name": "dankMISS",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfdimemes/soulful four assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "soulful-four",
+	"vslice_sustains": true,
+	"flip_x": true,
+	"healthbar_colors": [
+		38,
+		172,
+		255
+	],
+	"camera_position": [
+		-200,
+		200
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

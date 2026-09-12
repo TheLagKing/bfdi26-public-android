@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Countless.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Countless Down0000" x="5" y="5" width="491" height="370" frameX="0" frameY="-14" frameWidth="491" frameHeight="410"/>
+	<SubTexture name="Countless Down0001" x="5" y="5" width="491" height="370" frameX="0" frameY="-14" frameWidth="491" frameHeight="410"/>
+	<SubTexture name="Countless Down0002" x="501" y="5" width="474" height="376" frameX="-14" frameY="-19" frameWidth="491" frameHeight="410"/>
+	<SubTexture name="Countless Down0003" x="501" y="5" width="474" height="376" frameX="-14" frameY="-19" frameWidth="491" frameHeight="410"/>
+	<SubTexture name="Countless Down0004" x="980" y="5" width="474" height="376" frameX="-14" frameY="-19" frameWidth="491" frameHeight="410"/>
+	<SubTexture name="Countless Down0005" x="980" y="5" width="474" height="376" frameX="-14" frameY="-19" frameWidth="491" frameHeight="410"/>
+	<SubTexture name="Countless Down0006" x="501" y="5" width="474" height="376" frameX="-14" frameY="-19" frameWidth="491" frameHeight="410"/>
+	<SubTexture name="Countless Down0007" x="1459" y="5" width="474" height="382" frameX="-14" frameY="-15" frameWidth="491" frameHeight="410"/>
+	<SubTexture name="Countless Down0008" x="1938" y="5" width="474" height="382" frameX="-14" frameY="-15" frameWidth="491" frameHeight="410"/>
+	<SubTexture name="Countless Down0009" x="5" y="392" width="454" height="410" frameX="-28" frameY="0" frameWidth="491" frameHeight="410"/>
+	<SubTexture name="Countless Idle0000" x="464" y="392" width="408" height="421" frameX="-3" frameY="-4" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0001" x="877" y="392" width="408" height="421" frameX="-3" frameY="-4" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0002" x="1290" y="392" width="408" height="421" frameX="-3" frameY="-4" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0003" x="1703" y="392" width="407" height="424" frameX="0" frameY="-3" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0004" x="5" y="821" width="407" height="424" frameX="0" frameY="-3" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0005" x="417" y="821" width="407" height="424" frameX="0" frameY="-3" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0006" x="829" y="821" width="400" height="427" frameX="-3" frameY="-1" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0007" x="1234" y="821" width="400" height="427" frameX="-3" frameY="-1" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0008" x="1639" y="821" width="398" height="428" frameX="-7" frameY="0" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0009" x="2042" y="821" width="398" height="428" frameX="-7" frameY="0" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0010" x="5" y="1254" width="396" height="427" frameX="-13" frameY="0" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0011" x="406" y="1254" width="396" height="427" frameX="-13" frameY="0" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0012" x="807" y="1254" width="397" height="427" frameX="-13" frameY="0" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Idle0013" x="1209" y="1254" width="397" height="427" frameX="-13" frameY="0" frameWidth="411" frameHeight="428"/>
+	<SubTexture name="Countless Left0000" x="1611" y="1254" width="622" height="422" frameX="0" frameY="-2" frameWidth="622" frameHeight="427"/>
+	<SubTexture name="Countless Left0001" x="1611" y="1254" width="622" height="422" frameX="0" frameY="-2" frameWidth="622" frameHeight="427"/>
+	<SubTexture name="Countless Left0002" x="5" y="1686" width="573" height="424" frameX="-15" frameY="0" frameWidth="622" frameHeight="427"/>
+	<SubTexture name="Countless Left0003" x="5" y="1686" width="573" height="424" frameX="-15" frameY="0" frameWidth="622" frameHeight="427"/>
+	<SubTexture name="Countless Left0004" x="583" y="1686" width="573" height="424" frameX="-15" frameY="0" frameWidth="622" frameHeight="427"/>
+	<SubTexture name="Countless Left0005" x="583" y="1686" width="573" height="424" frameX="-15" frameY="0" frameWidth="622" frameHeight="427"/>
+	<SubTexture name="Countless Left0006" x="5" y="1686" width="573" height="424" frameX="-15" frameY="0" frameWidth="622" frameHeight="427"/>
+	<SubTexture name="Countless Left0007" x="1161" y="1686" width="568" height="424" frameX="-18" frameY="-1" frameWidth="622" frameHeight="427"/>
+	<SubTexture name="Countless Left0008" x="1734" y="1686" width="568" height="424" frameX="-18" frameY="-1" frameWidth="622" frameHeight="427"/>
+	<SubTexture name="Countless Left0009" x="5" y="2115" width="508" height="423" frameX="-44" frameY="-4" frameWidth="622" frameHeight="427"/>
+	<SubTexture name="Countless Miss0000" x="518" y="2115" width="483" height="465"/>
+	<SubTexture name="Countless Right0000" x="1006" y="2115" width="430" height="412" frameX="-8" frameY="-1" frameWidth="438" frameHeight="424"/>
+	<SubTexture name="Countless Right0001" x="1006" y="2115" width="430" height="412" frameX="-8" frameY="-1" frameWidth="438" frameHeight="424"/>
+	<SubTexture name="Countless Right0002" x="1441" y="2115" width="423" height="416" frameX="-1" frameY="-2" frameWidth="438" frameHeight="424"/>
+	<SubTexture name="Countless Right0003" x="1441" y="2115" width="423" height="416" frameX="-1" frameY="-2" frameWidth="438" frameHeight="424"/>
+	<SubTexture name="Countless Right0004" x="1869" y="2115" width="423" height="416" frameX="-1" frameY="-2" frameWidth="438" frameHeight="424"/>
+	<SubTexture name="Countless Right0005" x="1869" y="2115" width="423" height="416" frameX="-1" frameY="-2" frameWidth="438" frameHeight="424"/>
+	<SubTexture name="Countless Right0006" x="1441" y="2115" width="423" height="416" frameX="-1" frameY="-2" frameWidth="438" frameHeight="424"/>
+	<SubTexture name="Countless Right0007" x="5" y="2585" width="424" height="419" frameX="-2" frameY="-1" frameWidth="438" frameHeight="424"/>
+	<SubTexture name="Countless Right0008" x="434" y="2585" width="424" height="419" frameX="-2" frameY="-1" frameWidth="438" frameHeight="424"/>
+	<SubTexture name="Countless Right0009" x="863" y="2585" width="433" height="424" frameX="0" frameY="0" frameWidth="438" frameHeight="424"/>
+	<SubTexture name="Countless Up0000" x="1301" y="2585" width="420" height="440" frameX="-12" frameY="0" frameWidth="450" frameHeight="445"/>
+	<SubTexture name="Countless Up0001" x="1301" y="2585" width="420" height="440" frameX="-12" frameY="0" frameWidth="450" frameHeight="445"/>
+	<SubTexture name="Countless Up0002" x="1726" y="2585" width="429" height="435" frameX="0" frameY="-9" frameWidth="450" frameHeight="445"/>
+	<SubTexture name="Countless Up0003" x="1726" y="2585" width="429" height="435" frameX="0" frameY="-9" frameWidth="450" frameHeight="445"/>
+	<SubTexture name="Countless Up0004" x="5" y="3030" width="427" height="435" frameX="0" frameY="-9" frameWidth="450" frameHeight="445"/>
+	<SubTexture name="Countless Up0005" x="5" y="3030" width="427" height="435" frameX="0" frameY="-9" frameWidth="450" frameHeight="445"/>
+	<SubTexture name="Countless Up0006" x="437" y="3030" width="427" height="435" frameX="0" frameY="-9" frameWidth="450" frameHeight="445"/>
+	<SubTexture name="Countless Up0007" x="869" y="3030" width="425" height="432" frameX="-3" frameY="-11" frameWidth="450" frameHeight="445"/>
+	<SubTexture name="Countless Up0008" x="1299" y="3030" width="425" height="432" frameX="-3" frameY="-11" frameWidth="450" frameHeight="445"/>
+	<SubTexture name="Countless Up0009" x="1729" y="3030" width="429" height="423" frameX="-21" frameY="-22" frameWidth="450" frameHeight="445"/>
+</TextureAtlas>

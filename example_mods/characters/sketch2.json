@@ -1,70 +1,70 @@
 {
 	"animations": [
 		{
+			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "SIDEVIEW POSES/SKETCH/idle"
+			"fps": 24,
+			"name": "SIDEVIEW POSES/SKETCH/idle",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				10,
-				2
+				9
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "SIDEVIEW POSES/SKETCH/left",
-			"indices": []
+			"indices": [],
+			"name": "SIDEVIEW POSES/SKETCH/left"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				-2
+				11,
+				-22
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "SIDEVIEW POSES/SKETCH/down",
-			"indices": []
+			"indices": [],
+			"name": "SIDEVIEW POSES/SKETCH/down"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				-1
+				24,
+				40
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "SIDEVIEW POSES/SKETCH/up",
-			"indices": []
+			"indices": [],
+			"name": "SIDEVIEW POSES/SKETCH/up"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-20,
-				-3
+				-38,
+				3
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "SIDEVIEW POSES/SKETCH/right",
-			"indices": []
+			"indices": [],
+			"name": "SIDEVIEW POSES/SKETCH/right"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				10
+				47,
+				21
 			],
-			"anim": "miss",
+			"loop": false,
 			"fps": 24,
-			"name": "SIDEVIEW POSES/SKETCH/miss",
-			"indices": []
+			"anim": "miss",
+			"indices": [],
+			"name": "SIDEVIEW POSES/SKETCH/miss"
 		}
 	],
 	"vocals_file": "",
@@ -75,6 +75,7 @@
 		530
 	],
 	"healthicon": "thnsp",
+	"vslice_sustains": true,
 	"flip_x": false,
 	"healthbar_colors": [
 		51,

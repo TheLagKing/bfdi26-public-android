@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				33,
+				4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "MikeH Left"
+		},
+		{
+			"offsets": [
+				18,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "MikeH Down"
+		},
+		{
+			"offsets": [
+				35,
+				25
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "MikeH Up"
+		},
+		{
+			"offsets": [
+				0,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "MikeH Miss"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "MikeH Idle"
+		},
+		{
+			"offsets": [
+				16,
+				-1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "MikeH Right"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/aewbc/MikeH Twins",
+	"position": [
+		505,
+		80
+	],
+	"healthicon": "mikeh",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-75,
+		75
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

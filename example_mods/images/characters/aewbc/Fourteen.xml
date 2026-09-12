@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Fourteen.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Fourteen Down0000" x="5" y="5" width="579" height="433" frameX="0" frameY="-30" frameWidth="579" frameHeight="472"/>
+	<SubTexture name="Fourteen Down0001" x="5" y="5" width="579" height="433" frameX="0" frameY="-30" frameWidth="579" frameHeight="472"/>
+	<SubTexture name="Fourteen Down0002" x="589" y="5" width="567" height="449" frameX="-5" frameY="-18" frameWidth="579" frameHeight="472"/>
+	<SubTexture name="Fourteen Down0003" x="589" y="5" width="567" height="449" frameX="-5" frameY="-18" frameWidth="579" frameHeight="472"/>
+	<SubTexture name="Fourteen Down0004" x="1161" y="5" width="567" height="449" frameX="-5" frameY="-18" frameWidth="579" frameHeight="472"/>
+	<SubTexture name="Fourteen Down0005" x="1161" y="5" width="567" height="449" frameX="-5" frameY="-18" frameWidth="579" frameHeight="472"/>
+	<SubTexture name="Fourteen Down0006" x="1733" y="5" width="564" height="448" frameX="-8" frameY="-19" frameWidth="579" frameHeight="472"/>
+	<SubTexture name="Fourteen Down0007" x="5" y="459" width="535" height="453" frameX="-36" frameY="-16" frameWidth="579" frameHeight="472"/>
+	<SubTexture name="Fourteen Down0008" x="545" y="459" width="535" height="454" frameX="-36" frameY="-15" frameWidth="579" frameHeight="472"/>
+	<SubTexture name="Fourteen Down0009" x="1085" y="459" width="517" height="472" frameX="-49" frameY="0" frameWidth="579" frameHeight="472"/>
+	<SubTexture name="Fourteen Idle0000" x="1607" y="459" width="508" height="473" frameX="0" frameY="-12" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0001" x="1607" y="459" width="508" height="473" frameX="0" frameY="-12" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0002" x="5" y="937" width="507" height="473" frameX="0" frameY="-12" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0003" x="517" y="937" width="506" height="477" frameX="0" frameY="-9" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0004" x="1028" y="937" width="505" height="477" frameX="-1" frameY="-9" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0005" x="1028" y="937" width="505" height="477" frameX="-1" frameY="-9" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0006" x="1538" y="937" width="499" height="494" frameX="-4" frameY="-2" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0007" x="1538" y="937" width="499" height="494" frameX="-4" frameY="-2" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0008" x="2042" y="937" width="496" height="495" frameX="-5" frameY="-1" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0009" x="2042" y="937" width="496" height="495" frameX="-5" frameY="-1" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0010" x="5" y="1437" width="496" height="494" frameX="-6" frameY="0" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0011" x="5" y="1437" width="496" height="494" frameX="-6" frameY="0" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0012" x="506" y="1437" width="496" height="493" frameX="-6" frameY="0" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Idle0013" x="506" y="1437" width="496" height="493" frameX="-6" frameY="0" frameWidth="508" frameHeight="496"/>
+	<SubTexture name="Fourteen Left0000" x="1007" y="1437" width="521" height="494" frameX="0" frameY="-2" frameWidth="555" frameHeight="496"/>
+	<SubTexture name="Fourteen Left0001" x="1007" y="1437" width="521" height="494" frameX="0" frameY="-2" frameWidth="555" frameHeight="496"/>
+	<SubTexture name="Fourteen Left0002" x="1533" y="1437" width="515" height="490" frameX="-12" frameY="0" frameWidth="555" frameHeight="496"/>
+	<SubTexture name="Fourteen Left0003" x="1533" y="1437" width="515" height="490" frameX="-12" frameY="0" frameWidth="555" frameHeight="496"/>
+	<SubTexture name="Fourteen Left0004" x="2053" y="1437" width="515" height="490" frameX="-12" frameY="0" frameWidth="555" frameHeight="496"/>
+	<SubTexture name="Fourteen Left0005" x="2053" y="1437" width="515" height="490" frameX="-12" frameY="0" frameWidth="555" frameHeight="496"/>
+	<SubTexture name="Fourteen Left0006" x="5" y="1936" width="515" height="490" frameX="-12" frameY="0" frameWidth="555" frameHeight="496"/>
+	<SubTexture name="Fourteen Left0007" x="525" y="1936" width="516" height="485" frameX="-15" frameY="-1" frameWidth="555" frameHeight="496"/>
+	<SubTexture name="Fourteen Left0008" x="1046" y="1936" width="516" height="486" frameX="-15" frameY="0" frameWidth="555" frameHeight="496"/>
+	<SubTexture name="Fourteen Left0009" x="1567" y="1936" width="505" height="487" frameX="-50" frameY="-1" frameWidth="555" frameHeight="496"/>
+	<SubTexture name="Fourteen Miss0000" x="2077" y="1936" width="507" height="497"/>
+	<SubTexture name="Fourteen Right0000" x="5" y="2438" width="498" height="499" frameX="-24" frameY="-1" frameWidth="522" frameHeight="500"/>
+	<SubTexture name="Fourteen Right0001" x="5" y="2438" width="498" height="499" frameX="-24" frameY="-1" frameWidth="522" frameHeight="500"/>
+	<SubTexture name="Fourteen Right0002" x="508" y="2438" width="492" height="493" frameX="-23" frameY="0" frameWidth="522" frameHeight="500"/>
+	<SubTexture name="Fourteen Right0003" x="508" y="2438" width="492" height="493" frameX="-23" frameY="0" frameWidth="522" frameHeight="500"/>
+	<SubTexture name="Fourteen Right0004" x="1005" y="2438" width="494" height="493" frameX="-22" frameY="0" frameWidth="522" frameHeight="500"/>
+	<SubTexture name="Fourteen Right0005" x="1005" y="2438" width="494" height="493" frameX="-22" frameY="0" frameWidth="522" frameHeight="500"/>
+	<SubTexture name="Fourteen Right0006" x="1504" y="2438" width="492" height="493" frameX="-23" frameY="0" frameWidth="522" frameHeight="500"/>
+	<SubTexture name="Fourteen Right0007" x="2001" y="2438" width="489" height="491" frameX="-22" frameY="0" frameWidth="522" frameHeight="500"/>
+	<SubTexture name="Fourteen Right0008" x="5" y="2942" width="489" height="491" frameX="-22" frameY="0" frameWidth="522" frameHeight="500"/>
+	<SubTexture name="Fourteen Right0009" x="499" y="2942" width="491" height="478" frameX="0" frameY="-2" frameWidth="522" frameHeight="500"/>
+	<SubTexture name="Fourteen Up0000" x="995" y="2942" width="489" height="545" frameX="0" frameY="0" frameWidth="503" frameHeight="545"/>
+	<SubTexture name="Fourteen Up0001" x="995" y="2942" width="489" height="545" frameX="0" frameY="0" frameWidth="503" frameHeight="545"/>
+	<SubTexture name="Fourteen Up0002" x="1489" y="2942" width="476" height="507" frameX="-17" frameY="-13" frameWidth="503" frameHeight="545"/>
+	<SubTexture name="Fourteen Up0003" x="1489" y="2942" width="476" height="507" frameX="-17" frameY="-13" frameWidth="503" frameHeight="545"/>
+	<SubTexture name="Fourteen Up0004" x="1970" y="2942" width="474" height="507" frameX="-19" frameY="-13" frameWidth="503" frameHeight="545"/>
+	<SubTexture name="Fourteen Up0005" x="1970" y="2942" width="474" height="507" frameX="-19" frameY="-13" frameWidth="503" frameHeight="545"/>
+	<SubTexture name="Fourteen Up0006" x="5" y="3492" width="472" height="506" frameX="-21" frameY="-14" frameWidth="503" frameHeight="545"/>
+	<SubTexture name="Fourteen Up0007" x="482" y="3492" width="472" height="493" frameX="-23" frameY="-21" frameWidth="503" frameHeight="545"/>
+	<SubTexture name="Fourteen Up0008" x="959" y="3492" width="472" height="494" frameX="-24" frameY="-20" frameWidth="503" frameHeight="545"/>
+	<SubTexture name="Fourteen Up0009" x="1436" y="3492" width="492" height="496" frameX="-11" frameY="-42" frameWidth="503" frameHeight="545"/>
+</TextureAtlas>

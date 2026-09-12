@@ -11,5 +11,16 @@
 
     "camera_boyfriend": [-160,-40],
 	"camera_opponent": [200,25],
-	"camera_girlfriend": [625,500]
+	"camera_girlfriend": [625,500],
+	"images_to_cache": [
+    "backgrounds/hard-bargain/andrew",
+    "backgrounds/hard-bargain/bluechard",
+    "backgrounds/hard-bargain/static",
+    "backgrounds/hard-bargain/yellowfuckground",
+    "backgrounds/hard-bargain/yellowfuckpoop",
+    "backgrounds/hard-bargain/yellowsky",
+    "backgrounds/hard-bargain/bg3/yellowfacebg",
+    "backgrounds/hard-bargain/bg2/halloween_bg",
+    "backgrounds/hard-bargain/bg1/groundoooohyeah"
+    ]
 }

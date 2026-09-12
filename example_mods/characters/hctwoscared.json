@@ -1,0 +1,92 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "surrenderIDLE"
+		},
+		{
+			"offsets": [
+				83,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "surrenderLEFT"
+		},
+		{
+			"offsets": [
+				20,
+				-17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "surrenderDOWN"
+		},
+		{
+			"offsets": [
+				66,
+				54
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "surrenderUP"
+		},
+		{
+			"offsets": [
+				-1,
+				16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "surrenderRIGHT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				46,
+				8
+			],
+			"anim": "GIBLITS",
+			"fps": 24,
+			"name": "surrenderGIBLETS",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfdimemes/headcanon two",
+	"position": [
+		0,
+		-25
+	],
+	"healthicon": "hc-tew",
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colors": [
+		254,
+		112,
+		112
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

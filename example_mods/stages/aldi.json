@@ -11,5 +11,13 @@
 
     "camera_boyfriend": [-200,-115],
 	"camera_opponent": [175,-40],
-	"camera_girlfriend": [225,0]
+	"camera_girlfriend": [225,0],
+    "images_to_cache": [
+    "backgrounds/aldi/AdamFuckingGetsRunOver",
+    "backgrounds/aldi/aldi",
+    "backgrounds/aldi/caryhuang",
+    "backgrounds/aldi/cobsandphone",
+    "backgrounds/aldi/micandtaco",
+    "backgrounds/aldi/walletcrashout"
+    ]
 }

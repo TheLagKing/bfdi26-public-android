@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				67,
+				5
+			],
+			"anim": "dance3",
+			"fps": 24,
+			"name": "3gs/3dance",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				68,
+				-185
+			],
+			"anim": "cryloop",
+			"fps": 24,
+			"name": "3gs/cry",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "3gs/stand",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				42,
+				4
+			],
+			"anim": "dance1",
+			"fps": 24,
+			"name": "3gs/1dance",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				14,
+				0
+			],
+			"anim": "dance2",
+			"fps": 24,
+			"name": "3gs/2dance",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/newfoundland/3gssoul",
+	"position": [
+		190,
+		520
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

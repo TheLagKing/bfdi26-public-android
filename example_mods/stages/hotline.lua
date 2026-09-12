@@ -98,22 +98,18 @@ initLuaShader("stars");
 end
 
 setScrollFactor('gfGroup',1,1)
+if not middlescroll then
 for i = 0, 3 do
 j = (i + 4)
 
 iPos = _G['defaultPlayerStrumX'..i];
 jPos = _G['defaultOpponentStrumX'..i];
-if alreadySwapped then
-iPos = _G['defaultOpponentStrumX'..i];
-jPos = _G['defaultPlayerStrumX'..i];
-end
+
 noteTweenX('note'..i..'TwnX', i, iPos, 1.35, 'elasticInOut');
 noteTweenX('note'..j..'TwnX', j, jPos, 1.35, 'elasticInOut');
-if middlescroll == true then
-noteTweenX('note'..i..'TwnX',j,iPos, 1.35, 'elasticInOut');
-noteTweenX('note'..j..'TwnX',i,jPos, 1.35, 'elasticInOut');
 end
 end
+
 end
 
 function onSectionHit()
@@ -156,6 +152,7 @@ elseif name == 'Trigger' and v1 == 'space' then
 triggerEvent('Screen Shake','27,0.001','27,0.00025')
 cameraFlash('camGame','000000',2)
 setProperty('bars.alpha',1)
+setProperty('bar2.alpha',1)
 setProperty('camFollow.x',1300)
 setProperty('camFollow.y',985)
 setProperty('isCameraOnForcedPos', true)
@@ -177,6 +174,7 @@ setProperty('gfGroup.y',getProperty('gf.y')+225)
 setProperty('isCameraOnForcedPos', false)
 cameraFlash('camGame','000000',2)
 setProperty('bars.alpha',0)
+setProperty('bar2.alpha',0)
 
 for i = 1,#spaceArray do
 setProperty(spaceArray[i]..'.visible',false)

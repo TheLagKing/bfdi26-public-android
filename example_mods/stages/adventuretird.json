@@ -11,5 +11,13 @@
 
     "camera_boyfriend": [-100,-40],
 	"camera_opponent": [50,-35],
-	"camera_girlfriend": [225,-100]
+	"camera_girlfriend": [225,-100],
+    "images_to_cache": [
+    "backgrounds/himsheys-TIRD/match walk up bop",
+    "backgrounds/himsheys-TIRD/match walk up",
+    "backgrounds/himsheys-TIRD/snowball bop",
+    "backgrounds/himsheys-TIRD/snowballs bank",
+    "backgrounds/himsheys/Play_button",
+    "backgrounds/himsheys-TIRD/title tird"
+    ]
 }

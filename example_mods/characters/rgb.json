@@ -1,0 +1,147 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Karla/idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				88,
+				12
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Karla/left"
+		},
+		{
+			"offsets": [
+				-30,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Karla/right"
+		},
+		{
+			"offsets": [
+				-27,
+				143
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Karla/up"
+		},
+		{
+			"offsets": [
+				5,
+				-35
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Karla/down"
+		},
+		{
+			"offsets": [
+				14,
+				-38
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "Karla/altdown"
+		},
+		{
+			"offsets": [
+				-27,
+				106
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "Karla/altup"
+		},
+		{
+			"offsets": [
+				59,
+				11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "Karla/altleft"
+		},
+		{
+			"offsets": [
+				0,
+				7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "Karla/altright"
+		},
+		{
+			"offsets": [
+				17,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "Karla/altidle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				116,
+				137
+			],
+			"anim": "talking",
+			"fps": 24,
+			"name": "Karla/talk",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/euthanized/red golfball sprites",
+	"position": [
+		0,
+		360
+	],
+	"healthicon": "karla",
+	"vslice_sustains": false,
+	"flip_x": false,
+	"healthbar_colors": [
+		139,
+		32,
+		57
+	],
+	"camera_position": [
+		280,
+		260
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

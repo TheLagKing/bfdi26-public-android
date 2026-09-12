@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				498,
+				-545
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "bobble idle"
+		},
+		{
+			"offsets": [
+				539,
+				-560
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "bobble down"
+		},
+		{
+			"offsets": [
+				565,
+				-490
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "bobble up"
+		},
+		{
+			"offsets": [
+				536,
+				-513
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "bobble left"
+		},
+		{
+			"offsets": [
+				504,
+				-542
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "bobble right"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/yoylecone/bobble assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "bobble",
+	"flip_x": false,
+	"healthbar_colors": [
+		89,
+		73,
+		19
+	],
+	"camera_position": [
+		330,
+		610
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

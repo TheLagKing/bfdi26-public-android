@@ -1,0 +1,127 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				272,
+				-20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "dankDELETEIDLE"
+		},
+		{
+			"offsets": [
+				374,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "dankDELETELEFT"
+		},
+		{
+			"offsets": [
+				76,
+				-45
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "dankDELETEDOWN"
+		},
+		{
+			"offsets": [
+				287,
+				56
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "dankDELETEUP"
+		},
+		{
+			"offsets": [
+				244,
+				198
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "dankDELETERIGHT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				252,
+				-20
+			],
+			"anim": "deleteSTART",
+			"fps": 24,
+			"name": "dankDELETE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				275,
+				13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deleteEND",
+			"indices": [],
+			"name": "dankDELETEEND"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				275,
+				13
+			],
+			"anim": "idle-eat",
+			"fps": 24,
+			"name": "dankDELETEEND",
+			"indices": [
+				89
+			]
+		},
+		{
+			"offsets": [
+				26,
+				-35
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "deleteMISS"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfdimemes/soulful four assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "soulful-four",
+	"vslice_sustains": true,
+	"flip_x": true,
+	"healthbar_colors": [
+		38,
+		172,
+		255
+	],
+	"camera_position": [
+		-200,
+		200
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

@@ -1,92 +1,92 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
-				56,
-				-7
+				38,
+				2
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "kid named down instance 1"
+			"fps": 24,
+			"name": "kid named down instance 1",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				10,
-				30
+				8,
+				37
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "kid named idle instance 1"
+			"fps": 24,
+			"name": "kid named idle instance 1",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				124,
-				30
+				125,
+				37
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "walking",
-			"loop": false,
-			"name": "kid named walking anim instance 1"
-		},
-		{
-			"offsets": [
-				-10,
-				30
-			],
-			"indices": [],
 			"fps": 24,
-			"anim": "syskillend",
-			"loop": false,
-			"name": "kid named syskill return instance 1"
+			"name": "kid named walking anim instance 1",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				-12,
+				37
+			],
+			"anim": "syskillend",
+			"fps": 24,
+			"name": "kid named syskill return instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				45,
-				27
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "syskill",
-			"loop": false,
-			"name": "kid named syskill instance 1"
-		},
-		{
-			"offsets": [
-				-37,
 				28
 			],
-			"indices": [],
+			"anim": "syskill",
 			"fps": 24,
-			"anim": "singRIGHT",
-			"loop": false,
-			"name": "kid named right instance 1"
+			"name": "kid named syskill instance 1",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				16,
+				49
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "kid named right instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				141,
-				94
+				102
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "kid named up instance 1"
+			"fps": 24,
+			"name": "kid named up instance 1",
+			"indices": []
 		},
 		{
-			"offsets": [
-				177,
-				23
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singLEFT",
 			"loop": false,
-			"name": "kid named left instance 1"
+			"offsets": [
+				163,
+				28
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "kid named left instance 1",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
@@ -97,6 +97,7 @@
 		230
 	],
 	"healthicon": "gain",
+	"vslice_sustains": false,
 	"flip_x": false,
 	"healthbar_colors": [
 		243,

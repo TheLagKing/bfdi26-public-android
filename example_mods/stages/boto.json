@@ -11,5 +11,8 @@
 
     "camera_boyfriend": [125,0],
 	"camera_opponent": [-225,10],
-	"camera_girlfriend": [225,0]
+	"camera_girlfriend": [225,0],
+    "images_to_cache": [
+    "backgrounds/new-friendly/botobackground"
+    ]
 }

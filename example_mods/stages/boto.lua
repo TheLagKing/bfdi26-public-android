@@ -2,6 +2,7 @@ function onCreate()
 setProperty('camZooming',true)
 setProperty('textmiss.alpha',1)
 setProperty('bars.alpha',1)
+setProperty('comboGroup.scale.x', 0.75) setProperty('comboGroup.scale.y', 0.75)
 
 makeLuaSprite('boto','backgrounds/new-friendly/botobackground',-150,100)
 addLuaSprite('boto')

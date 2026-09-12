@@ -1,0 +1,81 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				123,
+				13
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "uncomfyLEFT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				-20
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "uncomfyDOWN"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				73
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "uncomfyUP"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				12
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "uncomfyRIGHT"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "uncomfyIDLE"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfdimemes/headcanon two",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "hc-tew",
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colors": [
+		254,
+		112,
+		112
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -90,6 +90,15 @@ setProperty('sb.antialiasing',false)
 addLuaSprite('sb',false)
 end
 
+function onCreatePost()
+makeLuaSprite('endbg','backgrounds/himsheys-TIRD/itrdending',0,0)
+scaleObject('endbg',0.78,0.78)
+setObjectCamera('endbg','other')
+screenCenter('endbg','xy')
+addLuaSprite('endbg',true)
+setProperty('endbg.visible',false)
+end
+
 
 
 function onUpdatePost()
@@ -151,5 +160,7 @@ doTweenAlpha('logoshit4','f',0,2,'quadOut')
 doTweenAlpha('logoshit2','logos',0,1,'quadOut')
 elseif name == 'Trigger' and v1 == 'matchwalk' then
 addAnimationByPrefix('matchw', 'walk', 'match walk up instance 1',24,false)
+elseif name == 'Trigger' and v1 == 'endscreen' then
+setProperty('endbg.visible',true)
 end
 end

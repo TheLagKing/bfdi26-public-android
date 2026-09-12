@@ -1,0 +1,92 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-62,
+				76
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "P IDLE"
+		},
+		{
+			"offsets": [
+				-57,
+				61
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "P DOWN"
+		},
+		{
+			"offsets": [
+				-55,
+				134
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "P UP"
+		},
+		{
+			"offsets": [
+				-1,
+				75
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "P LEFT"
+		},
+		{
+			"offsets": [
+				-76,
+				77
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "P RIGHT"
+		},
+		{
+			"offsets": [
+				-66,
+				89
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "P MISS"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/right-finger/pin wrongy",
+	"position": [
+		20,
+		400
+	],
+	"healthicon": "pin",
+	"vslice_sustains": false,
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		24,
+		0
+	],
+	"camera_position": [
+		-100,
+		70
+	],
+	"sing_duration": 3,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

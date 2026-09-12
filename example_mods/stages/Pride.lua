@@ -13,6 +13,8 @@ setProperty(hudout..'.alpha',0)
 end
 end
 setProperty('bars.alpha',0)
+setProperty('bar1.alpha',0)
+setProperty('bar2.alpha',0)
 setBlendMode('strumbg','')
 
 for p= 4,7 do
@@ -155,7 +157,7 @@ end
 function onEvent(name,v1)
 if name == 'Trigger' and v1 == 'cutscene' then
 elseif name == 'Trigger' and v1 == 'hudcomein' then
-for _, hudout in ipairs({'uiGroup','textmiss','scoreTxt','hyper','textacc','bars'}) do
+for _, hudout in ipairs({'uiGroup','textmiss','scoreTxt','hyper','textacc','bars','bar1','bar2'}) do
 doTweenAlpha('comeback'..hudout..'',hudout,1,1,'quadOut')
 if getProperty('cpuControlled') == true then
 setProperty('botplayTxt.visible',true)

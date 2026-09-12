@@ -2,15 +2,6 @@ local start = false
 local focus = false
 local dbmove = nil
 local prankchange = 1
-local Cutscene = true
-
-function onStartCountdown()    
-    if Cutscene and yoylefakeStart then
-	runHaxeCode([[yoylefakes.delayAndStart();]])
-	runTimer('endvideo',30)
-    return Function_Stop;
-    end
-end
 
 function onSongStart()
 setProperty('bars.alpha',0)
@@ -34,17 +25,16 @@ function onCreate()
 makeLuaSprite('h', 'backgrounds/yoylefake/happy bg',-1000,-400)
 scaleObject('h',2,2)
 setScrollFactor('h',0.15,0.15)
-setProperty('h.alpha',1)
 addLuaSprite('h',false)
 
 makeLuaSprite('sky', 'backgrounds/yoylefake/sky whitescape',-400,50)
 setScrollFactor('sky',0.35,0.35)
-setProperty('sky.alpha',0.001)
+setProperty('sky.alpha',0.005)
 addLuaSprite('sky',false)
 
 makeLuaSprite('fy', 'backgrounds/yoylefake/ground whitescape',100,1100)
-setProperty('fy.alpha',0.001)
 addLuaSprite('fy',false)
+setProperty('fy.alpha',0.005)
 --bg 1
 makeLuaSprite('bg1sky', 'backgrounds/yoylefake/sky buh',500,770)
 setProperty('bg1sky.alpha',1)
@@ -91,46 +81,47 @@ setProperty('brc.alpha',1)
 
 makeLuaSprite('lava', 'backgrounds/yoylefake/lava sea',-350,450)
 setScrollFactor('lava',0.2,0.2)
-setProperty('lava.alpha',0.001)
+setProperty('lava.alpha',0.005)
 scaleObject('lava',1.1,1.1)
 addLuaSprite('lava',false)
 
 makeAnimatedLuaSprite('michael', 'backgrounds/yoylefake/nightmare island',175,75)
 setScrollFactor('michael',0.2,0.2)
 addAnimationByPrefix('michael', 'burn', 'Island instance 1',24,true)
-setProperty('michael.alpha',0.001)
+setProperty('michael.alpha',0.005)
 addLuaSprite('michael',false)
 
 makeAnimatedLuaSprite('fire3', 'backgrounds/yoylefake/fire',-425,90)
 addAnimationByPrefix('fire3', 'flames', 'fire',20,true)
 scaleObject('fire3',1.5,1.5)
 setScrollFactor('fire3',0.5,0.5)
-setProperty('fire3.alpha',0.001)
+setProperty('fire3.alpha',0.005)
 setProperty('fire3.visible',false)
 setBlendMode('fire3','add')
 addLuaSprite('fire3',false)
 
 makeLuaSprite('center', 'backgrounds/yoylefake/recovery',1000,100)
 setScrollFactor('center',0.6,0.6)
-setProperty('center.alpha',0.001)
+setProperty('center.alpha',0.005)
 addLuaSprite('center',false)
 
 makeLuaSprite('center2', 'backgrounds/yoylefake/recovery',1500,100)
 setScrollFactor('center2',0.59,0.59)
-setProperty('center2.alpha',0.001)
+setProperty('center2.alpha',0.005)
 addLuaSprite('center2',false)
 
 makeLuaSprite('red', '',125,1500)
 makeGraphic('red',1,1,'D40202')
 scaleObject('red',2850,270)
-setProperty('red.alpha',0.001)
+setBlendMode('red','hardlight')
+setProperty('red.alpha',0.005)
 addLuaSprite('red',false)
 
 makeLuaSprite('white', '',125,1500)
 makeGraphic('white',1,1,'FF0000')
 scaleObject('white',2850,270)
 setBlendMode('white','add')
-setProperty('white.alpha',0.001)
+setProperty('white.alpha',0.005)
 addLuaSprite('white',false)
 
 makeLuaSprite('table', 'backgrounds/yoylefake/table',1250,1400)
@@ -141,30 +132,30 @@ addLuaSprite('table',false)
 makeLuaSprite('tvf','',425, 250)
 setScrollFactor('tvf',0.75,0.75)
 makeGraphic('tvf',1,1,'000000')
-setProperty('tvf.alpha',0.001)
+setProperty('tvf.alpha',0.005)
 scaleObject('tvf',1850,1200)
 addLuaSprite('tvf',false)
 
 makeLuaSprite('frame','backgrounds/yoylefake/pranks0001',380, 300)
 setScrollFactor('frame',0.75,0.75)
-setProperty('frame.alpha',0.001)
+setProperty('frame.alpha',0.005)
 addLuaSprite('frame',false)
 
 makeLuaSprite('tv','backgrounds/yoylefake/tv frame',350,250)
 setScrollFactor('tv',0.75,0.75)
-setProperty('tv.alpha',0.001)
+setProperty('tv.alpha',0.005)
 addLuaSprite('tv',false)
 
 makeLuaSprite('platform', 'backgrounds/yoylefake/platform',810,1615)
-setProperty('platform.alpha',0.001)
+setProperty('platform.alpha',0.005)
 addLuaSprite('platform',false)
 
 makeLuaSprite('platform2', 'backgrounds/yoylefake/platform',1910,1615)
-setProperty('platform2.alpha',0.001)
+setProperty('platform2.alpha',0.005)
 addLuaSprite('platform2',false)
 
 makeLuaSprite('center3', 'backgrounds/yoylefake/recovery',500,-500)
-setProperty('center3.alpha',0.001)
+setProperty('center3.alpha',0.005)
 scaleObject('center3',1.5,1.5)
 addLuaSprite('center3',true)
 
@@ -172,7 +163,7 @@ makeAnimatedLuaSprite('fire', 'backgrounds/yoylefake/fire',-225,690)
 addAnimationByPrefix('fire', 'flames', 'fire',16,true)
 scaleObject('fire',1.5,1.5)
 setScrollFactor('fire',0.75,0.75)
-setProperty('fire.alpha',0.001)
+setProperty('fire.alpha',0.005)
 setProperty('fire.visible',false)
 setBlendMode('fire','add')
 addLuaSprite('fire',true)
@@ -256,17 +247,6 @@ doTweenAlpha('imthealpha','fire',0.55+0.15*math.sin((songPos/3000) * (bpm/30) *1
 doTweenAlpha('imthealpha2','fire3',0.65+0.25*math.sin((songPos/4000) * (bpm/60) *1),0.01)
 end
 
-if shadersEnabled then
-setShaderFloat('h','iTime',os.clock())
-setShaderFloat('sky','iTime',os.clock())
-end
-
-if start == true then
-noteTweenX("NoteMove",0,795, 0.001)
-noteTweenX("NoteMovebb",1,1015, 0.001)
-noteTweenX("NoteMovebbb",2,1240, 0.001)
-noteTweenX("NoteMovebbbb",3,1450, 0.001)
-end
 if dbmove == 0 then
 setProperty('dad.x',2000)
 setProperty('dad.y',950)
@@ -282,17 +262,23 @@ triggerEvent('Alt Idle Animation','dad','-right')
 elseif dbmove == 3 then
 dbmove = 0
 end
+
+if shadersEnabled then
+setShaderFloat('h','iTime',os.clock())
+setShaderFloat('sky','iTime',os.clock())
+end
+
 end
 
 function onEvent(name,v1,v2)
 if name == 'Trigger' and v1 == 'yoylefake' then
 start = true
 focus = true
-doTweenY('recoveryy','center',getRandomInt(1500,2000),getRandomInt(2,5),'quadIn')
+doTweenY('recoveryy','center',getRandomInt(1500,2400),getRandomInt(2,5),'quadIn')
 doTweenAngle('recoveryy2','center',getRandomInt(360,1080),getRandomInt(5,10),'cubeInOut')
-doTweenY('recoveryy4','center2',getRandomInt(1500,2000),getRandomInt(2,5),'quadIn')
+doTweenY('recoveryy4','center2',getRandomInt(1500,2400),getRandomInt(2,5),'quadIn')
 doTweenAngle('recoveryy5','center2',getRandomInt(360,1080),getRandomInt(5,10),'cubeInOut')
-doTweenY('recoveryy6','center3',getRandomInt(1500,2000),getRandomInt(2,5),'quadIn')
+doTweenY('recoveryy6','center3',getRandomInt(1500,2400),getRandomInt(2,5),'quadIn')
 doTweenAngle('recoveryy7','center3',getRandomInt(360,1080),getRandomInt(5,10),'cubeInOut')
 elseif name == 'Trigger' and v1 == 'oldback' then
 focus = false
@@ -386,11 +372,6 @@ function onTimerCompleted(name)
 if name == 'changestuff' then
 runTimer('changestuff',3)
 doTweenAlpha('dbdiefornow','dad',0,0.5,'quadOut')
-elseif name == 'endvideo' then
-runHaxeCode([[yoylefakes.destroy();]])
-Cutscene = false
-startCountdown()
-return Function_Continue;
 elseif name == 'swappranks' then
 prankchange = getRandomInt(1,4,prankchange)
 loadGraphic('frame','backgrounds/yoylefake/pranks000'..prankchange)

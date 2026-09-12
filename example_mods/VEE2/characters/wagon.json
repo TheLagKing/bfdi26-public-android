@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				3,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "wagon idle instance 1"
+		},
+		{
+			"offsets": [
+				123,
+				-53
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "wagon left"
+		},
+		{
+			"offsets": [
+				38,
+				-120
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "wagon down"
+		},
+		{
+			"offsets": [
+				-19,
+				296
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-81,
+				-133
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "wagon right"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/BOZO BRAIN/wagon spriteshit",
+	"position": [
+		0,
+		160
+	],
+	"healthicon": "wagon",
+	"flip_x": false,
+	"healthbar_colors": [
+		182,
+		137,
+		89
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

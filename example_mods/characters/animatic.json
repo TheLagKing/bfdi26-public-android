@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				101,
-				374
+				102,
+				372
 			],
 			"loop": false,
 			"fps": 24,
@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				185,
-				763
+				183,
+				525
 			],
 			"loop": false,
 			"fps": 24,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				-57,
-				431
+				90,
+				353
 			],
 			"loop": false,
 			"fps": 24,
@@ -35,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				449,
-				408
+				380,
+				382
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				56,
-				430
+				102,
+				373
 			],
 			"loop": false,
 			"fps": 24,
@@ -56,129 +56,125 @@
 			"name": "idle"
 		},
 		{
-			"offsets": [
-				313,
-				544
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				515,
+				482
+			],
 			"anim": "start",
-			"indices": [],
-			"name": "blud spawn instance 1"
-		},
-		{
-			"offsets": [
-				149,
-				472
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "fellaform",
-			"indices": [],
-			"name": "small blud instance 1"
+			"name": "entrance0",
+			"indices": []
 		},
 		{
+			"loop": true,
 			"offsets": [
-				105,
-				428
+				25,
+				384
 			],
-			"loop": false,
+			"anim": "idle-alt",
 			"fps": 24,
-			"anim": "fellaformundo",
-			"indices": [],
-			"name": "small blud go back instance 1"
+			"name": "backingaway0",
+			"indices": []
 		},
 		{
 			"offsets": [
-				54,
-				157
+				145,
+				399
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN-alt",
 			"indices": [],
-			"name": "small bludD instance 1"
+			"name": "refdown0"
 		},
 		{
 			"offsets": [
-				115,
-				207
+				221,
+				584
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singUP-alt",
 			"indices": [],
-			"name": "small bludU instance 1"
+			"name": "refup0"
 		},
 		{
 			"offsets": [
-				272,
-				152
+				299,
+				374
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT-alt",
 			"indices": [],
-			"name": "small bludL instance 1"
+			"name": "refleft0"
 		},
 		{
 			"offsets": [
-				-5,
-				144
+				103,
+				374
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT-alt",
 			"indices": [],
-			"name": "small bludR instance 1"
+			"name": "refright0"
 		},
 		{
 			"loop": false,
 			"offsets": [
-				116,
-				206
+				130,
+				370
 			],
-			"anim": "danceLeft-alt",
+			"anim": "singDOWN-new",
 			"fps": 24,
-			"name": "blud idle instance 1",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6
-			]
+			"name": "newdown0",
+			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				101,
-				209
+				100,
+				564
 			],
-			"anim": "danceRight-alt",
+			"anim": "singUP-new",
 			"fps": 24,
-			"name": "blud idle instance 1",
-			"indices": [
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13
-			]
+			"name": "newup0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				304,
+				389
+			],
+			"anim": "singLEFT-new",
+			"fps": 24,
+			"name": "newleft0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				102,
+				425
+			],
+			"anim": "singRIGHT-new",
+			"fps": 24,
+			"name": "newright0",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
-	"image": "characters/funny-fellow/animaticsprites",
+	"image": "characters/funny-fellow/animaticspriteslol",
 	"position": [
 		190,
 		610
 	],
 	"healthicon": "animatic",
+	"vslice_sustains": false,
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
@@ -189,7 +185,7 @@
 		-60,
 		-450
 	],
-	"sing_duration": 6,
-	"scale": 1.2,
+	"sing_duration": 5.99999999999999,
+	"scale": 0.9,
 	"_editor_isPlayer": false
 }

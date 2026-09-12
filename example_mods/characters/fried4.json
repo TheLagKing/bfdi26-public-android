@@ -1,0 +1,138 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				52,
+				58
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "friedIDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				143,
+				47
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "friedLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				89,
+				218
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "friedUP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				53,
+				19
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "friedDOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				114,
+				11
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "friedRIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				22,
+				0
+			],
+			"anim": "reaction",
+			"fps": 24,
+			"name": "friedREACTION",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				236
+			],
+			"anim": "sigma",
+			"fps": 24,
+			"name": "friedSIGMA",
+			"indices": []
+		},
+		{
+			"offsets": [
+				85,
+				81
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "boys",
+			"indices": [],
+			"name": "friedBOYS"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				84,
+				82
+			],
+			"anim": "idle-chungus",
+			"fps": 24,
+			"name": "friedBOYS",
+			"indices": [
+				253
+			]
+		},
+		{
+			"offsets": [
+				-2,
+				-20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "friedMISS"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfdimemes/soulful four assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "soulful-four",
+	"vslice_sustains": true,
+	"flip_x": true,
+	"healthbar_colors": [
+		38,
+		172,
+		255
+	],
+	"camera_position": [
+		-200,
+		200
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

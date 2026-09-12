@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "uIDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				146,
+				47
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "uLEFT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				8,
+				-31
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "uDOWN"
+		},
+		{
+			"offsets": [
+				-7,
+				181
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "uUP"
+		},
+		{
+			"offsets": [
+				2,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "uRIGHT"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/track26/usery osoing spritearoo",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "usery",
+	"flip_x": false,
+	"healthbar_colors": [
+		101,
+		118,
+		134
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 3.9,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

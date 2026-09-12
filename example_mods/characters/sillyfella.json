@@ -1,0 +1,188 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				26
+			],
+			"anim": "trans",
+			"fps": 24,
+			"name": "backtofunnyfellow",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				219
+			],
+			"anim": "transform",
+			"fps": 24,
+			"name": "transform",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-32,
+				-303
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"name": "sillyidle0"
+		},
+		{
+			"offsets": [
+				-36,
+				-304
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			],
+			"name": "sillyidle0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				-321
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "sillydown0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-33,
+				-267
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "sillyup0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				12,
+				-307
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "sillyleft0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				-306
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "sillyright0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-32,
+				-190
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "sillyaltup"
+		},
+		{
+			"offsets": [
+				-4,
+				-321
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "sillyaltdown"
+		},
+		{
+			"offsets": [
+				152,
+				-298
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "sillyaltleft"
+		},
+		{
+			"offsets": [
+				-33,
+				-296
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "sillyaltright"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/funny-fellow/sillyfellalol",
+	"position": [
+		120,
+		250
+	],
+	"healthicon": "animatic",
+	"vslice_sustains": false,
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-60,
+		75
+	],
+	"sing_duration": 6,
+	"scale": 0.9,
+	"_editor_isPlayer": false
+}

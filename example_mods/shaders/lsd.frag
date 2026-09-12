@@ -1,5 +1,4 @@
 #pragma header
-
 uniform float iTime;
 #define iChannel0 bitmap
 #define iChannel1 bitmap
@@ -27,8 +26,8 @@ vec4 colorWheel(in vec2 pos)
 
 void mainImage()
 {
-vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
-vec2 iResolution = openfl_TextureSize;
+    vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
+    vec2 iResolution = openfl_TextureSize;
     const float speed = 1.;
     float time = speed * iTime + 100.;
     

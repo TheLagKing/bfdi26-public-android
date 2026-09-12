@@ -11,5 +11,22 @@
 
     "camera_boyfriend": [0,-65],
 	"camera_opponent": [125,-45],
-	"camera_girlfriend": [285,-150]
+	"camera_girlfriend": [285,-150],
+    "images_to_cache": [
+	"backgrounds/hey-two/four/backgroundgroundbfbps",
+	"backgrounds/hey-two/four/groundbfbps",
+	"backgrounds/hey-two/four/skyboxbfbps",
+	"backgrounds/hey-two/four/bgset/bgsetballoony",
+	"backgrounds/hey-two/four/bgset/bgsetblocky",
+	"backgrounds/hey-two/four/bgset/bgsetfirey",
+	"backgrounds/hey-two/four/bgset/bgsetflower",
+	"backgrounds/hey-two/four/bgset/bgsetgel",
+	"backgrounds/hey-two/four/bgset/bgsetleafy",
+	"backgrounds/hey-two/four/bgset/bgsetlollipop",
+	"backgrounds/hey-two/four/bgset/bgsetloser",
+	"backgrounds/hey-two/four/bgset/bgsetruble",
+	"backgrounds/hey-two/four/bgset/bgsetspongy",
+	"backgrounds/hey-two/four/bgset/bgsettd",
+	"backgrounds/hey-two/four/bgset/bgsetwoodytaco"
+    ]
 }

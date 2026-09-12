@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="blue baby and bubs cute.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="baby n bubs instance 10000" x="5" y="5" width="788" height="534" frameX="0" frameY="-2" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10001" x="5" y="5" width="788" height="534" frameX="0" frameY="-2" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10002" x="5" y="5" width="788" height="534" frameX="0" frameY="-2" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10003" x="5" y="5" width="788" height="534" frameX="0" frameY="-2" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10004" x="5" y="5" width="788" height="534" frameX="0" frameY="-2" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10005" x="5" y="5" width="788" height="534" frameX="0" frameY="-2" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10006" x="5" y="5" width="788" height="534" frameX="0" frameY="-2" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10007" x="5" y="5" width="788" height="534" frameX="0" frameY="-2" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10008" x="5" y="5" width="788" height="534" frameX="0" frameY="-2" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10009" x="5" y="5" width="788" height="534" frameX="0" frameY="-2" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10010" x="798" y="5" width="778" height="535" frameX="-7" frameY="0" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10011" x="798" y="5" width="778" height="535" frameX="-7" frameY="0" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10012" x="798" y="5" width="778" height="535" frameX="-7" frameY="0" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10013" x="798" y="5" width="778" height="535" frameX="-7" frameY="0" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10014" x="798" y="5" width="778" height="535" frameX="-7" frameY="0" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10015" x="798" y="5" width="778" height="535" frameX="-7" frameY="0" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10016" x="798" y="5" width="778" height="535" frameX="-7" frameY="0" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10017" x="798" y="5" width="778" height="535" frameX="-7" frameY="0" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10018" x="798" y="5" width="778" height="535" frameX="-7" frameY="0" frameWidth="788" frameHeight="536"/>
+	<SubTexture name="baby n bubs instance 10019" x="798" y="5" width="778" height="535" frameX="-7" frameY="0" frameWidth="788" frameHeight="536"/>
+</TextureAtlas>

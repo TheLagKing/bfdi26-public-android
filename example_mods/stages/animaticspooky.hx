@@ -1,11 +1,14 @@
 var bg, shoe, disk, dead, killStuff, titleCard, screen:FlxSprite;
 var flashing:Bool = false;
 var xOrigin:Float = 0;
-var shader = game.createRuntimeShader("RGB_PIN_SPLIT");
+var shader = game.createRuntimeShader("glitch");
+var shader2 = game.createRuntimeShader("RGB_PIN_SPLIT");
 
 function onCreatePost()
 {
-    game.camGame.filters = ([new ShaderFilter(shader)]);
+    game.camGame.filters = ([new ShaderFilter(shader), (new ShaderFilter(shader2))]);
+    game.camHUD.filters = ([new ShaderFilter(shader)]);
+	game.camHUD.filtersEnabled = false;
 
 	for (a in ['evilbg', 'killframe1', 'killframe2', 'killframe3', 'killframe4', 'funnyfellowspooky']) Paths.image('backgrounds/funnyfellow/spooky/' + a);
 
@@ -113,13 +116,14 @@ function onBeatHit()
 			case 267:
 				flashing = true;
 				killStuff.visible = true;
+				game.camHUD.filtersEnabled = true;
 			case 268:
 				dad.idleSuffix = '-alt';
 				bg.loadGraphic(Paths.image('backgrounds/funnyfellow/spooky/evilbg'));
 				flashing = false;
 				killStuff.kill();
 				screen.alpha = 1;
-				shader.setFloat("amount", 0.02);
+				shader2.setFloat("amount", 0.02);
 			case 332: camGame.visible = false;
 		}
 	}
@@ -152,6 +156,21 @@ function onEvent(ev,v1,v2)
 		iconP1.changeIcon(boyfriend.healthIcon);
 		healthBar.setColors(FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]),
 		FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]));
+	}
+
+	if (ev == '' && v1 == 'shaderTweenin') 
+	{
+	FlxTween.num(0.5, 0, v2, {ease: FlxEase.quadOut}, f -> shader.setFloat("amount", f));
+	}
+
+	if (ev == '' && v1 == 'shaderTweenout') 
+	{
+	FlxTween.num(0, 0, v2, {ease: FlxEase.cubeOut}, f -> shader.setFloat("amount", f));
+	}
+
+	if (ev == '' && v1 == 'shaderSet') 
+	{
+	shader.setFloat("amount", v2);
 	}
 }
 

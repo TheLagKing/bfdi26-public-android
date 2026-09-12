@@ -1,0 +1,125 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-18,
+				125
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "C IDLE"
+		},
+		{
+			"offsets": [
+				94,
+				123
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "C LEFT 2"
+		},
+		{
+			"offsets": [
+				-33,
+				128
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "C RIGHT 2"
+		},
+		{
+			"offsets": [
+				-27,
+				108
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "C DOWN 2"
+		},
+		{
+			"offsets": [
+				-2,
+				170
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "C UP 2"
+		},
+		{
+			"offsets": [
+				-33,
+				229
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "C UP 3"
+		},
+		{
+			"offsets": [
+				85,
+				118
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "C LEFT 3"
+		},
+		{
+			"offsets": [
+				-40,
+				122
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "C RIGHT 3"
+		},
+		{
+			"offsets": [
+				-7,
+				100
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "C DOWN 3"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/right-finger/coiny wrongy the second",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "coine",
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colors": [
+		236,
+		159,
+		1
+	],
+	"camera_position": [
+		-50,
+		-40
+	],
+	"sing_duration": 3,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

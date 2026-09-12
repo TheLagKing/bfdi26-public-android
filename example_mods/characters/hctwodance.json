@@ -1,0 +1,37 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "dance",
+			"fps": 24,
+			"name": "kill me now",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfdimemes/dancey pants",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "hc-tew",
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colors": [
+		254,
+		112,
+		112
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

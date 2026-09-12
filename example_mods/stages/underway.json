@@ -11,5 +11,22 @@
 
     "camera_boyfriend": [250,40],
 	"camera_opponent": [100,-45],
-	"camera_girlfriend": [225,0]
+	"camera_girlfriend": [225,0],
+    "images_to_cache": [
+    "backgrounds/underway/thenightlybackground1",
+    "backgrounds/underway/thenightlybackground2",
+    "backgrounds/underway/bluething",
+    "backgrounds/underway/wire/Back",
+    "backgrounds/underway/wire/binary",
+    "backgrounds/underway/wire/binary2",
+    "backgrounds/underway/wire/Floor",
+    "backgrounds/underway/wire/foregroundwireframe",
+    "backgrounds/underway/wire/Furnace",
+    "backgrounds/underway/wire/Lighten",
+    "backgrounds/underway/wire/Multiply",
+    "backgrounds/underway/wire/Smoke",
+    "backgrounds/underway/wire/Subtract",
+    "backgrounds/underway/wire/Table",
+    "backgrounds/underway/wire/Walls"
+    ]
 }

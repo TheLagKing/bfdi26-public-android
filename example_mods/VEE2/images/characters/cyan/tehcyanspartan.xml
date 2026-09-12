@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="tehcyanspartan.png">
+<SubTexture name="idle0000" x="1727" y="563" width="657" height="552" frameX="-88" frameY="-41" frameWidth="806" frameHeight="602" />
+<SubTexture name="idle0001" x="1727" y="563" width="657" height="552" frameX="-88" frameY="-41" frameWidth="806" frameHeight="602" />
+<SubTexture name="blink0000" x="0" y="1733" width="645" height="547" frameX="-84" frameY="-52" frameWidth="806" frameHeight="602" />
+<SubTexture name="blink0001" x="697" y="1179" width="657" height="552" frameX="-88" frameY="-41" frameWidth="806" frameHeight="602" />
+<SubTexture name="left0000" x="650" y="0" width="530" height="582" frameX="-39" frameY="-18" frameWidth="806" frameHeight="602" />
+<SubTexture name="left0001" x="1180" y="0" width="547" height="571" frameX="0" frameY="-29" frameWidth="806" frameHeight="602" />
+<SubTexture name="down0000" x="0" y="604" width="684" height="575" frameX="-65" frameY="-31" frameWidth="806" frameHeight="602" />
+<SubTexture name="down0001" x="0" y="1179" width="697" height="554" frameX="-83" frameY="-51" frameWidth="806" frameHeight="602" />
+<SubTexture name="up0000" x="0" y="0" width="650" height="604" frameX="-98" frameY="0" frameWidth="806" frameHeight="602" />
+<SubTexture name="up0001" x="645" y="1733" width="632" height="542" frameX="-99" frameY="-64" frameWidth="806" frameHeight="602" />
+<SubTexture name="right0000" x="1354" y="1179" width="693" height="552" frameX="-117" frameY="-44" frameWidth="806" frameHeight="602" />
+<SubTexture name="right0001" x="1727" y="0" width="671" height="563" frameX="-139" frameY="-41" frameWidth="806" frameHeight="602" />
+</TextureAtlas>

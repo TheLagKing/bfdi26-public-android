@@ -10,5 +10,11 @@
 
 	"camera_boyfriend": [-150,0],
 	"camera_opponent": [205,75],
-	"camera_girlfriend": [-450,-100]
+	"camera_girlfriend": [-450,-100],
+    "images_to_cache": [
+    "backgrounds/funnyfellow/spooky/deadchud",
+    "backgrounds/funnyfellow/spooky/diskandpop",
+    "backgrounds/funnyfellow/spooky/evilbg",
+    "backgrounds/funnyfellow/spooky/funnyfellowspookybg"
+    ]
 }

@@ -1,0 +1,72 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				151,
+				97
+			],
+			"indices": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "pSINGING"
+		},
+		{
+			"offsets": [
+				55,
+				28
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "line2",
+			"loop": false,
+			"name": "pFRIENDS"
+		},
+		{
+			"offsets": [
+				-11,
+				161
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "line3",
+			"loop": false,
+			"name": "pYAY"
+		},
+		{
+			"offsets": [
+				150,
+				97
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "line1",
+			"loop": false,
+			"name": "pSINGING"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/track26/profily lines cutest",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "profily",
+	"flip_x": true,
+	"healthbar_colors": [
+		58,
+		102,
+		208
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 3.9,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

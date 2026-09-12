@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-95,
+				-3
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "pIDLE alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				46
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "pLEFT alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-82,
+				58
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "pDOWN alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-91,
+				77
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "pUP alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-136,
+				-10
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "pRIGHT alt",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-83,
+				24
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "pMISS"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/track26/profily cute sprites",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "profily",
+	"flip_x": true,
+	"healthbar_colors": [
+		58,
+		102,
+		208
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4.1,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

@@ -9,5 +9,25 @@
 
     "camera_boyfriend": [-200,-100],
 	"camera_opponent": [200,-25],
-	"camera_girlfriend": [0,-110]
+	"camera_girlfriend": [0,-110],
+	"images_to_cache": [
+    "backgrounds/invitational/Backgroundy",
+    "backgrounds/invitational/Foregroundy 1",
+    "backgrounds/invitational/Foregroundy 2",
+    "backgrounds/invitational/Mountainy",
+    "backgrounds/invitational/Skyy",
+    "backgrounds/invitational/Sunny",
+    "backgrounds/invitational/teams/BTeam Balloon",
+    "backgrounds/invitational/teams/BTeam Blueberry",
+    "backgrounds/invitational/teams/BTeam Box",
+    "backgrounds/invitational/teams/BTeam Kettle",
+    "backgrounds/invitational/teams/BTeam Lifering",
+    "backgrounds/invitational/teams/BTeam Nickel",
+    "backgrounds/invitational/teams/PTeam Bow",
+    "backgrounds/invitational/teams/PTeam Cabby",
+    "backgrounds/invitational/teams/PTeam Clover",
+    "backgrounds/invitational/teams/PTeam Fan",
+    "backgrounds/invitational/teams/PTeam Goo",
+    "backgrounds/invitational/teams/PTeam Tube"
+    ]
 }

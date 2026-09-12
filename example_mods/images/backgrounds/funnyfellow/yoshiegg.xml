@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="yoshiegg.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Symbol 5 instance 10000" x="3" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10001" x="3" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10002" x="209" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10003" x="209" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10004" x="415" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10005" x="415" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10006" x="621" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10007" x="621" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10008" x="827" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10009" x="827" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10010" x="827" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10011" x="827" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10012" x="827" y="3" width="196" height="275"/>
+	<SubTexture name="Symbol 5 instance 10013" x="827" y="3" width="196" height="275"/>
+</TextureAtlas>

@@ -15,7 +15,7 @@
 			"loop": false,
 			"offsets": [
 				-14,
-				-98
+				-106
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -49,10 +49,10 @@
 				-10,
 				-110
 			],
-			"indices": [],
+			"loop": true,
 			"fps": 24,
 			"anim": "idle",
-			"loop": true,
+			"indices": [],
 			"name": "idle"
 		}
 	],
@@ -64,6 +64,7 @@
 		400
 	],
 	"healthicon": "bf",
+	"vslice_sustains": false,
 	"flip_x": true,
 	"healthbar_colors": [
 		222,

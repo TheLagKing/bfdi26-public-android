@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bombeyepatch.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Symbol 7 instance 10000" x="3" y="3" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10001" x="3" y="3" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10002" x="1245" y="3" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10003" x="1245" y="3" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10004" x="2487" y="3" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10005" x="3" y="735" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10006" x="1245" y="735" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10007" x="1245" y="735" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10008" x="2487" y="735" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10009" x="2487" y="735" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10010" x="3" y="1467" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10011" x="3" y="1467" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10012" x="1245" y="1467" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10013" x="1245" y="1467" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10014" x="2487" y="1467" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10015" x="3" y="2199" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10016" x="1245" y="2199" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10017" x="1245" y="2199" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10018" x="2487" y="2199" width="1232" height="722"/>
+	<SubTexture name="Symbol 7 instance 10019" x="2487" y="2199" width="1232" height="722"/>
+</TextureAtlas>

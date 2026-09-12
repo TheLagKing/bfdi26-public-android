@@ -9,5 +9,15 @@
 
     "camera_boyfriend": [50,100],
 	"camera_opponent": [100,-50],
-	"camera_girlfriend": [0,-250]
+	"camera_girlfriend": [0,-250],
+	"images_to_cache": [
+    "backgrounds/invitational/dd/book won bfdia23",
+    "backgrounds/invitational/dd/kinfe",
+    "backgrounds/invitational/dd/nickel not nick le",
+    "backgrounds/invitational/dd/Remaster Elim Area",
+    "backgrounds/invitational/dd/Remaster Ground",
+    "backgrounds/invitational/dd/Remaster Sky",
+    "backgrounds/invitational/dd/spotlight",
+    "backgrounds/invitational/dd/taco cute"
+    ]
 }

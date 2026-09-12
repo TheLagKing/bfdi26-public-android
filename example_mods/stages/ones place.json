@@ -11,5 +11,24 @@
 
     "camera_boyfriend": [-120,0],
 	"camera_opponent": [150,95],
-	"camera_girlfriend": [605,315]
+	"camera_girlfriend": [605,315],
+    "images_to_cache": [
+    "backgrounds/dotted-line/1/star",
+    "backgrounds/dotted-line/1/swirl FUCK",
+    "backgrounds/dotted-line/2/background",
+    "backgrounds/dotted-line/2/fucking chair",
+    "backgrounds/dotted-line/2/magicstar",
+    "backgrounds/dotted-line/2/plant pot",
+    "backgrounds/dotted-line/2/sky animated",
+    "backgrounds/dotted-line/2/sprite overlay use add blending mode too",
+    "backgrounds/dotted-line/2/water animated",
+    "backgrounds/dotted-line/3/bush front",
+    "backgrounds/dotted-line/3/ground behind",
+    "backgrounds/dotted-line/3/ground",
+    "backgrounds/dotted-line/3/sky basketball gradient",
+    "backgrounds/dotted-line/3/sky waste of space",
+    "backgrounds/dotted-line/3/tree back 1",
+    "backgrounds/dotted-line/3/tree back 2",
+    "backgrounds/dotted-line/3/tree back 3"
+    ]
 }

@@ -2,7 +2,7 @@ var lastNote = 0;
 
 function goodNoteHit(n) 
 {
-    if (n.isSustainNote || boyfriend.curCharacter == 'tophat2' || boyfriend.curCharacter == 'bass3') return;
+    if (n.isSustainNote) return;
     
     if (lastNote == n.strumTime)
     {
@@ -15,7 +15,7 @@ function goodNoteHit(n)
 var lastNoteOp = 0;
 function opponentNoteHit(n) 
 {
-    if (n.isSustainNote || dad.curCharacter == 'mephonedearest2') return;
+    if (n.isSustainNote) return;
 
     if (lastNoteOp == n.strumTime) makeGhost(dad);
     else lastNoteOp = n.strumTime;
@@ -46,7 +46,8 @@ function makeGhost(char:Character)
         remove(trail, true);
     };
     
-    trail.animation.frameName = char.animation.frameName;
+    trail.skipDance = true;
+    trail.animPaused = true;
     trail.offset.x = char.offset.x;
     trail.offset.y = char.offset.y;
 }

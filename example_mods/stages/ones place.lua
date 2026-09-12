@@ -41,7 +41,7 @@ scaleObject('skyb',0.8,0.8)
 setProperty('skyb.alpha',0)
 addLuaSprite('skyb',false)
 
-makeLuaSprite('grad', 'backgrounds/dotted-line/3/sky basketball gradient',-275,-85)
+makeLuaSprite('grad', 'backgrounds/dotted-line/3/sky basketball gradient',-275,-90)
 setProperty('grad.alpha',0)
 addLuaSprite('grad',false)
 setBlendMode('grad','multiply')

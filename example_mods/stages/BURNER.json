@@ -11,5 +11,13 @@
 
 	"camera_boyfriend": [-425,70],
 	"camera_opponent": [425,32.5],
-	"camera_girlfriend": [625,0]
+	"camera_girlfriend": [625,0],
+	"images_to_cache": [
+    "backgrounds/evil-song/bg hole",
+    "backgrounds/evil-song/daddy",
+    "backgrounds/evil-song/dirty wirty",
+    "backgrounds/evil-song/evilbackground",
+    "backgrounds/evil-song/peanut sheet",
+    "backgrounds/evil-song/spraypaint sheet"
+	]
 }

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fireyending.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Symbol 3 instance 10000" x="3" y="3" width="499" height="467"/>
+	<SubTexture name="Symbol 3 instance 10001" x="3" y="3" width="499" height="467"/>
+	<SubTexture name="Symbol 3 instance 10002" x="512" y="3" width="499" height="467"/>
+	<SubTexture name="Symbol 3 instance 10003" x="512" y="3" width="499" height="467"/>
+	<SubTexture name="Symbol 3 instance 10004" x="1021" y="3" width="499" height="467"/>
+	<SubTexture name="Symbol 3 instance 10005" x="1021" y="3" width="499" height="467"/>
+</TextureAtlas>

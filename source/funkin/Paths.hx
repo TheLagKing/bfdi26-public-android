@@ -200,7 +200,7 @@ class Paths
 
 	inline static public function voices(song:String, postfix:String = null):Any
 	{
-		var songKey:String = '${formatToSongPath(song)}/Voices';
+		var songKey:String = '${formatToSongPath(song)}/song/Voices';
 		if(postfix != null) songKey += '-' + postfix;
 		//trace('songKey test: $songKey');
 		var voices = returnSound(null, songKey, 'songs');
@@ -209,7 +209,7 @@ class Paths
 
 	inline static public function inst(song:String):Any
 	{
-		var songKey:String = '${formatToSongPath(song)}/Inst';
+		var songKey:String = '${formatToSongPath(song)}/song/Inst';
 		var inst = returnSound(null, songKey, 'songs');
 		return inst;
 	}
@@ -477,7 +477,7 @@ class Paths
 	}
 
 	inline static public function modsJson(key:String) {
-		return modFolders('songs/' + key + '.json');
+		return modFolders('songs/$key/charts/$key.json');
 	}
 
 	inline static public function modsVideo(key:String) {

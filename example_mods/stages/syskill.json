@@ -10,5 +10,12 @@
 
     "camera_boyfriend": [-75,-30],
 	"camera_opponent": [150,-25],
-	"camera_girlfriend": [200,-100]
+	"camera_girlfriend": [200,-100],
+    "images_to_cache": [
+    "backgrounds/syskill/Syskill1",
+    "backgrounds/syskill/Syskill2",
+    "backgrounds/syskill/Syskill3",
+    "backgrounds/syskill/syskillgradient",
+    "backgrounds/syskill/thanosbasicskybox"
+    ]
 }

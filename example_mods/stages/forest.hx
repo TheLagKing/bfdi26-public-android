@@ -29,8 +29,9 @@ function onCreate()
 {
     FlxG.camera.bgColor = FlxColor.BLACK;
     FlxG.camera.antialiasing = ClientPrefs.data.antialiasing;
-    
-    game.camGame.filters = game.camHUD.filters = [new ShaderFilter(shader)];
+
+    game.camGame.filters = [new ShaderFilter(shader)];
+    game.camHUD.filters  = [new ShaderFilter(shader)];
 
     red.setFloat('pix', 0.00001);
 
@@ -39,7 +40,6 @@ function onCreate()
     Paths.image('backgrounds/whos-there/leafy');
     
     game.addCharacterToList('runhat',0);
-    game.addCharacterToList('canbf',0);
     game.addCharacterToList('canbf',0);
     game.addCharacterToList('runhatred',0);
 
@@ -76,7 +76,7 @@ function onCreate()
     bfdia5bfloor.animation.addByPrefix('bfdia5bfloor','bfdia 5b floor',0);
     bfdia5bfloor.animation.play('bfdia5bfloor');
     bfdia5bfloor.velocity.x -= 100;
-    bfdia5bfloor.y = 1040;
+    bfdia5bfloor.y = 1055;
     addBehindDad(bfdia5bfloor);
     bg2.push(bfdia5bfloor);
 
@@ -92,12 +92,12 @@ function onCreate()
     
     for (i in canyon) i.alpha = 0.000001;
 
-    legs = new FlxSprite().loadFrames('characters/whos-there/legs');
+    legs = new FlxSprite(540,975);
+    legs.frames = Paths.getSparrowAtlas('characters/whos-there/legs');
     legs.addAnimByPrefix('walk','walk');
     legs.addAnimByPrefix('run','runrunrun');
     legs.addAnimByPrefix('redrun','redrun');
     legs.playAnimation('walk');
-    legs.screenCenter();
     addBehindBF(legs);
 
     scream = new FlxSprite().loadFromSheet('backgrounds/whos-there/leafy', 'evilleafyscream');
@@ -126,7 +126,8 @@ function onCreatePost()
 {
     FlxG.camera.antialiasing = ClientPrefs.data.antialiasing;
 
-    leafy = new FlxSprite(boyfriend.x-300,boyfriend.y+5).loadFrames('backgrounds/whos-there/songParts');
+    leafy = new FlxSprite(boyfriend.x+300,boyfriend.y+5);
+    leafy.frames = Paths.getSparrowAtlas('backgrounds/whos-there/songParts');
     leafy.addAnimByPrefix('evilerleafy','evilerleafy');
     leafy.addAndPlay('evilleafy','evilleafy');
     add(leafy);
@@ -235,6 +236,8 @@ function onEvent(ev,v1,v2)
 
                 for (i in bg2) i.alpha = 1;
                 for (i in bg1) i.alpha = 0.000001;
+                boyfriendGroup.x = 820;
+                legs.x = 1040;
             case 'leafy': FlxTween.tween(watchingleafy, {alpha: 0.6}, 20, {ease: FlxEase.quadOut, startDelay: 2});
             case 'leafy2': watchingleafy.playAnimation('evilleafyscream');
             case 'canyon':
@@ -260,6 +263,8 @@ function onEvent(ev,v1,v2)
 
                 game.defaultCamZoom = def + 0.3;
                 FlxG.camera.zoom = def + 0.3;
+                boyfriendGroup.x = 320;
+                legs.x = 540;
                 
                 new FlxTimer().start(2, () -> game.isCameraOnForcedPos = true);
             case 'evilshit':
@@ -268,8 +273,8 @@ function onEvent(ev,v1,v2)
                 leafy.playAnimation('evilerleafy');
 
                 trees.velocity.x -= 2000;
-				
-                camControls.filters = game.camGame.filters = game.camHUD.filters = 
+
+                camControls.filters = game.camGame.filters = game.camHUD.filters  = 
                 [
                     new ShaderFilter(shader),
                     new ShaderFilter(red)
@@ -315,6 +320,8 @@ function quickFlick(nu = 0)
     {
         num = num + nu;
 
+        //FlxG.camera.snapToTarget();
+
         game.camFollow.x = pos[num][0];
         game.camFollow.y = pos[num][1];
 
@@ -342,7 +349,7 @@ function onUpdatePost(e)
     game.iconP1.x = actualCenter - 90;
     game.iconP1.updateHitbox();
 
-    leafyX = boyfriend.x - 300;
+    leafyX = boyfriend.x + 300;
 }
 
 function opponentNoteHit(note) if (note.noteType == 'No Animation') if (game.health >= 0.4) game.health -= note.hitHealth * 2;

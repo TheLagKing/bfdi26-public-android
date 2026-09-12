@@ -1,5 +1,4 @@
 #pragma header
-
 uniform float iTime;
 uniform vec4  iMouse;
 #define iChannel0 bitmap
@@ -127,8 +126,9 @@ vec2 rotate(in vec2 p, in float t)
 
 	
 void mainImage() {
-	vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
-vec2 iResolution = openfl_TextureSize;
+    vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
+    vec2 iResolution = openfl_TextureSize;
+	
 	vec2 p = 2.*fragCoord.xy /iResolution.xy-1.;
     p*=2.;
 	if(p.y>0.){

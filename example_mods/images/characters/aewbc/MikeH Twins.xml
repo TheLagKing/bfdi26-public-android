@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MikeH.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MikeH Down0000" x="5" y="5" width="308" height="352" frameX="0" frameY="-42" frameWidth="308" frameHeight="399"/>
+	<SubTexture name="MikeH Down0001" x="328" y="5" width="306" height="359" frameX="0" frameY="-35" frameWidth="308" frameHeight="399"/>
+	<SubTexture name="MikeH Down0002" x="649" y="5" width="292" height="368" frameX="-9" frameY="-27" frameWidth="308" frameHeight="399"/>
+	<SubTexture name="MikeH Down0003" x="956" y="5" width="292" height="370" frameX="-9" frameY="-25" frameWidth="308" frameHeight="399"/>
+	<SubTexture name="MikeH Down0004" x="1263" y="5" width="291" height="380" frameX="-9" frameY="-15" frameWidth="308" frameHeight="399"/>
+	<SubTexture name="MikeH Down0005" x="1569" y="5" width="291" height="381" frameX="-9" frameY="-14" frameWidth="308" frameHeight="399"/>
+	<SubTexture name="MikeH Down0006" x="1875" y="5" width="291" height="380" frameX="-9" frameY="-15" frameWidth="308" frameHeight="399"/>
+	<SubTexture name="MikeH Down0007" x="2181" y="5" width="290" height="379" frameX="-9" frameY="-17" frameWidth="308" frameHeight="399"/>
+	<SubTexture name="MikeH Down0008" x="2486" y="5" width="290" height="367" frameX="-9" frameY="-29" frameWidth="308" frameHeight="399"/>
+	<SubTexture name="MikeH Down0009" x="5" y="401" width="286" height="399" frameX="-12" frameY="0" frameWidth="308" frameHeight="399"/>
+	<SubTexture name="MikeH Idle0000" x="306" y="401" width="283" height="383" frameX="0" frameY="-15" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0001" x="604" y="401" width="283" height="382" frameX="0" frameY="-16" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0002" x="902" y="401" width="283" height="389" frameX="0" frameY="-9" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0003" x="1200" y="401" width="280" height="392" frameX="-1" frameY="-7" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0004" x="1495" y="401" width="280" height="371" frameX="-1" frameY="-28" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0005" x="1790" y="401" width="280" height="378" frameX="-1" frameY="-21" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0006" x="2085" y="401" width="268" height="382" frameX="-12" frameY="-25" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0007" x="2368" y="401" width="268" height="383" frameX="-12" frameY="-24" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0008" x="5" y="815" width="268" height="386" frameX="-13" frameY="-23" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0009" x="288" y="815" width="267" height="395" frameX="-13" frameY="-14" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0010" x="570" y="815" width="267" height="397" frameX="-13" frameY="-12" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0011" x="852" y="815" width="267" height="401" frameX="-13" frameY="-8" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0012" x="1134" y="815" width="267" height="408" frameX="-13" frameY="-1" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0013" x="1416" y="815" width="267" height="409" frameX="-13" frameY="0" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0014" x="1698" y="815" width="266" height="407" frameX="-13" frameY="-1" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0015" x="1979" y="815" width="266" height="405" frameX="-13" frameY="-3" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0016" x="2260" y="815" width="267" height="392" frameX="-12" frameY="-15" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Idle0017" x="2542" y="815" width="267" height="389" frameX="-12" frameY="-18" frameWidth="283" frameHeight="409"/>
+	<SubTexture name="MikeH Left0000" x="5" y="1239" width="300" height="394" frameX="0" frameY="-21" frameWidth="314" frameHeight="415"/>
+	<SubTexture name="MikeH Left0001" x="320" y="1239" width="300" height="403" frameX="0" frameY="-12" frameWidth="314" frameHeight="415"/>
+	<SubTexture name="MikeH Left0002" x="635" y="1239" width="285" height="397" frameX="-18" frameY="-12" frameWidth="314" frameHeight="415"/>
+	<SubTexture name="MikeH Left0003" x="935" y="1239" width="285" height="400" frameX="-18" frameY="-9" frameWidth="314" frameHeight="415"/>
+	<SubTexture name="MikeH Left0004" x="1235" y="1239" width="284" height="408" frameX="-19" frameY="-1" frameWidth="314" frameHeight="415"/>
+	<SubTexture name="MikeH Left0005" x="1534" y="1239" width="284" height="409" frameX="-19" frameY="0" frameWidth="314" frameHeight="415"/>
+	<SubTexture name="MikeH Left0006" x="1833" y="1239" width="285" height="408" frameX="-18" frameY="-1" frameWidth="314" frameHeight="415"/>
+	<SubTexture name="MikeH Left0007" x="2133" y="1239" width="285" height="403" frameX="-21" frameY="-4" frameWidth="314" frameHeight="415"/>
+	<SubTexture name="MikeH Left0008" x="2433" y="1239" width="284" height="391" frameX="-22" frameY="-16" frameWidth="314" frameHeight="415"/>
+	<SubTexture name="MikeH Left0009" x="5" y="1663" width="284" height="383" frameX="-30" frameY="-20" frameWidth="314" frameHeight="415"/>
+	<SubTexture name="MikeH Miss0000" x="304" y="1663" width="289" height="396"/>
+	<SubTexture name="MikeH Right0000" x="608" y="1663" width="360" height="387" frameX="-5" frameY="-24" frameWidth="368" frameHeight="411"/>
+	<SubTexture name="MikeH Right0001" x="983" y="1663" width="360" height="396" frameX="-5" frameY="-15" frameWidth="368" frameHeight="411"/>
+	<SubTexture name="MikeH Right0002" x="1358" y="1663" width="365" height="375" frameX="-3" frameY="-12" frameWidth="368" frameHeight="411"/>
+	<SubTexture name="MikeH Right0003" x="1738" y="1663" width="365" height="377" frameX="-3" frameY="-10" frameWidth="368" frameHeight="411"/>
+	<SubTexture name="MikeH Right0004" x="2118" y="1663" width="365" height="385" frameX="-3" frameY="-2" frameWidth="368" frameHeight="411"/>
+	<SubTexture name="MikeH Right0005" x="5" y="2074" width="364" height="387" frameX="-3" frameY="0" frameWidth="368" frameHeight="411"/>
+	<SubTexture name="MikeH Right0006" x="384" y="2074" width="364" height="385" frameX="-3" frameY="-2" frameWidth="368" frameHeight="411"/>
+	<SubTexture name="MikeH Right0007" x="763" y="2074" width="359" height="381" frameX="0" frameY="-4" frameWidth="368" frameHeight="411"/>
+	<SubTexture name="MikeH Right0008" x="1137" y="2074" width="359" height="370" frameX="0" frameY="-15" frameWidth="368" frameHeight="411"/>
+	<SubTexture name="MikeH Right0009" x="1511" y="2074" width="309" height="373" frameX="-2" frameY="-21" frameWidth="368" frameHeight="411"/>
+	<SubTexture name="MikeH Up0000" x="1835" y="2074" width="327" height="415" frameX="-12" frameY="-13" frameWidth="339" frameHeight="428"/>
+	<SubTexture name="MikeH Up0001" x="2177" y="2074" width="327" height="425" frameX="-12" frameY="-3" frameWidth="339" frameHeight="428"/>
+	<SubTexture name="MikeH Up0002" x="5" y="2514" width="338" height="403" frameX="0" frameY="-13" frameWidth="339" frameHeight="428"/>
+	<SubTexture name="MikeH Up0003" x="358" y="2514" width="338" height="411" frameX="0" frameY="-5" frameWidth="339" frameHeight="428"/>
+	<SubTexture name="MikeH Up0004" x="711" y="2514" width="336" height="415" frameX="0" frameY="-1" frameWidth="339" frameHeight="428"/>
+	<SubTexture name="MikeH Up0005" x="1062" y="2514" width="336" height="416" frameX="0" frameY="0" frameWidth="339" frameHeight="428"/>
+	<SubTexture name="MikeH Up0006" x="1413" y="2514" width="336" height="415" frameX="0" frameY="-1" frameWidth="339" frameHeight="428"/>
+	<SubTexture name="MikeH Up0007" x="1764" y="2514" width="323" height="409" frameX="-7" frameY="-7" frameWidth="339" frameHeight="428"/>
+	<SubTexture name="MikeH Up0008" x="2102" y="2514" width="323" height="399" frameX="-7" frameY="-17" frameWidth="339" frameHeight="428"/>
+	<SubTexture name="MikeH Up0009" x="2440" y="2514" width="294" height="382" frameX="-21" frameY="-39" frameWidth="339" frameHeight="428"/>
+</TextureAtlas>

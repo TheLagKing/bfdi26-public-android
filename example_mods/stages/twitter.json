@@ -1,0 +1,34 @@
+{
+    "directory": "",
+    "defaultZoom": 0.3,
+    "isPixelStage": false,
+    "hide_girlfriend": false,
+    "camera_speed": 1,
+
+    "boyfriend": [1200, -135],
+    "girlfriend": [800, -435],
+    "opponent": [350,-115],
+
+    "camera_boyfriend": [200,145],
+	"camera_opponent": [225,175],
+	"camera_girlfriend": [0,175],
+    "images_to_cache": [
+    "backgrounds/track26/a boring gray sky",
+    "backgrounds/track26/cloudy",
+    "backgrounds/track26/foregroundery",
+    "backgrounds/track26/foury",
+    "backgrounds/track26/groundery",
+    "backgrounds/track26/hilly",
+    "backgrounds/track26/mountainy",
+    "backgrounds/track26/HATERS/camp fire",
+    "backgrounds/track26/HATERS/greenheartdetox",
+    "backgrounds/track26/HATERS/mosshaven",
+    "backgrounds/track26/HATERS/thediamondeggy",
+    "backgrounds/track26/QUOTES/TWEET COLUMNS/C1",
+    "backgrounds/track26/QUOTES/TWEET COLUMNS/C2",
+    "backgrounds/track26/QUOTES/TWEET COLUMNS/C3",
+    "backgrounds/track26/QUOTES/TWEET COLUMNS/C4",
+    "backgrounds/track26/QUOTES/TWEET COLUMNS/C5",
+    "backgrounds/track26/QUOTES/TWEET COLUMNS/C6"
+    ]
+}

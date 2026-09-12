@@ -76,6 +76,8 @@ function onEvent(name,v1)
 if name == 'Trigger' and v1 == 'wannaknow' then
 setProperty('camHUD.alpha',0)
 setObjectCamera('bars','other')
+setObjectCamera('bar1','other')
+setObjectCamera('bar2','other')
 startTween('border1','border',{x = -465}, 2,{startDelay = 3.35, ease = 'cubeIn'})
 startTween('border2','border2',{x = 1325}, 2,{startDelay = 3.35, ease = 'cubeIn'})
 doTweenZoom('camGamewhatever','camGame',3.5,5,'cubeInOut')
@@ -92,6 +94,8 @@ doTweenZoom('camfollow3','camGame',2,2,'expoIn')
 setProperty('defaultCamZoom',1.2)
 elseif name == 'Trigger' and v1 == 'endstuff' then
 setObjectCamera('bars','camHUD')
+setObjectCamera('bar1','camHUD')
+setObjectCamera('bar2','camHUD')
 setProperty('camHUD.alpha',1)
 elseif name == 'Trigger' and v1 == 'death' then
 objectPlayAnimation('babes','deserve')

@@ -74,8 +74,7 @@ function onEvent(name,v1,v2)
 if name == 'Trigger' and v1 == 'comein' then
 setProperty('isCameraOnForcedPos', true)
 setProperty('camZooming',false)
-doTweenX('tankmanarrives','tankman',290,2.2,'circIn')
-
+doTweenX('tankmanarrives','tankman',525,2.2,'circIn')
 doTweenZoom('focustankzoom','camGame',1.1,3,'cubeInOut')
 setProperty('defaultCamZoom',1.1)
 doTweenX('focustankx','camFollow',950,2.75,'cubeInOut')
@@ -84,11 +83,10 @@ doTweenAlpha('gbalpha','dadGroup',0.5,1.25,'quadOut')
 doTweenAlpha('gbalpha2','tree',0.5,1.25,'quadOut')
 elseif name == 'Trigger' and v1 == 'react' then
 tbdie = true
-objectPlayAnimation('tankman','slidein')
 objectPlayAnimation('tb','ah')
 elseif name == 'Trigger' and v1 == 'tbrip' then
 cancelTween('tankmanarrives')
-objectPlayAnimation('tankman','transition')
+playAnim('tankman','trans')
 objectPlayAnimation('tb','roll')
 doTweenX('tankmanarrives2','tankman',600,1.25,'circOut')
 doTweenX('byetb','tb',2300,2,'elasticOut')
@@ -97,6 +95,7 @@ setProperty('isCameraOnForcedPos', true)
 setProperty('defaultCamZoom',1.1)
 setProperty('camFollow.x',950)
 setProperty('camFollow.y',750)
+focused_on = "tankman"
 
 cancelTween('gbalpha3')
 cancelTween('gbalpha4')
@@ -112,7 +111,10 @@ setProperty('defaultCamZoom',0.7)
 elseif name == 'Trigger' and v1 == 'focuschange' then
 cameraSetTarget(v2)
 elseif name == 'Trigger' and v1 == 'instantzoom' then
-doTweenZoom('instantwhatever','camGame',v2,0.001)
 setProperty('defaultCamZoom',v2)
+triggerEvent('Add Camera Zoom','-0.2','0')
+elseif name == 'Trigger' and v1 == 'instantzoom2' then
+setProperty('defaultCamZoom',v2)
+triggerEvent('Add Camera Zoom','0.2','0')
 end
 end

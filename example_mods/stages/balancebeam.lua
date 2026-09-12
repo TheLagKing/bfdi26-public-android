@@ -2,7 +2,6 @@ nocam = false
 
 function onCreate()
 setProperty('textmiss.alpha',1)
-setProperty('bars.alpha',1)
 setProperty('camGame.alpha',0)
 setProperty('camHUD.alpha',0)
 -- background shit
@@ -77,8 +76,8 @@ doTweenX('logoshit26','p',2000,2,'quadIn')
 doTweenAlpha('logoshit43','p',0,2,'quadOut')
 elseif name == 'Trigger' and v1 == 'move' then
 setProperty('camZooming',false)
-doTweenZoom('cmagame','camGame',5,1.25,'quadIn')
-setProperty('defaultCamZoom',5)
+doTweenZoom('cmagame','camGame',6,1.25,'quadIn')
+setProperty('defaultCamZoom',6)
 nocam = true
 elseif name == 'Trigger' and v1 == 'unmove' then
 nocam = false

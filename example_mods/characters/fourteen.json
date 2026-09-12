@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				58,
+				-4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Fourteen Left"
+		},
+		{
+			"offsets": [
+				50,
+				-14
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Fourteen Down"
+		},
+		{
+			"offsets": [
+				2,
+				52
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Fourteen Up"
+		},
+		{
+			"offsets": [
+				-23,
+				1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Fourteen Right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Fourteen Idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/aewbc/fourteen",
+	"position": [
+		25,
+		105
+	],
+	"healthicon": "fourteen",
+	"flip_x": false,
+	"healthbar_colors": [
+		32,
+		111,
+		47
+	],
+	"camera_position": [
+		150,
+		-80
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

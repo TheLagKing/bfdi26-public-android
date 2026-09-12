@@ -11,5 +11,20 @@
 
     "camera_boyfriend": [-600,40],
 	"camera_opponent": [0,-200],
-	"camera_girlfriend": [325,-100]
+	"camera_girlfriend": [325,-100],
+	"images_to_cache": [
+    "backgrounds/help-me/office/desk goes in front",
+    "backgrounds/help-me/office/walls full",
+    "backgrounds/help-me/office/walls full",
+    "backgrounds/help-me/planet/ground planet",
+    "backgrounds/help-me/planet/mist planet",
+    "backgrounds/help-me/planet/hours",
+    "backgrounds/help-me/planet/moon planet",
+    "backgrounds/help-me/planet/sky planet",
+    "backgrounds/help-me/space/foreground shit",
+    "backgrounds/help-me/space/pence ahh dance",
+    "backgrounds/help-me/space/roz wheel front",
+    "backgrounds/help-me/space/ship full",
+    "backgrounds/help-me/space/space sky"
+    ]
 }

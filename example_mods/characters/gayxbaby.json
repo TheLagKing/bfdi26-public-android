@@ -1,0 +1,59 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-58
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "babyIDLEL"
+		},
+		{
+			"offsets": [
+				0,
+				-56
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-m",
+			"loop": false,
+			"name": "babyIDLEM"
+		},
+		{
+			"offsets": [
+				0,
+				-53
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-r",
+			"loop": false,
+			"name": "babyIDLER"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfdimemes/gay baby x",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "yfriend",
+	"vslice_sustains": true,
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		30
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

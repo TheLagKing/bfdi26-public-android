@@ -1,13 +1,3 @@
-local Cutscene = true
-
-function onStartCountdown()    
-    if Cutscene and not seenCutscene then
-	runHaxeCode([[po1.delayAndStart();]])
-	runTimer('endvideo',27)
-    return Function_Stop;
-    end
-end
-
 function onCreate()
 setProperty('bars.alpha',1)
 setProperty('textmiss.alpha',1)
@@ -238,11 +228,6 @@ function onTimerCompleted(tag)
 if tag == 'lightning' and getProperty('camGame.alpha') ~= 0 then
 lightning()
 runTimer('lightning',getRandomInt(10,20))
-elseif tag == 'endvideo' then
-runHaxeCode([[po1.destroy();]])
-Cutscene = false
-startCountdown()
-return Function_Continue;
 end
 end
 

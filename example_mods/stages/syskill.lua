@@ -6,7 +6,6 @@ function onCreate()
 doTweenZoom('camGamehihi','camGame',2,0.001)
 setProperty('isCameraOnForcedPos', true)
 setProperty('textmiss.alpha',1)
-setProperty('bars.alpha',1)
 
 makeLuaSprite('bag','backgrounds/syskill/thanosbasicskybox',2150,825)
 scaleObject('bag',2.5,2.5)
@@ -27,12 +26,13 @@ scaleObject('fg',2,2)
 setScrollFactor('fg',1.15,1.15)
 addLuaSprite('fg',true)
 
-makeLuaSprite('c', 'rendersnlogos/carrotrender',1250,50)
+if not hideCards then
+makeLuaSprite('c', 'rendersnlogos/carrotrender',1250,110)
 setProperty('c.alpha',0)
 setObjectCamera('c','camHUD')
 scaleObject('c',0.85,0.85)
 addLuaSprite('c',false)
-if not hideCards then
+
 makeAnimatedLuaSprite('logos', 'rendersnlogos/syskillTxt',0,0)
 addAnimationByPrefix('logos', 'title', 'syskillTxt',24,true)
 setProperty('logos.alpha',0)

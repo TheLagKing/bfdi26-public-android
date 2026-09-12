@@ -33,7 +33,7 @@ float rainDist(vec2 p, float scale, float intensity, float uTime) {
 }
 
 void main() {
-    vec2 fragCoord = openfl_TextureCoordv * openfl_TextureSize;
+    vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
     vec2 iResolution = openfl_TextureSize;
     vec2 uv = fragCoord / iResolution.xy;
     vec2 wpos = uv * iResolution.xy;

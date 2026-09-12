@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sticky.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Symbol 15 instance 10000" x="3" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10001" x="3" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10002" x="287" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10003" x="287" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10004" x="571" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10005" x="571" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10006" x="855" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10007" x="855" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10008" x="1139" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10009" x="1139" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10010" x="1139" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10011" x="1139" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10012" x="1139" y="3" width="274" height="265"/>
+	<SubTexture name="Symbol 15 instance 10013" x="1139" y="3" width="274" height="265"/>
+</TextureAtlas>

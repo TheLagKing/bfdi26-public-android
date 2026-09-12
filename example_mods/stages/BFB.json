@@ -11,5 +11,9 @@
 
 	"camera_boyfriend": [-525,25],
 	"camera_opponent": [425,32.5],
-	"camera_girlfriend": [625,0]
+	"camera_girlfriend": [625,0],
+	"images_to_cache": [
+    "backgrounds/vocalchords/clock",
+    "backgrounds/vocalchords/vocalchordsbg"
+    ]
 }

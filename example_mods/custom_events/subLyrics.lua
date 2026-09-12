@@ -1,9 +1,5 @@
-local dad = false
-local bf = false
-
-
 function onCreatePost()
-    makeLuaSprite("bg2", null, 0, 542)
+    makeLuaSprite("bg2", null, 0, 544)
     makeGraphic("bg2", 500, 32.5, '000000')
     screenCenter("bg2", 'x')
     setObjectCamera("bg2", 'Other')
@@ -15,7 +11,7 @@ function onCreatePost()
 	setProperty('textt2.alpha',1)
 	setTextFont('textt2','Roboto-Regular.TTF')
 	setTextBorder('textt2','000000',0)
-	setTextSize('textt2',27.5)
+	setTextSize('textt2',24.5)
 addLuaText('textt2',false)
 end
 
@@ -24,7 +20,7 @@ if not hideSub then
 	if n == 'subLyrics' then
 		cancelTween('1bye2')
 		setProperty('textt2.alpha',1)
-		runTimer('bye2',1.25)
+		runTimer('bye2',1.3)
 		setTextString('textt2',v1)
 		setProperty("bg2.alpha", 0.6)
 		setGraphicSize('bg2', getProperty('textt2.textField.textWidth')+35, getProperty('textt2.textField.textHeight') + 20)

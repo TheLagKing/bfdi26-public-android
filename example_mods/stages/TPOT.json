@@ -11,5 +11,35 @@
 
     "camera_boyfriend": [-400,-125],
 	"camera_opponent": [200,-75],
-	"camera_girlfriend": [225,250]
+	"camera_girlfriend": [225,250],
+    "images_to_cache": [
+    "backgrounds/hey-two/bg1/split speaker soul",
+    "backgrounds/hey-two/bg1/three musketeers",
+    "backgrounds/hey-two/bg1/oh my gordita",
+    "backgrounds/hey-two/bg1/ground burnt bg",
+    "backgrounds/hey-two/bg1/hills burnt bg",
+    "backgrounds/hey-two/bg1/hills burnt bg",
+    "backgrounds/hey-two/bg1/sky burnt bg",
+
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/DEATH PACT/DEATH PACT BG SHEET",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/DEATH PACT/DEATH PACT FG SHEET",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/DEATH PACT/DEATH PACT MG SHEET",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/JUST NOT/JUST NOT BG SHEET",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/JUST NOT/JUST NOT FG SHEET",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/JUST NOT/JUST NOT MG SHEET1",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/JUST NOT/JUST NOT MG SHEET2",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/JUST NOT/JUST NOT MG SHEET3",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/R U OK/RUOK BG SHEET",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/R U OK/RUOK FG SHEET1",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/R U OK/RUOK FG SHEET2",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/TEAM 8S/TEAM8S SHEET",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/THE S/THE S SHEET",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/TSTOE/robot_flower_you_are_so_alone_and_sad",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/TSTOE/TSTOE FG SHEET",
+    "backgrounds/hey-two/tpot/BG DISTRIBUTIONS/TSTOE/TSTOE MG SHEET",
+    
+    "backgrounds/hey-two/tpot/GROUND",
+    "backgrounds/hey-two/tpot/HILLS",
+    "backgrounds/hey-two/tpot/SKY"
+    ]
 }

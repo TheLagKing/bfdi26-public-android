@@ -1,0 +1,136 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-76,
+				89
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "miss",
+			"loop": false,
+			"name": "P MISS"
+		},
+		{
+			"offsets": [
+				-71,
+				77
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "P IDLE 2 instance 1"
+		},
+		{
+			"offsets": [
+				-73,
+				61
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "P DOWN 2"
+		},
+		{
+			"offsets": [
+				-62,
+				141
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "P UP 2"
+		},
+		{
+			"offsets": [
+				-4,
+				74
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "P LEFT 2"
+		},
+		{
+			"offsets": [
+				-83,
+				70
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "P RIGHT 2"
+		},
+		{
+			"offsets": [
+				-78,
+				80
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "P RIGHT 3"
+		},
+		{
+			"offsets": [
+				-74,
+				61
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "P DOWN 3"
+		},
+		{
+			"offsets": [
+				-75,
+				151
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "P UP 3"
+		},
+		{
+			"offsets": [
+				0,
+				87
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "P LEFT 3"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/right-finger/pin wrongy the second",
+	"position": [
+		20,
+		400
+	],
+	"healthicon": "pin",
+	"vslice_sustains": true,
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		24,
+		0
+	],
+	"camera_position": [
+		-100,
+		70
+	],
+	"sing_duration": 3,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

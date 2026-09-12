@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="foury.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="four bouncea instance 10000" x="5" y="5" width="105" height="137" frameX="-13" frameY="-31" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10001" x="115" y="5" width="102" height="167" frameX="-14" frameY="0" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10002" x="115" y="5" width="102" height="167" frameX="-14" frameY="0" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10003" x="222" y="5" width="101" height="167" frameX="-14" frameY="-1" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10004" x="222" y="5" width="101" height="167" frameX="-14" frameY="-1" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10005" x="328" y="5" width="99" height="164" frameX="-16" frameY="-8" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10006" x="432" y="5" width="96" height="161" frameX="-18" frameY="-15" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10007" x="533" y="5" width="131" height="135" frameX="0" frameY="-49" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10008" x="5" y="177" width="127" height="118" frameX="-2" frameY="-59" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10009" x="5" y="177" width="127" height="118" frameX="-2" frameY="-59" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10010" x="137" y="177" width="123" height="122" frameX="-4" frameY="-51" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10011" x="137" y="177" width="123" height="122" frameX="-4" frameY="-51" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10012" x="265" y="177" width="120" height="125" frameX="-5" frameY="-46" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10013" x="265" y="177" width="120" height="125" frameX="-5" frameY="-46" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10014" x="390" y="177" width="119" height="125" frameX="-6" frameY="-45" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10015" x="514" y="177" width="98" height="137" frameX="-37" frameY="-36" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10016" x="5" y="319" width="97" height="167" frameX="-38" frameY="-3" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10017" x="5" y="319" width="97" height="167" frameX="-38" frameY="-3" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10018" x="107" y="319" width="97" height="165" frameX="-38" frameY="-5" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10019" x="107" y="319" width="97" height="165" frameX="-38" frameY="-5" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10020" x="209" y="319" width="95" height="161" frameX="-38" frameY="-12" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10021" x="309" y="319" width="94" height="161" frameX="-38" frameY="-16" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10022" x="408" y="319" width="118" height="111" frameX="-27" frameY="-64" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10023" x="531" y="319" width="116" height="108" frameX="-28" frameY="-72" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10024" x="531" y="319" width="116" height="108" frameX="-28" frameY="-72" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10025" x="5" y="491" width="110" height="118" frameX="-32" frameY="-56" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10026" x="5" y="491" width="110" height="118" frameX="-32" frameY="-56" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10027" x="120" y="491" width="108" height="125" frameX="-33" frameY="-47" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10028" x="120" y="491" width="108" height="125" frameX="-33" frameY="-47" frameWidth="145" frameHeight="184"/>
+	<SubTexture name="four bouncea instance 10029" x="233" y="491" width="107" height="127" frameX="-34" frameY="-44" frameWidth="145" frameHeight="184"/>
+</TextureAtlas>

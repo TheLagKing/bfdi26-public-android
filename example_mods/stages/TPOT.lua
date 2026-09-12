@@ -34,7 +34,7 @@ addLuaSprite('hill',false)
 makeLuaSprite('floor','backgrounds/hey-two//bg1/ground burnt bg',250,685)
 addLuaSprite('floor')
 setScrollFactor('floor',0.995,0.995)
-
+if not lowQuality then
 -- split - characters
 makeAnimatedLuaSprite('m', 'backgrounds/hey-two/bg1/three musketeers',1760,540)
 setScrollFactor('m',0.995,0.995)
@@ -148,6 +148,7 @@ addLuaSprite('pfg',true)
 
 for _, teamswap in ipairs({'8s','ru','ts','pbg','pb','p','tsmg','pmg','rufg1','rufg2','tsfg','pfg'}) do startTween('teamswitch'..teamswap, teamswap..'.colorTransform', {redOffset = 255, greenOffset = 255, blueOffset = 255}, 0.75,{ease = 'quadOut'}) end
 for _, teamswap in ipairs({'8s','ru','ts','pbg','pb','p','tsmg','pmg','rufg1','rufg2','tsfg','pfg','jn','jnfg','jn','s','jnmg1','jnmg2','jnmg3'}) do setProperty(teamswap..'.alpha',0.001) end
+end
 --
 
 makeLuaSprite('black', '', 0, 0)
@@ -158,6 +159,9 @@ scaleObject('black',1280*2,720*2)
 addLuaSprite('black',false)
 screenCenter('black', 'xy')
 setObjectOrder('black',19)
+if lowQuality then
+setObjectOrder('black',6)
+end
 
 makeLuaSprite('paper','backgrounds/hey-two/paper',0,0)
 setBlendMode('paper','multiply')
@@ -220,12 +224,23 @@ setObjectCamera('logos','camHUD')
 startTween('logo','logos',{alpha = 0}, 0.5,{startDelay = 2.5, ease = 'quadOut'})
 startTween('flashwhite2','flash',{alpha = 0}, 1.5,{startDelay = 0.25, ease = 'quadOut'})
 removeLuaSprite('black2')
+elseif name == 'Trigger' and v1 == 'bfmovein' then
+setProperty('isCameraOnForcedPos', true)
+setProperty('defaultCamZoom',1.25)
+startTween('camgamecool','camGame',{zoom = getProperty('defaultCamZoom')}, 0.75,{ease = 'circOut'})
+setProperty('camFollow.y',1025)
+setProperty('camFollow.x',2150)
+elseif name == 'Trigger' and v1 == 'bfmoveout' then
+setProperty('isCameraOnForcedPos', false)
+setProperty('defaultCamZoom',0.6)
+startTween('camgamecool','camGame',{zoom = getProperty('defaultCamZoom')}, 0.5,{ease = 'circOut'})
 elseif name == 'Trigger' and v1 == 'zoomin' then
 triggerEvent('Alt Idle Animation','dad','-alt')
 triggerEvent('Alt Idle Animation','boyfriend','-alt')
 doTweenZoom('camgoin','camGame',0.915,0.5,'elasticOut')
 setProperty('defaultCamZoom',0.915)
 elseif name == 'Trigger' and v1 == 'lockinplace' then
+setProperty('isCameraOnForcedPos', true)
 doTweenX('camX3', 'camFollow',1625,1.75,'cubeInOut')
 doTweenY('camY4', 'camFollow',950,3,'cubeInOut')
 doTweenZoom('camgoout','camGame',0.8,2.25,'cubeInOut')
@@ -240,24 +255,18 @@ startTween('zoom','camGame',{zoom = 3}, 3,{startDelay = 0.1, ease = 'cubeInOut'}
 doTweenX('camX2', 'camFollow',1750,2,'cubeInOut')
 doTweenY('camY1', 'camFollow',1050,2,'cubeInOut')
 
-
+if not middlescroll then
 alreadySwapped = true
 for i = 0, 3 do
 j = (i + 4)
 
-iPos = _G['defaultPlayerStrumX'..i];
-jPos = _G['defaultOpponentStrumX'..i];
-if alreadySwapped then
 iPos = _G['defaultOpponentStrumX'..i];
 jPos = _G['defaultPlayerStrumX'..i];
-end
 noteTweenX('note'..i..'TwnX', i, iPos, 1.25, 'cubeInOut');
 noteTweenX('note'..j..'TwnX', j, jPos, 1.25, 'cubeInOut');
-if middlescroll == true then
-noteTweenX('note'..i..'TwnX',j,iPos, 1.25, 'cubeInOut');
-noteTweenX('note'..j..'TwnX',i,jPos, 1.25, 'cubeInOut');
 end
 end
+
 elseif name == 'Trigger' and v1 == 'tpotstart' then
 for _, backgroundsprites in ipairs({'sky','hill','floor','m','t','black','paper','transition','sp'}) do
 removeLuaSprite(backgroundsprites)

@@ -1,80 +1,125 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
-				-9,
+				-37,
 				8
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "miss",
-			"indices": [],
-			"name": "miss"
+			"fps": 24,
+			"name": "miss",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-40,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "idle"
+			"fps": 24,
+			"name": "idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-111,
-				6
+				-40,
+				7
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "right"
+			"fps": 24,
+			"name": "right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-30,
-				-14
+				-37,
+				-2
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "down"
+			"fps": 24,
+			"name": "down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				91,
-				-14
+				44,
+				44
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
 			"loop": false,
-			"name": "left"
+			"offsets": [
+				-41,
+				43
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
 		},
 		{
 			"offsets": [
-				-45,
-				111
+				-39,
+				89
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "singUP",
+			"anim": "singUP-alt",
 			"loop": false,
-			"name": "up"
+			"name": "altup0"
+		},
+		{
+			"offsets": [
+				-32,
+				-3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "altdown"
+		},
+		{
+			"offsets": [
+				45,
+				17
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "altleft"
+		},
+		{
+			"offsets": [
+				-40,
+				9
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "altright"
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
-	"image": "characters/funny-fellow/funnyfellowhattynew",
+	"image": "characters/funny-fellow/hattyab",
 	"position": [
 		80,
 		510
 	],
 	"healthicon": "bf",
+	"vslice_sustains": false,
 	"flip_x": true,
 	"healthbar_colors": [
 		222,
@@ -85,7 +130,7 @@
 		-100,
 		70
 	],
-	"sing_duration": 4,
+	"sing_duration": 6,
 	"scale": 1,
 	"_editor_isPlayer": true
 }

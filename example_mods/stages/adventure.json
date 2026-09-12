@@ -11,5 +11,13 @@
 
     "camera_boyfriend": [-100,-40],
 	"camera_opponent": [50,-35],
-	"camera_girlfriend": [225,-100]
+	"camera_girlfriend": [225,-100],
+    "images_to_cache": [
+    "backgrounds/himsheys/candybarbackdrop",
+    "backgrounds/himsheys/candybarbackground",
+    "backgrounds/himsheys/matchbg",
+    "backgrounds/himsheys/Play_button",
+    "backgrounds/himsheys/snowballwalking",
+    "backgrounds/himsheys/titleeeeeee"
+    ]
 }

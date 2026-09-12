@@ -111,3 +111,7 @@ function doTweenScale(tag,obj,x,y,time,ease)
 doTweenX(tag..'x',obj..'.scale',x,time,ease)
 doTweenY(tag..'y',obj..'.scale',y,time,ease)
 end
+
+function onGameOver()
+setProperty('camGame.visible',false)
+end

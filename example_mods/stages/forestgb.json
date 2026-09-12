@@ -11,5 +11,11 @@
 
     "camera_boyfriend": [-302,-65],
 	"camera_opponent": [325,130],
-	"camera_girlfriend": [20,-110]
+	"camera_girlfriend": [20,-110],
+    "images_to_cache": [
+    "backgrounds/bossy/lunch/evil fucking glue tree",
+    "backgrounds/bossy/lunch/lunchboxmainbg",
+    "characers/bossy-lunchbox/tblunchbox",
+    "characers/bossy-lunchbox/tankblud"
+    ]
 }

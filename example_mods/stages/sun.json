@@ -11,5 +11,16 @@
 
 	"camera_boyfriend": [-325,-50],
 	"camera_opponent": [125,-250],
-	"camera_girlfriend": [1000,1000]
+	"camera_girlfriend": [1000,1000],
+    "images_to_cache": [
+	"backgrounds/hello-operator/bg/colors",
+	"backgrounds/hello-operator/bg/lotsBG",
+	"backgrounds/hello-operator/bg/lotsCHAIR",
+	"backgrounds/hello-operator/bg/lotsTABLE",
+	"backgrounds/hello-operator/bg2/bg2DOORnSIGN",
+	"backgrounds/hello-operator/bg2/bg2FLITER on add",
+	"backgrounds/hello-operator/bg2/bg2FLOOR",
+	"backgrounds/hello-operator/bg2/bg2RAILING",
+	"backgrounds/hello-operator/bg2/bg2WALL"
+	]
 }
