@@ -1062,7 +1062,7 @@ class SelectedThumb extends MusicBeatSubstate
 
 		sn.text = FlxStringUtil.toTitleCase(StringTools.replace((switched) ? '${funnyfellowcheck(false)}' : songName, "-", " "));
 		if (switched && songName == 'hey-two') sn.text = 'Hey Four!';
-		if (switched && songName == 'wrong-finger') sn.text = 'Right Finger!';
+		if (switched && songName == 'wrong-finger-coiny') sn.text = 'Right Finger!';
 
 		credits = ((switched) ? Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+songName+'/composerMix.txt')  : Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+songName+'/composer.txt'));
 		credTxt.text = '\n$credits';
