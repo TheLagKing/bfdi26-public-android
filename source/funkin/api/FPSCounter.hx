@@ -85,7 +85,7 @@ class FPSCounter extends Sprite
 	public function updateText():Void
 	{
 		memPeak = Math.max(memPeak,memoryMegas);
-		textDisplay.text = 'FPS: ' + currentFPS + ' • ' + 'Memory: ' + flixel.util.FlxStringUtil.formatBytes(memoryMegas).toLowerCase() + ' / ' + flixel.util.FlxStringUtil.formatBytes(memPeak).toLowerCase();
+		textDisplay.text = 'FPS: ' + currentFPS + ' • ' + '[GC: ' + flixel.util.FlxStringUtil.formatBytes(memoryMegas).toUpperCase() + ' | Task:' + flixel.util.FlxStringUtil.formatBytes(memPeak).toUpperCase() + ']';
 		
 		textDisplay.textColor = 0xFFFFFFFF;
 		if (currentFPS < FlxG.drawFramerate * 0.5) textDisplay.textColor = 0xFFFF0000;
