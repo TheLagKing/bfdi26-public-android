@@ -34,16 +34,16 @@ class ChangelogSubstate extends MusicBeatSubstate
 		changelogSpr.x = (FlxG.width - changelogSpr.width) - 50;
 		add(changelogSpr);		
 
-		var bookndb = new FlxSprite().loadFrames('menus/freeplay/changelog/book and bubs cute');
-		bookndb.addAndPlay('i', 'book and bubs cute instance 1');
-		bookndb.setScale(0.9, 0.9);
-		bookndb.x = FlxG.width - bookndb.width - 75;
-		bookndb.screenCenter(Y);
-		bookndb.y += 75;
+		var fourndb = new FlxSprite().loadFrames('menus/freeplay/changelog/blue baby and bubs cute');
+		fourndb.addAndPlay('i', 'baby n bubs instance 1');
+		fourndb.setScale(0.9, 0.9);
+		fourndb.x = FlxG.width - fourndb.width - 75;
+		fourndb.screenCenter(Y);
+		fourndb.y += 75;
 
-		var changelogText = new FlxText(0, 0, 0, Paths.getTextFromFile('images/menus/freeplay/changelog/changelogText.txt'), 30);
+		var changelogText = new FlxText(0, 0, 0, Paths.getTextFromFile('images/menus/freeplay/changelog/changelogText.txt'), 20);
 		changelogText.font = Paths.font('flashing.ttf');
-		changelogText.x = bookndb.x - (changelogText.width - 375);
+		changelogText.x = fourndb.x - (changelogText.width - 375);
 		changelogText.screenCenter(Y);
 		add(changelogText);
 
@@ -54,11 +54,11 @@ class ChangelogSubstate extends MusicBeatSubstate
 		two.alpha = 0;
 		add(two);
 
-		bookndb.x = FlxG.width;
-		FlxTween.tween(bookndb, {x: FlxG.width - bookndb.width}, 0.8, {ease: FlxEase.cubeOut});
+		fourndb.x = FlxG.width;
+		FlxTween.tween(fourndb, {x: FlxG.width - fourndb.width}, 0.8, {ease: FlxEase.cubeOut});
 		FlxTween.tween(two, {alpha: 0.6}, 1.6, {type: FlxTweenType.PINGPONG});
 		
-		add(bookndb);
+		add(fourndb);
 
 		#if mobile
 		addVirtualPad(NONE, A_B);
@@ -85,18 +85,16 @@ class ChangelogSubstate extends MusicBeatSubstate
 
 		if (controls.ACCEPT #if mobile || virtualPad.buttonA.pressed #end) 
 		{
-			var content = "BFDI26 v1.7 CHANGELOG
-			\n MAIN CHANGES:\n- Yoylefake V1.5 - New chromatic, singing, chart, sprites, cutscenes\n- Oneshot V2 - New song, sprites, cutscenes\n- Hey Two & Who's There resprites + recharts\n- Vocal Chords, Time & Invitational & Oneshot Pico mix & Blue Golfball BF mix & Hard Bargain resprites\n- Web Crasher & Hey Two GF mixes\n- Syskill & Evil Song Pico mixes\n- Bossy resprite + Lunchbox mix\n- Invitational DD mix\n- Funny Fellow Spooky mix\n- One original song..?\n- Lots of new funfacts!
-			\n QOL CHANGES:\n- New start screen + notice\n- Functional credits menu\n- New immersive menu sounds\n- Near-complete icon overhaul (save for Himsheys, KMS and Well Rounded)\n- Near-complete titlecard overhaul + new renders\n- Freeplay Dirty Bubble remake\n- RPC image fixes + remakes\n- Hey Two, Who's There, Invitational, Funny Fellow & Bossy thumbnail remakes\n- Swapped vocal tracks for KMS\n- Freeplay asset tweaks + usable scrollbar\n- Himsheys sprite tweaks\n- Hello Operator Chargerblock tweaks\n- Dotted Line sprite tweaks\n- New crash handler screen / bug report screen\n- Usable Data Reset + Individual song reset (Press R in its respective results menu)\n- General optimization
-			\n MISC SONG SPECIFIC CHANGES:\n- Yoylefake - New titlecard n' render\n- Funny Fellow - New BG + RPC image\n- Wrong Finger - New titlecard + renders\n- Vocal Chords - New titlecard\n- Time - New titlecard + remade BG/FG boppers\n- Invitational - New titlecard + BG and BG boppers\n- Hey Two - New RPC\n- Blue Golfball - New titlecard + Sour Apple sprite\n- Blue Golfball BF Mix - new titlecard\n- Hello Operator - New RPC\n- Bossy - New RPC + Cutscene\n- Hard Bargain - New BGs and icons\n- Funny Fellow - BF resprite
-			\n CUT CONTENT:\n- Removed Pls\n- Remove Xara... permanently";
+			var content = "BFDI26 v1.9 CHANGELOG
+			\n MAIN CHANGES:\n- 3 BRAND NEW SONGS!\n- FUNNY FELLOW V3!\n- TIME DARNELL MIX!\n- RIGHT FINGER!\n- ADDED VRAM AND STREAMED MUSIC!\n- NEW CREDITS MENU!
+			\n QOL CHANGES:\n- Fixed a crash with Client Prefs!\n- Fix the Character and Chart Editors!\n- Fixed a bug with audio issues when finishing a song!\n- Fixed a bug where attempting to skip the intro before it loaded caused a crash!\n- Fixed the loading screen being offset when loading 4 by 3 songs!\n- Fixed sustain note overlap on the noteskin!\n- Fixed an issue where you're score wouldn't save when not selecting Mike in AEWBC!\n- Fixed a bug where exiting a song while the DB dialogue box was loading would crash!\n- Fixed an issue where Vegan Gains render would persist despite disabling titlecards!\n- Fixed a bug where picking a song with a mix then hovering over another before it loads would take you to the wrong song upon unlock!\n- Fixed visibility issues with the freeplay song selection outline!\n- Added new freeplay menu sounds!\n- Added 'Sustain Note Alpha' in the gameplay options!\n- Added 'Freeplay boot up' in the gameplay modifiers options!\n- Fixed an issue with song RPCs loading or deloading incorrectly!\n- Fixed charting issues with Fourteen and Countless in AEWBC!\n- Added separate win tokens for song mixes!
 			#if android
-			var path = "/storage/emulated/0/Download/BFDI 26 V1.7 - Changelog.txt";
+			var path = "/storage/emulated/0/Download/BFDI 26 V1.9 - Changelog.txt";
 	        File.saveContent(path, content);
 	        System.openFile(path);
 	        #elseif ios
 			var docs = System.documentsDirectory;
-	        var path = docs + "/BFDI 26 V1.7 - Changelog.txt";
+	        var path = docs + "/BFDI 26 V1.9 - Changelog.txt";
 	        File.saveContent(path, content);
 	        System.openFile(path);
 	        #else
