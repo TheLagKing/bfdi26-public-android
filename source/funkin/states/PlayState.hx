@@ -227,6 +227,7 @@ class PlayState extends MusicBeatState
 	private var singAnimations:Array<String> = ['singLEFT', 'singDOWN', 'singUP', 'singRIGHT'];
 
 	public var inCutscene:Bool = false;
+	public var introCutscene:Bool = false;
 	public var skipCountdown:Bool = false;
 	var songLength:Float = 0;
 
@@ -263,13 +264,6 @@ class PlayState extends MusicBeatState
 	public var startCallback:Void->Void = null;
 	public var endCallback:Void->Void = null;
 
-	public static var yoylefakeStart:Bool = false;
-
-	public static var OneshotCheck:Bool = false;
-
-	public var yoylefakes:Video4;
-	public var po1:Video4;
-
 	//i dont remember doing this oh my god //why am i lowk too lazy tho
 	final list:Array<Array<String>> = 
 	[
@@ -277,10 +271,12 @@ class PlayState extends MusicBeatState
 		['funny-fellow',                                  '1416584878186827876',       'Look they\'re playing my song!!!'],
 		['funny-fellow-spooky',                           '1416771120626925639',       'This song makes me want to tickle Exclamation Mark!'],
 		['wrong-finger',                                  '1445548948227096718',       'Um, Pin?'],
+		['wrong-finger-coiny',                                  '1445548948227096718',       'Um, Pin?'],
 		['vocal-chords',                                  '1321949470635724881',       'Being cool.'],
 		['oneshot',                                       '1409571879382941746',       'Taken too soon.'],
 		['oneshot-pico',                                  '1416902790978080819',       'Take me back.'],
 		['time',                                          '1321948885576319117',       'It\'s time for the song!'],
+		['time-darnell',                                          '1321948885576319117',       'It\'s time for the!- Oh you\'re trying to kill me...'],
 		['web-crasher',                                   '1321924396042031104',       'What teh dank?!'],
 		['web-crasher-gf',                                '1416895380699877406',       'Am just a lil potatoh..'],
 		['well-rounded',                                  '1416896064241274910',       'Let\'s just say it\'s, well. Rounded.'],
@@ -308,6 +304,14 @@ class PlayState extends MusicBeatState
 		['bossy',                                         '1416895755888623746',       'I ain\' taking orders from the likes of you, bozo!'],
 		['bossy-lunch',                                   '1416776476266856670',       'My team is looking a little SPARSE!'],
 		['aldi', 			                              '1392529878703804486',       'Thought grapes were blueberries :rofl:'],
+		['idfb-2_-bozobrain', 			                              '1392529878703804486',       'YOU NEED PUNISHMENT!'],
+		['track26', 			                              '1392529878703804486',       'ANOTHER THEATRE RELEASE?! FUCK!'],
+		['r(BFDIMemes', 			                              '1392529878703804486',       'Made with Mematic!™ 26TEAM - All rights reserved.®°'],
+		['newfoundland', 			                              '1392529878703804486',       'A song about discovery...'],
+		['euthanized', 			                              '1392529878703804486',       'Gonna authanize you like. A damn. DOG!'],
+		['aewbc', 			                              '1392529878703804486',       'Like watching paint dry!.. Literally...'],
+		['yoylecone', 			                              '1392529878703804486',       'TAKE THE CONE AGAIN'],
+		['cyans-new-groove', 			                              '1392529878703804486',       'I am so happy to be finally be apart of bf di 2 6 mod'],
 		['iloveamongus',                                  '1321941565031055380',       'IT\'S EEFFOC!']
 	];
 
@@ -347,11 +351,6 @@ class PlayState extends MusicBeatState
 
 		// for lua
 		instance = this;
-
-		#if mobile
-		if (controls.isInSubstate)
-            controls.isInSubstate = false;
-        #end
 
 		PauseSubState.songName = null; //Reset to default
 		playbackRate = ClientPrefs.getGameplaySetting('songspeed');
@@ -554,10 +553,10 @@ class PlayState extends MusicBeatState
 		for (i in [redline,reddot]) i.cameras = [camOther];
 
 		if (Highscore.getSongData("oneshot",1).songScore > 0) {
-			OneshotCheck = true;
+			PlayState.introCutscene = true;
 		}
 		else {
-		OneshotCheck = false;
+		PlayState.introCutscene = false;
 		}
 
 
@@ -668,8 +667,13 @@ class PlayState extends MusicBeatState
 		uiGroup.cameras = [camHUD];
 		noteGroup.cameras = [camHUD];
 		comboGroup.cameras = [camHUD];
+		
+		#if mobile
+		if (controls.isInSubstate)
+            controls.isInSubstate = false;
 
-		#if mobile addMobileControls(false); #end
+		addMobileControls(false);
+		#end
 
 		startingSong = true;
 
@@ -697,7 +701,7 @@ class PlayState extends MusicBeatState
 
 		// SONG SPECIFIC SCRIPTS
 		#if (LUA_ALLOWED || HSCRIPT_ALLOWED)
-		for (folder in Mods.directoriesWithFile(Paths.getSharedPath(), 'songs/$songName/'))
+		for (folder in Mods.directoriesWithFile(Paths.getSharedPath(), 'songs/$songName/scripts/'))
 			for (file in FileSystem.readDirectory(folder))
 			{
 				#if LUA_ALLOWED
@@ -720,45 +724,13 @@ class PlayState extends MusicBeatState
 		{
 			if (PlayState.SONG.song.toLowerCase() == '${list[i][0]}') {
 				DiscordClient.clientID = list[i][1];
-				var songName:String = list[i][0].replace("-", " ").toUpperCase();
-				new FlxTimer().start(3,Void->{
+				var songName:String = list[i][0].replace("idfb-2_-", "").replace("hey-two-gf", "hey four!").replace("wrong-finger-coiny", "right finger!").replace("-", " ").replace("(", "/").replace("k2", "k").toUpperCase();
+				new FlxTimer().start(1,Void->{
 					DiscordClient.changePresence('BFDI26 - ${list[i][2]}', songName);
 				});
 			}
 		}
 		#end
-
-		if (PlayState.SONG.song.toLowerCase() == "yoylefake") 
-		{
-			yoylefakes = new Video4();
-			yoylefakes.onFormat(()->
-			{
-				yoylefakes.setGraphicSize(FlxG.width, FlxG.height);
-				yoylefakes.updateHitbox();
-				yoylefakes.antialiasing = false;
-				yoylefakes.cameras = [camOther];
-			});
-
-			yoylefakes.load(Paths.video('yoylefakeStart'));
-			add(yoylefakes);
-
-			//Video4.cacheVid(Paths.video('yoylefake'));
-			//Video4.cacheVid(Paths.video('yoylefakeEnd'));
-		}
-		else if (PlayState.SONG.song.toLowerCase() == "oneshot-pico") 
-		{
-			po1 = new Video4();
-			po1.onFormat(()->
-			{
-				po1.setGraphicSize(FlxG.width, FlxG.height);
-				po1.updateHitbox();
-				po1.antialiasing = false;
-				po1.cameras = [camOther];
-			});
-
-			po1.load(Paths.video('oneshotpicomixstart'));
-			add(po1);
-		}
 
 		startCallback();
 		RecalculateRating();
@@ -2512,7 +2484,7 @@ class PlayState extends MusicBeatState
 				if (ModSave.secretSongs.get(SONG.song.toLowerCase()) == true) ModSave.editSecretSave('${SONG.song.toLowerCase()}');
 			}
 
-			/*final name = (SONG.song.toLowerCase() + Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+FreeplayState.SelectedThumb.songName+'/charmix.txt'));
+			final name = (SONG.song.toLowerCase() + Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+FreeplayState.SelectedThumb.songName+'/charmix.txt'));
 
 			if (ModSave.playableMixes.exists(name)) 
 			{
@@ -2521,7 +2493,7 @@ class PlayState extends MusicBeatState
 					ModSave.editPlayableSave('$name');
 					FlxG.switchState(()->new funkin.states.CharacterUnlock('${Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+FreeplayState.SelectedThumb.songName+'/charmix.txt')}'));
 				}
-			}*/
+			}
 
 			#end
 			playbackRate = 1;

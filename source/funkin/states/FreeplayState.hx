@@ -137,7 +137,7 @@ class FreeplayState extends MusicBeatState
 			tokenSprites.antialiasing = ClientPrefs.data.antialiasing;
             add(tokenSprites);
 
-			var namesText = new FlxText(((k % 4) * spacingX) + 210, (Std.int(k / 4) * spacingY) + 250, 0, FlxStringUtil.toTitleCase(StringTools.replace(i.sn, "-", " ")), 10);
+			var namesText = new FlxText(((k % 4) * spacingX) + 210, (Std.int(k / 4) * spacingY) + 250, 0, FlxStringUtil.toTitleCase(StringTools.replace(i.sn, "-", " ").replace(i.sn, "(", "/").replace(i.sn, "_", ":")), 10);
 			
 			if (thing.songScore <= 0) namesText.text = '???';
 
@@ -224,7 +224,7 @@ class FreeplayState extends MusicBeatState
 	    }
 
 		changelog = new FlxSprite().loadImage('menus/freeplay/changelog graphic');
-		changelog.setScale(0.75, 0.75);
+		changelog.setScale(0.8, 0.8);
 		changelog.x = (settings.x - changelog.width) - 40;
 		changelog.y = settings.y;
 		add(changelog);
@@ -233,7 +233,7 @@ class FreeplayState extends MusicBeatState
 
 		var end = new FlxSprite().loadImage('menus/freeplay/end');
 		end.screenCenter();
-		end.y = imgs.members[16].y + 700;
+		end.y = imgs.members[24].y + 700;
 		add(end);
 		end.antialiasing = ClientPrefs.data.antialiasing;
 
@@ -583,7 +583,7 @@ class SelectedThumb extends MusicBeatSubstate
 
 	var _cachedAutoPause:Bool = ClientPrefs.data.autoPause;
 
-	var playableChars:Array<Null<String>> = ['bf','pico','spooky','gf','dearest','lunch','tird'];
+	var playableChars:Array<Null<String>> = ['bf','pico','spooky','gf','dearest','lunch','tird','darnell','coiny'];
 
 	// -------------------------------------------------------
 	
@@ -705,7 +705,7 @@ class SelectedThumb extends MusicBeatSubstate
 	    }
 
 		sn = new FlxText(FlxG.width-1130, 570, 0, "").setFormat(Paths.font("Shag-Lounge.otf"), 60, ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE, LEFT);
-		sn.text = FlxStringUtil.toTitleCase(StringTools.replace(songName, "-", " "));
+		sn.text = FlxStringUtil.toTitleCase(StringTools.replace(songName, "-", " ").replace(songName, "(", "/").replace(songName, "_", ":"));
 		add(sn);
 
 		if (Paths.fileExists('images/menus/freeplay/thumbnails/text/'+songName+'/composer.txt',TEXT)) 
@@ -736,14 +736,15 @@ class SelectedThumb extends MusicBeatSubstate
 		add(tokensprite);
 
 		bubbleAnim = FlxG.random.int(1,3);
-
-		var path = (songName == 'aldi' ? 'menus/freeplay/DB/DB-ALDI' : 'menus/freeplay/DB/DB$bubbleAnim');
+		
+		var concerned = songName == 'aldi' || songName == 'idfb-2_-bozobrain';
+		var path = (concerned ? 'menus/freeplay/DB/DB-ALDI' : 'menus/freeplay/DB/DB$bubbleAnim');
 		bubble = new ModchartSprite(#if mobile 920 #else 960 #end,450).loadFrames(path);
 		bubble.addAnimByPrefix('idle', 'idle');
 		bubble.addAnimByPrefix('talk', 'talk');
 		bubble.playAnim('idle');
 
-		if (songName != "aldi") 
+		if (concerned) 
 		{
 			switch (bubbleAnim) 
 			{
@@ -1047,7 +1048,7 @@ class SelectedThumb extends MusicBeatSubstate
 			else return '$otherSong mix';
 		}
 	}
-
+	
 	var switched:Bool = false;
 	function switchDaSong()
 	{
@@ -1061,6 +1062,7 @@ class SelectedThumb extends MusicBeatSubstate
 
 		sn.text = FlxStringUtil.toTitleCase(StringTools.replace((switched) ? '${funnyfellowcheck(false)}' : songName, "-", " "));
 		if (switched && songName == 'hey-two') sn.text = 'Hey Four!';
+		if (switched && songName == 'wrong-finger') sn.text = 'Right Finger!';
 
 		credits = ((switched) ? Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+songName+'/composerMix.txt')  : Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+songName+'/composer.txt'));
 		credTxt.text = '\n$credits';

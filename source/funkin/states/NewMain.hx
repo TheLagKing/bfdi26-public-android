@@ -64,7 +64,7 @@ class NewMain extends MusicBeatState
 		if (rd == 'hpprc') FlxTween.tween(bg, {alpha: 1, x: bg.x-40}, 0.7, {ease: FlxEase.quadInOut, startDelay: 0.3});
 		if (rd == 'exit') FlxTween.tween(bg, {alpha: 1, x: bg.x-20}, 0.7, {ease: FlxEase.quadInOut, startDelay: 0.3});
 
-		if ((Highscore.getSongData('yoylefake',1).songScore <= 0) && !FlxG.save.data.welcome2) buttons.remove('freeplay'); //checks if you've never beaten yoylefake before and therefore locking freeplay
+		//if ((Highscore.getSongData('yoylefake',1).songScore <= 0) && !FlxG.save.data.welcome2) buttons.remove('freeplay'); //checks if you've never beaten yoylefake before and therefore locking freeplay
 
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		for (i in 0...buttons.length)
@@ -86,7 +86,7 @@ class NewMain extends MusicBeatState
 		add(menuItems);
 
 		tv = new Character(menuItems.members[0].x-300, 422, 'tv');
-        tv.scrollFactor.set(0.8,0.8);
+        tv.scrollFactor.set(1,1);
 		tv.antialiasing = true;
 		tv.alpha = 0.0001;
         add(tv);
@@ -101,7 +101,7 @@ class NewMain extends MusicBeatState
 		});
 		FlxTween.tween(tv,{alpha: 1,y: tv.y+25},0.6,{ease: FlxEase.backOut,startDelay: 0.6});
 
-		var version = new FlxText(0, 0, FlxG.width, 'BFDI 26 V1.7 - Character Mix Update', 20);
+		var version = new FlxText(0, 0, FlxG.width, 'BFDI 26 V1.9 - A Fools Update', 20);
 		version.setFormat(Paths.font("YouTubeSansRegular.otf"), 20, FlxColor.WHITE);
 		version.scrollFactor.set(0,0);
 		version.y = 690;
