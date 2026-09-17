@@ -4,11 +4,7 @@ class ModSave
 {
     //updated songs ----------------------
     public static final updatedSongs:Array<String> = [ // put every updated song whenever u release a new update ok? set it and then do FlxG.save.data.flush()
-        'invitational', 'oneshot', 'web-crasher',
-        'hey-two', 'evil-song', 'funny-fellow',
-        'bossy', 'time', 'whos-there',
-        'syskill', 'vocal-chords',
-		'yoylefake'
+        'funny-fellow', 'wrong-finger', 'time',
     ];
     public static var playedUpdatedSongs:Array<String> = [];
 
@@ -70,7 +66,9 @@ class ModSave
 		"syskill-pico" => false, 
 		"evil-song-pico" => false, 
 		"web-crasher-gf" => false, 
-		"bossy-lunch" => false
+		"bossy-lunch" => false,
+		"wrong-finger-coiny" => false,
+		"time-darnell" => false
 	]; //false mean charatcer mix hasnt been unlocked yet
 
     public static function initPlayableSave()
