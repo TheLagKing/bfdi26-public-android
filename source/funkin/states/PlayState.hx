@@ -551,14 +551,9 @@ class PlayState extends MusicBeatState
 		add(reddot);
 
 		for (i in [redline,reddot]) i.cameras = [camOther];
-
-		if (Highscore.getSongData("oneshot",1).songScore > 0) {
+		
+		if (PlayState.SONG.song.toLowerCase() == "oneshot-pico")
 			PlayState.introCutscene = true;
-		}
-		else {
-		PlayState.introCutscene = false;
-		}
-
 
 		for (i in [showCombo,showComboNum,showRating]) {
 			if (PlayState.SONG.song.toLowerCase() == "well-rounded") {
