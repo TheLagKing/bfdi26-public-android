@@ -137,7 +137,7 @@ class FreeplayState extends MusicBeatState
 			tokenSprites.antialiasing = ClientPrefs.data.antialiasing;
             add(tokenSprites);
 
-			var namesText = new FlxText(((k % 4) * spacingX) + 210, (Std.int(k / 4) * spacingY) + 250, 0, FlxStringUtil.toTitleCase(StringTools.replace(i.sn, "-", " ").replace(i.sn, "(", "/").replace(i.sn, "_", ":")), 10);
+			var namesText = new FlxText(((k % 4) * spacingX) + 210, (Std.int(k / 4) * spacingY) + 250, 0, FlxStringUtil.toTitleCase(StringTools.replace(i.sn, "-", " ").replace("(", "/").replace("_", ":")), 10);
 			
 			if (thing.songScore <= 0) namesText.text = '???';
 
@@ -489,7 +489,7 @@ class FreeplayState extends MusicBeatState
 			{
 				PlayState.SONG = funkin.backend.Song.loadFromJson(diffFormatting, formatedSong);
 				PlayState.isStoryMode = false;
-				PlayState.yoylefakeStart = false; //for dumb reasons
+				PlayState.introCutscene = false; //for dumb reasons
 				PlayState.storyDifficulty = 1;
 			}
 			catch (e:Dynamic)
@@ -705,7 +705,7 @@ class SelectedThumb extends MusicBeatSubstate
 	    }
 
 		sn = new FlxText(FlxG.width-1130, 570, 0, "").setFormat(Paths.font("Shag-Lounge.otf"), 60, ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE, LEFT);
-		sn.text = FlxStringUtil.toTitleCase(StringTools.replace(songName, "-", " ").replace(songName, "(", "/").replace(songName, "_", ":"));
+		sn.text = FlxStringUtil.toTitleCase(StringTools.replace(songName, "-", " ").replace("(", "/").replace("_", ":"));
 		add(sn);
 
 		if (Paths.fileExists('images/menus/freeplay/thumbnails/text/'+songName+'/composer.txt',TEXT)) 

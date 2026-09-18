@@ -387,7 +387,7 @@ class SongSelect extends MusicBeatSubstate
 		try
 		{
 			PlayState.SONG = funkin.backend.Song.loadFromJson(Paths.formatToSongPath('yoylefake'), Highscore.formatSong('yoylefake', 1));
-			PlayState.yoylefakeStart = true;
+			PlayState.introCutscene = true;
 			PlayState.isStoryMode = false;
 			PlayState.storyDifficulty = 1;
 			FlxG.switchState(PlayState.new);
