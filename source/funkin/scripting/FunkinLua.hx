@@ -198,8 +198,7 @@ class FunkinLua {
 		set('splashSkinPostfix', NoteSplash.getSplashSkinPostfix());
 		set('splashAlpha', ClientPrefs.data.splashAlpha);
 
-		set('yoylefakeStart', PlayState.yoylefakeStart);
-		set('OneshotCheck', PlayState.OneshotCheck);
+		set('introCutscene', PlayState.introCutscene);
 
 		// build target (windows, mac, linux, etc.)
 		set('buildTarget', LuaUtils.getBuildTarget());
