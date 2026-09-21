@@ -1,8 +1,8 @@
 - 3 Brand new songs! 
-  These are the last playable ones you're getting till 26B so make them count!
+  These are the last playable ones you're getting\ntill 26B so make them count!
 - Funny Fellow V3!
 - Time Darnell Mix!
 - Right Finger!
 - Added Vram and Streamed Music for optimization!
 - Added new credits menu!
-- Many, MANY bug fixes, see the full list by pressing Enter!
+- Many, MANY bug fixes, see the full list\nby pressing Enter!
