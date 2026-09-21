@@ -41,10 +41,8 @@ class ChangelogSubstate extends MusicBeatSubstate
 		fourndb.screenCenter(Y);
 		fourndb.y += 75;
 
-		var changelogText = new FlxText(0, 0, 0, Paths.getTextFromFile('images/menus/freeplay/changelog/changelogText.txt'), 20);
+		var changelogText = new FlxText(0, 10, 0, Paths.getTextFromFile('images/menus/freeplay/changelog/changelogText.txt'), 30);
 		changelogText.font = Paths.font('flashing.ttf');
-		changelogText.x = fourndb.x - (changelogText.width - 375);
-		changelogText.screenCenter(Y);
 		add(changelogText);
 
 		var two = new FlxText(0, 0, 0, '(Press ENTER for the full list!)', 20);
@@ -87,7 +85,7 @@ class ChangelogSubstate extends MusicBeatSubstate
 		{
 			var content = "BFDI26 v1.9 CHANGELOG
 			\n MAIN CHANGES:\n- 3 BRAND NEW SONGS!\n- FUNNY FELLOW V3!\n- TIME DARNELL MIX!\n- RIGHT FINGER!\n- ADDED VRAM AND STREAMED MUSIC!\n- NEW CREDITS MENU!
-			\n QOL CHANGES:\n- Fixed a crash with Client Prefs!\n- Fix the Character and Chart Editors!\n- Fixed a bug with audio issues when finishing a song!\n- Fixed a bug where attempting to skip the intro before it loaded caused a crash!\n- Fixed the loading screen being offset when loading 4 by 3 songs!\n- Fixed sustain note overlap on the noteskin!\n- Fixed an issue where you're score wouldn't save when not selecting Mike in AEWBC!\n- Fixed a bug where exiting a song while the DB dialogue box was loading would crash!\n- Fixed an issue where Vegan Gains render would persist despite disabling titlecards!\n- Fixed a bug where picking a song with a mix then hovering over another before it loads would take you to the wrong song upon unlock!\n- Fixed visibility issues with the freeplay song selection outline!\n- Added new freeplay menu sounds!\n- Added 'Sustain Note Alpha' in the gameplay options!\n- Added 'Freeplay boot up' in the gameplay modifiers options!\n- Fixed an issue with song RPCs loading or deloading incorrectly!\n- Fixed charting issues with Fourteen and Countless in AEWBC!\n- Added separate win tokens for song mixes!";
+			\n QOL CHANGES:\n- Fixed a crash with Client Prefs!\n- Fix the Character and Chart Editors!\n- Fixed a bug with audio issues when finishing a song!\n- Fixed a bug where attempting to skip the intro before it loaded caused a crash!\n- Fixed the loading screen being offset when loading 4 by 3 songs!\n- Fixed sustain note overlap on the noteskin!\n- Fixed an issue where you're score wouldn't save when not selecting Mike in AEWBC!\n- Fixed a bug where exiting a song while the DB dialogue box was loading would crash!\n- Fixed an issue where Vegan Gains render would persist despite disabling titlecards!\n- Fixed a bug where picking a song with a mix then hovering over another before it loads would take you to the wrong song upon unlock!\n- Fixed visibility issues with the freeplay song selection outline!\n- Added new freeplay menu sounds!\n- Added 'Sustain Note Alpha' in the gameplay options!\n- Added 'Freeplay boot up' in the gameplay modifiers options!\n- Fixed an issue with song RPCs loading or deloading incorrectly!\n- Fixed charting issues with Fourteen and Countless in AEWBC!\n- Added separate win tokens for song mixes!;
 			#if android
 			var path = "/storage/emulated/0/Download/BFDI 26 V1.9 - Changelog.txt";
 	        File.saveContent(path, content);
