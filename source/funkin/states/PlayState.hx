@@ -351,6 +351,11 @@ class PlayState extends MusicBeatState
 
 		// for lua
 		instance = this;
+		
+		#if mobile
+		if (controls.isInSubstate)
+            controls.isInSubstate = false;
+        #end
 
 		PauseSubState.songName = null; //Reset to default
 		playbackRate = ClientPrefs.getGameplaySetting('songspeed');
@@ -663,12 +668,7 @@ class PlayState extends MusicBeatState
 		noteGroup.cameras = [camHUD];
 		comboGroup.cameras = [camHUD];
 		
-		#if mobile
-		if (controls.isInSubstate)
-            controls.isInSubstate = false;
-
-		addMobileControls(false);
-		#end
+		#if mobile addMobileControls(false); #end
 
 		startingSong = true;
 
@@ -1391,7 +1391,7 @@ class PlayState extends MusicBeatState
 
 		var file:String = Paths.json(songName + '/events');
 		#if MODS_ALLOWED
-		if (FileSystem.exists(Paths.modsJson(songName + '/events')) || FileSystem.exists(file))
+		if (FileSystem.exists(Paths.modsEvents(songName)) || FileSystem.exists(file))
 		#else
 		if (OpenFlAssets.exists(file))
 		#end
@@ -2479,17 +2479,18 @@ class PlayState extends MusicBeatState
 				if (ModSave.secretSongs.get(SONG.song.toLowerCase()) == true) ModSave.editSecretSave('${SONG.song.toLowerCase()}');
 			}
 
-			final name = (SONG.song.toLowerCase() + Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+FreeplayState.SelectedThumb.songName+'/charmix.txt'));
-
-			if (ModSave.playableMixes.exists(name)) 
+			final name = (SONG.song.toLowerCase() + Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/' + FreeplayState.SelectedThumb.songName + '/charmix.txt').trim());
+			
+			if (ModSave.playableMixes.exists(name))
 			{
-				if (ModSave.playableMixes.get(name) == false) 
-				{
-					ModSave.editPlayableSave('$name');
-					FlxG.switchState(()->new funkin.states.CharacterUnlock('${Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+FreeplayState.SelectedThumb.songName+'/charmix.txt')}'));
-				}
-			}
-
+			    if (ModSave.playableMixes.get(name) == false)
+			    {
+			        ModSave.editPlayableSave(name);
+			
+			        FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/' + FreeplayState.SelectedThumb.songName + '/charmix.txt').trim()));
+			    }
+			 }
+			
 			#end
 			playbackRate = 1;
 
