@@ -479,6 +479,10 @@ class Paths
 	inline static public function modsJson(key:String) {
 		return modFolders('songs/' + key + '/charts/' + key + '.json');
 	}
+	
+	inline static public function modsEvents(key:String) {
+		return modFolders('songs/' + key + 'events.json');
+	}
 
 	inline static public function modsVideo(key:String) {
 		return modFolders('videos/' + key + '.' + VIDEO_EXT);
