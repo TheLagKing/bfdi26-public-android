@@ -31,8 +31,8 @@ class OptionsState extends MusicBeatState
 				openSubState(new funkin.states.options.VisualsUISubState());
 			case 'Gameplay':
 				openSubState(new funkin.states.options.GameplaySettingsSubState());
-			/*case 'Adjust Delay and Combo':
-				FlxG.switchState(funkin.states.options.NoteOffsetState.new);*/ //we reallt arent using this for jack
+			case 'Adjust Delay and Combo':
+				FlxG.switchState(funkin.states.options.NoteOffsetState.new); //we reallt arent using this for jack
 			case 'Reset Data':
 				openSubState(new funkin.states.options.DataReset());
 				border.visible = true;
