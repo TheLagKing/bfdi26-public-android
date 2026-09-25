@@ -6,6 +6,7 @@ on:
 jobs:
   Android:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@main
@@ -23,6 +24,7 @@ jobs:
 
       - name: Install Libraries
         run: |
+          rm -rf .haxelib
           haxelib install hmm --quiet
           haxelib run hmm install --quiet
 
@@ -34,20 +36,17 @@ jobs:
       - name: Restore Cache
         uses: actions/cache@v4
         with:
-          key: cache-android-night
+          key: cache-build-night
           path: |
-            .haxelib/
             export/release/android/haxe/
             export/release/android/obj/
-          restore-keys: |
-            cache-android-night 
 
       - name: Configure Android
         run: |
           haxelib run lime config ANDROID_SDK $ANDROID_HOME
           haxelib run lime config ANDROID_NDK_ROOT $ANDROID_NDK_LATEST_HOME
           haxelib run lime config JAVA_HOME $JAVA_HOME
-          haxelib run lime config ANDROID_SETUP true 
+          haxelib run lime config ANDROID_SETUP true
 
       - name: Compile
         run: haxelib run lime build android
@@ -59,33 +58,29 @@ jobs:
           path: export/release/android/bin/app/build/outputs/apk/release/*.apk
           if-no-files-found: error
 
-      - name: Clearing already existing cache
-        uses: actions/github-script@v6
+      - name: Clear Existing Build Cache
+        uses: actions/github-script@v7
         with:
           script: |
-            const caches = await github.rest.actions.getActionsCacheList({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-            })
-            for (const cache of caches.data.actions_caches) {
-              if (cache.key == "cache-build-night") {
-                console.log('Clearing ' + cache.key + '...')
+            const caches = await github.paginate(
+              github.rest.actions.getActionsCacheListForRepo,
+              {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                per_page: 100
+              }
+            );
+
+            for (const cache of caches) {
+              if (cache.key === "cache-build-night") {
+                console.log(`Clearing ${cache.key}...`);
+
                 await github.rest.actions.deleteActionsCacheById({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
-                  cache_id: cache.id,
-                })
-                console.log("Cache cleared.")
+                  cache_id: cache.id
+                });
               }
             }
-      - name: Uploading new cache
-        uses: actions/cache@v4
-        with:
-          # caching again since for some reason it doesnt work with the first post cache shit
-          key: cache-android-night
-          path: |
-            .haxelib/
-            export/release/android/haxe/
-            export/release/android/obj/
-          restore-keys: |
-            cache-android-night
+
+            console.log("Build cache cleared.");
