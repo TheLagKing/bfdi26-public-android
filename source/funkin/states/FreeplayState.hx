@@ -736,7 +736,7 @@ class SelectedThumb extends MusicBeatSubstate
 				case SDCB, FC: tokensprite.animation.play('normal'); tokensprite.setPosition(FlxG.width-1285, 525);
 				case GFC, PFC: tokensprite.animation.play('gold'); tokensprite.setPosition(FlxG.width-1285, 525);
 			}
-		} else tokensprites.animation.play('empty'); tokensprite.setPosition(FlxG.width-1285, 525);
+		} else tokensprite.animation.play('empty'); tokensprite.setPosition(FlxG.width-1285, 525);
 		add(tokensprite);
 
 		bubbleAnim = FlxG.random.int(1,3);

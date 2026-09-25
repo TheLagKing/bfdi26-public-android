@@ -1763,11 +1763,11 @@ class PlayState extends MusicBeatState
 
 		if(!endingSong && !inCutscene && allowDebugKeys)
 		{
-			if (controls.justPressed('debug_1') || FlxG.justPressed.SEVEN) {
+			if (controls.justPressed('debug_1') || FlxG.key.justPressed.SEVEN) {
 				//loadAmongUs('iloveamongus');
 				openChartEditor();
 			}
-			else if (controls.justPressed('debug_2') || FlxG.justPressed.SIX) {
+			else if (controls.justPressed('debug_2') || FlxG.key.justPressed.SIX) {
 				openCharacterEditor();
 			}
 		}
