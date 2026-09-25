@@ -226,7 +226,7 @@ class FreeplayState extends MusicBeatState
 		changelog = new FlxSprite().loadImage('menus/freeplay/changelog graphic');
 		changelog.setScale(1, 1);
 		changelog.x = (settings.x - changelog.width) - 40;
-		changelog.y = settings.y;
+		changelog.y = settings.y - 10;
 		add(changelog);
 		changelog.antialiasing = ClientPrefs.data.antialiasing;
 		changelog.color = ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE;
@@ -723,16 +723,20 @@ class SelectedThumb extends MusicBeatSubstate
 		else funfact = 'Looks like this song doesn\'t have a fun fact just yet! Sorry! Come back later.';
 
 		var tokensprite = new FlxSprite().loadFrames(path);
+		tokensprite.addAnimByPrefix('none', 'no token instance 1', 24, true);
 		tokensprite.addAnimByPrefix('normal', 'win token instance 1', 24, true);
 		tokensprite.addAnimByPrefix('gold', 'gold token instance 1', 24, true);
 		tokensprite.scale.set(0.75,0.75);
 		tokensprite.antialiasing = ClientPrefs.data.antialiasing;
-
-		switch(data.songFC)
+		
+		if (data.songScore > 0)
 		{
-			case SDCB, FC: tokensprite.animation.play('normal'); tokensprite.setPosition(FlxG.width-1285, 525);
-			case GFC, PFC: tokensprite.animation.play('gold'); tokensprite.setPosition(FlxG.width-1285, 525);
-		}
+			switch(data.songFC)
+			{
+				case SDCB, FC: tokensprite.animation.play('normal'); tokensprite.setPosition(FlxG.width-1285, 525);
+				case GFC, PFC: tokensprite.animation.play('gold'); tokensprite.setPosition(FlxG.width-1285, 525);
+			}
+		} else tokensprites.animation.play('empty'); tokensprite.setPosition(FlxG.width-1285, 525);
 		add(tokensprite);
 
 		bubbleAnim = FlxG.random.int(1,3);
