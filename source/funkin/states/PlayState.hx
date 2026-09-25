@@ -228,7 +228,6 @@ class PlayState extends MusicBeatState
 
 	public var inCutscene:Bool = false;
 	public var skipCountdown:Bool = false;
-	public static var introCutscene:Bool = false;
 	var songLength:Float = 0;
 
 	public var boyfriendCameraOffset:Array<Float> = null;
@@ -263,6 +262,8 @@ class PlayState extends MusicBeatState
 	// Callbacks for stages
 	public var startCallback:Void->Void = null;
 	public var endCallback:Void->Void = null;
+
+	public static var introCutscene:Bool = false;
 
 	//i dont remember doing this oh my god //why am i lowk too lazy tho
 	final list:Array<Array<String>> = 
@@ -351,7 +352,7 @@ class PlayState extends MusicBeatState
 
 		// for lua
 		instance = this;
-		
+
 		#if mobile
 		if (controls.isInSubstate)
             controls.isInSubstate = false;
@@ -556,9 +557,6 @@ class PlayState extends MusicBeatState
 		add(reddot);
 
 		for (i in [redline,reddot]) i.cameras = [camOther];
-		
-		if (PlayState.SONG.song.toLowerCase() == "oneshot-pico")
-			PlayState.introCutscene = true;
 
 		for (i in [showCombo,showComboNum,showRating]) {
 			if (PlayState.SONG.song.toLowerCase() == "well-rounded") {
@@ -667,7 +665,7 @@ class PlayState extends MusicBeatState
 		uiGroup.cameras = [camHUD];
 		noteGroup.cameras = [camHUD];
 		comboGroup.cameras = [camHUD];
-		
+
 		#if mobile addMobileControls(false); #end
 
 		startingSong = true;
@@ -720,12 +718,15 @@ class PlayState extends MusicBeatState
 			if (PlayState.SONG.song.toLowerCase() == '${list[i][0]}') {
 				DiscordClient.clientID = list[i][1];
 				var songName:String = list[i][0].replace("idfb-2_-", "").replace("hey-two-gf", "hey four!").replace("wrong-finger-coiny", "right finger!").replace("-", " ").replace("(", "/").replace("k2", "k").toUpperCase();
-				new FlxTimer().start(1,Void->{
+				new FlxTimer().start(3,Void->{
 					DiscordClient.changePresence('BFDI26 - ${list[i][2]}', songName);
 				});
 			}
 		}
 		#end
+
+		if (PlayState.SONG.song.toLowerCase() == "oneshot-pico")
+			PlayState.introCutscene = true;
 
 		startCallback();
 		RecalculateRating();
@@ -1391,7 +1392,7 @@ class PlayState extends MusicBeatState
 
 		var file:String = Paths.json(songName + '/events');
 		#if MODS_ALLOWED
-		if (FileSystem.exists(Paths.modsEvents(songName)) || FileSystem.exists(file))
+		if (FileSystem.exists(Paths.modsJson(songName + '/events')) || FileSystem.exists(file))
 		#else
 		if (OpenFlAssets.exists(file))
 		#end
@@ -1719,7 +1720,7 @@ class PlayState extends MusicBeatState
 	var startedCountdown:Bool = false;
 	var canPause:Bool = true;
 	var freezeCamera:Bool = false;
-	var allowDebugKeys:Bool = #if debug true #else false #end;
+	var allowDebugKeys:Bool = true;
 
 	override public function update(elapsed:Float)
 	{
@@ -1762,11 +1763,11 @@ class PlayState extends MusicBeatState
 
 		if(!endingSong && !inCutscene && allowDebugKeys)
 		{
-			if (controls.justPressed('debug_1')) {
+			if (controls.justPressed('debug_1') || FlxG.justPressed.SEVEN) {
 				//loadAmongUs('iloveamongus');
 				openChartEditor();
 			}
-			else if (controls.justPressed('debug_2')) {
+			else if (controls.justPressed('debug_2') || FlxG.justPressed.SIX) {
 				openCharacterEditor();
 			}
 		}
@@ -2423,7 +2424,9 @@ class PlayState extends MusicBeatState
 			});
 		}
 	}
-
+	
+	var playableChars:Array<Null<String>> = ['bf','pico','spooky','gf','dearest','lunch','tird','darnell','coiny'];
+	var otherSong:Null<String> = null;
 
 	public var transitioning = false;
 	public var percent:Float;
@@ -2479,18 +2482,24 @@ class PlayState extends MusicBeatState
 				if (ModSave.secretSongs.get(SONG.song.toLowerCase()) == true) ModSave.editSecretSave('${SONG.song.toLowerCase()}');
 			}
 
-			final name = (SONG.song.toLowerCase() + Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/' + FreeplayState.SelectedThumb.songName + '/charmix.txt').trim());
-			
-			if (ModSave.playableMixes.exists(name))
+			for (i in playableChars)
 			{
-			    if (ModSave.playableMixes.get(name) == false)
-			    {
-			        ModSave.editPlayableSave(name);
+			    var ok = (songName + '-$i');
+				
+			    trace(i, ok);
+			    if (Paths.fileExists('images/menus/freeplay/thumbnails/$ok.png', IMAGE)) otherSong = ok;
+		    }
+
+			if (Highscore.getSongData(songName,1).songScore <= 0 && ModSave.playableMixes.get(otherSong) == false)
+			{
+			    ModSave.editPlayableSave(otherSong);
 			
-			        FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/' + FreeplayState.SelectedThumb.songName + '/charmix.txt').trim()));
-			    }
+			    FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+songName+'/charmix.txt')));
+			    FlxG.sound.music.pause();
+				FlxG.sound.music.stop();
+				return;
 			 }
-			
+
 			#end
 			playbackRate = 1;
 

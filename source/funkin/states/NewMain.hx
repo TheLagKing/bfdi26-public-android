@@ -87,7 +87,7 @@ class NewMain extends MusicBeatState
 
 		tv = new Character(menuItems.members[0].x-300, 422, 'tv');
         tv.scrollFactor.set(0.8,0.8);
-        tv.scale.set(2,2);
+        tv.scale.set(1.8,1.8);
 		tv.antialiasing = true;
 		tv.alpha = 0.0001;
         add(tv);
