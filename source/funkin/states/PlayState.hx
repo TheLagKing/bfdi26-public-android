@@ -2497,7 +2497,7 @@ class PlayState extends MusicBeatState
 			    FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+songName+'/charmix.txt')));
 			    FlxG.sound.music.pause();
 				FlxG.sound.music.stop();
-				return;
+				return true;
 			 }
 
 			#end
