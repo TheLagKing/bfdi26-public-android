@@ -226,7 +226,7 @@ class FreeplayState extends MusicBeatState
 		changelog = new FlxSprite().loadImage('menus/freeplay/changelog graphic');
 		changelog.setScale(1, 1);
 		changelog.x = (settings.x - changelog.width) - 40;
-		changelog.y = settings.y - 10;
+		changelog.y = settings.y + 10;
 		add(changelog);
 		changelog.antialiasing = ClientPrefs.data.antialiasing;
 		changelog.color = ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE;
