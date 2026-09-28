@@ -4,7 +4,7 @@ import funkin.data.StageData;
 
 class OptionsState extends MusicBeatState
 {
-	var options:Array<String> = ['Controls', /*'Adjust Delay and Combo',*/ 'Graphics', 'Visuals and UI', 'Gameplay', 'Reset Data'];
+	var options:Array<String> = ['Controls', 'Adjust Delay and Combo', 'Graphics', 'Visuals and UI', 'Gameplay', 'Reset Data'];
 	private static var curSelected:Int = 0;
 	public static var onPlayState:Bool = false;
 
