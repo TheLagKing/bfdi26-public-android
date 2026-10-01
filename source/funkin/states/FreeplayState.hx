@@ -454,7 +454,7 @@ class FreeplayState extends MusicBeatState
 			}
 		}
 		
-		if ((#if mobile virtualPad.buttonB.justPressed || #end controls.BACK) && canScroll)
+		if (controls.BACK && canScroll)
 		{
 			FlxMouseEvent.removeAll();
 
@@ -1212,7 +1212,7 @@ class SelectedThumb extends MusicBeatSubstate
 		
 		if (can && !isWebCrasher) 
 		{
-			if (canDoShit && (controls.BACK #if mobile || virtualPad.buttonB.justPressed #end)) 
+			if (canDoShit && controls.BACK) 
 			{
 				FlxG.sound.play(Paths.sound('spaceunpause'));
 				FlxTween.tween(parent.screen, {alpha: 0},0.4);

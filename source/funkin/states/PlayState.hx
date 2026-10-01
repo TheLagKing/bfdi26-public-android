@@ -717,8 +717,8 @@ class PlayState extends MusicBeatState
 		{
 			if (PlayState.SONG.song.toLowerCase() == '${list[i][0]}') {
 				DiscordClient.clientID = list[i][1];
-				var songName:String = list[i][0].replace("idfb-2_-", "").replace("hey-two-gf", "hey four!").replace("wrong-finger-coiny", "right finger!").replace("-", " ").replace("(", "/").replace("k2", "k").toUpperCase();
-				new FlxTimer().start(3,Void->{
+				var songName:String = list[i][0].replace("idfb-2_-", "").replace("hey-two-gf", "hey four!").replace("wrong-finger-coiny", "right finger!").replace("-", " ").replace("(", "/").replace("26", " 26").toUpperCase();
+				new FlxTimer().start(1,Void->{
 					DiscordClient.changePresence('BFDI26 - ${list[i][2]}', songName);
 				});
 			}
@@ -2426,7 +2426,8 @@ class PlayState extends MusicBeatState
 	}
 	
 	var playableChars:Array<Null<String>> = ['bf','pico','spooky','gf','dearest','lunch','tird','darnell','coiny'];
-	var otherSong:Null<String> = null;
+	final mixes:Array<String> = ['funny-fellow','wrong-finger','oneshot','time','web-crasher','invitational',
+		'hey-two','syskill','blue-golfball','evil-song','bossy'];
 
 	public var transitioning = false;
 	public var percent:Float;
@@ -2481,24 +2482,27 @@ class PlayState extends MusicBeatState
 			{
 				if (ModSave.secretSongs.get(SONG.song.toLowerCase()) == true) ModSave.editSecretSave('${SONG.song.toLowerCase()}');
 			}
-
-			for (i in playableChars)
-			{
-			    var ok = (songName + '-$i');
-				
-			    trace(i, ok);
-			    if (Paths.fileExists('images/menus/freeplay/thumbnails/$ok.png', IMAGE)) otherSong = ok;
-		    }
-
-			if (Highscore.getSongData(songName,1).songScore <= 0 && ModSave.playableMixes.get(otherSong) == false)
-			{
-			    ModSave.editPlayableSave(otherSong);
 			
-			    FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+songName+'/charmix.txt')));
+			var pathmix = 'images/menus/freeplay/thumbnails/text/' + songName + '/charmix.txt';
+			
+			for (mix in mixes)
+			{
+			    if (Highscore.getSongData(songName, 1).songScore <= 0 && PlayState.SONG.song.toLowerCase() != mix)
+			    {
+			    for (i in playableChars)
+			    {
+			        var otherSong = songName + '-$i';
+			
+			        if (!ModSave.playableMixes.exists(otherSong))
+			            ModSave.editPlayableSave(otherSong);
+			    }
+                    
+			    FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile(pathmix)));
 			    FlxG.sound.music.pause();
-				FlxG.sound.music.stop();
-				return true;
-			 }
+			    FlxG.sound.music.stop();
+			
+			    }
+			}
 
 			#end
 			playbackRate = 1;
