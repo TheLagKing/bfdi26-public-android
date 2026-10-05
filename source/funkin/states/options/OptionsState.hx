@@ -4,7 +4,7 @@ import funkin.data.StageData;
 
 class OptionsState extends MusicBeatState
 {
-	var options:Array<String> = ['Controls', 'Adjust Delay and Combo', 'Graphics', 'Visuals and UI', 'Gameplay', 'Reset Data'];
+	var options:Array<String> = ['Controls', 'Offset', 'Graphics', 'Visuals and UI', 'Gameplay', 'Reset Data'];
 	private static var curSelected:Int = 0;
 	public static var onPlayState:Bool = false;
 
@@ -31,7 +31,7 @@ class OptionsState extends MusicBeatState
 				openSubState(new funkin.states.options.VisualsUISubState());
 			case 'Gameplay':
 				openSubState(new funkin.states.options.GameplaySettingsSubState());
-			case 'Adjust Delay and Combo':
+			case 'Offset':
 				FlxG.switchState(funkin.states.options.NoteOffsetState.new); //we reallt arent using this for jack
 			case 'Reset Data':
 				openSubState(new funkin.states.options.DataReset());
