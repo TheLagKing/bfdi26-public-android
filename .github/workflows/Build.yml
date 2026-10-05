@@ -15,32 +15,32 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-
+      
       - name: Setup Haxe
         uses: krdlab/setup-haxe@master
         with:
           haxe-version: 4.3.6
-
-      - name: Install Libraries
-        run: |
-          haxelib install hmm --quiet
-          haxelib run hmm install --quiet
-
-      - name: Compile hxcpp
-        run: |
-          cd .haxelib/hxcpp/git/tools/hxcpp
-          haxe compile.hxml
-
+      
       - name: Restore Cache
         uses: actions/cache@v4
         with:
-          key: cache-android-night
+          key: cache-android-night-v2
           path: |
             .haxelib/
             export/release/android/haxe/
             export/release/android/obj/
           restore-keys: |
-            cache-android-night 
+            cache-android-night-v2
+      
+      - name: Install Libraries
+        run: |
+          haxelib install hmm --quiet
+          haxelib run hmm install --quiet
+      
+      - name: Compile hxcpp
+        run: |
+          cd .haxelib/hxcpp/git/tools/hxcpp
+          haxe compile.hxml
 
       - name: Configure Android
         run: |
