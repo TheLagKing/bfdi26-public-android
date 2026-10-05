@@ -723,7 +723,7 @@ class SelectedThumb extends MusicBeatSubstate
 		else funfact = 'Looks like this song doesn\'t have a fun fact just yet! Sorry! Come back later.';
 
 		var tokensprite = new FlxSprite().loadFrames(path);
-		tokensprite.addAnimByPrefix('none', 'no token instance 1', 24, true);
+		tokensprite.addAnimByPrefix('empty', 'no token instance 1', 24, true);
 		tokensprite.addAnimByPrefix('normal', 'win token instance 1', 24, true);
 		tokensprite.addAnimByPrefix('gold', 'gold token instance 1', 24, true);
 		tokensprite.scale.set(0.75,0.75);
@@ -1022,18 +1022,13 @@ class SelectedThumb extends MusicBeatSubstate
 		questionCam.alpha = 0.000001;
 		change();
 
-        createVPad();
-	}
-	
-	function createVPad()
-	{
-	   #if mobile
+        #if mobile
         controls.isInSubstate = true;
 		if (canCycle || songUnlockable) addVirtualPad(NONE, B_T);
 		else addVirtualPad(NONE, B);
 		#end
 	}
-
+	
 	function change(diff:Int = 0)
 	{
 		if (diff != 0) FlxG.sound.play(Paths.sound('scrollup1'));
@@ -1138,7 +1133,7 @@ class SelectedThumb extends MusicBeatSubstate
 
 		if (boxhover && !canAnswer) 
 		{
-			if (FlxG.keys.justPressed.ENTER || justTouched) 
+			if (FlxG.keys.justPressed.ENTER) 
 			{
 				boxhover = false;
 				nextFunfact();
@@ -1218,11 +1213,6 @@ class SelectedThumb extends MusicBeatSubstate
 				FlxTween.tween(parent.screen, {alpha: 0},0.4);
 				parent.selected = false;
 				close();
-				#if mobile
-				new FlxTimer().start(0.1, function(tmr:FlxTimer) {
-				controls.isInSubstate = false;
-				});
-			    #end
 
 				typer.startTyping('');
 				typer.skip();

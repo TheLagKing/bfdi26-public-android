@@ -2483,26 +2483,25 @@ class PlayState extends MusicBeatState
 				if (ModSave.secretSongs.get(SONG.song.toLowerCase()) == true) ModSave.editSecretSave('${SONG.song.toLowerCase()}');
 			}
 			
-			var pathmix = 'images/menus/freeplay/thumbnails/text/' + songName + '/charmix.txt';
+			var song = SONG.song.toLowerCase();
 			
-			for (mix in mixes)
+			if (mixes.contains(song))
 			{
-			    if (Highscore.getSongData(songName, 1).songScore <= 0 && PlayState.SONG.song.toLowerCase() != mix)
-			    {
 			    for (i in playableChars)
 			    {
-			        var otherSong = songName + '-$i';
+			     var otherSong = song + '-$i';
 			
-			        if (!ModSave.playableMixes.exists(otherSong))
-			            ModSave.editPlayableSave(otherSong);
-			    }
-                    
-			    FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile(pathmix)));
-			    FlxG.sound.music.pause();
-			    FlxG.sound.music.stop();
-			
-			    }
-			}
+			     if (ModSave.playableMixes.exists(otherSong) && !ModSave.playableMixes.get(otherSong))
+			     {
+                     ModSave.editPlayableSave(otherSong);
+                     
+                     FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/' + song + '/charmix.txt')));
+                     
+                     FlxG.sound.music.pause();
+                     FlxG.sound.music.stop();
+                  }
+                 }
+             }
 
 			#end
 			playbackRate = 1;
