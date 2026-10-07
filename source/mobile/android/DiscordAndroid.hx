@@ -26,7 +26,7 @@ class DiscordAndroid {
 		}
 	}
 
-	public static function update(activityName:String, details:String, ?smallImageKey:String) {
+	public static function update(activityName:String, details:String, ?largeImageKey:String) {
 		try {
 			if (!initialized) initialize();
 			
@@ -40,7 +40,7 @@ class DiscordAndroid {
 			
 			var safeActivityName:String = (activityName != null) ? activityName : "";
 			var safeDetails:String = (details != null) ? details : "";
-			var safeImage:String = (smallImageKey != null) ? smallImageKey : "";
+			var safeImage:String = (largeImageKey != null) ? largeImageKey : "";
 			
 			if (_update != null)
 				_update(safeActivityName, safeDetails, safeImage);
