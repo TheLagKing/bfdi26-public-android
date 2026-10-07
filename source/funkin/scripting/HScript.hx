@@ -197,6 +197,9 @@ class HScript extends Iris
 		
 		set('FlxPoint',flixel.math.FlxPoint.FlxBasePoint);
 		set('betterLerp',CoolUtil.betterLerp);
+
+		set('ModchartAnimateSprite', funkin.scripting.ModchartAnimateSprite);
+		set('FlxPieDial', flixel.addons.display.FlxPieDial);
 		
 		// Functions & Variables
 		set('setVar', function(name:String, value:Dynamic) {
