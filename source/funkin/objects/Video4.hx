@@ -84,7 +84,7 @@ class Video4 extends FlxVideoSprite
 	            if (touch.justPressed) vidjustTouched = true;
 		#end
 		
-		if ((FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER || justTouched) && canSkip)
+		if ((FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER || vidjustTouched) && canSkip)
 		{
 			onSkip.dispatch();
 			if (bitmap.isPlaying)
