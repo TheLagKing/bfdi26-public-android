@@ -719,7 +719,7 @@ class PlayState extends MusicBeatState
 				DiscordClient.clientID = list[i][1];
 				var songName:String = list[i][0].replace("idfb-2_-", "").replace("hey-two-gf", "hey four!").replace("wrong-finger-coiny", "right finger!").replace("-", " ").replace("(", "/").replace("26", " 26").toUpperCase();
 				new FlxTimer().start(1,Void->{
-					DiscordClient.changePresence('BFDI26 - ${list[i][2]}', songName, Null, PlayState.SONG.song());
+					DiscordClient.changePresence('BFDI26 - ${list[i][2]}', songName, null, PlayState.SONG.song());
 				});
 			}
 		}
