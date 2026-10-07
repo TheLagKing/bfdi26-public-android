@@ -72,14 +72,19 @@ class Video4 extends FlxVideoSprite
 	}
 	
 	private var canSkip:Bool = false;
+	private var justTouched:Bool = false;
 	
 	private final onSkip:FlxSignal = new FlxSignal();
 	
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
+		#if mobile
+            for (touch in FlxG.touches.list)
+	            if (touch.justPressed) justTouched = true;
+		#end
 		
-		if ((FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER #if android || FlxG.android.justReleased.BACK #end) && canSkip)
+		if ((FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER || justTouched) && canSkip)
 		{
 			onSkip.dispatch();
 			if (bitmap.isPlaying)
