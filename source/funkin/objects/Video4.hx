@@ -72,7 +72,7 @@ class Video4 extends FlxVideoSprite
 	}
 	
 	private var canSkip:Bool = false;
-	private var justTouched:Bool = false;
+	var justTouched:Bool = false;
 	
 	private final onSkip:FlxSignal = new FlxSignal();
 	
