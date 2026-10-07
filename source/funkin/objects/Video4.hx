@@ -72,7 +72,7 @@ class Video4 extends FlxVideoSprite
 	}
 	
 	private var canSkip:Bool = false;
-	var justTouched:Bool = false;
+	var vidjustTouched:Bool = false;
 	
 	private final onSkip:FlxSignal = new FlxSignal();
 	
@@ -81,7 +81,7 @@ class Video4 extends FlxVideoSprite
 		super.update(elapsed);
 		#if mobile
             for (touch in FlxG.touches.list)
-	            if (touch.justPressed) justTouched = true;
+	            if (touch.justPressed) vidjustTouched = true;
 		#end
 		
 		if ((FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ENTER || justTouched) && canSkip)
