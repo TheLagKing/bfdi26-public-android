@@ -102,18 +102,18 @@ class DiscordClient
 		#end
 	}
 
-	public static function changePresence(?details:String = 'BFDI 26 - GREETINGS AND SALUATIONS', ?activityName:String = '', ?state:Null<String>, ?smallImageKey : String, ?hasStartTimestamp : Bool, ?endTimestamp: Float)
+	public static function changePresence(?details:String = 'BFDI 26 - GREETINGS AND SALUATIONS', ?activityName:String = '', ?state:Null<String>, ?largeImageKey:String = 'icon', ?hasStartTimestamp : Bool, ?endTimestamp: Float)
 	{
 		var startTimestamp:Float = 0;
 		if (hasStartTimestamp) startTimestamp = Date.now().getTime();
 		if (endTimestamp > 0) endTimestamp = startTimestamp + endTimestamp;
 
         #if android
-		DiscordAndroid.update(activityName, details, smallImageKey);
+		DiscordAndroid.update(activityName, details, largeImageKey);
 		#else
 		presence.details = details;
 		presence.state = state;
-		presence.largeImageKey = 'icon';
+		presence.largeImageKey = largeImageKey;
 		//presence.largeImageText = "Engine Version: " + states.MainMenuState.psychEngineVersion;
 		presence.smallImageKey = smallImageKey;
 		// Obtained times are in milliseconds so they are divided so Discord can use it
