@@ -477,7 +477,11 @@ class Paths
 	}
 
 	inline static public function modsJson(key:String) {
-		return modFolders('songs/' + key + '/charts/' + key + '.json');
+	    var parts = key.split('/');
+	    var file = parts.pop();
+	    var folder = parts.join('/');
+	
+		return modFolders('songs/' + folder + '/charts/' + key + '.json');
 	}
 	
 	inline static public function modsEvents(key:String) {
