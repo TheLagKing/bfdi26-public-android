@@ -105,7 +105,7 @@ class Song
 			if (jsonInput == 'events') {
 			    moddyFile = Paths.modsEvents(formattedFolder + '/' + formattedSong);
 			} else {
-			    moddyFile = Paths.modsJson(formattedFolder + '/' + formattedSong);
+			    moddyFile = Paths.modsJson(formattedSong);
 			}
     
 			if(FileSystem.exists(moddyFile)) 
