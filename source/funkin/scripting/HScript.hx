@@ -7,7 +7,7 @@ import flixel.graphics.frames.FlxBitmapFont;
 import flixel.text.FlxBitmapText;
 import openfl.display.BlendMode;
 import flixel.util.FlxAxes;
-import flixel.addons.display.FlxRuntimeShader;
+import flixel.addons.display.*;
 import flixel.system.FlxAssets.FlxShader;
 import funkin.objects.Character;
 import funkin.scripting.LuaUtils;
@@ -150,6 +150,7 @@ class HScript extends Iris
 		set('FlxG', flixel.FlxG);
 		set('FlxMath', flixel.math.FlxMath);
 		set('FlxSprite', ModchartSprite);
+		set('ModchartAnimateSprite', ModchartAnimateSprite);
 		set('FlxCamera', flixel.FlxCamera);
 		set('PsychCamera', funkin.backend.PsychCamera);
 		set('FlxTimer', flixel.util.FlxTimer);
@@ -168,6 +169,7 @@ class HScript extends Iris
 		set('Alphabet', Alphabet);
 		set('Note', funkin.objects.Note);
 		set('CustomSubstate', CustomSubstate);
+		set('FlxPieDial', FlxPieDial);
 		#if (!flash && sys)
 		set('FlxRuntimeShader', FlxRuntimeShader);
 		set('ErrorHandledRuntimeShader', funkin.shaders.ErrorHandledShader.ErrorHandledRuntimeShader);
@@ -197,9 +199,6 @@ class HScript extends Iris
 		
 		set('FlxPoint',flixel.math.FlxPoint.FlxBasePoint);
 		set('betterLerp',CoolUtil.betterLerp);
-
-		set('ModchartAnimateSprite', funkin.scripting.ModchartAnimateSprite);
-		set('FlxPieDial', flixel.addons.display.FlxPieDial);
 		
 		// Functions & Variables
 		set('setVar', function(name:String, value:Dynamic) {
