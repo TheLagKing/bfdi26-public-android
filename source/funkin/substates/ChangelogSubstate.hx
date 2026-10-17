@@ -41,8 +41,9 @@ class ChangelogSubstate extends MusicBeatSubstate
 		fourndb.screenCenter(Y);
 		fourndb.y += 75;
 
-		var changelogText = new FlxText(0, 10, 0, Paths.getTextFromFile('images/menus/freeplay/changelog/changelogText.txt'), 30);
+		var changelogText = new FlxText(0, 100, 0, Paths.getTextFromFile('images/menus/freeplay/changelog/changelogText.txt'), 30);
 		changelogText.font = Paths.font('flashing.ttf');
+		changelogText.leading = -5;
 		add(changelogText);
 
 		var two = new FlxText(0, 0, 0, '(Press ENTER for the full list!)', 20);
