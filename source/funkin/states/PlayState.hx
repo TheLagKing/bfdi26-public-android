@@ -1221,6 +1221,9 @@ class PlayState extends MusicBeatState
 		var tempScore:String = 'Score: ${songScore}'
 		+ (!instakillOnMiss ? ' | Misses: ${songMisses}' : "")
 		+ ' | Rating: ${str}';
+		
+		if (scoreTxt != null)
+            scoreTxt.text = 'Score: ${songScore}';
 
 		if (!miss && !cpuControlled)
 			doScoreBop();
@@ -2489,11 +2492,11 @@ class PlayState extends MusicBeatState
 			{
 			    for (i in playableChars)
 			    {
-			     var otherSong = song + '-$i';
+			     var otherSong = song + '-' + i;
 			
-			     if (ModSave.playableMixes.exists(otherSong) && !ModSave.playableMixes.get(otherSong))
+			     if (ModSave.playableMixes.exists(otherSong))
 			     {
-                     ModSave.editPlayableSave(otherSong);
+                     if(!ModSave.playableMixes.get(otherSong)) ModSave.editPlayableSave(otherSong);
                      
                      FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/' + song + '/charmix.txt')));
                      
