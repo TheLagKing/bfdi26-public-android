@@ -1,4 +1,4 @@
-package states.editors;
+package funkin.states.editors;
 
 import flixel.graphics.FlxGraphic;
 
@@ -10,9 +10,9 @@ import openfl.events.Event;
 import openfl.events.IOErrorEvent;
 import openfl.utils.Assets;
 
-import objects.Character;
-import objects.HealthIcon;
-import objects.Bar;
+import funkin.objects.Character;
+import funkin.objects.HealthIcon;
+import funkin.objects.Bar;
 
 import states.editors.content.Prompt;
 import states.editors.content.PsychJsonPrinter;
