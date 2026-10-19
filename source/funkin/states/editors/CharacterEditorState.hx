@@ -14,7 +14,7 @@ import funkin.objects.Character;
 import funkin.objects.HealthIcon;
 import funkin.objects.Bar;
 
-import states.editors.content.PsychJsonPrinter;
+import funkin.states.editors.PsychJsonPrinter;
 
 class CharacterEditorState extends MusicBeatState implements PsychUIEventHandler.PsychUIEvent
 {
