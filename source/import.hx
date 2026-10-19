@@ -28,6 +28,8 @@ import funkin.backend.BaseStage;
 import funkin.backend.Difficulty;
 import funkin.backend.Mods;
 
+import funkin.backend.ui.*; //Psych-UI
+
 import funkin.data.Controls;
 import funkin.data.ClientPrefs;
 
