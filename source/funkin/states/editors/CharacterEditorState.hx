@@ -3,6 +3,9 @@ package funkin.states.editors;
 import flixel.graphics.FlxGraphic;
 
 import flixel.system.debug.interaction.tools.Pointer.GraphicCursorCross;
+import flixel.addons.transition.FlxTransitionableState;
+import flixel.addons.ui.*;
+import flixel.ui.FlxButton;
 import flixel.util.FlxDestroyUtil;
 
 import openfl.net.FileReference;
