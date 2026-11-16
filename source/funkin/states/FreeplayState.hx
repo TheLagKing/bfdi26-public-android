@@ -47,7 +47,7 @@ class FreeplayState extends MusicBeatState
 	public function new(?skipIntro:Null<Bool> = false, ?skipIntroAndWholeMenu:Null<Bool> = false)
 	{
 		super();
-		this.skipIntro = skipIntro;
+		this.skipIntro = skipIntro = ClientPrefs.data.skipBoot;
 		this.skipIntroAndWholeMenu = skipIntroAndWholeMenu;
 	}
 
@@ -236,6 +236,16 @@ class FreeplayState extends MusicBeatState
 		end.y = imgs.members[28].y + 400;
 		add(end);
 		end.antialiasing = ClientPrefs.data.antialiasing;
+		
+		outline = new FlxSprite(thumbnails[0].x, thumbnails[0].y);
+		outline.loadGraphic(Paths.image('menus/freeplay/thumbnails/yoylefake'));
+		outline.setGraphicSize(Std.int(outline.width * 0.1705));
+		outline.updateHitbox();
+		outline.antialiasing = true;
+		outShader = new CustomShader('animatedOutline');
+		outShader.iTime = 0;
+		outline.shader = outShader;
+		add(outline);
 
 		scrollBar = new FlxSprite().generateGraphic(15,250);
 		scrollBar.screenCenter();
@@ -270,6 +280,14 @@ class FreeplayState extends MusicBeatState
 		blackbg.scrollFactor.set();
 		blackbg.color = FlxColor.BLACK;
 		blackbg.alpha = 0;
+		
+		#if mobile
+		if (controls.isInSubstate)
+            controls.isInSubstate = false;
+            
+		addVirtualPad(NONE, FREEPLAY);
+		addVirtualPadCamera();
+		#end
 
 		if (!skipIntro) 
 		{
@@ -313,16 +331,14 @@ class FreeplayState extends MusicBeatState
 
 	function superIntro(onComplete:Void->Void = null)
 	{
+	    if (skipIntro)
+	    {
+		    FlxG.camera.flash(settings.color, 0.5);
+		    return;
+		}
+		
 		canScroll = false;
 		selected = true;
-		
-		#if mobile
-		if (controls.isInSubstate)
-            controls.isInSubstate = false;
-            
-		addVirtualPad(NONE, FREEPLAY);
-		addVirtualPadCamera();
-		#end
 
 		bootUpSound = FlxG.sound.play(Paths.sound('bootup'), 0.4);
 
@@ -330,6 +346,7 @@ class FreeplayState extends MusicBeatState
         screen.scale.set(FlxG.width, FlxG.height);
         screen.updateHitbox();
         screen.scrollFactor.set();
+        if (FlxG.onMobile && vpadCam != null) screen.cameras = [vpadCam];
         add(screen);
 
 		blackbg.alpha = 1;
@@ -368,6 +385,9 @@ class FreeplayState extends MusicBeatState
                 for (touch in FlxG.touches.list)
 	                if (touch.justPressed) justTouched = true;
 		#end
+		
+		outTime += elapsed * 1.3;
+		outShader.iTime = outTime;
 		
 		if (FlxG.sound.music.volume < 0.7)
 		FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
@@ -466,6 +486,10 @@ class FreeplayState extends MusicBeatState
 				FlxG.switchState(funkin.states.NewMain.new);
 			});
 		}
+		
+		var k:Float = 1 - Math.exp(-elapsed * 26);
+		outline.x += (thumbnails[curSelected].x - outline.x) * k;
+		outline.y += (thumbnails[curSelected].y - outline.y) * k;
 
 		super.update(elapsed);
 	}
@@ -728,15 +752,8 @@ class SelectedThumb extends MusicBeatSubstate
 		tokensprite.addAnimByPrefix('gold', 'gold token instance 1', 24, true);
 		tokensprite.scale.set(0.75,0.75);
 		tokensprite.antialiasing = ClientPrefs.data.antialiasing;
-		
-		if (data.songScore > 0)
-		{
-			switch(data.songFC)
-			{
-				case SDCB, FC: tokensprite.animation.play('normal'); tokensprite.setPosition(FlxG.width-1285, 525);
-				case GFC, PFC: tokensprite.animation.play('gold'); tokensprite.setPosition(FlxG.width-1285, 525);
-			}
-		} else tokensprite.animation.play('empty'); tokensprite.setPosition(FlxG.width-1285, 525);
+		TokenUpdate();
+		tokensprite.setPosition(FlxG.width-1285, 525);
 		add(tokensprite);
 
 		bubbleAnim = FlxG.random.int(1,3);
@@ -1081,6 +1098,8 @@ class SelectedThumb extends MusicBeatSubstate
 		var data = Highscore.getSongData(recount ? otherSong : songName,1); //shoild songname be first?
 		var score = Std.string(data.songScore);
 		var acc = data.songRating;
+		
+		TokenUpdate();
 
 		ratingSplit = Std.string(CoolUtil.floorDecimal(acc * 100, 2)).split('.');
 		if (ratingSplit.length < 2) ratingSplit.push('');
@@ -1092,6 +1111,17 @@ class SelectedThumb extends MusicBeatSubstate
 			noteInfo.text = '\n\nOMGs: ${data.sick}\nYOYs: ${data.good}\nOKs: ${data.bad}\nPLEHs: ${data.shit}';
 			songInfo.text += noteInfo.text;
 		}
+	}
+	
+	function TokenUpdate() {
+	    if (data.songScore > 0)
+		{
+			switch(data.songFC)
+			{
+				case SDCB, FC: tokensprite.animation.play('normal');
+				case GFC, PFC: tokensprite.animation.play('gold');
+			}
+		} else tokensprite.animation.play('empty');
 	}
 
 	var num:Int = 1;
