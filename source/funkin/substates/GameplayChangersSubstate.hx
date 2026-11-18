@@ -172,6 +172,7 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 		optionsArray.push(new GameplayOption('Practice Mode:', 'practice', 'bool', false));
 		optionsArray.push(new GameplayOption('Botplay:', 'botplay', 'bool', false));
 		optionsArray.push(new GameplayOption('Light Mode:', 'lightMode', 'bool', ClientPrefs.data.lightMode));
+		optionsArray.push(new GameplayOption('Skip Freeplay Bootup:', 'skipBoot', 'bool', ClientPrefs.data.skipBoot));
 		//optionsArray.push(new Option('Light Mode', '', 'lightMode', 'bool'));
 	}
 
