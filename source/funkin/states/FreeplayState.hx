@@ -32,6 +32,10 @@ class FreeplayState extends MusicBeatState
 	var curSelected:Int = 0;
 
 	var imgs:FlxTypedGroup<FlxSprite>;
+	var outline:FlxSprite;
+	
+	var outShader:FlxShader;
+	var outTime:Float = 0;
 
 	var scrollY:Float = 0;
 	var scrollBar:Null<FlxSprite> = null;
@@ -242,7 +246,7 @@ class FreeplayState extends MusicBeatState
 		outline.setGraphicSize(Std.int(outline.width * 0.1705));
 		outline.updateHitbox();
 		outline.antialiasing = true;
-		outShader = new CustomShader('animatedOutline');
+		outShader = new FlxShader('animatedOutline');
 		outShader.iTime = 0;
 		outline.shader = outShader;
 		add(outline);
