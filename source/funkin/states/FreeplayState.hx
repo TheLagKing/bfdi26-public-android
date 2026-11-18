@@ -9,7 +9,7 @@ import funkin.objects.Character;
 import funkin.backend.FlxTextTyper;
 import funkin.scripting.ModchartSprite;
 
-import funkin.shaders.AnimatedOutline;
+import funkin.shaders.animatedOutline;
 
 import sys.io.File;
 import sys.io.Process;
