@@ -595,6 +595,8 @@ class SelectedThumb extends MusicBeatSubstate
 	var otherBubbleAnims:Null<Character> = null;
 
 	var box:Null<Textbox> = null;
+	
+	var tokensprite:FlxSprite;
 
 	var typer:Null<FlxTextTyper> = null;
 	var text2:Null<FlxText> = null;
@@ -750,13 +752,13 @@ class SelectedThumb extends MusicBeatSubstate
 		if (Paths.fileExists('images/menus/freeplay/thumbnails/text/'+songName+'/funfact.txt',TEXT)) funfact = Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/'+songName+'/funfact.txt');
 		else funfact = 'Looks like this song doesn\'t have a fun fact just yet! Sorry! Come back later.';
 
-		var tokensprite = new FlxSprite().loadFrames(path);
+		tokensprite = new FlxSprite().loadFrames(path);
 		tokensprite.addAnimByPrefix('empty', 'no token instance 1', 24, true);
 		tokensprite.addAnimByPrefix('normal', 'win token instance 1', 24, true);
 		tokensprite.addAnimByPrefix('gold', 'gold token instance 1', 24, true);
 		tokensprite.scale.set(0.75,0.75);
 		tokensprite.antialiasing = ClientPrefs.data.antialiasing;
-		TokenUpdate();
+		TokenUpdate(false);
 		tokensprite.setPosition(FlxG.width-1285, 525);
 		add(tokensprite);
 
@@ -1103,7 +1105,7 @@ class SelectedThumb extends MusicBeatSubstate
 		var score = Std.string(data.songScore);
 		var acc = data.songRating;
 		
-		TokenUpdate();
+		TokenUpdate(recount);
 
 		ratingSplit = Std.string(CoolUtil.floorDecimal(acc * 100, 2)).split('.');
 		if (ratingSplit.length < 2) ratingSplit.push('');
@@ -1117,8 +1119,8 @@ class SelectedThumb extends MusicBeatSubstate
 		}
 	}
 	
-	function TokenUpdate() {	
-	    var data = Highscore.getSongData(recount ? otherSong : songName,1);
+	function TokenUpdate(count) {	
+	    var data = Highscore.getSongData(count ? otherSong : songName,1);
 
 	    if (data.songScore > 0)
 		{
