@@ -241,8 +241,7 @@ class FreeplayState extends MusicBeatState
 		add(end);
 		end.antialiasing = ClientPrefs.data.antialiasing;
 		
-		outline = new FlxSprite(thumbnails[0].x, thumbnails[0].y);
-		outline.loadGraphic(Paths.image('menus/freeplay/thumbnails/yoylefake'));
+		outline = new FlxSprite(imgs.members[0].x, imgs.members[0].y).loadImage('menus/freeplay/thumbnails/yoylefake');
 		outline.setGraphicSize(Std.int(outline.width * 0.1705));
 		outline.updateHitbox();
 		outline.antialiasing = true;
@@ -337,7 +336,7 @@ class FreeplayState extends MusicBeatState
 	{
 	    if (skipIntro)
 	    {
-		    FlxG.camera.flash(settings.color, 0.5);
+		    FlxG.camera.flash(ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE, 0.5);
 		    return;
 		}
 		
@@ -492,8 +491,8 @@ class FreeplayState extends MusicBeatState
 		}
 		
 		var k:Float = 1 - Math.exp(-elapsed * 26);
-		outline.x += (thumbnails[curSelected].x - outline.x) * k;
-		outline.y += (thumbnails[curSelected].y - outline.y) * k;
+		outline.x += (imgs.members[curSelected].x - outline.x) * k;
+		outline.y += (imgs.members[curSelected].y - outline.y) * k;
 
 		super.update(elapsed);
 	}
