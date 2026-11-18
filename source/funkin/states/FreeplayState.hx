@@ -1119,7 +1119,7 @@ class SelectedThumb extends MusicBeatSubstate
 		}
 	}
 	
-	function TokenUpdate(count) {	
+	function TokenUpdate(count:Bool) {	
 	    var data = Highscore.getSongData(count ? otherSong : songName,1);
 
 	    if (data.songScore > 0)
