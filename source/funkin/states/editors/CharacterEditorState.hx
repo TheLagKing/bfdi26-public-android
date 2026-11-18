@@ -574,7 +574,6 @@ class CharacterEditorState extends MusicBeatState
 					if(resetAnim && character.animationsArray.length > 0) {
 						curAnim = FlxMath.wrap(curAnim, 0, anims.length-1);
 						character.playAnim(anims[curAnim].anim, true);
-						updateTextColors();
 					}
 					reloadAnimList();
 					trace('Removed animation: ' + animationInputText.text);
@@ -1132,17 +1131,6 @@ class CharacterEditorState extends MusicBeatState
 		updateText();
 		if(animationDropDown != null) reloadAnimationDropDown();
 	}
-	
-	inline function updateTextColors()
-	{
-		var daLoop = 0;
-		for (text in animsTxtGroup)
-		{
-			text.color = FlxColor.WHITE;
-			if(daLoop == curAnim) text.color = FlxColor.LIME;
-			daLoop++;
-		}
-	}
 
 	inline function updateText()
 	{
@@ -1197,7 +1185,7 @@ class CharacterEditorState extends MusicBeatState
 				character.atlas.anim.addBySymbol(anim, name, fps, loop);
 		}
 
-		if(!character.animation(anim))
+		if(!character.animOffsets.exists(anim))
 			character.addOffset(anim, 0, 0);
 	}
 
@@ -1227,7 +1215,7 @@ class CharacterEditorState extends MusicBeatState
 				}
 
 		if(characterList.length < 1) characterList.push('');
-		charDropDown.list = characterList;
+		charDropDown.setData(FlxUIDropDownMenu.makeStrIdLabelArray(characterList, true));
 		charDropDown.selectedLabel = _char;
 	}
 
