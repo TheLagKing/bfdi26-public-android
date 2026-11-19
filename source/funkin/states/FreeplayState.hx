@@ -53,7 +53,7 @@ class FreeplayState extends MusicBeatState
 	public function new(?skipIntro:Null<Bool> = false, ?skipIntroAndWholeMenu:Null<Bool> = false)
 	{
 		super();
-		this.skipIntro = skipIntro = ClientPrefs.data.skipBoot;
+		this.skipIntro = skipIntro;
 		this.skipIntroAndWholeMenu = skipIntroAndWholeMenu;
 	}
 
@@ -183,7 +183,7 @@ class FreeplayState extends MusicBeatState
 
 		if (FlxG.sound.music == null || !FlxG.sound.music.playing) 
 		{
-			var volume1 = (!skipIntro && !skipIntroAndWholeMenu);
+			var volume1 = (!ClientPrefs.data.skipBoot || (!skipIntro && !skipIntroAndWholeMenu));
 			FlxG.sound.playMusic(Paths.music('freeplayMenu'), (volume1 ? 0 : 1));
 			trace(volume1, FlxG.sound.music.volume);
 		}
@@ -335,9 +335,11 @@ class FreeplayState extends MusicBeatState
 
 	function superIntro(onComplete:Void->Void = null)
 	{
-	    if (skipIntro)
+	    if (skipIntro || ClientPrefs.data.skipBoot)
 	    {
 		    FlxG.camera.flash(ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE, 0.5);
+		    canScroll = true;
+		    selected = false;
 		    return;
 		}
 		
@@ -350,7 +352,7 @@ class FreeplayState extends MusicBeatState
         screen.scale.set(FlxG.width, FlxG.height);
         screen.updateHitbox();
         screen.scrollFactor.set();
-        if (FlxG.onMobile && vpadCam != null) screen.cameras = [vpadCam];
+        #if mobile if (vpadCam != null) screen.cameras = [vpadCam]; #end
         add(screen);
 
 		blackbg.alpha = 1;
@@ -386,8 +388,8 @@ class FreeplayState extends MusicBeatState
 	    var justTouched:Bool = false;
 	
 	    #if mobile
-                for (touch in FlxG.touches.list)
-	                if (touch.justPressed) justTouched = true;
+              for (touch in FlxG.touches.list)
+	             if (touch.justPressed) justTouched = true;
 		#end
 		
 		outTime += elapsed * 1.3;
@@ -400,7 +402,7 @@ class FreeplayState extends MusicBeatState
 
 		if (canScroll) 
 		{
-			if (FlxG.mouse.overlaps(changelog) && (FlxG.mouse.justPressed || justTouched)) 
+			if (FlxG.mouse.overlaps(changelog) && FlxG.mouse.justPressed) 
 			{
 				openSubState(new funkin.substates.ChangelogSubstate());
 			}
@@ -1171,7 +1173,7 @@ class SelectedThumb extends MusicBeatSubstate
 
 		if (boxhover && !canAnswer) 
 		{
-			if (FlxG.keys.justPressed.ENTER) 
+			if (FlxG.keys.justPressed.ENTER || justTouched) 
 			{
 				boxhover = false;
 				nextFunfact();
