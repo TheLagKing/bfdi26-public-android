@@ -9,7 +9,7 @@ import funkin.objects.Character;
 import funkin.backend.FlxTextTyper;
 import funkin.scripting.ModchartSprite;
 
-import funkin.shaders.AnimatedOutline;
+//import funkin.shaders.AnimatedOutline;
 
 import sys.io.File;
 import sys.io.Process;
@@ -247,8 +247,9 @@ class FreeplayState extends MusicBeatState
 		outline.setGraphicSize(Std.int(outline.width * 0.1705));
 		outline.updateHitbox();
 		outline.antialiasing = true;
-		outShader = new AnimatedOutline();
-		outline.shader = outShader.shader;
+		//outShader = new AnimatedOutline();
+		//outline.shader = outShader.shader;
+		outline.visible = false;
 		add(outline);
 
 		scrollBar = new FlxSprite().generateGraphic(15,250);
@@ -392,8 +393,8 @@ class FreeplayState extends MusicBeatState
 	             if (touch.justPressed) justTouched = true;
 		#end
 		
-		outTime += elapsed * 1.3;
-		outShader.time = outTime;
+		//outTime += elapsed * 1.3;
+		//outShader.time = outTime;
 		
 		if (FlxG.sound.music.volume < 0.7)
 		FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
