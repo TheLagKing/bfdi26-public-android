@@ -36,7 +36,7 @@ class FreeplayState extends MusicBeatState
 	var imgs:FlxTypedGroup<FlxSprite>;
 	var outline:FlxSprite;
 	
-	var outShader:AnimatedOutline;
+	//var outShader:AnimatedOutline;
 	var outTime:Float = 0;
 
 	var scrollY:Float = 0;
