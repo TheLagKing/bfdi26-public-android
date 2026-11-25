@@ -2,7 +2,7 @@ var shader1 = game.createRuntimeShader("adjustColor");
 
 function onCreate() 
 {
-	game.camHUD.filters = ([new ShaderFilter(shader1)]);
+	camControls.filters = game.camHUD.filters = ([new ShaderFilter(shader1)]);
 }
 
 function onEvent(ev,v1,v2) 
