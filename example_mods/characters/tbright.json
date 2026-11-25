@@ -3,8 +3,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				-10,
+				10
 			],
 			"anim": "idle",
 			"fps": 24,
@@ -14,8 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				1,
-				0
+				11,
+				10
 			],
 			"anim": "idle-alt",
 			"fps": 24,
@@ -25,8 +25,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				23,
-				18
+				-10,
+				10
 			],
 			"anim": "start",
 			"fps": 24,

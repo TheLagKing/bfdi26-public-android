@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				0,
-				-58
+				-137.75,
+				-273.939
 			],
 			"indices": [],
 			"fps": 24,
@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				-56
+				-137.75,
+				-274.483
 			],
 			"indices": [],
 			"fps": 24,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				-53
+				-137.75,
+				-274.581
 			],
 			"indices": [],
 			"fps": 24,
@@ -53,7 +53,7 @@
 		0,
 		0
 	],
-	"sing_duration": 5.99999999999999,
+	"sing_duration": 6,
 	"scale": 1,
 	"_editor_isPlayer": false
 }

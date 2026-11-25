@@ -3,8 +3,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-23,
-				-105
+				-182.658,
+				-266.12
 			],
 			"anim": "idle",
 			"fps": 24,
@@ -14,8 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				61,
-				-110
+				-180.73,
+				-267.704
 			],
 			"anim": "singLEFT",
 			"fps": 24,
@@ -25,8 +25,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-50,
-				-55
+				-180.708,
+				-265.53
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -36,8 +36,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-36,
-				-121
+				-179.727,
+				-265.726
 			],
 			"anim": "singDOWN",
 			"fps": 24,
@@ -47,8 +47,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-6,
-				-106
+				-184.658,
+				-268.419
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -58,8 +58,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-3,
-				-44
+				-180.411,
+				-266.388
 			],
 			"anim": "friends",
 			"fps": 24,
@@ -68,8 +68,8 @@
 		},
 		{
 			"offsets": [
-				198,
-				-86
+				-189.422,
+				-264.938
 			],
 			"indices": [],
 			"fps": 24,
@@ -97,7 +97,7 @@
 		0,
 		0
 	],
-	"sing_duration": 5.99999999999999,
+	"sing_duration": 6,
 	"scale": 1,
 	"_editor_isPlayer": false
 }

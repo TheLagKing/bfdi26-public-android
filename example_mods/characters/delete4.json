@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				272,
-				-20
+				-188.741,
+				-170.337
 			],
 			"loop": false,
 			"fps": 24,
@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				374,
-				6
+				-196.6,
+				-169.881
 			],
 			"loop": false,
 			"fps": 24,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				76,
-				-45
+				-220.223,
+				-170.151
 			],
 			"loop": false,
 			"fps": 24,
@@ -35,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				287,
-				56
+				-200.971,
+				-169.003
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				244,
-				198
+				-187.1,
+				-168.624
 			],
 			"loop": false,
 			"fps": 24,
@@ -58,18 +58,18 @@
 		{
 			"loop": false,
 			"offsets": [
-				252,
-				-20
+				-188.162,
+				-169.932
 			],
 			"anim": "deleteSTART",
 			"fps": 24,
-			"name": "dankDELETE",
+			"name": "dankDELETESTART",
 			"indices": []
 		},
 		{
 			"offsets": [
-				275,
-				13
+				-195.121,
+				-170.357
 			],
 			"loop": false,
 			"fps": 24,
@@ -80,8 +80,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				275,
-				13
+				-195.121,
+				-170.357
 			],
 			"anim": "idle-eat",
 			"fps": 24,
@@ -92,8 +92,8 @@
 		},
 		{
 			"offsets": [
-				26,
-				-35
+				-162.005,
+				-205.65
 			],
 			"indices": [],
 			"fps": 24,
