@@ -19,12 +19,12 @@ makeLuaSprite('chair','backgrounds/wrongfinger/right/BG splice/chair sized',2175
 addLuaSprite('chair')
 setProperty('chair.alpha',0)
 
-createInstance('GB', 'funkin.objects.Character', {600, 292, 'gbright1', false})
+createInstance('GB', 'funkin.objects.Character', {750, 562, 'gbright1', false})
 addInstance('GB')
 playAnim('GB','idle')
 setProperty('GB.alpha',0)
 
-createInstance('GB2', 'funkin.objects.Character', {2200, 400, 'gbright2', false})
+createInstance('GB2', 'funkin.objects.Character', {2290, 420, 'gbright2', false})
 addInstance('GB2')
 scaleObject('GB2',1.7,1.7)
 setProperty('GB2.alpha',0)
