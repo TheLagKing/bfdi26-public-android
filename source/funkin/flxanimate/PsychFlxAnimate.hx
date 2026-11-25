@@ -26,7 +26,6 @@ class PsychFlxAnimate extends OriginalFlxAnimate
 		}
 		else animJson = myJson;
 
-		// Ensure SD exists
 		if (animJson != null && (!Reflect.hasField(animJson, "SD") || Reflect.field(animJson, "SD") == null))
 			Reflect.setField(animJson, "SD", {});
 
@@ -34,17 +33,14 @@ class PsychFlxAnimate extends OriginalFlxAnimate
 		{
 			var sd:Dynamic = Reflect.field(animJson, "SD");
 
-			// For every SN reference in the timeline, load LIBRARY/<SN>.json.
 			var tl:Dynamic = Reflect.field(animJson, "TL");
 			if (tl != null && Reflect.hasField(tl, "L"))
-				_resolveSymbolsInLayers(Reflect.field(tl, "L"), sd);
+				_resolveSymbolsInLayers(cast Reflect.field(tl, "L"), sd);
 
-			// Also handle the root STI symbol if it references something.
 			var sti:Dynamic = Reflect.field(animJson, "STI");
 			if (sti != null && Reflect.hasField(sti, "SI"))
 				_resolveSymbolInInstance(Reflect.field(sti, "SI"), sd);
 
-			// Recursively resolve symbols that the loaded ones reference.
 			var safety:Int = 0;
 			var unresolved:Bool = true;
 			while (unresolved && safety < 20)
@@ -54,7 +50,7 @@ class PsychFlxAnimate extends OriginalFlxAnimate
 				{
 					var sym:Dynamic = Reflect.field(sd, key);
 					if (sym == null || !Reflect.hasField(sym, "L")) continue;
-					if (_resolveSymbolsInLayers(Reflect.field(sym, "L"), sd))
+					if (_resolveSymbolsInLayers(cast Reflect.field(sym, "L"), sd))
 						unresolved = true;
 				}
 				safety++;
@@ -63,7 +59,6 @@ class PsychFlxAnimate extends OriginalFlxAnimate
 			trace('PsychFlxAnimate: SD has ${Reflect.fields(sd).length} symbols after resolution');
 		}
 
-		// Standard spritemap parse
 		var isXml:Null<Bool> = null;
 		var myData:Dynamic = pathOrStr;
 		var t:String = pathOrStr.trim();
@@ -88,18 +83,24 @@ class PsychFlxAnimate extends OriginalFlxAnimate
 		origin = anim.curInstance.symbol.transformationPoint;
 	}
 
-	// Walk every layer's every frame's every element, find SN references, load LIBRARY/<SN>.json
 	static function _resolveSymbolsInLayers(layers:Array<Dynamic>, sd:Dynamic):Bool
 	{
 		var anyLoaded:Bool = false;
 		if (layers == null) return false;
+
 		for (layer in layers)
 		{
 			if (layer == null || !Reflect.hasField(layer, "FR")) continue;
-			for (frame in Reflect.field(layer, "FR"))
+			var frames:Array<Dynamic> = cast Reflect.field(layer, "FR");
+			if (frames == null) continue;
+
+			for (frame in frames)
 			{
 				if (frame == null || !Reflect.hasField(frame, "E")) continue;
-				for (el in Reflect.field(frame, "E"))
+				var elements:Array<Dynamic> = cast Reflect.field(frame, "E");
+				if (elements == null) continue;
+
+				for (el in elements)
 				{
 					if (el == null) continue;
 					if (Reflect.hasField(el, "SI"))
@@ -138,7 +139,6 @@ class PsychFlxAnimate extends OriginalFlxAnimate
 			"images/library/" + sn + ".json"
 		];
 
-		// Also try with "/" replaced by "_" in case the folder uses flattened names
 		var flat:String = sn.split("/").join("_");
 		candidates.push("LIBRARY/" + flat + ".json");
 		candidates.push("images/LIBRARY/" + flat + ".json");
@@ -152,7 +152,7 @@ class PsychFlxAnimate extends OriginalFlxAnimate
 
 			try
 			{
-				var parsed:Dynamic = haxe.Json.parse(_removeBOM(content));
+				var parsed:Dynamic = haxe.Json.parse(_removeBOMStatic(content));
 				if (Reflect.hasField(parsed, "AN") && Reflect.hasField(parsed.AN, "TL"))
 					parsed = Reflect.field(parsed.AN, "TL");
 				return parsed;
@@ -180,7 +180,13 @@ class PsychFlxAnimate extends OriginalFlxAnimate
 		}
 	}
 
-	function _removeBOM(str:String)
+	function _removeBOM(str:String):String
+	{
+		if (str.charCodeAt(0) == 0xFEFF) str = str.substr(1);
+		return str;
+	}
+
+	static function _removeBOMStatic(str:String):String
 	{
 		if (str.charCodeAt(0) == 0xFEFF) str = str.substr(1);
 		return str;
@@ -197,4 +203,4 @@ class PsychFlxAnimate extends OriginalFlxAnimate
 		if (anim.curInstance == null || anim.curSymbol == null) return;
 		anim.play();
 	}
-		}
+}
