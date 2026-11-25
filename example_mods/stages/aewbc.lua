@@ -59,6 +59,23 @@ addLuaSprite('countless')
 makeLuaSprite('arrow','backgrounds/aewbc/select/creppy arrowoid',635,-550) --150
 setObjectCamera('arrow','other')
 addLuaSprite('arrow')
+
+makeLuaSprite('left','backgrounds/aewbc/select/creppy arrowoid',50,600)
+setObjectCamera('left','other')
+scaleObject('left',0.75,0.75)
+setProperty('left.angle', 90)
+addLuaSprite('left')
+
+makeLuaSprite('right','backgrounds/aewbc/select/creppy arrowoid',200,600)
+setObjectCamera('right','other')
+scaleObject('right',0.75,0.75)
+setProperty('right.angle', -90)
+addLuaSprite('right')
+
+makeLuaSprite('a','backgrounds/aewbc/select/creppy arrowoid',1200,600)
+setObjectCamera('a','other')
+scaleObject('a',0.75,0.75)
+addLuaSprite('a')
 end
 --
 
@@ -121,10 +138,10 @@ function onUpdatePost(elapsed)
 if difficultyName == 'Normal' then
 
 if canmove == true then
-if keyboardJustPressed('LEFT') then
+if keyboardJustPressed('LEFT') or mouseOverlaps('left','camOther') and mouseClicked('left') then
 playSound('scrollup1',1)
 char = char-1
-elseif keyboardJustPressed('RIGHT') then
+elseif keyboardJustPressed('RIGHT') or mouseOverlaps('right','camOther') and mouseClicked('left') then
 playSound('scrollup1',1)
 char = char+1
 elseif char >2 then
@@ -149,12 +166,13 @@ end
 
 
 
-if keyboardJustPressed('ENTER') then
+if keyboardJustPressed('ENTER') or mouseOverlaps('a','camOther') and mouseClicked('left') then
 setProperty('skipCountdown',true)
 playSound('enterimpact',1)
 stopSound('AEWBCTheme')
 cutscene = false
 for _, stuff2 in ipairs({'arrow','text'}) do startTween('tweenshitend'..stuff2,stuff2,{y = -500}, 1.5,{startDelay = 0.25,ease = 'cubeIn'}) end
+for _, control in ipairs({'left','right','a'}) do startTween('tweenshitend'..control,control,{alpha = 0}, 1.5,{startDelay = 0.25,ease = 'cubeIn'}) end
 runTimer('die',4.5)
 
 if char == 0 then
@@ -206,4 +224,14 @@ makeGraphic('black',1,1,'FFFFFF')
 startTween('blackgo2','black',{alpha = 1}, 1.25,{startDelay = 0.5,ease = 'quadOut'})
 end
 end
+end
+
+function mouseOverlaps(obj, camera)
+    local mX = getMouseX(camera or 'camHUD') + getProperty(camera .. '.scroll.x')
+    local mY = getMouseY(camera or 'camHUD') + getProperty(camera .. '.scroll.y')
+    local x = getProperty(obj .. '.x')
+    local y = getProperty(obj .. '.y')
+    local width = getProperty(obj .. '.width')
+    local height = getProperty(obj .. '.height')
+    return (mX > x) and (mX < x + width) and (mY > y) and (mY < y + height)
 end
