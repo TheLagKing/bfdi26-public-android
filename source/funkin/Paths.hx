@@ -603,6 +603,24 @@ class Paths
 				//trace('found Animation Json');
 				changedAnimJson = true;
 				animationJson = getTextFromFile('images/$originalPath/Animation.json');
+
+				if (animationJson == null) return;
+				
+				var data:Dynamic = Json.parse(animationJson);
+				if (data.AN.SD != null && data.AN.SD.S == null)
+				{
+					var symbols:Array<Dynamic> = [];
+					
+					for (name in Reflect.fields(data.AN.SD))
+					{
+						var file:String = Reflect.field(data.AN.SD, name).file;
+						symbols.push({SN: name, TL: Json.parse(getTextFromFile('images/$originalPath/' + file))});
+					}
+					
+					Reflect.deleteField(data.AN, "SD");
+					data.SD = {S: symbols};
+					animationJson = Json.stringify(data);
+				}
 			}
 		}
 
