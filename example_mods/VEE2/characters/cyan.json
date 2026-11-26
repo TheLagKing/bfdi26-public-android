@@ -14,7 +14,7 @@
 		{
 			"offsets": [
 				76,
-				22
+				2
 			],
 			"loop": false,
 			"fps": 12,
@@ -24,7 +24,7 @@
 		},
 		{
 			"offsets": [
-				28,
+				8,
 				-22
 			],
 			"loop": false,
@@ -37,7 +37,7 @@
 			"loop": false,
 			"offsets": [
 				14,
-				56
+				26
 			],
 			"anim": "singUP",
 			"fps": 12,
@@ -48,7 +48,7 @@
 			"loop": false,
 			"offsets": [
 				-90,
-				-13
+				13
 			],
 			"anim": "singRIGHT",
 			"fps": 12,
