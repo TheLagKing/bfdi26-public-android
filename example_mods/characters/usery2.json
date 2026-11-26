@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				147,
-				-1
+				7,
+				-161
 			],
 			"loop": false,
 			"fps": 24,
@@ -14,8 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				17,
-				-24
+				-47,
+				-144
 			],
 			"anim": "singDOWN",
 			"fps": 24,
@@ -25,8 +25,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				50,
-				195
+				-50,
+				-155
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -36,8 +36,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-16,
-				5
+				-66,
+				-145
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				37,
-				-2
+				-57,
+				-152
 			],
 			"indices": [],
 			"fps": 24,
