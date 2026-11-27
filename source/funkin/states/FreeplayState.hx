@@ -9,8 +9,6 @@ import funkin.objects.Character;
 import funkin.backend.FlxTextTyper;
 import funkin.scripting.ModchartSprite;
 
-//import funkin.shaders.AnimatedOutline;
-
 import sys.io.File;
 import sys.io.Process;
 
@@ -24,6 +22,7 @@ import flixel.util.FlxStringUtil;
 import flixel.effects.FlxFlicker;
 import flixel.input.mouse.FlxMouseEvent;
 import flixel.system.FlxAssets.FlxShader;
+import flixel.addons.display.FlxRuntimeShader;
 import flixel.addons.transition.FlxTransitionableState;
 
 //ill recode this to work with nullsafety later im tired
@@ -36,8 +35,7 @@ class FreeplayState extends MusicBeatState
 	var imgs:FlxTypedGroup<FlxSprite>;
 	var outline:FlxSprite;
 	
-	//var outShader:AnimatedOutline;
-	var outTime:Float = 0;
+	var outShader = new FlxRuntimeShader(Assets.getText(Paths.frag("outline")));
 
 	var scrollY:Float = 0;
 	var scrollBar:Null<FlxSprite> = null;
@@ -247,9 +245,9 @@ class FreeplayState extends MusicBeatState
 		outline.setGraphicSize(Std.int(outline.width * 0.1705));
 		outline.updateHitbox();
 		outline.antialiasing = true;
-		//outShader = new AnimatedOutline();
-		//outline.shader = outShader.shader;
-		outline.visible = false;
+		outline.shader = outShader;
+		outShader.setFloat('dist', 2 / outline.scale.x);
+		outShader.setFloatArray('outlineColor', [1, 1, 1]);
 		add(outline);
 
 		scrollBar = new FlxSprite().generateGraphic(15,250);
@@ -323,6 +321,8 @@ class FreeplayState extends MusicBeatState
 
 		FlxG.state.subStateClosed.add((subState) -> // completely forgot you can use these signals
 		{
+		    #if mobile controls.isInSubstate = false; #end
+		
 			if (Std.isOfType(subState, funkin.substates.GameplayChangersSubstate)) 
 			{
 				settings.angle = 90;
@@ -392,9 +392,6 @@ class FreeplayState extends MusicBeatState
               for (touch in FlxG.touches.list)
 	             if (touch.justPressed) justTouched = true;
 		#end
-		
-		//outTime += elapsed * 1.3;
-		//outShader.time = outTime;
 		
 		if (FlxG.sound.music.volume < 0.7)
 		FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
@@ -581,7 +578,6 @@ class SelectedThumb extends MusicBeatSubstate
 
 	var canCycle:Bool = false;
 	var songUnlockable:Bool = false;
-	var justTouched:Bool = false;
 	
 	var otherSong:Null<String> = null;
 	public static var songName:Null<String> = null;
@@ -1166,6 +1162,8 @@ class SelectedThumb extends MusicBeatSubstate
 
 	override function update(elapsed:Float) 
 	{
+	    var justTouched:Bool = false;
+	
 		#if mobile
                 for (touch in FlxG.touches.list)
 	                if (touch.justPressed) justTouched = true;
