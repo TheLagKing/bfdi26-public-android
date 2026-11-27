@@ -35,7 +35,7 @@ class FreeplayState extends MusicBeatState
 	var imgs:FlxTypedGroup<FlxSprite>;
 	var outline:FlxSprite;
 	
-	var outShader = new FlxRuntimeShader(Assets.getText(Paths.frag("outline")));
+	var outShader = new FlxRuntimeShader(Paths.getTextFromFile('shaders/outline.frag'));
 
 	var scrollY:Float = 0;
 	var scrollBar:Null<FlxSprite> = null;
