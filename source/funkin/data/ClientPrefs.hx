@@ -22,7 +22,7 @@ import mobile.flixel.input.FlxMobileInputID;
 	public var altCType:String = "space";
 	#end
 	public var lightMode:Bool = false;
-	public var skipBoot:Bool = false;
+	public var skipBoot:Bool = true;
 	public var showFPS:Bool = #if debug true #else false #end; //looks better
 	public var flashing:Bool = true;
 	public var autoPause:Bool = true;
