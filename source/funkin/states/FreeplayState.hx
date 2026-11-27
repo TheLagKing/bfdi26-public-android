@@ -175,7 +175,7 @@ class FreeplayState extends MusicBeatState
 	override function create()
 	{
 		FlxTransitionableState.skipNextTransIn = FlxTransitionableState.skipNextTransOut = true;
-		skipIntro = ClientPrefs.data.skipBoot;
+		skipIntro = !ClientPrefs.data.skipBoot;
 
 		FlxG.camera.bgColor = ClientPrefs.data.lightMode ? 0xFFe0e0e0 : 0xFF121212;
 		FlxG.camera.antialiasing = ClientPrefs.data.antialiasing;
