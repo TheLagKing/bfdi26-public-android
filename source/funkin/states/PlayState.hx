@@ -272,12 +272,12 @@ class PlayState extends MusicBeatState
 		['funny-fellow',                                  '1416584878186827876',       'Look they\'re playing my song!!!'],
 		['funny-fellow-spooky',                           '1416771120626925639',       'This song makes me want to tickle Exclamation Mark!'],
 		['wrong-finger',                                  '1445548948227096718',       'Um, Pin?'],
-		['wrong-finger-coiny',                                  '1445548948227096718',       'Um, Pin?'],
+		['wrong-finger-coiny',                            '1445548948227096718',       'Um, Pin?'],
 		['vocal-chords',                                  '1321949470635724881',       'Being cool.'],
 		['oneshot',                                       '1409571879382941746',       'Taken too soon.'],
 		['oneshot-pico',                                  '1416902790978080819',       'Take me back.'],
 		['time',                                          '1321948885576319117',       'It\'s time for the song!'],
-		['time-darnell',                                          '1321948885576319117',       'It\'s time for the!- Oh you\'re trying to kill me...'],
+		['time-darnell',                                  '1321948885576319117',       'It\'s time for the!- Oh you\'re trying to kill me...'],
 		['web-crasher',                                   '1321924396042031104',       'What teh dank?!'],
 		['web-crasher-gf',                                '1416895380699877406',       'Am just a lil potatoh..'],
 		['well-rounded',                                  '1416896064241274910',       'Let\'s just say it\'s, well. Rounded.'],
@@ -305,14 +305,14 @@ class PlayState extends MusicBeatState
 		['bossy',                                         '1416895755888623746',       'I ain\' taking orders from the likes of you, bozo!'],
 		['bossy-lunch',                                   '1416776476266856670',       'My team is looking a little SPARSE!'],
 		['aldi', 			                              '1392529878703804486',       'Thought grapes were blueberries :rofl:'],
-		['idfb-2_-bozobrain', 			                              '1392529878703804486',       'YOU NEED PUNISHMENT!'],
-		['track26', 			                              '1392529878703804486',       'ANOTHER THEATRE RELEASE?! FUCK!'],
-		['r(BFDIMemes', 			                              '1392529878703804486',       'Made with Mematic!™ 26TEAM - All rights reserved.®°'],
-		['newfoundland', 			                              '1392529878703804486',       'A song about discovery...'],
-		['euthanized', 			                              '1392529878703804486',       'Gonna authanize you like. A damn. DOG!'],
+		['idfb-2_-bozobrain', 			                  '1392529878703804486',       'YOU NEED PUNISHMENT!'],
+		['track26', 			                          '1392529878703804486',       'ANOTHER THEATRE RELEASE?! FUCK!'],
+		['r(BFDIMemes', 			                      '1392529878703804486',       'Made with Mematic!™ 26TEAM - All rights reserved.®°'],
+		['newfoundland', 			                      '1392529878703804486',       'A song about discovery...'],
+		['euthanized', 			                          '1392529878703804486',       'Gonna authanize you like. A damn. DOG!'],
 		['aewbc', 			                              '1392529878703804486',       'Like watching paint dry!.. Literally...'],
-		['yoylecone', 			                              '1392529878703804486',       'TAKE THE CONE AGAIN'],
-		['cyans-new-groove', 			                              '1392529878703804486',       'I am so happy to be finally be apart of bf di 2 6 mod'],
+		['yoylecone', 			                          '1392529878703804486',       'TAKE THE CONE AGAIN'],
+		['cyans-new-groove', 			                  '1392529878703804486',       'I am so happy to be finally be apart of bf di 2 6 mod'],
 		['iloveamongus',                                  '1321941565031055380',       'IT\'S EEFFOC!']
 	];
 
@@ -645,7 +645,7 @@ class PlayState extends MusicBeatState
 		iconP2.alpha = 1;
 		uiGroup.add(iconP2);
 
-		scoreTxt = new FlxText(0, healthBar.y + 40, FlxG.width, "", 20);
+		scoreTxt = new FlxText(0, healthBar.y + 40, FlxG.width, "0", 20);
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
 		scoreTxt.borderSize = 1.25;
@@ -726,7 +726,9 @@ class PlayState extends MusicBeatState
 		#end
 
 		if (PlayState.SONG.song.toLowerCase() == "oneshot-pico")
+		{
 			PlayState.introCutscene = true;
+		}
 
 		startCallback();
 		RecalculateRating();
@@ -1223,11 +1225,6 @@ class PlayState extends MusicBeatState
 		+ (!instakillOnMiss ? ' | Misses: ${songMisses}' : "")
 		+ ' | Rating: ${str}';
 		
-		if (scoreTxt != null) {
-            scoreLerp = FlxMath.lerp(scoreLerp, songScore, 0.1);
-            scoreTxt.text = 'Score: ' + Std.int(scoreLerp);
-        }
-
 		if (!miss && !cpuControlled)
 			doScoreBop();
 
@@ -2493,22 +2490,22 @@ class PlayState extends MusicBeatState
 			
 			if (mixes.contains(song))
 			{
-			    for (i in playableChars)
+				for (i in playableChars)
 			    {
-			       var otherSong = song + '-' + i;
-			
-			       if (ModSave.playableMixes.get(otherSong) == false)
-			       {
-                       ModSave.editPlayableSave(otherSong);
-                       
-                       FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/' + song + '/charmix.txt'), funkin.states.CharacterUnlock._cachedCursel));
-                       
-                       FlxG.sound.music.pause();
-                       FlxG.sound.music.stop();
-                       break;
-                    }
-                }
-            }
+					var otherSong = song + '-' + i;
+					
+					if (ModSave.playableMixes.get(otherSong) == false)
+					{
+						ModSave.editPlayableSave(otherSong);
+						
+						FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/' + song + '/charmix.txt'), funkin.states.CharacterUnlock._cachedCursel));
+						
+						FlxG.sound.music.pause();
+						FlxG.sound.music.stop();
+						break;
+					}
+				}
+			}
 
 			#end
 			playbackRate = 1;
