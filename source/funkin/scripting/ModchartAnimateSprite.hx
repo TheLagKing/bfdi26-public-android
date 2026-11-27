@@ -1,7 +1,9 @@
 package funkin.scripting;
 
+import funkin.flxanimate.PsychFlxAnimate;
+
 #if flxanimate
-class ModchartAnimateSprite extends FlxAnimate
+class ModchartAnimateSprite extends PsychFlxAnimate
 {
 	public var animOffsets:Map<String, Array<Float>> = new Map<String, Array<Float>>();
 
