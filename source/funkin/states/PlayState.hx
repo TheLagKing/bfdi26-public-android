@@ -1222,8 +1222,10 @@ class PlayState extends MusicBeatState
 		+ (!instakillOnMiss ? ' | Misses: ${songMisses}' : "")
 		+ ' | Rating: ${str}';
 		
-		if (scoreTxt != null)
-            scoreTxt.text = 'Score: ${songScore}';
+		if (scoreTxt != null) {
+            var scoreLerp:Float = FlxMath.lerp(scoreLerp, songScore, 0.1);
+            scoreTxt.text = 'Score: ' + Std.int(scoreLerp);
+        }
 
 		if (!miss && !cpuControlled)
 			doScoreBop();
@@ -1766,11 +1768,11 @@ class PlayState extends MusicBeatState
 
 		if(!endingSong && !inCutscene && allowDebugKeys)
 		{
-			if (controls.justPressed('debug_1') || FlxG.keys.justPressed.SEVEN) {
+			if (controls.justPressed('debug_1')) {
 				//loadAmongUs('iloveamongus');
 				openChartEditor();
 			}
-			else if (controls.justPressed('debug_2') || FlxG.keys.justPressed.SIX) {
+			else if (controls.justPressed('debug_2')) {
 				openCharacterEditor();
 			}
 		}
@@ -2492,19 +2494,20 @@ class PlayState extends MusicBeatState
 			{
 			    for (i in playableChars)
 			    {
-			     var otherSong = song + '-' + i;
+			       var otherSong = song + '-' + i;
 			
-			     if (ModSave.playableMixes.exists(otherSong))
-			     {
-                     if(!ModSave.playableMixes.get(otherSong)) ModSave.editPlayableSave(otherSong);
-                     
-                     FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/' + song + '/charmix.txt')));
-                     
-                     FlxG.sound.music.pause();
-                     FlxG.sound.music.stop();
-                  }
-                 }
-             }
+			       if (ModSave.playableMixes.get(otherSong) == false)
+			       {
+                       ModSave.editPlayableSave(otherSong);
+                       
+                       FlxG.switchState(() -> new funkin.states.CharacterUnlock(Paths.getTextFromFile('images/menus/freeplay/thumbnails/text/' + song + '/charmix.txt'), funkin.states.CharacterUnlock._cachedCursel));
+                       
+                       FlxG.sound.music.pause();
+                       FlxG.sound.music.stop();
+                       break;
+                    }
+                }
+            }
 
 			#end
 			playbackRate = 1;

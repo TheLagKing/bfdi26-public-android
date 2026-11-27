@@ -175,13 +175,14 @@ class FreeplayState extends MusicBeatState
 	override function create()
 	{
 		FlxTransitionableState.skipNextTransIn = FlxTransitionableState.skipNextTransOut = true;
+		skipIntro = ClientPrefs.data.skipBoot;
 
 		FlxG.camera.bgColor = ClientPrefs.data.lightMode ? 0xFFe0e0e0 : 0xFF121212;
 		FlxG.camera.antialiasing = ClientPrefs.data.antialiasing;
 
 		if (FlxG.sound.music == null || !FlxG.sound.music.playing) 
 		{
-			var volume1 = (!ClientPrefs.data.skipBoot || (!skipIntro && !skipIntroAndWholeMenu));
+			var volume1 = (!skipIntro && !skipIntroAndWholeMenu);
 			FlxG.sound.playMusic(Paths.music('freeplayMenu'), (volume1 ? 0 : 1));
 			trace(volume1, FlxG.sound.music.volume);
 		}
@@ -312,6 +313,8 @@ class FreeplayState extends MusicBeatState
 		if (skipIntroAndWholeMenu) 
 		{
 			screen.alpha = 1;
+			
+			curSelected = funkin.states.CharacterUnlock._cachedCursel;
 
 			FlxG.camera.flash(FlxColor.BLACK,0.5,null,true);
 			openSubState(new SelectedThumb(this, funkin.states.CharacterUnlock._cachedCursel));
@@ -336,7 +339,7 @@ class FreeplayState extends MusicBeatState
 
 	function superIntro(onComplete:Void->Void = null)
 	{
-	    if (skipIntro || ClientPrefs.data.skipBoot)
+	    if (skipIntro)
 	    {
 		    FlxG.camera.flash(ClientPrefs.data.lightMode ? FlxColor.BLACK : FlxColor.WHITE, 0.5);
 		    canScroll = true;
@@ -500,6 +503,8 @@ class FreeplayState extends MusicBeatState
 
 	function loadSong(songToLoad:String)
 	{
+	    funkin.states.CharacterUnlock._cachedCursel = curSelected;
+	
 		if (songs[curSelected].sn == 'himsheys') 
 		{
 			var himsheys = FlxG.random.int(1,5);
