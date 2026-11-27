@@ -1205,6 +1205,7 @@ class PlayState extends MusicBeatState
 	// `updateScore = function(miss:Bool = false) { ... }
 	// its like if it was a variable but its just a function!
 	// cool right? -Crow
+	var scoreLerp:Float = 0;
 	public dynamic function updateScore(miss:Bool = false)
 	{
 		var ret:Dynamic = callOnScripts('preUpdateScore', [miss], true);
@@ -1223,7 +1224,7 @@ class PlayState extends MusicBeatState
 		+ ' | Rating: ${str}';
 		
 		if (scoreTxt != null) {
-            var scoreLerp:Float = FlxMath.lerp(scoreLerp, songScore, 0.1);
+            scoreLerp = FlxMath.lerp(scoreLerp, songScore, 0.1);
             scoreTxt.text = 'Score: ' + Std.int(scoreLerp);
         }
 
