@@ -242,10 +242,11 @@ class FreeplayState extends MusicBeatState
 		add(end);
 		end.antialiasing = ClientPrefs.data.antialiasing;
 		
-		outline = new FlxSprite(imgs.members[0].x, imgs.members[0].y).loadImage('menus/freeplay/thumbnails/yoylefake');
+		outline = new FlxSprite(imgs.members[0].x, imgs.members[0].y).loadImage('menus/freeplay/thumbnails/kms');
 		outline.setGraphicSize(Std.int(outline.width * 0.1705));
 		outline.updateHitbox();
 		outline.antialiasing = true;
+	    outline.alpha = 0;
 		outline.shader = outShader;
 		outShader.setFloat('dist', 2 / outline.scale.x);
 		outShader.setFloatArray('outlineColor', [1, 1, 1]);
