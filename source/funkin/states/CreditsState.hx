@@ -6,29 +6,72 @@ import funkin.shaders.WiggleEffect.WiggleEffectType;
 
 class CreditsState extends MusicBeatState
 {
-	var coolwiggle:WiggleEffect;
 	var bg:FlxSprite;
+	
+	var scrollX:Float = 0;
+	var scrollBar:Null<FlxSprite> = null;
+	
+	var canScroll:Bool = true;
 
 	var credits:FlxTypedGroup<FlxObject>;
 	var descriptions:Array<Array<String>> = [
-		// ----- MAIN CREDITS -----
-        ["Composer", "https://x.com/uncommonblin"], ["Composer", "https://x.com/Legogodzilla702"], ["Charter", "https://x.com/FlootenaDX"], ["Artist, Voice Actor", "https://x.com/dommiexists"], ["Composer", "https://x.com/VanillaaVani"], // first row
-		["Composer", "https://x.com/koviklutz"], ["Coder", "https://x.com/ivyanimations"], ["Composer", "https://x.com/ChucksterTL"], ["Composer", "https://x.com/kobai_kid"], ["Voice Actor", "https://x.com/GoodieBag78"], // second row
-		["Artist", "https://x.com/percjac0"], ["Composer", "https://x.com/Jautrey10"], ["Composer", "https://x.com/existnt_k"], ["Composer", "https://x.com/thegabim_"], ["Composer", "https://x.com/Ascenti4"], // third row
-		["Composer, Chromatics", "https://youtube.com/@pt_award"], ["Chromatics, Voice Actor", ""], ["Composer", "https://x.com/nerdemoji2763"], ["Composer", "https://x.com/funkypoppp"], ["Artist", "https://x.com/michimoomo"], // fourth row
-		["Chromatics", "https://www.youtube.com/@KrunchyK/"], ["Artist, Composer", "https://x.com/hypsk8r"], ["Composer", "https://x.com/ahhhloof"], ["Composer, Chromatics \n Xara", "https://x.com/YtSwolfy"], ["Artist", "https://x.com/Nyantaktt"], // fifth row
-		["Artist, Chromatics", "https://x.com/wrptoonz"], ["Coder", "https://x.com/MichellePVZ"], ["Composer", "https://x.com/vaderlings"], ["Composer", "https://x.com/phynsiclemusic"], ["Coder", "https://x.com/staticfyre"], // sixth row
-		["Artist, Animator", "https://x.com/Deroxx12"], ["Composer", "https://x.com/spikeish_"], ["Artist", "https://x.com/cherryuplol"], ["Artist", "https://x.com/_NinjaMonk_"], ["Composer", "https://x.com/EmperorKhanz"], // seventh row
-		["Artist", "https://x.com/JObjects"], ["Artist", "https://x.com/OLLIEE617283"], ["Artist, Composer", "https://x.com/azuwure_"], ["Artist, Composer","https://x.com/heyitsmekayla__"], ["Coder", "https://x.com/vechettlol"], // eighth row
-
-		// ----- SPECIAL THANKS -----
-		["Made the original concept Yoylefake was based on", "https://x.com/bryin64"], ["Started the wiki page", "https://www.youtube.com/@cheesefarmer6139"], ["Guest Composor on Invitational Dearest Mix", "https://x.com/sp0reshroom"],
-		["Made the website", "https://x.com/whiteninja00"], ["Former Charter, Wiki starter", "https://x.com/ColeRocks08"], ["Made the Human Hourglass design used in Webcrasher GF Mix", "https://x.com/LLOR0MANN1C"],
-		["Guest 3D modeler and Animator for Aldi", "https://x.com/Coolbacon10"], ["Voice Actor for Strawberry Milk", "https://x.com/slinkyraccoon"], ["Former Composer", "https://x.com/n1ffirg"],
-
-		// ----- DIRECTORS -----
-		["Artist, Animator, Composer", "https://x.com/AidenDoesStuff1"], ["Lead Coder, Charter", "https://x.com/Blam_Daylight"], ["Lead Artist, Animator, Voice Actor", "https://x.com/flaskcastle"], ["Composer, Charter", "https://www.youtube.com/@ezzythecat"]
-
+		["Director, Lead Artist, Animator, Voice Actor", "https://x.com/flaskcastle"],
+		["Director, Lead Coder, Charter, Composer, Artist, Voice Actor", "https://x.com/Blam_Daylight"],
+		["Director, Artist, Animator, Composer, Charter", "https://x.com/AidenDoesStuff1"],
+		["Director, Composer, Chromatics \n Xara", "https://x.com/YtSwolfy"],
+		["Composer", "https://x.com/Jautrey10"],
+		["Artist", "https://x.com/OLLIEE617283"],
+		["Artist", "https://x.com/cherryuplol"],
+		["Artist, Voice Actor", "https://x.com/mizosis"],
+		["Composer, Charter", "https://www.youtube.com/@ezzythecat"],
+		["Composer", "https://x.com/ChucksterTL"],
+		["Coder", "https://x.com/ivyanimations"],
+		["Artist", "https://x.com/Nyantaktt"],
+		["Artist", "https://x.com/azuwure_"],
+		["Artist, Animator", "https://x.com/percjac0"],
+		["Composer", "https://x.com/existnt_k"],
+		["Artist, Chromatics", "https://x.com/wrptoonz"],
+		["Artist, Composer","https://x.com/heyitsmekayla__"],
+		["Coder", "https://x.com/vechettlol"],
+		["Composer", "https://x.com/vaderlings"],
+		["Composer", "https://x.com/thegabim_"],
+		["Artist", "https://x.com/michimoomo"],
+		["Artist", "https://x.com/_NinjaMonk_"],
+		["Artist, Composer", "https://x.com/hypsk8r"],
+		["Chromatics", "https://www.youtube.com/@KrunchyK/"],
+		["Artist", "https://x.com/JObjects"],
+		["Artist, Animator", "https://x.com/Deroxx12"],
+		["Composer", "https://x.com/kobai_kid"],
+		["Composer", "https://x.com/Ascenti4"],
+		["Charter", "https://x.com/FlootenaDX"],
+		["Composer", "https://x.com/Legogodzilla702"],
+		["Composer", "https://x.com/VanillaaVani"],
+		["Artist, Voice Actor", "https://x.com/dommiexists"],
+		["Composer", "https://x.com/koviklutz"],
+		["Composer", "https://x.com/spikeish_"],
+		["Composer", "https://x.com/funkypoppp"],
+		["Composer", "https://x.com/ahhhloof"],
+		["Composer", "https://x.com/uncommonblin"],
+		["Composer", "https://x.com/EmperorKhanz"],
+		["Composer", "https://x.com/jreyb09"],
+		["Coder", "https://x.com/Kobalts19"],
+		["Composer", "https://x.com/EmperorKhanz"],
+		["Composer", "https://x.com/nerdemoji2763"],
+		["Composer, Chromatics", "https://youtube.com/@pt_award"],
+		["Chromatics, Voice Actor", "BigAndRotund"],
+		["Guest Composor on Invitational Dearest Mix", "https://x.com/sp0reshroom"],
+		["Legacy Composer", "https://x.com/phynsiclemusic"],
+		["Giant Pink\nEvil Leafy...", "https://x.com/CursedPlagueDoc"],
+		["Oomf", "https://x.com/mxsterylagoone"],
+		["Made the Rocky EXE used in AEWBC", "https://x.com/BlueJack___"],
+		["Made the Human Hourglass design used in Webcrasher GF Mix", "https://x.com/LLOR0MANN1C"],
+		["Former Charter, Wiki starter", "https://x.com/ColeRocks08"],
+		["Started the wiki page", "https://www.youtube.com/@cheesefarmer6139"],
+		["Guest 3D modeler and Animator for Aldi + R/BFDIMEMES", "https://x.com/Coolbacon10"],
+		["Voice Actor for Strawberry Milk", "https://x.com/slinkyraccoon"],
+		["Made the original concept Yoylefake was based on", "https://x.com/bryin64"], 
+		["Legacy Composer", "https://x.com/n1ffirg"],
+		["Mobile Porter, Coder", "https://x.com/n1ffirg"]
     ];
 
 	var curSelected:Int = -1;
@@ -38,58 +81,52 @@ class CreditsState extends MusicBeatState
 	override function create()
 	{
 		Paths.clearStoredMemory();
-
-#if DISCORD_ALLOWED
+		
+		#if DISCORD_ALLOWED
 		DiscordClient.changePresence("BFDI 26 - DEVELOPMENT TEAM", null);
-#end
+		#end
+		
 		persistentUpdate = true;
-
+		FlxG.camera.bgColor = 0xFF424242;
+		FlxG.camera.antialiasing = ClientPrefs.data.antialiasing;
+		
 		coolwiggle = new WiggleEffect();
 		coolwiggle.effectType = WiggleEffectType.DREAMY;
 		coolwiggle.waveAmplitude = 0.4;
 		coolwiggle.waveFrequency = 2;
 		coolwiggle.waveSpeed = 1.5;
+		
+		scrollBar = new FlxSprite().generateGraphic(250,25);
+		scrollBar.screenCenter();
+		scrollBar.x -= 235;
+		scrollBar.y = FlxG.height - 15;
+		scrollBar.alpha = 0;
+		FlxTween.tween(scrollBar, {alpha: 1},1, {ease: FlxEase.circOut});
+		add(scrollBar);
+		scrollBar.scrollFactor.set();
+		scrollBar.color = 0xFF686868;
+		
+		var path = 'menus/credits/VERTICAL CREDITS '
+		for (i in 1...FileSystem.readDirectory(path + 'INDIVIDUAL').length + 1)
+		{
+		    members = new FlxSprite().loadImage(path + 'INDIVIDUAL/split-' + i);
+		    members.x = 161 * (i - 1);
+	        members.y = 78 * 1;
+	        add(members);
+	    }
 
-		bg = new FlxSprite().loadImage('CMIX-bg');
-		bg.screenCenter();
-		bg.setGraphicSize(0,FlxG.width-555);
-		bg.antialiasing = ClientPrefs.data.antialiasing;
-		bg.shader = coolwiggle.shader;
-		add(bg);
-
-		var p = new FlxSprite().loadImage('CMIX-no-bg');
-		p.screenCenter();
-		p.setGraphicSize(0,FlxG.width-555);
-		p.antialiasing = ClientPrefs.data.antialiasing;
-		add(p);
+		var title = new FlxSprite().loadImage(path + 'TITLE');
+		title.x = FlxG.width / 2 - title.width / 2;
+		title.scrollFactor.set();
+		title.shader = coolwiggle.shader;
+		add(title);
 
 		credits = new FlxTypedGroup<FlxObject>();
         add(credits);
 
-		// this sucks
-		final pos:Array<Dynamic> = [
-			// ----- MAIN CREDITS -----
-			[12, 86], [175, 86], [340, 86], [505, 86], [667, 86], // first row
-			[12, 157], [175, 157], [340, 157], [505, 157], [667, 157], // second row
-			[12, 228], [175, 228], [340, 228], [505, 228], [667, 228], // third row
-			[12, 301], [175, 301], [340, 301], [505, 301], [667, 301], // fourth row
-			[12, 372], [175, 372], [340, 372], [505, 372], [667, 372], // fifth row
-			[12, 443], [175, 443], [340, 443], [505, 443], [667, 443], // sixth row
-			[12, 515], [175, 515], [340, 515], [505, 515], [667, 515], // seventh row
-			[12, 585], [175, 585], [340, 585], [505, 585], [667, 585], // eighth row
-
-			// ----- SPECIAL THANKS -----
-			[855, 113, 130, 50], [995, 113, 130, 50], [1133, 113, 130, 50], // first row
-			[855, 174, 130, 50], [995, 174, 130, 50], [1133, 174, 130, 50], // second row
-			[855, 235, 130, 50], [995, 235, 130, 50], [1133, 235, 130, 50], // third row
-
-			// ----- DIRECTORS -----
-			[848, 593, 120, 25], [970, 406, 120, 25], [1163, 635, 100, 25], [965, 367, 100, 25]
-		];
-
-        for (i in 0...pos.length) 
-		{
-            var hitbox = new FlxObject(pos[i][0], pos[i][1], (pos[i][2] != null ? pos[i][2] : 145), (pos[i][3] != null ? pos[i][3] : 60));
+        for (i in 0...descriptions.length)
+        {
+            var hitbox = new FlxObject((161 * i) + (161 - 156) / 2, 167, 156, 97);
             credits.add(hitbox);
         }
 
@@ -107,14 +144,16 @@ class CreditsState extends MusicBeatState
 		super.create();
 
 		#if mobile
-		addVirtualPad(NONE, CREDIT);
-		addVirtualPadCamera();
+		addVirtualPad(NONE, B);
+		virtualPad.alpha = 0.3;
 		#end	
 
 		Paths.clearUnusedMemory();
 	}
 
 	var stop:Bool = false;
+	var allowedToUseMouse:Bool = false;
+	var usingMouse:Bool = false;
 	//var amount:Float = 0.0;
 	override function update(elapsed:Float)
 	{	
@@ -127,12 +166,39 @@ class CreditsState extends MusicBeatState
 		#end
 
 		super.update(elapsed);
+		
+		if (FlxG.mouse.wheel != 0) 
+		{
+			scrollX += -FlxG.mouse.wheel * 40;
+		}
+		
+		final overlapsBar = FlxG.mouse.overlaps(scrollBar);
+		if (overlapsBar) 
+		{
+			if (!allowedToUseMouse) allowedToUseMouse = true;
+		}
+		
+		if (allowedToUseMouse) 
+		{
+			if (FlxG.mouse.justPressed) usingMouse = true;
+			else if (FlxG.mouse.justReleased) 
+			{
+				usingMouse = false;
+				allowedToUseMouse = false;
+			}
+			if (usingMouse && FlxG.mouse.deltaViewX != 0) scrollX += FlxG.mouse.deltaViewX * 4.1;
+		}
+			
+		scrollX = Math.max(0, Math.min(scrollX, (usingMouse ? 1600 : 5000)));
+
+		scrollBar.x = FlxMath.lerp(scrollBar.x, scrollX/3.36, 0.10);
+		FlxG.camera.scroll.x = FlxMath.lerp(FlxG.camera.scroll.x, scrollX, 0.07);
 
 		//amount += elapsed * 20;
 		//if (amount >= 360) amount = 0;
 		//bg.color = FlxColor.fromHSL(amount, 1, 0.5, 1);
 
-		if (controls.BACK #if mobile || virtualPad.buttonB.justReleased #end && !stop) goodbye();
+		if (controls.BACK && !stop) goodbye();
 		coolwiggle.update(elapsed);
 
 		if (mouseOverlapsGroup(credits)) 
@@ -165,8 +231,7 @@ class CreditsState extends MusicBeatState
 	function goodbye() 
 	{
 		stop = true;
-		#if mobile virtualPad.visible = false; #end
-		
+				
 		FlxG.sound.play(Paths.sound('spaceunpause'));
 		FlxTween.tween(FlxG.camera, {zoom: FlxG.camera.zoom + 0.9},2, {ease: FlxEase.sineInOut});
 		
@@ -215,8 +280,8 @@ class CreditFrame extends FlxSpriteGroup
         frameSprite.alpha = 0.5;
         add(frameSprite);
 
-        text = new FlxText(0, 0, 325, "p", 24);
-        text.setFormat(Paths.font('YouTubeSansRegular.otf'), 24);
+        text = new FlxText(0, 0, 325, "p", 28);
+        text.setFormat(Paths.font('YouTubeSansRegular.otf'), 28);
         text.bold = true;
         add(text);
 
