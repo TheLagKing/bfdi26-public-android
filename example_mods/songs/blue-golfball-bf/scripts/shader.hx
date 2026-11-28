@@ -6,7 +6,7 @@ function initShaders() {
 
 function onCreatePost() {
     game.camGame.filters = [new ShaderFilter(shader)];
-    game.camHUD.filters = [new ShaderFilter(shader)];
+    camControls.filters = game.camHUD.filters = [new ShaderFilter(shader)];
 }
 
 var amount = 0;
