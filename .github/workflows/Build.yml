@@ -32,7 +32,7 @@ jobs:
           haxe compile.hxml
 
       - name: Restore Cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           key: cache-android-night
           path: |
@@ -60,7 +60,7 @@ jobs:
           if-no-files-found: error
 
       - name: Clearing already existing cache
-        uses: actions/github-script@v6
+        uses: actions/github-script@v8
         with:
           script: |
             const caches = await github.rest.actions.getActionsCacheList({
@@ -79,7 +79,7 @@ jobs:
               }
             }
       - name: Uploading new cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           # caching again since for some reason it doesnt work with the first post cache shit
           key: cache-android-night
