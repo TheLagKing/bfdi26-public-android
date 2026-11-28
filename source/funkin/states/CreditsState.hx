@@ -71,7 +71,7 @@ class CreditsState extends MusicBeatState
 		["Voice Actor for Strawberry Milk", "https://x.com/slinkyraccoon"],
 		["Made the original concept Yoylefake was based on", "https://x.com/bryin64"], 
 		["Legacy Composer", "https://x.com/n1ffirg"],
-		["Mobile Porter, Coder", "https://x.com/n1ffirg"]
+		["Mobile Porter, Coder", "https://www.youtube.com/@thelagkingping999"]
     ];
 
 	var curSelected:Int = -1;
