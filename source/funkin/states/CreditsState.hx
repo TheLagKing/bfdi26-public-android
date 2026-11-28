@@ -106,7 +106,7 @@ class CreditsState extends MusicBeatState
 		scrollBar.scrollFactor.set();
 		scrollBar.color = 0xFF686868;
 		
-		var path = 'menus/credits/VERTICAL CREDITS '
+		var path = 'menus/credits/VERTICAL CREDITS ';
 		for (i in 1...FileSystem.readDirectory(path + 'INDIVIDUAL').length + 1)
 		{
 		    members = new FlxSprite().loadImage(path + 'INDIVIDUAL/split-' + i);
