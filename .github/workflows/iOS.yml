@@ -5,15 +5,17 @@ on: workflow_dispatch
 jobs:
   build:
     name: Build iOS
-    runs-on: macos-14
+    runs-on: macos-15
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Select Xcode
-        run: sudo xcode-select -s /Applications/Xcode_15.4.app
-
+        run: |
+          ls /Applications | grep Xcode
+          sudo xcode-select -s "$(ls -d /Applications/Xcode_*.app | sort -V | tail -1)"
+      
       - name: Setup Haxe
         uses: krdlab/setup-haxe@v2.0.2
         with:
